@@ -25,7 +25,7 @@
 ======
 - Disable UPower support by default
 - Add 24px and 32px icons
-- xfsettingsd: avoid default double fork
+- essettingsd: avoid default double fork
 - mime: Add 'Open with...' button
 - mime: Add new generic launcher icons
 - color: Adjust padding of dialog
@@ -63,7 +63,7 @@
 - display: Move scaling presets to glade
 - display: Set minimum scale to 0.1
 - display: Improve state machine for scaling option
-- xfsettingsd: Correctly get current xrandr scale
+- essettingsd: Correctly get current xrandr scale
 - mime-settings: Rename dialog and icon to 'Default Applications'
 - mime-settings: Fix window icon name
 - mime-settings: Fix double free
@@ -71,18 +71,18 @@
 - mime-helpers: Rename Thunar to thunar
 - Rename Thunar to thunar in make and potfiles
 - Expand desktop entry field codes
-- keyboard-settings: Support libxfce4ui XfceTitledDialog new API
+- keyboard-settings: Support libexpidus1ui ExpidusTitledDialog new API
 - keyboard: Show shortcuts with keycap class
 - settings-manager: Ensure searchbox has initial focus (Bug #16890)
 - settings-manager: Simplify redrawing of search results (Fixes #141)
 - settings-manager: Hide filter entry in plugged dialogs
-- Convert xfce4-compose-mail to Python
+- Convert expidus1-compose-mail to Python
 - Add dependency to Python3
 - Use just binary name (instead of full path) as argument
 - Don't crash when upowerd isnt present (bug #60)
 - Always install shiny new icons
-- Drop libxfce4ui 4.15.1 ifdefs
-- Fix xfconf-related memory leaks
+- Drop libexpidus1ui 4.15.1 ifdefs
+- Fix esconf-related memory leaks
 - Update .gitignore
 - Fix typo
 - Translation Updates:
@@ -94,10 +94,10 @@
 
 4.15.1
 ======
-This release transitions several exo components to xfce-settings.
-Please use with exo 4.15.1 or later for best results.
-- exo-compose-email -> xfce4-compose-email
-- exo-helper -> xfce4-mime-helper
+This release transitions several endo components to expidus-settings.
+Please use with endo 4.15.1 or later for best results.
+- endo-compose-email -> expidus1-compose-email
+- endo-helper -> expidus1-mime-helper
 - mime-settings now includes preferred applications
 
 Other Updates:
@@ -108,7 +108,7 @@ Other Updates:
 - Add basic GitLab pipeline
 - Make "Profiles matching" sentence translatable (Bug #16679)
 - settings-manager: Use symbolic find/clear icons
-- Move from exo-csource to xdt-csource (Bug #16717)
+- Move from endo-csource to xdt-csource (Bug #16717)
 - Handle failure to get Xkl engine for display (Bug #16017)
 - settings-manager: Make sure content determines size
 - Fix cast warnings
@@ -119,7 +119,7 @@ Other Updates:
 - keyboard: Fix crash when editing shortcut (Bug #15958)
 - Add keywords to .desktop files (Bug #10694)
 - settings-manager: Improve search by including keywords (Bug #10694)
-- xfsettingsd: Add --disable-wm-check flag (Bug #16128)
+- essettingsd: Add --disable-wm-check flag (Bug #16128)
 - Fix typecasting
 - Set "gtk-titlebar-middle-click" to "lower" by default
 - display: Allow resizing of minimal dialog (Bug #15450)
@@ -139,7 +139,7 @@ Other Updates:
 4.15.0
 ======
 - xsettings: Use CSD for GtkDialogs by default
-- settings-manager: Fix XfceTitledDialog layout with CSD
+- settings-manager: Fix ExpidusTitledDialog layout with CSD
 - settings-manager: Drop setting the old header style
 - display: Show ratio next to display resolution
 - display: Mark preferred mode with an asterisk
@@ -154,14 +154,14 @@ Other Updates:
 - color: Fix crash in add-profiles dialog (Bug #15876)
 - color: Conditionally hide info button in add-profile dialog
 - color: Add tooltip to profile info buttons
-- display: Fix profile matching in xfsettingsd
+- display: Fix profile matching in essettingsd
 - display: Assure correct gchar** (Bug #15816)
 - keyboard: Improve layout of add-command dialog
 - keyboard: Add mnemonics to add-command dialog (Bug #10495)
 - Switch to symbolic window-close icon
-- Bump libxfce4ui dependency to 4.15.1
+- Bump libexpidus1ui dependency to 4.15.1
 - Improve string for session managers
-- Ensure the newly labeled 'Xfce Settings Daemon' is translated
+- Ensure the newly labeled 'Expidus Settings Daemon' is translated
 - Do not show translation info on --help output
 - Translation Updates:
   Albanian, Arabic, Basque, Belarusian, Bulgarian, Catalan, Chinese
@@ -196,7 +196,7 @@ Other Updates:
  - display: Sync display when applying config
  - display: Use current display
  - xsettings: Grab and sync XServer on startup (Bug #15725)
- - xfsettingsd: Start settings prior to complete startup (Bug #15725)
+ - essettingsd: Start settings prior to complete startup (Bug #15725)
  - Update copyright years
  - Translation Updates:
    Armenian (Armenia), Finnish, Norwegian Bokmål, Ukrainian
@@ -212,7 +212,7 @@ Other Updates:
     - Add mnemonics to minimal dialog buttons (Bug #15449)
     - Disable auto-enabling profiles by default
   - settings-manager: Fix missing icons on resize/add/remove (Bugs #15428, #15613)
-  - xfsettingsd: Fix numlock state restoration (Bug #15642)
+  - essettingsd: Fix numlock state restoration (Bug #15642)
 - Translation Updates:
     Belarusian, Danish, English (Australia), Finnish, French, Indonesian,
     Lithuanian, Portuguese (Brazilian), Serbian, Turkish
@@ -248,8 +248,8 @@ Other Updates:
     - Make primary indicator a star icon
     - Throw warning when monitors exceed max screen size
   - color: Always select first device on startup (Bug #15266)
-  - xfsettingsd: Increase startup priority
-  - Fix scrolling in embedded settings dialogs (Xfce #14285, LP #1653448)
+  - essettingsd: Increase startup priority
+  - Fix scrolling in embedded settings dialogs (Expidus #14285, LP #1653448)
   - Fix search change clearing and hiding sections (bug #14792)
   - Resolved g_type_class_add_private deprecations (GObject 2.58)
   - Fix incremental sending from the clipboard manager (Bug #13537)
@@ -283,7 +283,7 @@ Other Updates:
 - Fix: Fix broken hover effect in the settings manager (Bug #14539)
 - Fix: Add default mnemonics back to dialog buttons
 - Fix: Add DBUS_GLIB_CFLAGS for Settings Editor (Bug #14385)
-- Fix: Force using a period as a decimal separator in xfsettingsd (Bug #11906)
+- Fix: Force using a period as a decimal separator in essettingsd (Bug #11906)
 - Translation updates: Albanian, Arabic, Asturian, Basque, Belarusian, Bengali,
   Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan),
   Croatian, Czech, Danish, Dutch (Flemish), English (Australia), English (Great
@@ -304,13 +304,13 @@ Other Updates:
 ======
 - Fix: Uninitialized scalar variables (CID #292062, #292063)
 - Fix: -Wcast-function-type (GCC 8)
-- Ported from dbus-glib to gdbus (Xfce #14426)
-- Added support for xrandr display scaling (via Xfconf)
+- Ported from dbus-glib to gdbus (Expidus #14426)
+- Added support for xrandr display scaling (via Esconf)
 - Improved display manufucturer name recognition:
   - Refreshed PNP IDs from hwdata
   - Added support for VBX (VirtualBox)
   - Standardized and shortened manufacturer names
-  - Updated laptop detection to include eDP in XfceRandr
+  - Updated laptop detection to include eDP in ExpidusRandr
 - Updated --help copyright information to 2018
 - Translation updates: Belarusian, Catalan, English (Australia), Galician,
   Greek, Hebrew, Hungarian, Japanese, Kazakh, Portuguese, Portuguese (Brazil),
@@ -321,7 +321,7 @@ Other Updates:
 - New: Show location of the mouse pointer on keypress
 - Fix: syncdaemon not starting with certain locales
 - Fix: division by 0 crash from gdk_screen_height_mm()
-- Fix: Remove existing socket from socket viewport (Xfce #13847)
+- Fix: Remove existing socket from socket viewport (Expidus #13847)
 - Fix: Use transient notifications for improved logging
 - Fix: Do not expand event sounds section so font scaling is correctly
   positioned
@@ -332,9 +332,9 @@ Other Updates:
   - Fix: Correctly position monitors in extended mode
   - Fix: Race condition with monitor connect and disconnect
   - Fix: Segfault on monitor reconnect
-  - Fix: Leave monitors where they were if possible (Xfce #14096)
+  - Fix: Leave monitors where they were if possible (Expidus #14096)
 - Deprecations:
-  - Resolved GTK+ 3.22 deprecations (Xfce #14273)
+  - Resolved GTK+ 3.22 deprecations (Expidus #14273)
 - Translation updates: Amharic, Arabic, Asturian, Basque, Belarusian,
   Bengali, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong),
   Chinese (Taiwan), Croatian, Czech, Danish, Dutch, English (Australia),
@@ -346,13 +346,13 @@ Other Updates:
 
 4.13.1
 ======
-- This release now requires xfconf 4.13+
+- This release now requires esconf 4.13+
 - New: Default monospace font option in the Appearance dialog
 - New: Improved support for embedded DisplayPort connectors
 - Fix: Display dialog drawing of displays
 - Fix: Display dialog DND usability issue introduced in 4.13.0
-- Fix: Make minimal dialog single instance (Xfce #11169)
-- Fix: Linking to dbus-glib with xfconf 4.13+ (Xfce #13633)
+- Fix: Make minimal dialog single instance (Expidus #11169)
+- Fix: Linking to dbus-glib with esconf 4.13+ (Expidus #13633)
 - Deprecations:
   - Resolved gtk_menu_popup deprecation
   - Resolved gdk_error_trap_pop deprecation
@@ -385,7 +385,7 @@ Other Updates:
 
 4.12.4
 ======
-- Fix: xfsettingsd --replace does not replace old daemon (Xfce #14381)
+- Fix: essettingsd --replace does not replace old daemon (Expidus #14381)
 - Fix: Uninitialized scalar variables (CID #292062, #292063)
 - Fix: -Wcast-function-type (GCC 8)
 - Fix: Redefinition of DISTCLEANFILES
@@ -393,7 +393,7 @@ Other Updates:
   - Refreshed PNP IDs from hwdata
   - Added support for VBX (VirtualBox)
   - Standardized and shortened manufacturer names
-  - Updated laptop detection to include eDP in XfceRandr
+  - Updated laptop detection to include eDP in ExpidusRandr
 - Updated --help copyright information to 2018
 - Replaced "AC_CONFIG_MACRO_DIR" usage with "AC_CONFIG_MACRO_DIRS"
 - Translation updates: Belarusian, Catalan, English (Australia), Galician,
@@ -413,7 +413,7 @@ Other Updates:
 
 4.12.2
 ======
-- Fix: Leave monitors where they were if possible (Xfce #14096)
+- Fix: Leave monitors where they were if possible (Expidus #14096)
 - Fix: syncdaemon not starting with certain locales
 - Fix: division by 0 crash from gdk_screen_height_mm()
 - New: Default monospace font option in the Appearance dialog
@@ -430,12 +430,12 @@ Other Updates:
 
 4.12.1
 ======
-- Fix: Color scheme preview on low bit depth displays (Xfce #12223)
-- Fix: Memory leak in xfce4-appearance-settings (Xfce #11746)
-- Fix: /Xft/Hinting is never set (Xfce #12086)
-- Fix: Segfault in convert_xfce_output_info when plugging in
-  an external model, fallback on 640x480 (Xfce #12580, RH #1317382)
-- Fix: xfsettingsd resets TV mode to NULL on power cycle (Xfce #11107)
+- Fix: Color scheme preview on low bit depth displays (Expidus #12223)
+- Fix: Memory leak in expidus1-appearance-settings (Expidus #11746)
+- Fix: /Xft/Hinting is never set (Expidus #12086)
+- Fix: Segfault in convert_expidus_output_info when plugging in
+  an external model, fallback on 640x480 (Expidus #12580, RH #1317382)
+- Fix: essettingsd resets TV mode to NULL on power cycle (Expidus #11107)
 - Make sure icon == NULL if no icon is found
 - Make the 'Settings Editor Dialog' pluggable.
 - Translation updates: Arabic, Asturian, Bulgarian, Catalan,
@@ -462,7 +462,7 @@ Other Updates:
 - Add support for versioned help documentation
 - Add support for libinput Xorg driver (bug #11469)
 - Add option to set the primary display (bug #8328)
-- Add helper to synchronize CSD layout to xfwm4
+- Add helper to synchronize CSD layout to eswm1
 - Support stat command flags on BSD systems (bug #11531)
 - Show more information in icon-theme list (bug #9130)
 - Width of display dialog is no longer hard-coded
@@ -487,7 +487,7 @@ Other Updates:
 ======
 - Reapply settings when external keyboard connects
 - New display settings dialog
-- Update the settings editor to match xfconf
+- Update the settings editor to match esconf
 - Fix overlap variable shadowing a global function
 - Fork before gtk/dbus init (bug #10918)
 - Add support for upower 0.99 (bug #10918)
@@ -541,12 +541,12 @@ Other Updates:
 - Make sure AccessXKeys control is disabled by default.
 - Lots of improvements in XKB code.
 - Xsettingsd: Unset input method properties (bug #5437).
-- Xfsettingsd: Check service name of NameOwnerChanged (bug #9273).
+- Essettingsd: Check service name of NameOwnerChanged (bug #9273).
 - Appearance: Fix gtk3 theme detection in install script (bug #9272).
-- Show Strv arrays in the xfconf settings editor renderer.
+- Show Strv arrays in the esconf settings editor renderer.
 - Lot of improvements in the display code: support extended desktop
   mode for 2 monitors, improve minimal dialog.
-- Xfsettingsd: Check for NoSuchExtension (bug #9390).
+- Essettingsd: Check for NoSuchExtension (bug #9390).
 
 4.10.0
 ======
@@ -581,11 +581,11 @@ Other Updates:
 
 4.9.3
 =====
-- Xfsettingsd: Don't set large dpi in xrdb (bug #8415).
+- Essettingsd: Don't set large dpi in xrdb (bug #8415).
 - Include xscreensaver in the manager dialog.
 - Complete theme installation script.
 - Settings editor: Set sensitivity of save button on init.
-- Xfsettingsd: Properly round display refresh rate to find match.
+- Essettingsd: Properly round display refresh rate to find match.
 - Translation updates: Arabic, Catalan (Valencian), Czech, Danish,
   German, Spanish (Castilian), Basque, French, Indonesian, Korean,
   Lithuanian, Portuguese, Russian, Slovak, Swedish, Telugu, Turkish,
@@ -594,7 +594,7 @@ Other Updates:
 4.9.2
 =====
 - Add mime icons in the mime-editor treeview.
-- Store window and column sizes in xfconf.
+- Store window and column sizes in esconf.
 - Add cateogry based settings manager.
 - Re-add support for pluggable dialogs and enable them always.
 - Rework settings editor.
@@ -604,8 +604,8 @@ Other Updates:
 
 4.9.1
 =====
-- Use daemon() for xfsettingsd if available.
-- Hide the xfconfd-already running message completely.
+- Use daemon() for essettingsd if available.
+- Hide the esconfd-already running message completely.
 - Excluded items with NoDisplay=true in the settings dialog.
 - Remove duplicated accelerators (bug #7734).
 - Add theme dnd-installation by dropping in a treeview.
@@ -618,13 +618,13 @@ Other Updates:
 4.9.0
 =====
 - Depend on Gtk+ 2.20 and Glib 2.24.
-- Merge xfce4-settings-helper into xfsettingsd.
-- Add support to xfsettingsd for pointing device properties.
+- Merge expidus1-settings-helper into essettingsd.
+- Add support to essettingsd for pointing device properties.
 - Rework the mouse dialog and add support for basic synaptics
   and wacom settings.
 - Add option to enable assistive technologies during login.
 - Add fontconfig monitoring (bug #5011).
-- Improved debugging with XFSETTINGSD_DEBUG=1.
+- Improved debugging with ESSETTINGSD_DEBUG=1.
 
 4.8.2
 =====
@@ -640,7 +640,7 @@ Other Updates:
 
 4.8.1
 =====
-- Don't test for "default" output in xfce_randr_populate (bug #7092).
+- Don't test for "default" output in expidus_randr_populate (bug #7092).
 - Fix double free when setting workspace names (bug #7174).
 - Updated translations: Turkish.
 
@@ -653,7 +653,7 @@ Other Updates:
 
 4.7.7
 =====
-- Remove duplicated terminal entry in xfce4-settings-helper autostart
+- Remove duplicated terminal entry in expidus1-settings-helper autostart
   desktop file (bug #6919).
 - Set sensitivity of the corrent sound checkbox.
 - Drop Glib 2.22 functions.
@@ -668,11 +668,11 @@ Other Updates:
 
 4.7.5
 =====
-- Use xfconf_channel_get instead of xfconf_channel_new.
+- Use esconf_channel_get instead of esconf_channel_new.
 - Don't activate numlock on first launch.
-- Fix wrong capitalizations of Xfce.
+- Fix wrong capitalizations of Expidus.
 - Fix compiler warnings.
-- Drop Xfce from the settings manager .desktop name.
+- Drop Expidus from the settings manager .desktop name.
 - Fix free of invalid memory (bug #6909).
 - Translations updates (hu, zh_CN, he, pt, gl).
 
@@ -702,11 +702,11 @@ Other Updates:
 
 4.7.2
 =====
-- Rework the randr support in xfce4-settings, this requires
+- Rework the randr support in expidus1-settings, this requires
   randr 1.2 or higher.
 - Add a minimal dialog for quick display setup (--minimal, -m).
 - Port to libxklavier 5.0 API.
-- Be consistent in the check for exo-1.
+- Be consistent in the check for endo-1.
 - Require the correct version of xi and inputproto (bug #6033).
 - Fix the old shortcut duplicate after editing a command.
 - Set value after setting the range and digits.
@@ -726,23 +726,23 @@ Other Updates:
 =====
 - Fix possible crash in the clipboard manager (bug #6125).
 - Allow the user to edit, reset and create properties using
-  xfce4-settings-editor.
-- Allow the user to reset channels in xfce4-settings-editor.
-- Edit properties when doubled-clicked in xfce4-settings-editor.
-- Revert properties when DEL is pressed in xfce4-settings-editor.
-- Plug some leaks in xfce4-settings-editor.
-- Do not draw a gradient on xfce4-settings-editor's toolbar.
-- Respect HIG in xfce4-settings-editor's dialogs.
-- Remember the geometry of xfce4-settings-editor's window.
-- Monitor the existing properties in xfce4-settings-editor.
+  expidus1-settings-editor.
+- Allow the user to reset channels in expidus1-settings-editor.
+- Edit properties when doubled-clicked in expidus1-settings-editor.
+- Revert properties when DEL is pressed in expidus1-settings-editor.
+- Plug some leaks in expidus1-settings-editor.
+- Do not draw a gradient on expidus1-settings-editor's toolbar.
+- Respect HIG in expidus1-settings-editor's dialogs.
+- Remember the geometry of expidus1-settings-editor's window.
+- Monitor the existing properties in expidus1-settings-editor.
 - Translation updates (pt, gl, ja, nl, zh_CN, da, cs).
 
 4.7.0
 =====
-- Add clipboard manager to xfce4-settings-helper (bug #4333).
-- Port to libxfce4ui.
-- Port to exo 0.5.
-- Use new XDT macros, required xfce-dev-tools 4.7.2.
+- Add clipboard manager to expidus1-settings-helper (bug #4333).
+- Port to libexpidus1ui.
+- Port to endo 0.5.
+- Use new XDT macros, required expidus-dev-tools 4.7.2.
 
 4.6.4
 =====
@@ -753,8 +753,8 @@ Other Updates:
 
 4.6.2/4.6.3
 ===========
-- Avoid causing xfce4-session to time out on startup (bug #5040).
-- Fix type in xfconf property name (debian bug #527238).
+- Avoid causing expidus1-session to time out on startup (bug #5040).
+- Fix type in esconf property name (debian bug #527238).
 - Fix mnemonic widgets in accessibility dialog (bug #5550).
 - Fix translation macros in settings helper (bug #5554).
 - Always restore the default displa scheme on startup (bug #5311).
@@ -785,71 +785,71 @@ Other Updates:
 - Fix DPI calculation when DPI settings are set to '-1', (eg default) since we
   can not depend on pango, cairo or fontconfig to do the right thing.
 - Fix typing error in the ToolbarStyle default XSETTINGS registry value
-- Do not fill the xsettings channel from the settings-dialog, xfsettingsd takes
+- Do not fill the xsettings channel from the settings-dialog, essettingsd takes
   care of this.
 - Add Gtk/IMModule XSETTINGS key (Bug #4961)
 
-4.5.99.1 (Xfce 4.6rc1)
+4.5.99.1 (Expidus 4.6rc1)
 ======================
-- Properly handle missing RandR extension in xfce4-settings-helper
-  and xfce4-display-settings (bug #4836).
-- Fix possible segfault in xfce4-settings-helper (bug #4813).
-- Fix xfsettingsd segfault due to strings defaulting to NULL. Patch
+- Properly handle missing RandR extension in expidus1-settings-helper
+  and expidus1-display-settings (bug #4836).
+- Fix possible segfault in expidus1-settings-helper (bug #4813).
+- Fix essettingsd segfault due to strings defaulting to NULL. Patch
   by Lars-Peter Clausen (bug #4797).
 - Translation updates: Brazilian Portuguese, Catalan, Czech, Danish,
   Finnish, French, Japanese, Simplified Chinese, Spanish and Swedish.
 
-4.5.93 (Xfce 4.6 beta3)
+4.5.93 (Expidus 4.6 beta3)
 =======================
 - Allow the settings manager window to be minimized (bug #4596).
-- Fix xfce4-settings-helper not setting workspace count.
+- Fix expidus1-settings-helper not setting workspace count.
 - Improve the UI of the shortcut command dialog and
-  xfce4-settings-editor a bit.
+  expidus1-settings-editor a bit.
 - Fix label wrapping in the settings manager icon view (bug #4743).
 - Make workspaces helper multi-screen aware.
 - Set SmRestartIfRunning if started in debug mode.
-- Add XfceTextRenderer for prelit/follow-state and keyboard navigation
+- Add ExpidusTextRenderer for prelit/follow-state and keyboard navigation
   support in the settings manager dialog.
 - Add --dialog=<dialog name> command line parameter to
-  xfce4-settings-manager so that one can make it show any of its
+  expidus1-settings-manager so that one can make it show any of its
   children at startup.
 - Review strings.
 - Fully update the appearance dialog when the settings are changed in
-  another dialog or with xfconf-query.
+  another dialog or with esconf-query.
 - Set a DPI size based on a calculation when a custom DPI is disabled,
   this instead of the hard-coded 96 DPI.
 - Translation updates: Basque, Brazilian Portuguese, Catalan, Czech,
   Finnish, French, German, Greek, Hungarian, Indonesian, Japanese,
   Norwegian Bokmal, Spanish, Swedish, Turkish, Ukrainian.
 
-4.5.92 (Xfce 4.6 beta2)
+4.5.92 (Expidus 4.6 beta2)
 =======================
 - Add an option to disable keyboard settings.
 - Default to "Rodent" icon theme instead of "hicolor" (Bug 4545).
-- Use XfcePosixSignalHandler in xfce4-settings-helper to handle
+- Use ExpidusPosixSignalHandler in expidus1-settings-helper to handle
   signals, since calling gtk_main_quit() from a signal handler may
   not be safe.
-- Make xfce4-settings-helper connect to the session manager and use
+- Make expidus1-settings-helper connect to the session manager and use
   the SmRestartImmediately facility to make sure it keeps running.
   Disable the autostart .desktop file if we were restored from a
   saved session.  Attempt to acquire an X selection on startup to
   ensure multiple copies of the helper aren't running (bug 4577).
 
-4.5.91 (Xfce 4.6 beta1)
+4.5.91 (Expidus 4.6 beta1)
 =======================
-- Add workspace name handling to xfce4-settings-helper.
-- Add support for embedding dialogs into xfce4-settings-manager (based
-  on the X-XfcePluggable and X-XfceHelpFile desktop file keys).
+- Add workspace name handling to expidus1-settings-helper.
+- Add support for embedding dialogs into expidus1-settings-manager (based
+  on the X-ExpidusPluggable and X-ExpidusHelpFile desktop file keys).
 - Add embedding support to the accessibility, appearance, mouse and
   keyboard settings dialogs.
 - Don't use g_hash_table_get_keys() which requires GLib 2.14 (bug 4377).
-- Move xfsettingsd from xfconf into xfce4-settings.
+- Move essettingsd from esconf into expidus1-settings.
 - Rework the way keyboard shortcuts are organized. Support default
   shortcuts using /default and /custom base properties.
 - Add optional UI options to enable/disable sounds in Canberra (bug 4367).
 - Add GUI for selecting/changing the keyboard layout.
 - Translation updates: Dutch, Finnish, German.
 
-4.5.90 (Xfce 4.6 alpha)
+4.5.90 (Expidus 4.6 alpha)
 =======================
 - Initial release.

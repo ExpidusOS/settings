@@ -1,6 +1,6 @@
 /* vi:set sw=2 sts=2 ts=2 et ai: */
 /*-
- * Copyright (c) 2008 Jannis Pohlmann <jannis@xfce.org>.
+ * Copyright (c) 2008 Jannis Pohlmann <jannis@expidus.org>.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,7 +23,7 @@
 
 #include <gtk/gtk.h>
 
-#include <libxfce4ui/libxfce4ui.h>
+#include <libexpidus1ui/libexpidus1ui.h>
 
 #include "command-dialog.h"
 
@@ -39,12 +39,12 @@ static void command_dialog_button_clicked  (CommandDialog      *dialog);
 
 struct _CommandDialogClass
 {
-  XfceTitledDialogClass __parent__;
+  ExpidusTitledDialogClass __parent__;
 };
 
 struct _CommandDialog
 {
-  XfceTitledDialog __parent__;
+  ExpidusTitledDialog __parent__;
 
   GtkWidget *entry;
   GtkWidget *button;
@@ -53,7 +53,7 @@ struct _CommandDialog
 
 
 
-G_DEFINE_TYPE (CommandDialog, command_dialog, XFCE_TYPE_TITLED_DIALOG)
+G_DEFINE_TYPE (CommandDialog, command_dialog, EXPIDUS_TYPE_TITLED_DIALOG)
 
 
 
@@ -110,16 +110,16 @@ command_dialog_create_contents (CommandDialog *dialog,
   gtk_window_set_title (GTK_WINDOW (dialog), _("Shortcut Command"));
   gtk_window_set_icon_name (GTK_WINDOW (dialog), "application-x-executable");
 
-  xfce_titled_dialog_create_action_area (XFCE_TITLED_DIALOG (dialog));
+  expidus_titled_dialog_create_action_area (EXPIDUS_TITLED_DIALOG (dialog));
 
   /* Create cancel button */
   button = gtk_button_new_with_mnemonic (_("_Cancel"));
-  xfce_titled_dialog_add_action_widget (XFCE_TITLED_DIALOG (dialog), button, GTK_RESPONSE_CANCEL);
+  expidus_titled_dialog_add_action_widget (EXPIDUS_TITLED_DIALOG (dialog), button, GTK_RESPONSE_CANCEL);
   gtk_widget_show (button);
 
   button = gtk_button_new_with_mnemonic (_("_OK"));
-  xfce_titled_dialog_add_action_widget (XFCE_TITLED_DIALOG (dialog), button, GTK_RESPONSE_OK);
-  xfce_titled_dialog_set_default_response (XFCE_TITLED_DIALOG (dialog), GTK_RESPONSE_OK);
+  expidus_titled_dialog_add_action_widget (EXPIDUS_TITLED_DIALOG (dialog), button, GTK_RESPONSE_OK);
+  expidus_titled_dialog_set_default_response (EXPIDUS_TITLED_DIALOG (dialog), GTK_RESPONSE_OK);
   gtk_widget_set_can_default (GTK_WIDGET(button), TRUE);
   gtk_widget_grab_default (button);
   gtk_widget_show (button);
@@ -254,7 +254,7 @@ command_dialog_run (CommandDialog *dialog,
       response = gtk_dialog_run (GTK_DIALOG (dialog));
 
       if (G_UNLIKELY (response == GTK_RESPONSE_OK && g_utf8_strlen (command_dialog_get_command (dialog), -1) == 0))
-        xfce_dialog_show_error (GTK_WINDOW (dialog), NULL, _("The command may not be empty."));
+        expidus_dialog_show_error (GTK_WINDOW (dialog), NULL, _("The command may not be empty."));
       else
         finished = TRUE;
     }

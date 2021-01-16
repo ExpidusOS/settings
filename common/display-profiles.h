@@ -1,5 +1,5 @@
 /*
- *  Copyright (c) 2019 Simon Steinbeiß <simon@xfce.org>
+ *  Copyright (c) 2019 Simon Steinbeiß <simon@expidus.org>
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -17,12 +17,12 @@
  */
 
 #include <glib.h>
-#include <xfconf/xfconf.h>
+#include <esconf/esconf.h>
 
-#include "xfce-randr.h"
+#include "expidus-randr.h"
 
 
-gboolean display_settings_profile_name_exists   (XfconfChannel  *channel,
+gboolean display_settings_profile_name_exists   (EsconfChannel  *channel,
                                                  const gchar    *new_profile_name);
 GList*   display_settings_get_profiles          (gchar         **display_infos,
-                                                 XfconfChannel  *channel);
+                                                 EsconfChannel  *channel);

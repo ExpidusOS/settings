@@ -11,12 +11,12 @@
 # ansich <mojmejlzaforume@gmail.com>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Xfce4-settings\n"
+"Project-Id-Version: Expidus1-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 00:46+0100\n"
 "PO-Revision-Date: 2020-11-30 14:40+0000\n"
 "Last-Translator: Kernc\n"
-"Language-Team: Slovenian (http://www.transifex.com/xfce/xfce4-settings/language/sl/)\n"
+"Language-Team: Slovenian (http://www.transifex.com/expidus/expidus1-settings/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -31,39 +31,39 @@ msgctxt "Monitor vendor"
 msgid "Unknown"
 msgstr "Neznano"
 
-#: ../common/xfce-randr.c:296 ../dialogs/display-settings/main.c:4296
+#: ../common/expidus-randr.c:296 ../dialogs/display-settings/main.c:4296
 #, c-format
 msgid "Unable to query the version of the RandR extension being used"
 msgstr "Ni mogoče določiti različice uporabljene RandR razširitve"
 
 #. 1.2 is required
-#: ../common/xfce-randr.c:304
+#: ../common/expidus-randr.c:304
 #, c-format
 msgid ""
 "This system is using RandR %d.%d. For the display settings to work version "
 "1.2 is required at least"
 msgstr "Ta sistem uporablja RandR %d.%d. Za nastavitve zaslona potrebujete najmanj različico 1.2."
 
-#: ../common/xfce-randr.c:594
+#: ../common/expidus-randr.c:594
 msgid "Laptop"
 msgstr "Prenosnik"
 
 #. TRANSLATORS: an externally connected display, where %s is either the
 #. * model, vendor or ID, e.g. 'LP2480zx Monitor'
-#: ../common/xfce-randr.c:607 ../dialogs/color-settings/color-device.c:65
+#: ../common/expidus-randr.c:607 ../dialogs/color-settings/color-device.c:65
 msgid "Monitor"
 msgstr "Zaslon"
 
-#: ../common/xfce-randr.c:610
+#: ../common/expidus-randr.c:610
 msgid "Television"
 msgstr "Televizija"
 
-#: ../common/xfce-randr.c:614
+#: ../common/expidus-randr.c:614
 msgid "Digital display"
 msgstr "Digitalni zaslon"
 
 #: ../dialogs/accessibility-settings/accessibility-dialog.glade.h:1
-#: ../dialogs/accessibility-settings/xfce4-accessibility-settings.desktop.in.h:1
+#: ../dialogs/accessibility-settings/expidus1-accessibility-settings.desktop.in.h:1
 msgid "Accessibility"
 msgstr "Dostopnost"
 
@@ -79,10 +79,10 @@ msgstr "Nastavi dostopnost tipkovnice in miške"
 #: ../dialogs/display-settings/profile-changed-dialog.glade.h:2
 #: ../dialogs/display-settings/main.c:4336
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:7
-#: ../dialogs/mime-settings/xfce-mime-window.c:193
+#: ../dialogs/mime-settings/expidus-mime-window.c:193
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:14
-#: ../xfce4-settings-editor/main.c:166
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:228
+#: ../expidus1-settings-editor/main.c:166
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:228
 msgid "_Close"
 msgstr "_Zapri"
 
@@ -91,10 +91,10 @@ msgstr "_Zapri"
 #: ../dialogs/color-settings/color-dialog.glade.h:4
 #: ../dialogs/display-settings/display-dialog.glade.h:11
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:8
-#: ../dialogs/mime-settings/xfce-mime-window.c:196
+#: ../dialogs/mime-settings/expidus-mime-window.c:196
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:13
-#: ../xfce4-settings-editor/main.c:165
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:217
+#: ../expidus1-settings-editor/main.c:165
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:217
 msgid "_Help"
 msgstr "_Pomoč"
 
@@ -281,9 +281,9 @@ msgstr "Emulacija miške"
 
 #: ../dialogs/accessibility-settings/accessibility-dialog.glade.h:45
 msgid ""
-"Bind a keyboard shortcut to xfce4-find-cursor to get visual feedback of the "
+"Bind a keyboard shortcut to expidus1-find-cursor to get visual feedback of the "
 "mouse pointer's current location."
-msgstr "Poveži bližnjico tipkovnice z xfce4-find-cursor za vizualni prikaz trenutne lokacije kazalca miške"
+msgstr "Poveži bližnjico tipkovnice z expidus1-find-cursor za vizualni prikaz trenutne lokacije kazalca miške"
 
 #: ../dialogs/accessibility-settings/accessibility-dialog.glade.h:46
 msgid "Show location of pointer on keypress"
@@ -301,7 +301,7 @@ msgstr "_Miška"
 #: ../dialogs/appearance-settings/main.c:106
 #: ../dialogs/color-settings/main.c:48 ../dialogs/display-settings/main.c:139
 #: ../dialogs/keyboard-settings/main.c:40 ../dialogs/mime-settings/main.c:43
-#: ../dialogs/mouse-settings/main.c:86 ../xfce4-settings-editor/main.c:49
+#: ../dialogs/mouse-settings/main.c:86 ../expidus1-settings-editor/main.c:49
 msgid "Settings manager socket"
 msgstr "Vtič upravljalnika nastavitev"
 
@@ -309,7 +309,7 @@ msgstr "Vtič upravljalnika nastavitev"
 #: ../dialogs/appearance-settings/main.c:106
 #: ../dialogs/color-settings/main.c:48 ../dialogs/display-settings/main.c:139
 #: ../dialogs/keyboard-settings/main.c:40 ../dialogs/mime-settings/main.c:43
-#: ../dialogs/mouse-settings/main.c:86 ../xfce4-settings-editor/main.c:49
+#: ../dialogs/mouse-settings/main.c:86 ../expidus1-settings-editor/main.c:49
 msgid "SOCKET ID"
 msgstr "ID VTIČA"
 
@@ -317,8 +317,8 @@ msgstr "ID VTIČA"
 #: ../dialogs/appearance-settings/main.c:107
 #: ../dialogs/color-settings/main.c:49 ../dialogs/display-settings/main.c:140
 #: ../dialogs/keyboard-settings/main.c:41 ../dialogs/mime-settings/main.c:44
-#: ../dialogs/mouse-settings/main.c:87 ../xfce4-settings-editor/main.c:50
-#: ../xfce4-settings-manager/main.c:43 ../xfsettingsd/main.c:102
+#: ../dialogs/mouse-settings/main.c:87 ../expidus1-settings-editor/main.c:50
+#: ../expidus1-settings-manager/main.c:43 ../essettingsd/main.c:102
 msgid "Version information"
 msgstr "Podatki o različici"
 
@@ -327,10 +327,10 @@ msgstr "Podatki o različici"
 #: ../dialogs/color-settings/main.c:1390
 #: ../dialogs/display-settings/main.c:4264
 #: ../dialogs/keyboard-settings/main.c:78 ../dialogs/mime-settings/main.c:78
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:158
-#: ../dialogs/mouse-settings/main.c:1886 ../xfce4-settings-editor/main.c:120
-#: ../xfce4-settings-manager/main.c:64 ../xfsettingsd/main.c:242
-#: ../xfsettingsd/main.c:280
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:158
+#: ../dialogs/mouse-settings/main.c:1886 ../expidus1-settings-editor/main.c:120
+#: ../expidus1-settings-manager/main.c:64 ../essettingsd/main.c:242
+#: ../essettingsd/main.c:280
 #, c-format
 msgid "Type '%s --help' for usage."
 msgstr "Za navodila o uporabi zaženite ukaz \"%s --help\"."
@@ -340,27 +340,27 @@ msgstr "Za navodila o uporabi zaženite ukaz \"%s --help\"."
 #: ../dialogs/color-settings/main.c:1407
 #: ../dialogs/display-settings/main.c:4283
 #: ../dialogs/keyboard-settings/main.c:94 ../dialogs/mime-settings/main.c:97
-#: ../dialogs/mouse-settings/main.c:1905 ../xfce4-settings-editor/main.c:139
-#: ../xfce4-settings-manager/main.c:80 ../xfsettingsd/main.c:258
-msgid "The Xfce development team. All rights reserved."
-msgstr "Xfce razvojna ekipa. Vse pravice pridržane."
+#: ../dialogs/mouse-settings/main.c:1905 ../expidus1-settings-editor/main.c:139
+#: ../expidus1-settings-manager/main.c:80 ../essettingsd/main.c:258
+msgid "The Expidus development team. All rights reserved."
+msgstr "Expidus razvojna ekipa. Vse pravice pridržane."
 
 #: ../dialogs/accessibility-settings/main.c:220
 #: ../dialogs/appearance-settings/main.c:1254
 #: ../dialogs/color-settings/main.c:1408
 #: ../dialogs/display-settings/main.c:4284
 #: ../dialogs/keyboard-settings/main.c:95 ../dialogs/mime-settings/main.c:98
-#: ../dialogs/mouse-settings/main.c:1906 ../xfce4-settings-editor/main.c:140
-#: ../xfce4-settings-manager/main.c:81 ../xfsettingsd/main.c:259
+#: ../dialogs/mouse-settings/main.c:1906 ../expidus1-settings-editor/main.c:140
+#: ../expidus1-settings-manager/main.c:81 ../essettingsd/main.c:259
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Prosimo, poročajte napake na <%s>."
 
-#: ../dialogs/accessibility-settings/xfce4-accessibility-settings.desktop.in.h:2
+#: ../dialogs/accessibility-settings/expidus1-accessibility-settings.desktop.in.h:2
 msgid "Improve keyboard and mouse accessibility"
 msgstr "Izboljšaj dostopnost tipkovnice in miške"
 
-#: ../dialogs/accessibility-settings/xfce4-accessibility-settings.desktop.in.h:3
+#: ../dialogs/accessibility-settings/expidus1-accessibility-settings.desktop.in.h:3
 msgid ""
 "assistive;technologies;keys;sticky;bounce;emulation;screen "
 "readers;magnifiers;a11y;i18n;l10n;AT-SPI;ATK;impairment;"
@@ -411,18 +411,18 @@ msgid "2x"
 msgstr "2x"
 
 #: ../dialogs/appearance-settings/appearance-dialog.glade.h:11
-#: ../dialogs/appearance-settings/xfce-ui-settings.desktop.in.h:1
+#: ../dialogs/appearance-settings/expidus-ui-settings.desktop.in.h:1
 msgid "Appearance"
 msgstr "Videz"
 
 #: ../dialogs/appearance-settings/appearance-dialog.glade.h:12
-#: ../dialogs/appearance-settings/xfce-ui-settings.desktop.in.h:2
+#: ../dialogs/appearance-settings/expidus-ui-settings.desktop.in.h:2
 msgid "Customize the look of your desktop"
 msgstr "Prilagodi izgled namizja"
 
 #: ../dialogs/appearance-settings/appearance-dialog.glade.h:15
 #: ../dialogs/color-settings/color-dialog.glade.h:11
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:328
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:328
 msgid "_Add"
 msgstr "Dod_aj"
 
@@ -623,15 +623,15 @@ msgstr "Namesti temo %s"
 #: ../dialogs/keyboard-settings/command-dialog.c:116
 #: ../dialogs/keyboard-settings/command-dialog.c:280
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:3
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:395
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:540
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:109
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:395
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:540
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:109
 msgid "_Cancel"
 msgstr "_Prekliči"
 
 #: ../dialogs/appearance-settings/main.c:978
 #: ../dialogs/keyboard-settings/command-dialog.c:281
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:396
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:396
 msgid "_Open"
 msgstr "_Odpri"
 
@@ -651,7 +651,7 @@ msgstr "Vertikalno RGB"
 msgid "Vertical BGR"
 msgstr "Vertikalno BGR"
 
-#: ../dialogs/appearance-settings/xfce-ui-settings.desktop.in.h:3
+#: ../dialogs/appearance-settings/expidus-ui-settings.desktop.in.h:3
 msgid ""
 "themes;user interface;styles;icons;fonts;anti-aliasing;hinting;sub-"
 "pixel;subpixel;rendering;ClearType;DPI;RGB;BGR;menu accelerators;keyboard "
@@ -694,7 +694,7 @@ msgid "Enable color management for %s"
 msgstr "Vklopi upravljanje barv za %s"
 
 #: ../dialogs/color-settings/color-dialog.glade.h:1
-#: ../dialogs/color-settings/xfce4-color-settings.desktop.in.h:1
+#: ../dialogs/color-settings/expidus1-color-settings.desktop.in.h:1
 msgid "Color Profiles"
 msgstr "Barvni profili"
 
@@ -761,8 +761,8 @@ msgstr "Svoji napravi dodajte barvni profil"
 #: ../dialogs/color-settings/color-dialog.glade.h:21
 #: ../dialogs/keyboard-settings/command-dialog.c:120
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:4
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:541
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:110
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:541
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:110
 msgid "_OK"
 msgstr "_V redu"
 
@@ -880,11 +880,11 @@ msgstr "Združljivi profili"
 msgid "Unknown"
 msgstr "Neznano"
 
-#: ../dialogs/color-settings/xfce4-color-settings.desktop.in.h:2
+#: ../dialogs/color-settings/expidus1-color-settings.desktop.in.h:2
 msgid "Set color profiles"
 msgstr "Nastavi barvne profile"
 
-#: ../dialogs/color-settings/xfce4-color-settings.desktop.in.h:3
+#: ../dialogs/color-settings/expidus1-color-settings.desktop.in.h:3
 msgid "color;settings;management;display;monitors;printers;webcams;scanners;"
 msgstr "barva;nastavitve;urejanje;zaslon;monitorji;tislalniki;spletne kamere;skenerji;bralniki;"
 
@@ -923,8 +923,8 @@ msgid "The primary display is currently configured to show:"
 msgstr "Primarni zaslon je trenutno nastavljen, da prikazuje:"
 
 #: ../dialogs/display-settings/display-dialog.glade.h:5
-msgid "Xfce Panel"
-msgstr "Xfce pult"
+msgid "Expidus Panel"
+msgstr "Expidus pult"
 
 #: ../dialogs/display-settings/display-dialog.glade.h:6
 msgid "Desktop icons"
@@ -939,12 +939,12 @@ msgid "Configure..."
 msgstr "Nastavi..."
 
 #: ../dialogs/display-settings/display-dialog.glade.h:9
-#: ../dialogs/display-settings/xfce-display-settings.desktop.in.h:1
+#: ../dialogs/display-settings/expidus-display-settings.desktop.in.h:1
 msgid "Display"
 msgstr "Zaslon"
 
 #: ../dialogs/display-settings/display-dialog.glade.h:10
-#: ../dialogs/display-settings/xfce-display-settings.desktop.in.h:2
+#: ../dialogs/display-settings/expidus-display-settings.desktop.in.h:2
 msgid "Configure screen settings and layout"
 msgstr "Nastavite nastavitve zaslona in postavitve"
 
@@ -1182,10 +1182,10 @@ msgid "Once a display profile is deleted it cannot be restored."
 msgstr "Ko je zaslonski profil izbrisan, ga ni mogoče obnoviti."
 
 #: ../dialogs/display-settings/main.c:2147
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:134
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:382
-#: ../dialogs/mime-settings/xfce-mime-window.c:1133
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:144
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:134
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:382
+#: ../dialogs/mime-settings/expidus-mime-window.c:1133
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:144
 msgid "Cancel"
 msgstr "Prekliči"
 
@@ -1195,8 +1195,8 @@ msgstr "Izbriši"
 
 #: ../dialogs/display-settings/main.c:2250
 #, c-format
-msgid "%d Xfce Panels"
-msgstr "%d Xfce pulti"
+msgid "%d Expidus Panels"
+msgstr "%d Expidus pulti"
 
 #: ../dialogs/display-settings/main.c:3281
 msgid ""
@@ -1234,7 +1234,7 @@ msgstr "Zgolj %s (2)"
 
 #: ../dialogs/display-settings/main.c:4297
 #: ../dialogs/display-settings/main.c:4334
-msgid "Unable to start the Xfce Display Settings"
+msgid "Unable to start the Expidus Display Settings"
 msgstr "Ni mogoče zagnati nastavitev zaslona"
 
 #: ../dialogs/display-settings/main.c:4329
@@ -1245,7 +1245,7 @@ msgstr "ATI nastavitve"
 msgid "Unable to launch the proprietary driver settings"
 msgstr "Ni mogoče zagnati nastavitev lastniškega gonilnika"
 
-#: ../dialogs/display-settings/xfce-display-settings.desktop.in.h:3
+#: ../dialogs/display-settings/expidus-display-settings.desktop.in.h:3
 msgid ""
 "display;settings;screen;resolution;refresh;rate;rotation;external;projectors;monitors;LCD;CRT;HiDPI;"
 msgstr "zaslon;nastavitve;ekran;ločljivost;hitrost;osveževanje;zasuk;zunanji;projektorji;monitorji;LCD;CRT;HiDPI;"
@@ -1281,38 +1281,38 @@ msgid "Select command"
 msgstr "Izberi ukaz"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:285
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:389
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:402
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:389
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:402
 msgid "All Files"
 msgstr "Vse datoteke"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:290
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:394
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:407
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:394
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:407
 msgid "Executable Files"
 msgstr "Izvedljive datoteke"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:305
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:409
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:422
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:409
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:422
 msgid "Perl Scripts"
 msgstr "Skripti Perl"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:311
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:415
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:428
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:415
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:428
 msgid "Python Scripts"
 msgstr "Skripti Python"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:317
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:421
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:434
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:421
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:434
 msgid "Ruby Scripts"
 msgstr "Skripti Ruby"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:323
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:427
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:440
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:427
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:440
 msgid "Shell Scripts"
 msgstr "Skript ukazne lupine"
 
@@ -1325,12 +1325,12 @@ msgid "Select keyboard layout and variant"
 msgstr "Izberite razporeditev tipk"
 
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:5
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.desktop.in.h:1
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.desktop.in.h:1
 msgid "Keyboard"
 msgstr "Tipkovnica"
 
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:6
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.desktop.in.h:2
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.desktop.in.h:2
 msgid "Edit keyboard settings and application shortcuts"
 msgstr "Uredite nastavitve tipkovnice in bližnjičnih tipk"
 
@@ -1451,57 +1451,57 @@ msgstr "GTK+ ni mogoče začeti."
 
 #: ../dialogs/keyboard-settings/main.c:104
 #, c-format
-msgid "Failed to connect to xfconf daemon. Reason: %s"
-msgstr "Ni se bilo mogoče povezati s xfconf strežnikom. Razlog: %s"
+msgid "Failed to connect to esconf daemon. Reason: %s"
+msgstr "Ni se bilo mogoče povezati s esconf strežnikom. Razlog: %s"
 
 #: ../dialogs/keyboard-settings/main.c:115
 msgid "Could not create the settings dialog."
 msgstr "Okna z nastavitvami ni bilo mogoče ustvariti."
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:399
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:399
 msgid "Command"
 msgstr "Ukaz"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:407
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:407
 msgid "Shortcut"
 msgstr "Bližnjica"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:484
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:484
 msgid "Layout"
 msgstr "Razporeditev"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:485
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:485
 msgid "Variant"
 msgstr "Varianta"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1252
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1253
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1252
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1253
 msgid "Reset to Defaults"
 msgstr "Ponastavi na privzete vrednosti"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1254
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1254
 msgid ""
 "This will reset all shortcuts to their default values. Do you really want to"
 " do this?"
 msgstr "Ali ste prepričani, da želite vse bližnjice ponastaviti na privzete vrednosti?"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1256
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1256
 msgid "No"
 msgstr "Ne"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1257
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1257
 msgid "Yes"
 msgstr "Da"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1333
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1333
 msgid "The system defaults will be restored next time you log in."
 msgstr "Sistemske privzete vrednosti bodo obnovljene ob naslednji prijavi."
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1335
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1335
 msgid "Warning"
 msgstr "Opozorilo"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.desktop.in.h:3
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.desktop.in.h:3
 msgid "numlock;keyboard;layout;shortcuts;"
 msgstr "zaklep numeričnega;tipkovnica;razpored;bližnjice;"
 
@@ -1509,211 +1509,211 @@ msgstr "zaklep numeričnega;tipkovnica;razpored;bližnjice;"
 msgid "Could not create the mime dialog."
 msgstr "Nisem mogel ustvariti mime didaloga."
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:128
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:128
 msgid "Select Application"
 msgstr "Izberi aplikacijo"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:136
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:383
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:136
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:383
 msgid "Open"
 msgstr "Odpri"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:205
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:205
 msgid "Use a c_ustom command:"
 msgstr "Uporabi _ukaz po meri:"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:206
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:206
 msgid ""
 "Use a custom command for an application that is not available from the above"
 " application list."
 msgstr "Uporabi prirejeno aplikacijo, ki ni navedena na seznamu."
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:224
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:224
 msgid "_Browse..."
 msgstr "_Brskaj..."
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:379
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:379
 msgid "Select an Application"
 msgstr "Izberite program"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:529
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:529
 msgid "None available"
 msgstr "Ni na voljo"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:576
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:576
 msgid "Recommended Applications"
 msgstr "Priporočeni programi"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:594
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:594
 msgid "Other Applications"
 msgstr "Drugi programi"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:614
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:614
 #, c-format
 msgid "Open <i>%s</i> and other files of type \"%s\" with:"
 msgstr "Odpri <i>%s</i> in ostale datoteke tipa \"%s\" z:"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:650
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:650
 #, c-format
 msgid "Failed to add new application \"%s\""
 msgstr "Dodajanje novega programa \"%s\" je spodletelo."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:145
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:152
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:145
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:152
 msgid "Press left mouse button to change the selected application."
 msgstr "Pritisnite na levi gumb miške za spreminjanje izbrane aplikacije."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:151
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:151
 msgid "Application Chooser Button"
 msgstr "Tipka za izbiro programa"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:303
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:303
 msgid "No application selected"
 msgstr "Ni izbranega programa"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:319
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:319
 msgid "Failed to set default Web Browser"
 msgstr "Med nastavljanjem privzetega spletnega brskalnika je prišlo do napake"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:320
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:320
 msgid "Failed to set default Mail Reader"
 msgstr "Ni bilo mogoče nastaviti privzetega bralnika pošte"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:321
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:321
 msgid "Failed to set default File Manager"
 msgstr "Napaka pri nastavljanju privzetega upravljalnika datotek"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:322
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:322
 msgid "Failed to set default Terminal Emulator"
 msgstr "Ni bilo mogoče nastaviti privzetega terminalskega emulatorja"
 
 #. allocate the chooser
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:392
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:392
 msgid "Select application"
 msgstr "Izberite program"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:505
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:505
 msgid "Choose a custom Web Browser"
 msgstr "Izberite poljubni spletni brskalnik"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:506
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:506
 msgid "Choose a custom Mail Reader"
 msgstr "Izberite poljubnega bralnika pošte"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:507
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:507
 msgid "Choose a custom File Manager"
 msgstr "Izberi prilagojeni upravljalnik datotek"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:508
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:508
 msgid "Choose a custom Terminal Emulator"
 msgstr "Izberite poljubni terminalski emulator"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:513
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:513
 msgid ""
 "Specify the application you want to use\n"
-"as default Web Browser for Xfce:"
-msgstr "Navedite aplikacijo, ki jo želite uporabiti\nkot privzeti spletni brskalnik v Xfce-ju:"
+"as default Web Browser for Expidus:"
+msgstr "Navedite aplikacijo, ki jo želite uporabiti\nkot privzeti spletni brskalnik v Expidus-ju:"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:514
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:514
 msgid ""
 "Specify the application you want to use\n"
-"as default Mail Reader for Xfce:"
-msgstr "Navedite aplikacijo, ki jo želite uporabiti\nkot privzeti bralnik pošte v Xfce-ju:"
+"as default Mail Reader for Expidus:"
+msgstr "Navedite aplikacijo, ki jo želite uporabiti\nkot privzeti bralnik pošte v Expidus-ju:"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:515
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:515
 msgid ""
 "Specify the application you want to use\n"
-"as default File Manager for Xfce:"
-msgstr "Navedite aplikacijo, ki jo želite uporabiti\nkot privzeti upravljalnik datotek v Xfce-ju:"
+"as default File Manager for Expidus:"
+msgstr "Navedite aplikacijo, ki jo želite uporabiti\nkot privzeti upravljalnik datotek v Expidus-ju:"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:516
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:516
 msgid ""
 "Specify the application you want to use\n"
-"as default Terminal Emulator for Xfce:"
-msgstr "Navedite aplikacijo, ki jo želite uporabiti\nkot privzeti terminalski emulator v Xfce-ju:"
+"as default Terminal Emulator for Expidus:"
+msgstr "Navedite aplikacijo, ki jo želite uporabiti\nkot privzeti terminalski emulator v Expidus-ju:"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:580
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:580
 msgid "Browse the file system to choose a custom command."
 msgstr "Prebrskajte datotečni sistem za izbor prilagojenega ukaza."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:789
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:789
 msgid "_Other..."
 msgstr "Drug_o ..."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:790
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:790
 msgid "Use a custom application which is not included in the above list."
 msgstr "Uporabi poljuben program, ki ga ni na spodnjem seznamu."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:113
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:113
 msgid "Choose Preferred Application"
 msgstr "Uporabite"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:256
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:256
 msgid ""
 "Please choose your preferred Web\n"
 "Browser now and click OK to proceed."
 msgstr "Prosim, izberite želen spletni\nbrskalnik in kliknite v redu za nadaljevanje."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:258
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:258
 msgid ""
 "Please choose your preferred Mail Reader\n"
 "now and click OK to proceed."
 msgstr "Prosim, izberite želen brskalnik pošte\nin kliknite v redu za nadaljevanje."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:260
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:260
 msgid ""
 "Please choose your preferred File Manager\n"
 "now and click OK to proceed."
 msgstr "Prosim, izberite želen upravljalnik datotek\nin kliknite v redu za nadaljevanje."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:262
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:262
 msgid ""
 "Please choose your preferred Terminal\n"
 "Emulator now and click OK to proceed."
 msgstr "Prosim, izberite želen terminalski\nemulator in kliknite v redu za nadaljevanje."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:41
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:41
 msgid "Failed to execute default Web Browser"
 msgstr "Napaka pri izvajanju želenega spletnega brskalnika"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:42
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:42
 msgid "Failed to execute default Mail Reader"
 msgstr "Napaka pri izvajanju želenega bralnika pošte"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:43
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:43
 msgid "Failed to execute default File Manager"
 msgstr "Napaka pri izvajanju želenega upravljalnika datotek"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:44
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:44
 msgid "Failed to execute default Terminal Emulator"
 msgstr "Napaka pri izvajanju želenega terminalskega emulatorja"
 
 #. Enable permanently dismissing this error.
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:86
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:86
 msgid "Do _not show this message again"
 msgstr "Tega sporočila _ne prikaži več."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:116
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:116
 msgid "Print version information and exit"
 msgstr "Izpiši informacije o različici in končaj"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:117
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:117
 msgid ""
 "Launch the default helper of TYPE with the optional PARAMETER, where TYPE is"
 " one of the following values."
 msgstr "Zaženi privzeti pomočnik TIP z iz izbirnim PARAMETER, kjer je TIP ena od sledečih vrednosti."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:117
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:118
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:117
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:118
 msgid "TYPE [PARAMETER]"
 msgstr "TIP [PARAMETER]"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:118
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:118
 msgid ""
 "Query the default helper of TYPE, where TYPE is one of the following values."
 msgstr "Poizvedi v privzetem pomočniku za TIP, pri čemer ima lahko TIP eno od naslednjih vrednosti."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:148
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:148
 msgid ""
 "The following TYPEs are supported for the --launch and --query commands:\n"
 "\n"
@@ -1723,151 +1723,151 @@ msgid ""
 "  TerminalEmulator - The preferred Terminal Emulator."
 msgstr "Za -launch in -query ukaze so podprti naslednji TIPi;\n\nWebBrowser - Privzeti spletni brskalnik.\nMailReader - Privzeti bralnik pošte.\nFileManager - Privzeti upravljalnik datotek.\nTerminalEmulator - Privzeti emulator terminala."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:183
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:256
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:183
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:256
 #, c-format
 msgid "Invalid helper type \"%s\""
 msgstr "Neveljaven tip pomočnika \"%s\""
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:240
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:240
 #, c-format
 msgid ""
-"%s (Xfce %s)\n"
+"%s (Expidus %s)\n"
 "\n"
 "Copyright (c) 2003-2006\n"
 "        os-cillation e.K. All rights reserved.\n"
 "\n"
-"Written by Benedikt Meurer <benny@xfce.org>.\n"
+"Written by Benedikt Meurer <benny@expidus.org>.\n"
 "\n"
 "Built with Gtk+-%d.%d.%d, running Gtk+-%d.%d.%d.\n"
 "\n"
 "Please report bugs to <%s>.\n"
-msgstr "%s (Xfce %s)\n\nCopyright (c) 2003-2006\n        os-cillation e.K. Vse pravice pridržane.\n\nNapisal Benedikt Meurer <benny@xfce.org>.\n\nZgrajeno z Gtk+-%d.%d.%d, teče na Gtk+-%d.%d.%d.\n\nProsimo, napake poročajte na <%s>.\n"
+msgstr "%s (Expidus %s)\n\nCopyright (c) 2003-2006\n        os-cillation e.K. Vse pravice pridržane.\n\nNapisal Benedikt Meurer <benny@expidus.org>.\n\nZgrajeno z Gtk+-%d.%d.%d, teče na Gtk+-%d.%d.%d.\n\nProsimo, napake poročajte na <%s>.\n"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:266
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:266
 #, c-format
 msgid "No helper defined for \"%s\"."
 msgstr "Za \"%s\" pomočnik ni določen."
 
-#: ../dialogs/mime-settings/xfce-mime-helper.c:406
+#: ../dialogs/mime-settings/expidus-mime-helper.c:406
 #, c-format
 msgid "No command specified"
 msgstr "Ni določenega ukaza"
 
-#: ../dialogs/mime-settings/xfce-mime-helper.c:742
-#: ../dialogs/mime-settings/xfce-mime-helper.c:781
-#: ../dialogs/mime-settings/xfce-mime-helper.c:878
-#: ../dialogs/mime-settings/xfce-mime-helper.c:917
+#: ../dialogs/mime-settings/expidus-mime-helper.c:742
+#: ../dialogs/mime-settings/expidus-mime-helper.c:781
+#: ../dialogs/mime-settings/expidus-mime-helper.c:878
+#: ../dialogs/mime-settings/expidus-mime-helper.c:917
 #, c-format
 msgid "Failed to open %s for writing"
 msgstr "Odpiranje %s za pisanje ni uspelo"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:187
-#: ../dialogs/mime-settings/xfce4-mime-settings.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:187
+#: ../dialogs/mime-settings/expidus1-mime-settings.desktop.in.h:1
 msgid "Default Applications"
 msgstr "Privzete aplikacije"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:191
-#: ../dialogs/mime-settings/xfce4-mime-settings.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus-mime-window.c:191
+#: ../dialogs/mime-settings/expidus1-mime-settings.desktop.in.h:2
 msgid "Associate preferred applications with MIME types"
 msgstr "Poveži prednostne aplikacije z MIME vrstami"
 
 #. Internet
-#: ../dialogs/mime-settings/xfce-mime-window.c:214
+#: ../dialogs/mime-settings/expidus-mime-window.c:214
 msgid "_Internet"
 msgstr "_Splet"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:227
-#: ../dialogs/mime-settings/xfce4-web-browser.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:227
+#: ../dialogs/mime-settings/expidus1-web-browser.desktop.in.h:1
 msgid "Web Browser"
 msgstr "Spletni brskalnik"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:235
+#: ../dialogs/mime-settings/expidus-mime-window.c:235
 msgid ""
 "The default Web Browser will be used to open hyperlinks and display help "
 "contents."
 msgstr "Privzeti spletni brskalnik bo uporabljen za odpiranje hiperpovezav in prikaz pomoči."
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:258
-#: ../dialogs/mime-settings/xfce4-mail-reader.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:258
+#: ../dialogs/mime-settings/expidus1-mail-reader.desktop.in.h:1
 msgid "Mail Reader"
 msgstr "Bralnik pošte"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:266
+#: ../dialogs/mime-settings/expidus-mime-window.c:266
 msgid ""
 "The default Mail Reader will be used to compose emails when you click on "
 "email addresses."
 msgstr "Privzeti bralnik pošte bo uporabljen za ustvarjanje elektronskih sporočil ob kliku na elektronski naslov."
 
 #. Utilities
-#: ../dialogs/mime-settings/xfce-mime-window.c:285
+#: ../dialogs/mime-settings/expidus-mime-window.c:285
 msgid "_Utilities"
 msgstr "_Pripomočki"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:298
-#: ../dialogs/mime-settings/xfce4-file-manager.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:298
+#: ../dialogs/mime-settings/expidus1-file-manager.desktop.in.h:1
 msgid "File Manager"
 msgstr "Upravljalnik datotek"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:306
+#: ../dialogs/mime-settings/expidus-mime-window.c:306
 msgid ""
 "The default File Manager will be used to browse the contents of folders."
 msgstr "Privzeti datotečni brskalnik bo uporabljen za brskanje po vsebini imenikov."
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:329
-#: ../dialogs/mime-settings/xfce4-terminal-emulator.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:329
+#: ../dialogs/mime-settings/expidus1-terminal-emulator.desktop.in.h:1
 msgid "Terminal Emulator"
 msgstr "Terminalski emulator"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:337
+#: ../dialogs/mime-settings/expidus-mime-window.c:337
 msgid ""
 "The default Terminal Emulator will be used to run commands that require a "
 "CLI environment."
 msgstr "Privzeti terminalski emulator bo uporabljen za izvajanje ukazov, ki zahtevajo ukazno vrstico."
 
 #. Mimes
-#: ../dialogs/mime-settings/xfce-mime-window.c:356
+#: ../dialogs/mime-settings/expidus-mime-window.c:356
 msgid "_Others"
 msgstr "Drug_o"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:366
+#: ../dialogs/mime-settings/expidus-mime-window.c:366
 msgid "_Filter:"
 msgstr "_Filter:"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:374
+#: ../dialogs/mime-settings/expidus-mime-window.c:374
 msgid "Clear filter"
 msgstr "Počisti filter"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:404
+#: ../dialogs/mime-settings/expidus-mime-window.c:404
 msgid "Open with..."
 msgstr "Odpri z..."
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:451
+#: ../dialogs/mime-settings/expidus-mime-window.c:451
 msgid "MIME Type"
 msgstr "MIME tip"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:479
+#: ../dialogs/mime-settings/expidus-mime-window.c:479
 msgid "Status"
 msgstr "Stanje"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:499
+#: ../dialogs/mime-settings/expidus-mime-window.c:499
 msgid "Default Application"
 msgstr "Privzet program"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:674
-#: ../dialogs/mime-settings/xfce-mime-window.c:816
+#: ../dialogs/mime-settings/expidus-mime-window.c:674
+#: ../dialogs/mime-settings/expidus-mime-window.c:816
 msgid "User Set"
 msgstr "Nastavitev uporabnika"
 
 #. sort the names but keep Default on top
-#: ../dialogs/mime-settings/xfce-mime-window.c:676
-#: ../dialogs/mime-settings/xfce-mime-window.c:816
+#: ../dialogs/mime-settings/expidus-mime-window.c:676
+#: ../dialogs/mime-settings/expidus-mime-window.c:816
 #: ../dialogs/mouse-settings/main.c:397 ../dialogs/mouse-settings/main.c:399
 #: ../dialogs/mouse-settings/main.c:459
 msgid "Default"
 msgstr "Privzeto"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:762
+#: ../dialogs/mime-settings/expidus-mime-window.c:762
 #, c-format
 msgid "%d MIME type found"
 msgid_plural "%d MIME types found"
@@ -1876,54 +1876,54 @@ msgstr[1] "%d najdena MIME tipa"
 msgstr[2] "%d najdenih MIME tipov"
 msgstr[3] "%d najdenih MIME tipov"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:861
+#: ../dialogs/mime-settings/expidus-mime-window.c:861
 #, c-format
 msgid "Failed to set application \"%s\" for mime type \"%s\"."
 msgstr "Ni bilo mogoče nastaviti programa \"%s\" za MIME tip \"%s\"."
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1124
+#: ../dialogs/mime-settings/expidus-mime-window.c:1124
 #, c-format
 msgid "Are you sure you want to reset content type \"%s\" to its default value?"
 msgstr "Ali ste prepričani, da želite ponastaviti vsebinski tip \"%s\" na privzeto vrednost?"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1128
+#: ../dialogs/mime-settings/expidus-mime-window.c:1128
 msgid "Question"
 msgstr "Vprašanje"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1131
+#: ../dialogs/mime-settings/expidus-mime-window.c:1131
 msgid ""
 "This will remove your custom mime-association and restore the system-wide "
 "default."
 msgstr "To bo izbrisalo vašo prilagojeno MIME-povezavo in obnovilo sistemsko privzeto vrednost."
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1135
-#: ../dialogs/mime-settings/xfce-mime-window.c:1206
+#: ../dialogs/mime-settings/expidus-mime-window.c:1135
+#: ../dialogs/mime-settings/expidus-mime-window.c:1206
 msgid "Reset to Default"
 msgstr "Ponastavi na privzeto vrednost"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1201
+#: ../dialogs/mime-settings/expidus-mime-window.c:1201
 msgid "Choose Application..."
 msgstr "Izberi program..."
 
-#: ../dialogs/mime-settings/xfce4-mime-settings.desktop.in.h:3
+#: ../dialogs/mime-settings/expidus1-mime-settings.desktop.in.h:3
 msgid ""
 "file;type;extension;association;open with;web browser;mail reader;file "
 "manager;terminal emulator;"
 msgstr "datoteka;vrsta;končnica;asociacija;odpri z;spletni brksalnik;bralnik pošte;datotečni brslanik;eulator terminala;"
 
-#: ../dialogs/mime-settings/xfce4-file-manager.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus1-file-manager.desktop.in.h:2
 msgid "Browse the file system"
 msgstr "Brskajte po datotečnem sistemu"
 
-#: ../dialogs/mime-settings/xfce4-mail-reader.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus1-mail-reader.desktop.in.h:2
 msgid "Read your email"
 msgstr "Preberite svojo pošto"
 
-#: ../dialogs/mime-settings/xfce4-terminal-emulator.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus1-terminal-emulator.desktop.in.h:2
 msgid "Use the command line"
 msgstr "Uporabite ukazno vrstico"
 
-#: ../dialogs/mime-settings/xfce4-web-browser.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus1-web-browser.desktop.in.h:2
 msgid "Browse the web"
 msgstr "Brskaj po spletu"
 
@@ -2127,13 +2127,13 @@ msgstr "Vimprobable2"
 msgid "W3M Text Browser"
 msgstr "Besedilni brskanik W3M"
 
-#: ../dialogs/mime-settings/helpers/xfce4-terminal.desktop.in.in.h:1
-msgid "Xfce Terminal"
-msgstr "Xfce Terminal"
+#: ../dialogs/mime-settings/helpers/expidus1-terminal.desktop.in.in.h:1
+msgid "Expidus Terminal"
+msgstr "Expidus Terminal"
 
 #: ../dialogs/mime-settings/helpers/xfe.desktop.in.in.h:1
 msgid "Xfe File Manager"
-msgstr "Xfce brskalnik datotek"
+msgstr "Expidus brskalnik datotek"
 
 #: ../dialogs/mime-settings/helpers/xterm.desktop.in.in.h:1
 msgid "X Terminal"
@@ -2206,12 +2206,12 @@ msgid "Counterclockwise"
 msgstr "V obratni smeri od urinega kazalca"
 
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:11
-#: ../dialogs/mouse-settings/xfce-mouse-settings.desktop.in.h:1
+#: ../dialogs/mouse-settings/expidus-mouse-settings.desktop.in.h:1
 msgid "Mouse and Touchpad"
 msgstr "Miška in sledilna ploščica"
 
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:12
-#: ../dialogs/mouse-settings/xfce-mouse-settings.desktop.in.h:2
+#: ../dialogs/mouse-settings/expidus-mouse-settings.desktop.in.h:2
 msgid "Configure pointer device behavior and appearance"
 msgstr "Nastavi obnašanje in izgled kazalčnih naprav"
 
@@ -2383,200 +2383,200 @@ msgstr "Predogled"
 msgid "_Theme"
 msgstr "_Tema"
 
-#: ../dialogs/mouse-settings/xfce-mouse-settings.desktop.in.h:3
+#: ../dialogs/mouse-settings/expidus-mouse-settings.desktop.in.h:3
 msgid ""
 "settings;buttons;scroll;direction;pointer;speed;double click;theme;wheel;"
 msgstr "nastavitve;gumbi;pomik;smer;kazalec;hitrost;dvojni klik;tema;kolesce;"
 
-#: ../xfce4-settings-editor/main.c:163
-#: ../xfce4-settings-editor/xfce4-settings-editor.desktop.in.h:1
+#: ../expidus1-settings-editor/main.c:163
+#: ../expidus1-settings-editor/expidus1-settings-editor.desktop.in.h:1
 msgid "Settings Editor"
 msgstr "Urejevalnik nastavitev"
 
-#: ../xfce4-settings-editor/main.c:170
-msgid "Customize settings stored by Xfconf"
-msgstr "Prilagodite nastavitve, ki jih hrani Xfconf"
+#: ../expidus1-settings-editor/main.c:170
+msgid "Customize settings stored by Esconf"
+msgstr "Prilagodite nastavitve, ki jih hrani Esconf"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:258
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:258
 msgid "Channel"
 msgstr "Kanal"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:292
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:292
 msgid "Property"
 msgstr "Lastnost"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:299
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:299
 msgid "Type"
 msgstr "Vrsta"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:306
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:306
 msgid "Locked"
 msgstr "Zaklenjeno"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:313
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:313
 msgid "Value"
 msgstr "Vrednost"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:333
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:333
 msgid "New property"
 msgstr "Nova lastnost"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:341
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:341
 msgid "_Edit"
 msgstr "Ur_edi"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:346
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:346
 msgid "Edit selected property"
 msgstr "Uredite izbrane lastnosti"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:354
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1043
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1465
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:354
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1043
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1465
 msgid "_Reset"
 msgstr "_Ponastavi"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:359
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:359
 msgid "Reset selected property"
 msgstr "Ponastavi izbrano lastnost"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:466
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:557
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:676
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:89
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:466
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:557
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:676
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:89
 msgid "Empty"
 msgstr "Prazno"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:469
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:469
 msgid "Array"
 msgstr "Polje"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:474
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:90
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:474
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:90
 msgid "String"
 msgstr "Niz"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:482
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:482
 msgid "Integer"
 msgstr "Celo število"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:485
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:91
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:485
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:91
 msgid "Boolean"
 msgstr "Logična vrednost"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:488
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:93
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:488
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:93
 msgid "Double"
 msgstr "Dvojno"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:822
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:822
 msgid "_Reset Channel"
 msgstr "_Ponastavi kanal"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:823
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:823
 msgid "Resetting a channel will permanently remove those custom settings."
 msgstr "Ponastavitev kanala bo trajno izbrisala povezane prilagojene nastavitve"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:824
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:824
 #, c-format
 msgid "Are you sure you want to reset channel \"%s\" and all its properties?"
 msgstr "Ali ste prepričani, da želite ponastaviti kanal \"%s\" in vse njegove lastnosti?"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:899
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:899
 msgid "reset"
 msgstr "Ponastavi"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:956
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:956
 #, c-format
 msgid "Monitor %s"
 msgstr "Zaslon %s"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:964
-msgid "Watch an Xfconf channel for property changes"
-msgstr "Opazuj Xfconf kanal za spremembe lastnosti"
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:964
+msgid "Watch an Esconf channel for property changes"
+msgstr "Opazuj Esconf kanal za spremembe lastnosti"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:966
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:966
 msgid "Clear"
 msgstr "Počisti"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:967
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:967
 msgid "Close"
 msgstr "Zapri"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1000
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1000
 #, c-format
 msgid "start monitoring channel \"%s\""
 msgstr "Prični opazovati kanal \"%s\""
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1049
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1049
 msgid "_Monitor"
 msgstr "_Zaslon"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1059
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1059
 msgid "Refresh"
 msgstr "Osveži"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1466
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1466
 msgid "Resetting a property will permanently remove those custom settings."
 msgstr "Ponastavitev lastnosti bo trajno izbrisala povezane prilagojene nastavitve"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1467
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1467
 #, c-format
 msgid "Are you sure you want to reset property \"%s\"?"
 msgstr "Ali ste prepričani, da želite ponastaviti lastnost \"%s\"?"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:92
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:92
 msgid "Int"
 msgstr "Število"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:94
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:94
 msgid "Unsigned Int"
 msgstr "Pozitivno število"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:95
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:95
 msgid "Int64"
 msgstr "64-bitno število"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:96
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:96
 msgid "Unsigned Int64"
 msgstr "Pozitivno 64-bitno število"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:141
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:141
 msgid "New Property"
 msgstr "Nova lastnost"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:145
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:145
 msgid "Save"
 msgstr "Shrani"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:160
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:160
 msgid "_Property:"
 msgstr "_Lastnost:"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:174
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:174
 msgid "_Type:"
 msgstr "Vrs_ta:"
 
 #. strings
 #. integers
 #. bool
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:203
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:213
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:224
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:203
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:213
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:224
 msgid "_Value:"
 msgstr "_Vrednost:"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:381
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:381
 #, c-format
 msgid "Property names must start with a '/' character"
 msgstr "Imena lastnosti se morajo začeti z '/' znakom"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:392
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:392
 #, c-format
 msgid "The root element ('/') is not a valid property name"
 msgstr "Korenski element ('/') ni ustrezno ime lastnosti"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:409
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:409
 #, c-format
 msgid ""
 "Property names can only include the ASCII characters A-Z, a-z, 0-9, '_', "
@@ -2584,125 +2584,125 @@ msgid ""
 "separator"
 msgstr "Imena lastnosti so lahko samo iz ASCII znakov A-Z, a-z, 0-9, ter znakov '_-:.,[]{}<>', kot tudi '/' kot ločilnik"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:423
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:423
 #, c-format
 msgid "Property names cannot have two or more consecutive '/' characters"
 msgstr "Imena lastnosti ne smejo imeti dveh zaporednih '/' znakov"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:437
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:437
 #, c-format
 msgid "Property names cannot end with a '/' character"
 msgstr "Imena lastnosti se ne smejo začeti z '/' znakom"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:650
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:650
 msgid "Edit Property"
 msgstr "Uredi lastnost"
 
-#: ../xfce4-settings-editor/xfce4-settings-editor.desktop.in.h:2
-msgid "Graphical settings editor for Xfconf"
-msgstr "Grafični urejevalnik Xfconf nastavitev"
+#: ../expidus1-settings-editor/expidus1-settings-editor.desktop.in.h:2
+msgid "Graphical settings editor for Esconf"
+msgstr "Grafični urejevalnik Esconf nastavitev"
 
-#: ../xfce4-settings-editor/xfce4-settings-editor.desktop.in.h:3
+#: ../expidus1-settings-editor/expidus1-settings-editor.desktop.in.h:3
 msgid "registry;regedit;configuration file;"
 msgstr "ster;regdit;konfiguracijska datoteka;"
 
-#: ../xfce4-settings-manager/main.c:44
+#: ../expidus1-settings-manager/main.c:44
 msgid "Settings dialog to show"
 msgstr "Okno z nastavitvami za prikaz"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:221
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:221
 msgid "All _Settings"
 msgstr "V_se nastavitve"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:419
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:419
 msgid "Settings"
 msgstr "Nastavitve"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:421
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:421
 msgid "Customize your desktop"
 msgstr "Prilagodite svoje namizje"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:937
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:948
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:937
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:948
 #, c-format
 msgid "Unable to start \"%s\""
 msgstr "\"%s\" ni mogoče zagnati"
 
-#: ../xfce4-settings-manager/xfce-settings-manager.desktop.in.h:1
+#: ../expidus1-settings-manager/expidus-settings-manager.desktop.in.h:1
 msgid "Settings Manager"
 msgstr "Nastavitve"
 
-#: ../xfce4-settings-manager/xfce-settings-manager.desktop.in.h:2
-msgid "Graphical Settings Manager for Xfce"
-msgstr "Grafični upravljalnik nastavitev za Xfce"
+#: ../expidus1-settings-manager/expidus-settings-manager.desktop.in.h:2
+msgid "Graphical Settings Manager for Expidus"
+msgstr "Grafični upravljalnik nastavitev za Expidus"
 
-#: ../xfce4-settings-manager/xfce-settings-manager.desktop.in.h:3
+#: ../expidus1-settings-manager/expidus-settings-manager.desktop.in.h:3
 msgid "control;panel;center;system;settings;personalize;hardware;"
 msgstr "kontrolna;plošča;center;središče;sistem;nastavitve;perosnalizacija;strojna;oprema;"
 
-#: ../xfsettingsd/accessibility.c:412
+#: ../essettingsd/accessibility.c:412
 msgid "Sticky keys are enabled"
 msgstr "Lepljive tipke so omogočene"
 
-#: ../xfsettingsd/accessibility.c:414
+#: ../essettingsd/accessibility.c:414
 msgid "Sticky keys are disabled"
 msgstr "Lepljive tipke so onemogočene"
 
-#: ../xfsettingsd/accessibility.c:416
+#: ../essettingsd/accessibility.c:416
 msgid "Sticky keys"
 msgstr "Lepljive tipke"
 
-#: ../xfsettingsd/accessibility.c:421
+#: ../essettingsd/accessibility.c:421
 msgid "Slow keys are enabled"
 msgstr "Počasne tipke so omogočene"
 
-#: ../xfsettingsd/accessibility.c:423
+#: ../essettingsd/accessibility.c:423
 msgid "Slow keys are disabled"
 msgstr "Počasne tipke so onemogočene"
 
-#: ../xfsettingsd/accessibility.c:425
+#: ../essettingsd/accessibility.c:425
 msgid "Slow keys"
 msgstr "Počasne tipke"
 
-#: ../xfsettingsd/accessibility.c:430
+#: ../essettingsd/accessibility.c:430
 msgid "Bounce keys are enabled"
 msgstr "Odbojne tipke so omogočene"
 
-#: ../xfsettingsd/accessibility.c:432
+#: ../essettingsd/accessibility.c:432
 msgid "Bounce keys are disabled"
 msgstr "Odbojne tipke so onemogočene"
 
-#: ../xfsettingsd/accessibility.c:434
+#: ../essettingsd/accessibility.c:434
 msgid "Bounce keys"
 msgstr "Odbojne tipke"
 
-#: ../xfsettingsd/keyboard-shortcuts.c:242
+#: ../essettingsd/keyboard-shortcuts.c:242
 #, c-format
 msgid "Failed to launch shortcut \"%s\""
 msgstr "Zaganjanje bližnjice \"%s\" je spodletelo"
 
-#: ../xfsettingsd/main.c:103
+#: ../essettingsd/main.c:103
 msgid "Fork to the background"
 msgstr "Razveji se v ozadje"
 
-#: ../xfsettingsd/main.c:104
+#: ../essettingsd/main.c:104
 msgid "Do not wait for a window manager on startup"
 msgstr "Ne čakaj na upravljalnik oken ob zagonu"
 
-#: ../xfsettingsd/main.c:105
+#: ../essettingsd/main.c:105
 msgid "Replace running xsettings daemon (if any)"
 msgstr "Zamenjaj zagnani xsettings strežnik (če je na voljo)"
 
-#. value in xfconf isn't a string, so make a default one
-#: ../xfsettingsd/workspaces.c:333 ../xfsettingsd/workspaces.c:390
+#. value in esconf isn't a string, so make a default one
+#: ../essettingsd/workspaces.c:333 ../essettingsd/workspaces.c:390
 #, c-format
 msgid "Workspace %d"
 msgstr "Delovna površina %d"
 
-#: ../xfsettingsd/xfsettingsd.desktop.in.h:1
-msgid "Xfce Settings Daemon"
-msgstr "Pritajene Xfce nastavitve"
+#: ../essettingsd/essettingsd.desktop.in.h:1
+msgid "Expidus Settings Daemon"
+msgstr "Pritajene Expidus nastavitve"
 
-#: ../xfsettingsd/xfsettingsd.desktop.in.h:2
-msgid "The Xfce Settings Daemon"
-msgstr "Strežnik za Xfce nastavitve"
+#: ../essettingsd/essettingsd.desktop.in.h:2
+msgid "The Expidus Settings Daemon"
+msgstr "Strežnik za Expidus nastavitve"

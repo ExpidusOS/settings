@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=endo-open --launch TerminalEmulator
+Icon=com.expidus.terminalemulator
+StartupNotify=true
+Terminal=false
+Categories=Utility;X-EXPIDUS;X-Expidus-Toplevel;
+OnlyShowIn=EXPIDUS;
+X-AppStream-Ignore=True
+_Name=Terminal Emulator
+_Comment=Use the command line

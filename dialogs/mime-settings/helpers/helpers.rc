@@ -1,10 +1,10 @@
 #
-# Default helpers.rc for Xfce's Preferred Applications
+# Default helpers.rc for Expidus's Preferred Applications
 #
-# Copyright (c) 2005-2006 Benedikt Meurer <benny@xfce.org>
+# Copyright (c) 2005-2006 Benedikt Meurer <benny@expidus.org>
 #
 
 WebBrowser=firefox
 MailReader=thunderbird
-TerminalEmulator=xfce4-terminal
+TerminalEmulator=expidus1-terminal
 FileManager=thunar

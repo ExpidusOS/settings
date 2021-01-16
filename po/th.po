@@ -7,12 +7,12 @@
 # Theppitak Karoonboonyanan <theppitak@gmail.com>, 2014,2018-2019
 msgid ""
 msgstr ""
-"Project-Id-Version: Xfce4-settings\n"
+"Project-Id-Version: Expidus1-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-19 12:47+0200\n"
 "PO-Revision-Date: 2020-08-19 10:47+0000\n"
-"Last-Translator: Xfce Bot <transifex@xfce.org>\n"
-"Language-Team: Thai (http://www.transifex.com/xfce/xfce4-settings/language/th/)\n"
+"Last-Translator: Expidus Bot <transifex@expidus.org>\n"
+"Language-Team: Thai (http://www.transifex.com/expidus/expidus1-settings/language/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -27,39 +27,39 @@ msgctxt "Monitor vendor"
 msgid "Unknown"
 msgstr "ไม่ทราบ"
 
-#: ../common/xfce-randr.c:296 ../dialogs/display-settings/main.c:4265
+#: ../common/expidus-randr.c:296 ../dialogs/display-settings/main.c:4265
 #, c-format
 msgid "Unable to query the version of the RandR extension being used"
 msgstr "ไม่สามารถสอบถามรุ่นของส่วนขยาย RandR ที่กำลังใช้อยู่ได้"
 
 #. 1.2 is required
-#: ../common/xfce-randr.c:304
+#: ../common/expidus-randr.c:304
 #, c-format
 msgid ""
 "This system is using RandR %d.%d. For the display settings to work version "
 "1.2 is required at least"
 msgstr "ระบบนี้ใช้ RandR %d.%d โปรแกรมตั้งค่าจอแสดงผลต้องการรุ่น 1.2 ขึ้นไปจึงจะสามารถทำงานได้"
 
-#: ../common/xfce-randr.c:594
+#: ../common/expidus-randr.c:594
 msgid "Laptop"
 msgstr "แล็ปท็อป"
 
 #. TRANSLATORS: an externally connected display, where %s is either the
 #. * model, vendor or ID, e.g. 'LP2480zx Monitor'
-#: ../common/xfce-randr.c:607 ../dialogs/color-settings/color-device.c:65
+#: ../common/expidus-randr.c:607 ../dialogs/color-settings/color-device.c:65
 msgid "Monitor"
 msgstr "จอภาพ"
 
-#: ../common/xfce-randr.c:610
+#: ../common/expidus-randr.c:610
 msgid "Television"
 msgstr "โทรทัศน์"
 
-#: ../common/xfce-randr.c:614
+#: ../common/expidus-randr.c:614
 msgid "Digital display"
 msgstr "จอแสดงผลดิจิทัล"
 
 #: ../dialogs/accessibility-settings/accessibility-dialog.glade.h:1
-#: ../dialogs/accessibility-settings/xfce4-accessibility-settings.desktop.in.h:1
+#: ../dialogs/accessibility-settings/expidus1-accessibility-settings.desktop.in.h:1
 msgid "Accessibility"
 msgstr "สิ่งอำนวยความสะดวก"
 
@@ -75,10 +75,10 @@ msgstr "ตั้งค่าสิ่งอำนวยความสะดว
 #: ../dialogs/display-settings/profile-changed-dialog.glade.h:2
 #: ../dialogs/display-settings/main.c:4305
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:7
-#: ../dialogs/mime-settings/xfce-mime-window.c:190
+#: ../dialogs/mime-settings/expidus-mime-window.c:190
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:14
-#: ../xfce4-settings-editor/main.c:166
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:228
+#: ../expidus1-settings-editor/main.c:166
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:228
 msgid "_Close"
 msgstr "ปิ_ด"
 
@@ -87,10 +87,10 @@ msgstr "ปิ_ด"
 #: ../dialogs/color-settings/color-dialog.glade.h:4
 #: ../dialogs/display-settings/display-dialog.glade.h:11
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:8
-#: ../dialogs/mime-settings/xfce-mime-window.c:193
+#: ../dialogs/mime-settings/expidus-mime-window.c:193
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:13
-#: ../xfce4-settings-editor/main.c:165
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:217
+#: ../expidus1-settings-editor/main.c:165
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:217
 msgid "_Help"
 msgstr "_วิธีใช้"
 
@@ -277,9 +277,9 @@ msgstr "การจำลองเมาส์"
 
 #: ../dialogs/accessibility-settings/accessibility-dialog.glade.h:45
 msgid ""
-"Bind a keyboard shortcut to xfce4-find-cursor to get visual feedback of the "
+"Bind a keyboard shortcut to expidus1-find-cursor to get visual feedback of the "
 "mouse pointer's current location."
-msgstr "โยงปุ่มลัดแป้นพิมพ์เข้ากับคำสั่ง xfce4-find-cursor เพื่อแสดงภาพบอกตำแหน่งปัจจุบันของตัวชี้เมาส์"
+msgstr "โยงปุ่มลัดแป้นพิมพ์เข้ากับคำสั่ง expidus1-find-cursor เพื่อแสดงภาพบอกตำแหน่งปัจจุบันของตัวชี้เมาส์"
 
 #: ../dialogs/accessibility-settings/accessibility-dialog.glade.h:46
 msgid "Show location of pointer on keypress"
@@ -297,7 +297,7 @@ msgstr "เ_มาส์"
 #: ../dialogs/appearance-settings/main.c:106
 #: ../dialogs/color-settings/main.c:48 ../dialogs/display-settings/main.c:139
 #: ../dialogs/keyboard-settings/main.c:40 ../dialogs/mime-settings/main.c:43
-#: ../dialogs/mouse-settings/main.c:86 ../xfce4-settings-editor/main.c:49
+#: ../dialogs/mouse-settings/main.c:86 ../expidus1-settings-editor/main.c:49
 msgid "Settings manager socket"
 msgstr "ซ็อกเก็ตของโปรแกรมจัดการค่าตั้ง"
 
@@ -305,7 +305,7 @@ msgstr "ซ็อกเก็ตของโปรแกรมจัดการ
 #: ../dialogs/appearance-settings/main.c:106
 #: ../dialogs/color-settings/main.c:48 ../dialogs/display-settings/main.c:139
 #: ../dialogs/keyboard-settings/main.c:40 ../dialogs/mime-settings/main.c:43
-#: ../dialogs/mouse-settings/main.c:86 ../xfce4-settings-editor/main.c:49
+#: ../dialogs/mouse-settings/main.c:86 ../expidus1-settings-editor/main.c:49
 msgid "SOCKET ID"
 msgstr "SOCKET ID"
 
@@ -313,8 +313,8 @@ msgstr "SOCKET ID"
 #: ../dialogs/appearance-settings/main.c:107
 #: ../dialogs/color-settings/main.c:49 ../dialogs/display-settings/main.c:140
 #: ../dialogs/keyboard-settings/main.c:41 ../dialogs/mime-settings/main.c:44
-#: ../dialogs/mouse-settings/main.c:87 ../xfce4-settings-editor/main.c:50
-#: ../xfce4-settings-manager/main.c:43 ../xfsettingsd/main.c:102
+#: ../dialogs/mouse-settings/main.c:87 ../expidus1-settings-editor/main.c:50
+#: ../expidus1-settings-manager/main.c:43 ../essettingsd/main.c:102
 msgid "Version information"
 msgstr "ข้อมูลรุ่น"
 
@@ -323,10 +323,10 @@ msgstr "ข้อมูลรุ่น"
 #: ../dialogs/color-settings/main.c:1390
 #: ../dialogs/display-settings/main.c:4233
 #: ../dialogs/keyboard-settings/main.c:78 ../dialogs/mime-settings/main.c:78
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:158
-#: ../dialogs/mouse-settings/main.c:1886 ../xfce4-settings-editor/main.c:120
-#: ../xfce4-settings-manager/main.c:64 ../xfsettingsd/main.c:242
-#: ../xfsettingsd/main.c:280
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:158
+#: ../dialogs/mouse-settings/main.c:1886 ../expidus1-settings-editor/main.c:120
+#: ../expidus1-settings-manager/main.c:64 ../essettingsd/main.c:242
+#: ../essettingsd/main.c:280
 #, c-format
 msgid "Type '%s --help' for usage."
 msgstr "สั่ง '%s --help' เพื่อดูวิธีใช้"
@@ -336,27 +336,27 @@ msgstr "สั่ง '%s --help' เพื่อดูวิธีใช้"
 #: ../dialogs/color-settings/main.c:1407
 #: ../dialogs/display-settings/main.c:4252
 #: ../dialogs/keyboard-settings/main.c:94 ../dialogs/mime-settings/main.c:97
-#: ../dialogs/mouse-settings/main.c:1905 ../xfce4-settings-editor/main.c:139
-#: ../xfce4-settings-manager/main.c:80 ../xfsettingsd/main.c:258
-msgid "The Xfce development team. All rights reserved."
-msgstr "The Xfce development team. All rights reserved."
+#: ../dialogs/mouse-settings/main.c:1905 ../expidus1-settings-editor/main.c:139
+#: ../expidus1-settings-manager/main.c:80 ../essettingsd/main.c:258
+msgid "The Expidus development team. All rights reserved."
+msgstr "The Expidus development team. All rights reserved."
 
 #: ../dialogs/accessibility-settings/main.c:220
 #: ../dialogs/appearance-settings/main.c:1190
 #: ../dialogs/color-settings/main.c:1408
 #: ../dialogs/display-settings/main.c:4253
 #: ../dialogs/keyboard-settings/main.c:95 ../dialogs/mime-settings/main.c:98
-#: ../dialogs/mouse-settings/main.c:1906 ../xfce4-settings-editor/main.c:140
-#: ../xfce4-settings-manager/main.c:81 ../xfsettingsd/main.c:259
+#: ../dialogs/mouse-settings/main.c:1906 ../expidus1-settings-editor/main.c:140
+#: ../expidus1-settings-manager/main.c:81 ../essettingsd/main.c:259
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "หากพบปัญหา กรุณารายงานไปที่ <%s>"
 
-#: ../dialogs/accessibility-settings/xfce4-accessibility-settings.desktop.in.h:2
+#: ../dialogs/accessibility-settings/expidus1-accessibility-settings.desktop.in.h:2
 msgid "Improve keyboard and mouse accessibility"
 msgstr "ปรับสิ่งอำนวยความสะดวกสำหรับแป้นพิมพ์และเมาส์"
 
-#: ../dialogs/accessibility-settings/xfce4-accessibility-settings.desktop.in.h:3
+#: ../dialogs/accessibility-settings/expidus1-accessibility-settings.desktop.in.h:3
 msgid ""
 "assistive;technologies;keys;sticky;bounce;emulation;screen "
 "readers;magnifiers;a11y;i18n;l10n;AT-SPI;ATK;impairment;"
@@ -407,12 +407,12 @@ msgid "2x"
 msgstr "2x"
 
 #: ../dialogs/appearance-settings/appearance-dialog.glade.h:11
-#: ../dialogs/appearance-settings/xfce-ui-settings.desktop.in.h:1
+#: ../dialogs/appearance-settings/expidus-ui-settings.desktop.in.h:1
 msgid "Appearance"
 msgstr "รูปลักษณ์"
 
 #: ../dialogs/appearance-settings/appearance-dialog.glade.h:12
-#: ../dialogs/appearance-settings/xfce-ui-settings.desktop.in.h:2
+#: ../dialogs/appearance-settings/expidus-ui-settings.desktop.in.h:2
 msgid "Customize the look of your desktop"
 msgstr "ปรับรูปลักษณ์ของเดสก์ท็อปของคุณ"
 
@@ -617,7 +617,7 @@ msgstr "RGB แนวดิ่ง"
 msgid "Vertical BGR"
 msgstr "BGR แนวดิ่ง"
 
-#: ../dialogs/appearance-settings/xfce-ui-settings.desktop.in.h:3
+#: ../dialogs/appearance-settings/expidus-ui-settings.desktop.in.h:3
 msgid ""
 "themes;user interface;styles;icons;fonts;anti-aliasing;hinting;sub-"
 "pixel;subpixel;rendering;ClearType;DPI;RGB;BGR;menu accelerators;keyboard "
@@ -660,7 +660,7 @@ msgid "Enable color management for %s"
 msgstr "เปิดใช้การจัดการสีสำหรับ %s"
 
 #: ../dialogs/color-settings/color-dialog.glade.h:1
-#: ../dialogs/color-settings/xfce4-color-settings.desktop.in.h:1
+#: ../dialogs/color-settings/expidus1-color-settings.desktop.in.h:1
 msgid "Color Profiles"
 msgstr "โพรไฟล์สี"
 
@@ -726,17 +726,17 @@ msgstr "เพิ่มโพรไฟล์สีให้กับอุปก
 #: ../dialogs/keyboard-settings/command-dialog.c:116
 #: ../dialogs/keyboard-settings/command-dialog.c:280
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:3
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:395
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:540
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:109
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:395
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:540
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:109
 msgid "_Cancel"
 msgstr "_ยกเลิก"
 
 #: ../dialogs/color-settings/color-dialog.glade.h:19
 #: ../dialogs/keyboard-settings/command-dialog.c:120
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:4
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:541
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:110
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:541
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:110
 msgid "_OK"
 msgstr "_ตกลง"
 
@@ -854,11 +854,11 @@ msgstr "โพรไฟล์ที่เข้ากันได้"
 msgid "Unknown"
 msgstr "ไม่ทราบ"
 
-#: ../dialogs/color-settings/xfce4-color-settings.desktop.in.h:2
+#: ../dialogs/color-settings/expidus1-color-settings.desktop.in.h:2
 msgid "Set color profiles"
 msgstr "กำหนดโพรไฟล์สี"
 
-#: ../dialogs/color-settings/xfce4-color-settings.desktop.in.h:3
+#: ../dialogs/color-settings/expidus1-color-settings.desktop.in.h:3
 msgid "color;settings;management;display;monitors;printers;webcams;scanners;"
 msgstr ""
 
@@ -897,8 +897,8 @@ msgid "The primary display is currently configured to show:"
 msgstr "จอแสดงผลหลักถูกกำหนดไว้ให้แสดง:"
 
 #: ../dialogs/display-settings/display-dialog.glade.h:5
-msgid "Xfce Panel"
-msgstr "พาเนล Xfce"
+msgid "Expidus Panel"
+msgstr "พาเนล Expidus"
 
 #: ../dialogs/display-settings/display-dialog.glade.h:6
 msgid "Desktop icons"
@@ -913,12 +913,12 @@ msgid "Configure..."
 msgstr "ตั้งค่า..."
 
 #: ../dialogs/display-settings/display-dialog.glade.h:9
-#: ../dialogs/display-settings/xfce-display-settings.desktop.in.h:1
+#: ../dialogs/display-settings/expidus-display-settings.desktop.in.h:1
 msgid "Display"
 msgstr "จอแสดงผล"
 
 #: ../dialogs/display-settings/display-dialog.glade.h:10
-#: ../dialogs/display-settings/xfce-display-settings.desktop.in.h:2
+#: ../dialogs/display-settings/expidus-display-settings.desktop.in.h:2
 msgid "Configure screen settings and layout"
 msgstr "ตั้งค่าหน้าจอและการจัดเรียง"
 
@@ -1156,10 +1156,10 @@ msgid "Once a display profile is deleted it cannot be restored."
 msgstr "เมื่อลบโพรไฟล์จอแสดงผลแล้ว จะไม่สามารถกู้คืนได้อีก"
 
 #: ../dialogs/display-settings/main.c:2147
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:134
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:382
-#: ../dialogs/mime-settings/xfce-mime-window.c:1079
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:144
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:134
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:382
+#: ../dialogs/mime-settings/expidus-mime-window.c:1079
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:144
 msgid "Cancel"
 msgstr "ยกเลิก"
 
@@ -1169,8 +1169,8 @@ msgstr "ลบ"
 
 #: ../dialogs/display-settings/main.c:2250
 #, c-format
-msgid "%d Xfce Panels"
-msgstr "พาเนล Xfce %d อัน"
+msgid "%d Expidus Panels"
+msgstr "พาเนล Expidus %d อัน"
 
 #: ../dialogs/display-settings/main.c:3281
 msgid ""
@@ -1208,8 +1208,8 @@ msgstr "เฉพาะ %s (2)"
 
 #: ../dialogs/display-settings/main.c:4266
 #: ../dialogs/display-settings/main.c:4303
-msgid "Unable to start the Xfce Display Settings"
-msgstr "ไม่สามารถเปิดทำงานโปรแกรมตั้งค่าจอแสดงผลของ Xfce"
+msgid "Unable to start the Expidus Display Settings"
+msgstr "ไม่สามารถเปิดทำงานโปรแกรมตั้งค่าจอแสดงผลของ Expidus"
 
 #: ../dialogs/display-settings/main.c:4298
 msgid "ATI Settings"
@@ -1219,7 +1219,7 @@ msgstr "ค่าตั้งของ ATI"
 msgid "Unable to launch the proprietary driver settings"
 msgstr "ไม่สามารถเรียกทำงานโปรแกรมตั้งค่าของไดรเวอร์เชิงพาณิชย์"
 
-#: ../dialogs/display-settings/xfce-display-settings.desktop.in.h:3
+#: ../dialogs/display-settings/expidus-display-settings.desktop.in.h:3
 msgid ""
 "display;settings;screen;resolution;refresh;rate;rotation;external;projectors;monitors;LCD;CRT;HiDPI;"
 msgstr ""
@@ -1255,43 +1255,43 @@ msgid "Select command"
 msgstr "เลือกคำสั่ง"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:281
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:396
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:396
 msgid "_Open"
 msgstr "_เปิด"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:285
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:389
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:402
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:389
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:402
 msgid "All Files"
 msgstr "ทุกแฟ้ม"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:290
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:394
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:407
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:394
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:407
 msgid "Executable Files"
 msgstr "แฟ้มโปรแกรม"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:305
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:409
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:422
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:409
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:422
 msgid "Perl Scripts"
 msgstr "สคริปต์ Perl"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:311
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:415
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:428
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:415
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:428
 msgid "Python Scripts"
 msgstr "สคริปต์ Python"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:317
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:421
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:434
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:421
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:434
 msgid "Ruby Scripts"
 msgstr "สคริปต์ Ruby"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:323
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:427
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:440
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:427
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:440
 msgid "Shell Scripts"
 msgstr "เชลล์สคริปต์"
 
@@ -1304,12 +1304,12 @@ msgid "Select keyboard layout and variant"
 msgstr "เลือกผังแป้นพิมพ์และแบบย่อย"
 
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:5
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.desktop.in.h:1
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.desktop.in.h:1
 msgid "Keyboard"
 msgstr "แป้นพิมพ์"
 
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:6
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.desktop.in.h:2
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.desktop.in.h:2
 msgid "Edit keyboard settings and application shortcuts"
 msgstr "ตั้งค่าแป้นพิมพ์และปุ่มลัดเรียกโปรแกรม"
 
@@ -1436,57 +1436,57 @@ msgstr "ไม่สามารถตั้งค่าเริ่มต้น
 
 #: ../dialogs/keyboard-settings/main.c:104
 #, c-format
-msgid "Failed to connect to xfconf daemon. Reason: %s"
-msgstr "เชื่อมต่อไปยังดีมอน xfconf ไม่สำเร็จ สาเหตุ: %s"
+msgid "Failed to connect to esconf daemon. Reason: %s"
+msgstr "เชื่อมต่อไปยังดีมอน esconf ไม่สำเร็จ สาเหตุ: %s"
 
 #: ../dialogs/keyboard-settings/main.c:115
 msgid "Could not create the settings dialog."
 msgstr "ไม่สามารถสร้างกล่องโต้ตอบตั้งค่าได้"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:397
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:397
 msgid "Command"
 msgstr "คำสั่ง"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:402
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:402
 msgid "Shortcut"
 msgstr "ปุ่มลัด"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:478
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:478
 msgid "Layout"
 msgstr "ผัง"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:479
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:479
 msgid "Variant"
 msgstr "แบบย่อย"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1246
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1247
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1246
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1247
 msgid "Reset to Defaults"
 msgstr "คืนค่าปริยาย"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1248
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1248
 msgid ""
 "This will reset all shortcuts to their default values. Do you really want to"
 " do this?"
 msgstr "นี่จะเป็นการคืนค่าปุ่มลัดทั้งหมดกลับเป็นค่าปริยาย คุณต้องการคืนค่าจริงหรือไม่?"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1250
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1250
 msgid "No"
 msgstr "ไม่"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1251
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1251
 msgid "Yes"
 msgstr "ใช่"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1327
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1327
 msgid "The system defaults will be restored next time you log in."
 msgstr "จะคืนค่าปริยายของระบบในครั้งต่อไปที่คุณเข้าระบบ"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1329
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1329
 msgid "Warning"
 msgstr "คำเตือน"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.desktop.in.h:3
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.desktop.in.h:3
 msgid "numlock;keyboard;layout;shortcuts;"
 msgstr ""
 
@@ -1494,211 +1494,211 @@ msgstr ""
 msgid "Could not create the mime dialog."
 msgstr "ไม่สามารถสร้างกล่องโต้ตอบ MIME ได้"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:128
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:128
 msgid "Select Application"
 msgstr "เลือกโปรแกรม"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:136
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:383
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:136
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:383
 msgid "Open"
 msgstr "เปิด"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:205
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:205
 msgid "Use a c_ustom command:"
 msgstr "ใช้คำสั่ง_กำหนดเอง:"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:206
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:206
 msgid ""
 "Use a custom command for an application that is not available from the above"
 " application list."
 msgstr "ใช้คำสั่งที่กำหนดเองเพื่อเรียกโปรแกรมที่ไม่อยู่ในรายชื่อข้างต้น"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:224
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:224
 msgid "_Browse..."
 msgstr "_ท่องดู..."
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:379
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:379
 msgid "Select an Application"
 msgstr "เลือกโปรแกรม"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:529
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:529
 msgid "None available"
 msgstr "ไม่มีโปรแกรม"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:576
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:576
 msgid "Recommended Applications"
 msgstr "โปรแกรมแนะนำ"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:594
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:594
 msgid "Other Applications"
 msgstr "โปรแกรมอื่นๆ"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:614
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:614
 #, c-format
 msgid "Open <i>%s</i> and other files of type \"%s\" with:"
 msgstr "เปิด <i>%s</i> และแฟ้มอื่นๆ ที่เป็นชนิด \"%s\" ด้วย:"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:650
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:650
 #, c-format
 msgid "Failed to add new application \"%s\""
 msgstr "เพิ่มโปรแกรมใหม่ \"%s\" ไม่สำเร็จ"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:145
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:152
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:145
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:152
 msgid "Press left mouse button to change the selected application."
 msgstr "กดเมาส์ปุ่มซ้ายเพื่อเปลี่ยนโปรแกรมที่เลือก"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:151
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:151
 msgid "Application Chooser Button"
 msgstr "ปุ่มเลือกโปรแกรม"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:303
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:303
 msgid "No application selected"
 msgstr "ไม่ได้เลือกโปรแกรมใด"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:319
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:319
 msgid "Failed to set default Web Browser"
 msgstr "กำหนดโปรแกรมท่องเว็บปริยายไม่สำเร็จ"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:320
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:320
 msgid "Failed to set default Mail Reader"
 msgstr "กำหนดโปรแกรมอ่านเมลปริยายไม่สำเร็จ"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:321
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:321
 msgid "Failed to set default File Manager"
 msgstr "กำหนดโปรแกรมจัดการแฟ้มปริยายไม่สำเร็จ"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:322
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:322
 msgid "Failed to set default Terminal Emulator"
 msgstr "กำหนดโปรแกรมจำลองเทอร์มินัลปริยายไม่สำเร็จ"
 
 #. allocate the chooser
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:392
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:392
 msgid "Select application"
 msgstr "เลือกโปรแกรม"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:505
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:505
 msgid "Choose a custom Web Browser"
 msgstr "เลือกกำหนดโปรแกรมท่องเว็บ"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:506
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:506
 msgid "Choose a custom Mail Reader"
 msgstr "เลือกกำหนดโปรแกรมอ่านเมล"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:507
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:507
 msgid "Choose a custom File Manager"
 msgstr "เลือกกำหนดโปรแกรมจัดการแฟ้ม"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:508
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:508
 msgid "Choose a custom Terminal Emulator"
 msgstr "เลือกกำหนดโปรแกรมจำลองเทอร์มินัล"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:513
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:513
 msgid ""
 "Specify the application you want to use\n"
-"as default Web Browser for Xfce:"
-msgstr "ระบุโปรแกรมที่คุณต้องการใช้\nเป็นโปรแกรมท่องเว็บปริยายสำหรับ Xfce:"
+"as default Web Browser for Expidus:"
+msgstr "ระบุโปรแกรมที่คุณต้องการใช้\nเป็นโปรแกรมท่องเว็บปริยายสำหรับ Expidus:"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:514
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:514
 msgid ""
 "Specify the application you want to use\n"
-"as default Mail Reader for Xfce:"
-msgstr "ระบุโปรแกรมที่คุณต้องการใช้\nเป็นโปรแกรมอ่านเมลปริยายสำหรับ Xfce:"
+"as default Mail Reader for Expidus:"
+msgstr "ระบุโปรแกรมที่คุณต้องการใช้\nเป็นโปรแกรมอ่านเมลปริยายสำหรับ Expidus:"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:515
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:515
 msgid ""
 "Specify the application you want to use\n"
-"as default File Manager for Xfce:"
-msgstr "ระบุโปรแกรมที่คุณต้องการใช้\nเป็นโปรแกรมจัดการแฟ้มปริยายสำหรับ Xfce:"
+"as default File Manager for Expidus:"
+msgstr "ระบุโปรแกรมที่คุณต้องการใช้\nเป็นโปรแกรมจัดการแฟ้มปริยายสำหรับ Expidus:"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:516
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:516
 msgid ""
 "Specify the application you want to use\n"
-"as default Terminal Emulator for Xfce:"
-msgstr "ระบุโปรแกรมที่คุณต้องการใช้\nเป็นโปรแกรมจำลองเทอร์มินัลปริยายสำหรับ Xfce:"
+"as default Terminal Emulator for Expidus:"
+msgstr "ระบุโปรแกรมที่คุณต้องการใช้\nเป็นโปรแกรมจำลองเทอร์มินัลปริยายสำหรับ Expidus:"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:580
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:580
 msgid "Browse the file system to choose a custom command."
 msgstr "ท่องดูระบบแฟ้มเพื่อเลือกกำหนดคำสั่งเอง"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:789
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:789
 msgid "_Other..."
 msgstr "_อื่นๆ..."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:790
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:790
 msgid "Use a custom application which is not included in the above list."
 msgstr "ใช้โปรแกรมที่กำหนดเองซึ่งไม่รวมอยู่ในรายชื่อข้างต้น"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:113
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:113
 msgid "Choose Preferred Application"
 msgstr "เลือกโปรแกรมหลักๆ"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:256
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:256
 msgid ""
 "Please choose your preferred Web\n"
 "Browser now and click OK to proceed."
 msgstr "กรุณาเลือกโปรแกรมท่องเว็บที่คุณชอบ\nแล้วคลิก \"ตกลง\" เพื่อดำเนินการต่อ"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:258
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:258
 msgid ""
 "Please choose your preferred Mail Reader\n"
 "now and click OK to proceed."
 msgstr "กรุณาเลือกโปรแกรมอ่านเมลที่คุณชอบ\nแล้วคลิก \"ตกลง\" เพื่อดำเนินการต่อ"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:260
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:260
 msgid ""
 "Please choose your preferred File Manager\n"
 "now and click OK to proceed."
 msgstr "กรุณาเลือกโปรแกรมจัดการแฟ้มที่คุณชอบ\nแล้วคลิก \"ตกลง\" เพื่อดำเนินการต่อ"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:262
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:262
 msgid ""
 "Please choose your preferred Terminal\n"
 "Emulator now and click OK to proceed."
 msgstr "กรุณาเลือกโปรแกรมจำลองเทอร์มินัลที่คุณชอบ\nแล้วคลิก \"ตกลง\" เพื่อดำเนินการต่อ"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:41
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:41
 msgid "Failed to execute default Web Browser"
 msgstr "เรียกทำงานโปรแกรมท่องเว็บปริยายไม่สำเร็จ"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:42
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:42
 msgid "Failed to execute default Mail Reader"
 msgstr "เรียกทำงานโปรแกรมอ่านเมลปริยายไม่สำเร็จ"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:43
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:43
 msgid "Failed to execute default File Manager"
 msgstr "เรียกทำงานโปรแกรมจัดการแฟ้มปริยายไม่สำเร็จ"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:44
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:44
 msgid "Failed to execute default Terminal Emulator"
 msgstr "เรียกทำงานโปรแกรมจำลองเทอร์มินัลปริยายไม่สำเร็จ"
 
 #. Enable permanently dismissing this error.
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:86
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:86
 msgid "Do _not show this message again"
 msgstr "ไ_ม่ต้องแสดงข้อความนี้อีก"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:116
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:116
 msgid "Print version information and exit"
 msgstr "แสดงข้อมูลรุ่นแล้วจบโปรแกรม"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:117
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:117
 msgid ""
 "Launch the default helper of TYPE with the optional PARAMETER, where TYPE is"
 " one of the following values."
 msgstr "เรียกตัวช่วยเรียกปริยายของ \"ชนิด\" ที่ระบุ โดยอาจเพิ่ม \"พารามิเตอร์\" ประกอบได้ โดย \"ชนิด\" ต้องเป็นค่าใดค่าหนึ่งต่อไปนี้"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:117
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:118
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:117
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:118
 msgid "TYPE [PARAMETER]"
 msgstr "ชนิด [พารามิเตอร์]"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:118
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:118
 msgid ""
 "Query the default helper of TYPE, where TYPE is one of the following values."
 msgstr "สอบถามโปรแกรมช่วยปริยายสำหรับ \"ชนิด\" เมื่อ \"ชนิด\" คือค่าใดค่าหนึ่งต่อไปนี้"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:148
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:148
 msgid ""
 "The following TYPEs are supported for the --launch and --query commands:\n"
 "\n"
@@ -1708,200 +1708,200 @@ msgid ""
 "  TerminalEmulator - The preferred Terminal Emulator."
 msgstr "รองรับ \"ชนิด\" ต่อไปนี้สำหรับคำสั่ง --launch และ --query:\n\n  WebBrowser       - โปรแกรมหลักสำหรับท่องเว็บ\n  MailReader       - โปรแกรมหลักสำหรับอ่านเมล\n  FileManager      - โปรแกรมหลักสำหรับจัดการแฟ้ม\n  TerminalEmulator - โปรแกรมหลักสำหรับจำลองเทอร์มินัล"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:183
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:256
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:183
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:256
 #, c-format
 msgid "Invalid helper type \"%s\""
 msgstr "ชนิด \"%s\" ของตัวช่วยเรียก ไม่ถูกต้อง"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:240
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:240
 #, c-format
 msgid ""
-"%s (Xfce %s)\n"
+"%s (Expidus %s)\n"
 "\n"
 "Copyright (c) 2003-2006\n"
 "        os-cillation e.K. All rights reserved.\n"
 "\n"
-"Written by Benedikt Meurer <benny@xfce.org>.\n"
+"Written by Benedikt Meurer <benny@expidus.org>.\n"
 "\n"
 "Built with Gtk+-%d.%d.%d, running Gtk+-%d.%d.%d.\n"
 "\n"
 "Please report bugs to <%s>.\n"
-msgstr "%s (Xfce %s)\n\nCopyright (c) 2003-2006\n        os-cillation e.K. All rights reserved.\n\nเขียนโดย Benedikt Meurer <benny@xfce.org>.\n\nประกอบสร้างโดยใช้ Gtk+-%d.%d.%d, กำลังทำงานโดยใช้ Gtk+-%d.%d.%d\n\nหากพบปัญหา กรุณารายงานที่ <%s>\n"
+msgstr "%s (Expidus %s)\n\nCopyright (c) 2003-2006\n        os-cillation e.K. All rights reserved.\n\nเขียนโดย Benedikt Meurer <benny@expidus.org>.\n\nประกอบสร้างโดยใช้ Gtk+-%d.%d.%d, กำลังทำงานโดยใช้ Gtk+-%d.%d.%d\n\nหากพบปัญหา กรุณารายงานที่ <%s>\n"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:266
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:266
 #, c-format
 msgid "No helper defined for \"%s\"."
 msgstr "ไม่ได้กำหนดโปรแกรมช่วยสำหรับ \"%s\" ไว้"
 
-#: ../dialogs/mime-settings/xfce-mime-helper.c:406
+#: ../dialogs/mime-settings/expidus-mime-helper.c:406
 #, c-format
 msgid "No command specified"
 msgstr "ไม่ได้ระบุคำสั่ง"
 
-#: ../dialogs/mime-settings/xfce-mime-helper.c:742
-#: ../dialogs/mime-settings/xfce-mime-helper.c:781
-#: ../dialogs/mime-settings/xfce-mime-helper.c:878
-#: ../dialogs/mime-settings/xfce-mime-helper.c:917
+#: ../dialogs/mime-settings/expidus-mime-helper.c:742
+#: ../dialogs/mime-settings/expidus-mime-helper.c:781
+#: ../dialogs/mime-settings/expidus-mime-helper.c:878
+#: ../dialogs/mime-settings/expidus-mime-helper.c:917
 #, c-format
 msgid "Failed to open %s for writing"
 msgstr "เปิดแฟ้ม %s เพื่อเขียนไม่สำเร็จ"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:184
-#: ../dialogs/mime-settings/xfce4-mime-settings.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:184
+#: ../dialogs/mime-settings/expidus1-mime-settings.desktop.in.h:1
 msgid "Default Applications"
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:188
-#: ../dialogs/mime-settings/xfce4-mime-settings.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus-mime-window.c:188
+#: ../dialogs/mime-settings/expidus1-mime-settings.desktop.in.h:2
 msgid "Associate preferred applications with MIME types"
 msgstr ""
 
 #. Internet
-#: ../dialogs/mime-settings/xfce-mime-window.c:211
+#: ../dialogs/mime-settings/expidus-mime-window.c:211
 msgid "_Internet"
 msgstr "_อินเทอร์เน็ต"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:224
-#: ../dialogs/mime-settings/xfce4-web-browser.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:224
+#: ../dialogs/mime-settings/expidus1-web-browser.desktop.in.h:1
 msgid "Web Browser"
 msgstr "โปรแกรมท่องเว็บ"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:232
+#: ../dialogs/mime-settings/expidus-mime-window.c:232
 msgid ""
 "The default Web Browser will be used to open hyperlinks and display help "
 "contents."
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:255
-#: ../dialogs/mime-settings/xfce4-mail-reader.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:255
+#: ../dialogs/mime-settings/expidus1-mail-reader.desktop.in.h:1
 msgid "Mail Reader"
 msgstr "โปรแกรมอ่านเมล"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:263
+#: ../dialogs/mime-settings/expidus-mime-window.c:263
 msgid ""
 "The default Mail Reader will be used to compose emails when you click on "
 "email addresses."
 msgstr ""
 
 #. Utilities
-#: ../dialogs/mime-settings/xfce-mime-window.c:282
+#: ../dialogs/mime-settings/expidus-mime-window.c:282
 msgid "_Utilities"
 msgstr "เ_ครื่องมือทั่วไป"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:295
-#: ../dialogs/mime-settings/xfce4-file-manager.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:295
+#: ../dialogs/mime-settings/expidus1-file-manager.desktop.in.h:1
 msgid "File Manager"
 msgstr "โปรแกรมจัดการแฟ้ม"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:303
+#: ../dialogs/mime-settings/expidus-mime-window.c:303
 msgid ""
 "The default File Manager will be used to browse the contents of folders."
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:326
-#: ../dialogs/mime-settings/xfce4-terminal-emulator.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:326
+#: ../dialogs/mime-settings/expidus1-terminal-emulator.desktop.in.h:1
 msgid "Terminal Emulator"
 msgstr "โปรแกรมจำลองเทอร์มินัล"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:334
+#: ../dialogs/mime-settings/expidus-mime-window.c:334
 msgid ""
 "The default Terminal Emulator will be used to run commands that require a "
 "CLI environment."
 msgstr ""
 
 #. Mimes
-#: ../dialogs/mime-settings/xfce-mime-window.c:353
+#: ../dialogs/mime-settings/expidus-mime-window.c:353
 msgid "_Others"
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:363
+#: ../dialogs/mime-settings/expidus-mime-window.c:363
 msgid "_Filter:"
 msgstr "_กรอง:"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:371
+#: ../dialogs/mime-settings/expidus-mime-window.c:371
 msgid "Clear filter"
 msgstr "ล้างตัวกรอง"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:420
+#: ../dialogs/mime-settings/expidus-mime-window.c:420
 msgid "MIME Type"
 msgstr "ชนิด MIME"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:448
+#: ../dialogs/mime-settings/expidus-mime-window.c:448
 msgid "Status"
 msgstr "สถานะ"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:468
+#: ../dialogs/mime-settings/expidus-mime-window.c:468
 msgid "Default Application"
 msgstr "โปรแกรมปริยาย"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:643
-#: ../dialogs/mime-settings/xfce-mime-window.c:768
+#: ../dialogs/mime-settings/expidus-mime-window.c:643
+#: ../dialogs/mime-settings/expidus-mime-window.c:768
 msgid "User Set"
 msgstr "ผู้ใช้กำหนด"
 
 #. sort the names but keep Default on top
-#: ../dialogs/mime-settings/xfce-mime-window.c:645
-#: ../dialogs/mime-settings/xfce-mime-window.c:768
+#: ../dialogs/mime-settings/expidus-mime-window.c:645
+#: ../dialogs/mime-settings/expidus-mime-window.c:768
 #: ../dialogs/mouse-settings/main.c:397 ../dialogs/mouse-settings/main.c:399
 #: ../dialogs/mouse-settings/main.c:459
 msgid "Default"
 msgstr "ปริยาย"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:714
+#: ../dialogs/mime-settings/expidus-mime-window.c:714
 #, c-format
 msgid "%d MIME type found"
 msgid_plural "%d MIME types found"
 msgstr[0] "พบชนิด MIME %d ชนิด"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:813
+#: ../dialogs/mime-settings/expidus-mime-window.c:813
 #, c-format
 msgid "Failed to set application \"%s\" for mime type \"%s\"."
 msgstr "กำหนดโปรแกรม \"%s\" สำหรับชนิด MIME \"%s\" ไม่สำเร็จ"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1070
+#: ../dialogs/mime-settings/expidus-mime-window.c:1070
 #, c-format
 msgid "Are you sure you want to reset content type \"%s\" to its default value?"
 msgstr "คุณแน่ใจหรือไม่ว่าต้องการคืนค่าของชนิดเนื้อหา \"%s\" กลับเป็นค่าปริยาย?"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1074
+#: ../dialogs/mime-settings/expidus-mime-window.c:1074
 msgid "Question"
 msgstr "คำถาม"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1077
+#: ../dialogs/mime-settings/expidus-mime-window.c:1077
 msgid ""
 "This will remove your custom mime-association and restore the system-wide "
 "default."
 msgstr "นี่จะเป็นการลบการเชื่อมโยงที่คุณกำหนดเองไว้ และคืนค่ากลับเป็นค่าปริยายของระบบ"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1081
-#: ../dialogs/mime-settings/xfce-mime-window.c:1152
+#: ../dialogs/mime-settings/expidus-mime-window.c:1081
+#: ../dialogs/mime-settings/expidus-mime-window.c:1152
 msgid "Reset to Default"
 msgstr "คืนค่าปริยาย"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1147
+#: ../dialogs/mime-settings/expidus-mime-window.c:1147
 msgid "Choose Application..."
 msgstr "เลือกโปรแกรม..."
 
-#: ../dialogs/mime-settings/xfce4-mime-settings.desktop.in.h:3
+#: ../dialogs/mime-settings/expidus1-mime-settings.desktop.in.h:3
 msgid ""
 "file;type;extension;association;open with;web browser;mail reader;file "
 "manager;terminal emulator;"
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce4-file-manager.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus1-file-manager.desktop.in.h:2
 msgid "Browse the file system"
 msgstr "ท่องดูระบบแฟ้ม"
 
-#: ../dialogs/mime-settings/xfce4-mail-reader.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus1-mail-reader.desktop.in.h:2
 msgid "Read your email"
 msgstr "อ่านอีเมลของคุณ"
 
-#: ../dialogs/mime-settings/xfce4-terminal-emulator.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus1-terminal-emulator.desktop.in.h:2
 msgid "Use the command line"
 msgstr "ใช้บรรทัดคำสั่ง"
 
-#: ../dialogs/mime-settings/xfce4-web-browser.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus1-web-browser.desktop.in.h:2
 msgid "Browse the web"
 msgstr "ท่องดูเว็บ"
 
@@ -2105,9 +2105,9 @@ msgstr "Vimprobable2"
 msgid "W3M Text Browser"
 msgstr "โปรแกรมท่องเว็บโหมดข้อความ W3M"
 
-#: ../dialogs/mime-settings/helpers/xfce4-terminal.desktop.in.in.h:1
-msgid "Xfce Terminal"
-msgstr "เทอร์มินัลของ Xfce"
+#: ../dialogs/mime-settings/helpers/expidus1-terminal.desktop.in.in.h:1
+msgid "Expidus Terminal"
+msgstr "เทอร์มินัลของ Expidus"
 
 #: ../dialogs/mime-settings/helpers/xfe.desktop.in.in.h:1
 msgid "Xfe File Manager"
@@ -2184,12 +2184,12 @@ msgid "Counterclockwise"
 msgstr "ทวนเข็มนาฬิกา"
 
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:11
-#: ../dialogs/mouse-settings/xfce-mouse-settings.desktop.in.h:1
+#: ../dialogs/mouse-settings/expidus-mouse-settings.desktop.in.h:1
 msgid "Mouse and Touchpad"
 msgstr "เมาส์และทัชแพด"
 
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:12
-#: ../dialogs/mouse-settings/xfce-mouse-settings.desktop.in.h:2
+#: ../dialogs/mouse-settings/expidus-mouse-settings.desktop.in.h:2
 msgid "Configure pointer device behavior and appearance"
 msgstr "ตั้งค่าพฤติกรรมและรูปลักษณ์ของอุปกรณ์ชี้"
 
@@ -2361,195 +2361,195 @@ msgstr "ตัวอย่าง"
 msgid "_Theme"
 msgstr "ชุด_ตกแต่ง"
 
-#: ../dialogs/mouse-settings/xfce-mouse-settings.desktop.in.h:3
+#: ../dialogs/mouse-settings/expidus-mouse-settings.desktop.in.h:3
 msgid ""
 "settings;buttons;scroll;direction;pointer;speed;double click;theme;wheel;"
 msgstr ""
 
-#: ../xfce4-settings-editor/main.c:163
-#: ../xfce4-settings-editor/xfce4-settings-editor.desktop.in.h:1
+#: ../expidus1-settings-editor/main.c:163
+#: ../expidus1-settings-editor/expidus1-settings-editor.desktop.in.h:1
 msgid "Settings Editor"
 msgstr "เครื่องมือแก้ไขค่าตั้ง"
 
-#: ../xfce4-settings-editor/main.c:170
-msgid "Customize settings stored by Xfconf"
-msgstr "ปรับแต่งค่าตั้งที่เก็บอยู่ใน Xfconf"
+#: ../expidus1-settings-editor/main.c:170
+msgid "Customize settings stored by Esconf"
+msgstr "ปรับแต่งค่าตั้งที่เก็บอยู่ใน Esconf"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:253
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:253
 msgid "Channel"
 msgstr "หมวด"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:287
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:287
 msgid "Property"
 msgstr "คุณสมบัติ"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:294
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:294
 msgid "Type"
 msgstr "ชนิด"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:301
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:301
 msgid "Locked"
 msgstr "ล็อค"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:308
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:308
 msgid "Value"
 msgstr "ค่า"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:328
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:328
 msgid "New property"
 msgstr "คุณสมบัติใหม่"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:341
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:341
 msgid "Edit selected property"
 msgstr "แก้ไขคุณสมบัติที่เลือก"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:354
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:354
 msgid "Reset selected property"
 msgstr "ล้างค่าคุณสมบัติที่เลือก"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:461
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:552
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:671
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:89
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:461
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:552
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:671
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:89
 msgid "Empty"
 msgstr "ว่างเปล่า"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:464
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:464
 msgid "Array"
 msgstr "แอร์เรย์"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:469
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:90
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:469
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:90
 msgid "String"
 msgstr "สตริง"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:477
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:477
 msgid "Integer"
 msgstr "จำนวนเต็ม"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:480
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:91
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:480
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:91
 msgid "Boolean"
 msgstr "บูลีน"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:483
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:93
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:483
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:93
 msgid "Double"
 msgstr "ทศนิยม"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:817
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:817
 msgid "_Reset Channel"
 msgstr "_ล้างค่าหมวด"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:818
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:818
 msgid "Resetting a channel will permanently remove those custom settings."
 msgstr "การล้างค่าหมวดจะเป็นการลบค่าตั้งที่ได้ปรับแต่งไว้ทิ้งอย่างถาวร"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:819
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:819
 #, c-format
 msgid "Are you sure you want to reset channel \"%s\" and all its properties?"
 msgstr "คุณแน่ใจหรือไม่ว่าต้องการล้างค่าหมวด \"%s\" พร้อมคุณสมบัติทั้งหมดในหมวด?"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:894
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:894
 msgid "reset"
 msgstr "ล้างค่า"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:951
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:951
 #, c-format
 msgid "Monitor %s"
 msgstr "เฝ้าสังเกต %s"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:959
-msgid "Watch an Xfconf channel for property changes"
-msgstr "เฝ้าสังเกตหมวดใน Xfconf เพื่อรอการเปลี่ยนแปลงคุณสมบัติ"
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:959
+msgid "Watch an Esconf channel for property changes"
+msgstr "เฝ้าสังเกตหมวดใน Esconf เพื่อรอการเปลี่ยนแปลงคุณสมบัติ"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:961
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:961
 msgid "Clear"
 msgstr "ล้าง"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:962
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:962
 msgid "Close"
 msgstr "ปิด"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:995
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:995
 #, c-format
 msgid "start monitoring channel \"%s\""
 msgstr "เริ่มเฝ้าสังเกตหมวด \"%s\""
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1038
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1377
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1038
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1377
 msgid "_Reset"
 msgstr "_ล้างค่า"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1044
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1044
 msgid "_Monitor"
 msgstr "เ_ฝ้าสังเกต"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1054
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1054
 msgid "Refresh"
 msgstr "ปรับแสดง"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1378
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1378
 msgid "Resetting a property will permanently remove those custom settings."
 msgstr "การล้างค่าคุณสมบัติจะเป็นการลบค่าตั้งที่ได้ปรับแต่งไว้ทิ้งอย่างถาวร"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1379
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1379
 #, c-format
 msgid "Are you sure you want to reset property \"%s\"?"
 msgstr "คุณแน่ใจหรือไม่ว่าต้องการล้างค่าคุณสมบัติ \"%s\"?"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:92
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:92
 msgid "Int"
 msgstr "เต็ม"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:94
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:94
 msgid "Unsigned Int"
 msgstr "เต็มบวก"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:95
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:95
 msgid "Int64"
 msgstr "เต็ม64"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:96
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:96
 msgid "Unsigned Int64"
 msgstr "เต็มบวก64"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:141
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:141
 msgid "New Property"
 msgstr "คุณสมบัติใหม่"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:145
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:145
 msgid "Save"
 msgstr "บันทึก"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:160
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:160
 msgid "_Property:"
 msgstr "คุณ_สมบัติ:"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:174
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:174
 msgid "_Type:"
 msgstr "_ชนิด:"
 
 #. strings
 #. integers
 #. bool
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:203
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:213
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:224
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:203
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:213
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:224
 msgid "_Value:"
 msgstr "_ค่า:"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:381
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:381
 #, c-format
 msgid "Property names must start with a '/' character"
 msgstr "ชื่อคุณสมบัติต้องขึ้นต้นด้วยอักขระ '/'"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:392
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:392
 #, c-format
 msgid "The root element ('/') is not a valid property name"
 msgstr "อิลิเมนต์ราก ('/') ไม่ใช่ชื่อคุณสมบัติที่ใช้ได้"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:409
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:409
 #, c-format
 msgid ""
 "Property names can only include the ASCII characters A-Z, a-z, 0-9, '_', "
@@ -2557,125 +2557,125 @@ msgid ""
 "separator"
 msgstr "ชื่อคุณสมบัติสามารถใช้ได้เพียงอักขระ ASCII A-Z, a-z, 0-9, '_', '-', ':', '.', ',', '[', ']', '{', '}', '<' และ '>' รวมถึง '/' ในฐานะเครื่องหมายคั่นเท่านั้น"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:423
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:423
 #, c-format
 msgid "Property names cannot have two or more consecutive '/' characters"
 msgstr "ชื่อคุณสมบัติไม่สามารถมีอักขระ '/' สองตัวติดกันได้"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:437
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:437
 #, c-format
 msgid "Property names cannot end with a '/' character"
 msgstr "ชื่อคุณสมบัติไม่สามารถลงท้ายด้วยอักขระ '/' ได้"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:650
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:650
 msgid "Edit Property"
 msgstr "แก้ไขคุณสมบัติ"
 
-#: ../xfce4-settings-editor/xfce4-settings-editor.desktop.in.h:2
-msgid "Graphical settings editor for Xfconf"
-msgstr "โปรแกรมแก้ไขค่าตั้งแบบกราฟิกสำหรับ Xfconf"
+#: ../expidus1-settings-editor/expidus1-settings-editor.desktop.in.h:2
+msgid "Graphical settings editor for Esconf"
+msgstr "โปรแกรมแก้ไขค่าตั้งแบบกราฟิกสำหรับ Esconf"
 
-#: ../xfce4-settings-editor/xfce4-settings-editor.desktop.in.h:3
+#: ../expidus1-settings-editor/expidus1-settings-editor.desktop.in.h:3
 msgid "registry;regedit;configuration file;"
 msgstr ""
 
-#: ../xfce4-settings-manager/main.c:44
+#: ../expidus1-settings-manager/main.c:44
 msgid "Settings dialog to show"
 msgstr "กล่องโต้ตอบตั้งค่าที่จะแสดง"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:221
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:221
 msgid "All _Settings"
 msgstr "การ_ตั้งค่าทุกรายการ"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:419
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:419
 msgid "Settings"
 msgstr "การตั้งค่า"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:421
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:421
 msgid "Customize your desktop"
 msgstr "ปรับแต่งเดสก์ท็อปของคุณ"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:937
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:948
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:937
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:948
 #, c-format
 msgid "Unable to start \"%s\""
 msgstr "ไม่สามารถเปิดทำงาน \"%s\""
 
-#: ../xfce4-settings-manager/xfce-settings-manager.desktop.in.h:1
+#: ../expidus1-settings-manager/expidus-settings-manager.desktop.in.h:1
 msgid "Settings Manager"
 msgstr "โปรแกรมจัดการการตั้งค่า"
 
-#: ../xfce4-settings-manager/xfce-settings-manager.desktop.in.h:2
-msgid "Graphical Settings Manager for Xfce"
+#: ../expidus1-settings-manager/expidus-settings-manager.desktop.in.h:2
+msgid "Graphical Settings Manager for Expidus"
 msgstr ""
 
-#: ../xfce4-settings-manager/xfce-settings-manager.desktop.in.h:3
+#: ../expidus1-settings-manager/expidus-settings-manager.desktop.in.h:3
 msgid "control;panel;center;system;settings;personalize;hardware;"
 msgstr ""
 
-#: ../xfsettingsd/accessibility.c:412
+#: ../essettingsd/accessibility.c:412
 msgid "Sticky keys are enabled"
 msgstr "เปิดใช้การค้างปุ่มกดแล้ว"
 
-#: ../xfsettingsd/accessibility.c:414
+#: ../essettingsd/accessibility.c:414
 msgid "Sticky keys are disabled"
 msgstr "ปิดการค้างปุ่มกดแล้ว"
 
-#: ../xfsettingsd/accessibility.c:416
+#: ../essettingsd/accessibility.c:416
 msgid "Sticky keys"
 msgstr "ค้างปุ่มกด"
 
-#: ../xfsettingsd/accessibility.c:421
+#: ../essettingsd/accessibility.c:421
 msgid "Slow keys are enabled"
 msgstr "เปิดใช้การพิมพ์แบบช้าแล้ว"
 
-#: ../xfsettingsd/accessibility.c:423
+#: ../essettingsd/accessibility.c:423
 msgid "Slow keys are disabled"
 msgstr "ปิดการพิมพ์แบบช้าแล้ว"
 
-#: ../xfsettingsd/accessibility.c:425
+#: ../essettingsd/accessibility.c:425
 msgid "Slow keys"
 msgstr "การพิมพ์แบบช้า"
 
-#: ../xfsettingsd/accessibility.c:430
+#: ../essettingsd/accessibility.c:430
 msgid "Bounce keys are enabled"
 msgstr "เปิดใช้การป้องกันการกดแป้นรัวแล้ว"
 
-#: ../xfsettingsd/accessibility.c:432
+#: ../essettingsd/accessibility.c:432
 msgid "Bounce keys are disabled"
 msgstr "ปิดการป้องกันการกดแป้นรัวแล้ว"
 
-#: ../xfsettingsd/accessibility.c:434
+#: ../essettingsd/accessibility.c:434
 msgid "Bounce keys"
 msgstr "การป้องกันการกดแป้นรัว"
 
-#: ../xfsettingsd/keyboard-shortcuts.c:242
+#: ../essettingsd/keyboard-shortcuts.c:242
 #, c-format
 msgid "Failed to launch shortcut \"%s\""
 msgstr "เรียกทำงานปุ่มลัด \"%s\" ไม่สำเร็จ"
 
-#: ../xfsettingsd/main.c:103
+#: ../essettingsd/main.c:103
 msgid "Do not fork to the background"
 msgstr "ไม่ต้อง fork ไปทำงานเบื้องหลัง"
 
-#: ../xfsettingsd/main.c:104
+#: ../essettingsd/main.c:104
 msgid "Do not wait for a window manager on startup"
 msgstr "ไม่ต้องรอให้โปรแกรมจัดการหน้าต่างเปิดทำงาน"
 
-#: ../xfsettingsd/main.c:105
+#: ../essettingsd/main.c:105
 msgid "Replace running xsettings daemon (if any)"
 msgstr "แทนที่ดีมอน xsettings ที่ทำงานอยู่ (ถ้ามี)"
 
-#. value in xfconf isn't a string, so make a default one
-#: ../xfsettingsd/workspaces.c:333 ../xfsettingsd/workspaces.c:390
+#. value in esconf isn't a string, so make a default one
+#: ../essettingsd/workspaces.c:333 ../essettingsd/workspaces.c:390
 #, c-format
 msgid "Workspace %d"
 msgstr "พื้นที่ทำงาน %d"
 
-#: ../xfsettingsd/xfsettingsd.desktop.in.h:1
-msgid "Xfce Settings Daemon"
+#: ../essettingsd/essettingsd.desktop.in.h:1
+msgid "Expidus Settings Daemon"
 msgstr ""
 
-#: ../xfsettingsd/xfsettingsd.desktop.in.h:2
-msgid "The Xfce Settings Daemon"
-msgstr "ดีมอนค่าตั้งของ Xfce"
+#: ../essettingsd/essettingsd.desktop.in.h:2
+msgid "The Expidus Settings Daemon"
+msgstr "ดีมอนค่าตั้งของ Expidus"

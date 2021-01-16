@@ -4,32 +4,32 @@ AM_CPPFLAGS = \
 	$(PLATFORM_CPPFLAGS)
 
 noinst_LTLIBRARIES = \
-	libxfce4-settings.la
+	libexpidus1-settings.la
 
-libxfce4_settings_la_SOURCES = \
+libexpidus1_settings_la_SOURCES = \
 	display-name.c \
 	display-profiles.c \
 	display-profiles.h \
 	edid-parse.c \
 	edid.h \
-	xfce-randr.c \
-	xfce-randr.h
+	expidus-randr.c \
+	expidus-randr.h
 
-libxfce4_settings_la_CFLAGS = \
+libexpidus1_settings_la_CFLAGS = \
 	$(GTK_CFLAGS) \
-	$(LIBXFCE4UTIL_CFLAGS) \
-	$(XFCONF_CFLAGS) \
+	$(LIBEXPIDUS1UTIL_CFLAGS) \
+	$(ESCONF_CFLAGS) \
 	$(XRANDR_CFLAGS) \
 	$(LIBX11_CFLAGS) \
 	$(PLATFORM_CFLAGS)
 
-libxfce4_settings_la_LDFLAGS = \
+libexpidus1_settings_la_LDFLAGS = \
 	-no-undefined \
 	$(PLATFORM_LDFLAGS)
 
-libxfce4_settings_la_LIBADD = \
+libexpidus1_settings_la_LIBADD = \
 	$(GTK_LIBS) \
-	$(XFCONF_LIBS) \
+	$(ESCONF_LIBS) \
 	$(LIBX11_LIBS) -lm \
 	$(XRANDR_LIBS) \
 	$(GLIB_LIBS)

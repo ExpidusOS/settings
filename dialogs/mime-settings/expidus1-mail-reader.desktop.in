@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=endo-open --launch MailReader %u
+Icon=com.expidus.mailreader
+StartupNotify=true
+Terminal=false
+Categories=Network;X-EXPIDUS;X-Expidus-Toplevel;
+OnlyShowIn=EXPIDUS;
+X-EXPIDUS-MimeType=x-scheme-handler/mailto;
+X-AppStream-Ignore=True
+_Name=Mail Reader
+_Comment=Read your email

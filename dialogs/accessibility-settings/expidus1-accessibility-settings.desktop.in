@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+_Name=Accessibility
+_Comment=Improve keyboard and mouse accessibility
+_Keywords=assistive;technologies;keys;sticky;bounce;emulation;screen readers;magnifiers;a11y;i18n;l10n;AT-SPI;ATK;impairment;
+Exec=expidus1-accessibility-settings
+Icon=com.expidus.settings.accessibility
+Terminal=false
+Type=Application
+Categories=EXPIDUS;GTK;Settings;DesktopSettings;X-EXPIDUS-SettingsDialog;X-EXPIDUS-SystemSettings;
+StartupNotify=true
+OnlyShowIn=EXPIDUS;
+X-ExpidusPluggable=true
+X-ExpidusHelpPage=accessibility

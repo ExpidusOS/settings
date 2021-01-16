@@ -6,15 +6,15 @@
 # Balaam's Miracle <balaam@balaamsmiracle.com>, 2008
 # Pjotr <pjotrvertaalt@gmail.com>, 2014-2020
 # Pjotr pjotrvertaalt@gmail.com , 2011,2013
-# Stephan Arts <stephan@xfce.org>, 2008
+# Stephan Arts <stephan@expidus.org>, 2008
 msgid ""
 msgstr ""
-"Project-Id-Version: Xfce4-settings\n"
+"Project-Id-Version: Expidus1-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-19 12:47+0200\n"
 "PO-Revision-Date: 2020-08-19 19:50+0000\n"
 "Last-Translator: Pjotr <pjotrvertaalt@gmail.com>\n"
-"Language-Team: Dutch (http://www.transifex.com/xfce/xfce4-settings/language/nl/)\n"
+"Language-Team: Dutch (http://www.transifex.com/expidus/expidus1-settings/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -29,39 +29,39 @@ msgctxt "Monitor vendor"
 msgid "Unknown"
 msgstr "Onbekend"
 
-#: ../common/xfce-randr.c:296 ../dialogs/display-settings/main.c:4265
+#: ../common/expidus-randr.c:296 ../dialogs/display-settings/main.c:4265
 #, c-format
 msgid "Unable to query the version of the RandR extension being used"
 msgstr "Kan de versie van de gebruikte RandR-extensie niet bepalen"
 
 #. 1.2 is required
-#: ../common/xfce-randr.c:304
+#: ../common/expidus-randr.c:304
 #, c-format
 msgid ""
 "This system is using RandR %d.%d. For the display settings to work version "
 "1.2 is required at least"
 msgstr "Dit systeem maakt gebruik van RandR %d.%d. Voor het bewerken van de weergave-instellingen is minstens versie 1.2 vereist"
 
-#: ../common/xfce-randr.c:594
+#: ../common/expidus-randr.c:594
 msgid "Laptop"
 msgstr "Laptop"
 
 #. TRANSLATORS: an externally connected display, where %s is either the
 #. * model, vendor or ID, e.g. 'LP2480zx Monitor'
-#: ../common/xfce-randr.c:607 ../dialogs/color-settings/color-device.c:65
+#: ../common/expidus-randr.c:607 ../dialogs/color-settings/color-device.c:65
 msgid "Monitor"
 msgstr "Beeldscherm"
 
-#: ../common/xfce-randr.c:610
+#: ../common/expidus-randr.c:610
 msgid "Television"
 msgstr "Televisie"
 
-#: ../common/xfce-randr.c:614
+#: ../common/expidus-randr.c:614
 msgid "Digital display"
 msgstr "Digitaal beeldscherm"
 
 #: ../dialogs/accessibility-settings/accessibility-dialog.glade.h:1
-#: ../dialogs/accessibility-settings/xfce4-accessibility-settings.desktop.in.h:1
+#: ../dialogs/accessibility-settings/expidus1-accessibility-settings.desktop.in.h:1
 msgid "Accessibility"
 msgstr "Toegankelijkheid"
 
@@ -77,10 +77,10 @@ msgstr "Toegankelijkheid voor toetsenbord en muis instellen"
 #: ../dialogs/display-settings/profile-changed-dialog.glade.h:2
 #: ../dialogs/display-settings/main.c:4305
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:7
-#: ../dialogs/mime-settings/xfce-mime-window.c:190
+#: ../dialogs/mime-settings/expidus-mime-window.c:190
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:14
-#: ../xfce4-settings-editor/main.c:166
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:228
+#: ../expidus1-settings-editor/main.c:166
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:228
 msgid "_Close"
 msgstr "_Sluiten"
 
@@ -89,10 +89,10 @@ msgstr "_Sluiten"
 #: ../dialogs/color-settings/color-dialog.glade.h:4
 #: ../dialogs/display-settings/display-dialog.glade.h:11
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:8
-#: ../dialogs/mime-settings/xfce-mime-window.c:193
+#: ../dialogs/mime-settings/expidus-mime-window.c:193
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:13
-#: ../xfce4-settings-editor/main.c:165
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:217
+#: ../expidus1-settings-editor/main.c:165
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:217
 msgid "_Help"
 msgstr "_Hulp"
 
@@ -279,9 +279,9 @@ msgstr "Muisnabootsing"
 
 #: ../dialogs/accessibility-settings/accessibility-dialog.glade.h:45
 msgid ""
-"Bind a keyboard shortcut to xfce4-find-cursor to get visual feedback of the "
+"Bind a keyboard shortcut to expidus1-find-cursor to get visual feedback of the "
 "mouse pointer's current location."
-msgstr "Stel een sneltoets in voor xfce4-find-cursor om visuele terugkoppeling te krijgen inzake de huidige locatie van de de muispijl."
+msgstr "Stel een sneltoets in voor expidus1-find-cursor om visuele terugkoppeling te krijgen inzake de huidige locatie van de de muispijl."
 
 #: ../dialogs/accessibility-settings/accessibility-dialog.glade.h:46
 msgid "Show location of pointer on keypress"
@@ -299,7 +299,7 @@ msgstr "_Muis"
 #: ../dialogs/appearance-settings/main.c:106
 #: ../dialogs/color-settings/main.c:48 ../dialogs/display-settings/main.c:139
 #: ../dialogs/keyboard-settings/main.c:40 ../dialogs/mime-settings/main.c:43
-#: ../dialogs/mouse-settings/main.c:86 ../xfce4-settings-editor/main.c:49
+#: ../dialogs/mouse-settings/main.c:86 ../expidus1-settings-editor/main.c:49
 msgid "Settings manager socket"
 msgstr "Contactpunt voor instellingenbeheer"
 
@@ -307,7 +307,7 @@ msgstr "Contactpunt voor instellingenbeheer"
 #: ../dialogs/appearance-settings/main.c:106
 #: ../dialogs/color-settings/main.c:48 ../dialogs/display-settings/main.c:139
 #: ../dialogs/keyboard-settings/main.c:40 ../dialogs/mime-settings/main.c:43
-#: ../dialogs/mouse-settings/main.c:86 ../xfce4-settings-editor/main.c:49
+#: ../dialogs/mouse-settings/main.c:86 ../expidus1-settings-editor/main.c:49
 msgid "SOCKET ID"
 msgstr "CONTACTPUNT ID"
 
@@ -315,8 +315,8 @@ msgstr "CONTACTPUNT ID"
 #: ../dialogs/appearance-settings/main.c:107
 #: ../dialogs/color-settings/main.c:49 ../dialogs/display-settings/main.c:140
 #: ../dialogs/keyboard-settings/main.c:41 ../dialogs/mime-settings/main.c:44
-#: ../dialogs/mouse-settings/main.c:87 ../xfce4-settings-editor/main.c:50
-#: ../xfce4-settings-manager/main.c:43 ../xfsettingsd/main.c:102
+#: ../dialogs/mouse-settings/main.c:87 ../expidus1-settings-editor/main.c:50
+#: ../expidus1-settings-manager/main.c:43 ../essettingsd/main.c:102
 msgid "Version information"
 msgstr "Versie-informatie"
 
@@ -325,10 +325,10 @@ msgstr "Versie-informatie"
 #: ../dialogs/color-settings/main.c:1390
 #: ../dialogs/display-settings/main.c:4233
 #: ../dialogs/keyboard-settings/main.c:78 ../dialogs/mime-settings/main.c:78
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:158
-#: ../dialogs/mouse-settings/main.c:1886 ../xfce4-settings-editor/main.c:120
-#: ../xfce4-settings-manager/main.c:64 ../xfsettingsd/main.c:242
-#: ../xfsettingsd/main.c:280
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:158
+#: ../dialogs/mouse-settings/main.c:1886 ../expidus1-settings-editor/main.c:120
+#: ../expidus1-settings-manager/main.c:64 ../essettingsd/main.c:242
+#: ../essettingsd/main.c:280
 #, c-format
 msgid "Type '%s --help' for usage."
 msgstr "Tik '%s --help' voor een gebruiksaanwijzing."
@@ -338,27 +338,27 @@ msgstr "Tik '%s --help' voor een gebruiksaanwijzing."
 #: ../dialogs/color-settings/main.c:1407
 #: ../dialogs/display-settings/main.c:4252
 #: ../dialogs/keyboard-settings/main.c:94 ../dialogs/mime-settings/main.c:97
-#: ../dialogs/mouse-settings/main.c:1905 ../xfce4-settings-editor/main.c:139
-#: ../xfce4-settings-manager/main.c:80 ../xfsettingsd/main.c:258
-msgid "The Xfce development team. All rights reserved."
-msgstr "De Xfce-ontwikkelploeg. Alle rechten voorbehouden."
+#: ../dialogs/mouse-settings/main.c:1905 ../expidus1-settings-editor/main.c:139
+#: ../expidus1-settings-manager/main.c:80 ../essettingsd/main.c:258
+msgid "The Expidus development team. All rights reserved."
+msgstr "De Expidus-ontwikkelploeg. Alle rechten voorbehouden."
 
 #: ../dialogs/accessibility-settings/main.c:220
 #: ../dialogs/appearance-settings/main.c:1190
 #: ../dialogs/color-settings/main.c:1408
 #: ../dialogs/display-settings/main.c:4253
 #: ../dialogs/keyboard-settings/main.c:95 ../dialogs/mime-settings/main.c:98
-#: ../dialogs/mouse-settings/main.c:1906 ../xfce4-settings-editor/main.c:140
-#: ../xfce4-settings-manager/main.c:81 ../xfsettingsd/main.c:259
+#: ../dialogs/mouse-settings/main.c:1906 ../expidus1-settings-editor/main.c:140
+#: ../expidus1-settings-manager/main.c:81 ../essettingsd/main.c:259
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Gelieve fouten te melden aan <%s>."
 
-#: ../dialogs/accessibility-settings/xfce4-accessibility-settings.desktop.in.h:2
+#: ../dialogs/accessibility-settings/expidus1-accessibility-settings.desktop.in.h:2
 msgid "Improve keyboard and mouse accessibility"
 msgstr "Verbeter toegankelijkheid van muis en toetsenbord"
 
-#: ../dialogs/accessibility-settings/xfce4-accessibility-settings.desktop.in.h:3
+#: ../dialogs/accessibility-settings/expidus1-accessibility-settings.desktop.in.h:3
 msgid ""
 "assistive;technologies;keys;sticky;bounce;emulation;screen "
 "readers;magnifiers;a11y;i18n;l10n;AT-SPI;ATK;impairment;"
@@ -409,12 +409,12 @@ msgid "2x"
 msgstr "2 x"
 
 #: ../dialogs/appearance-settings/appearance-dialog.glade.h:11
-#: ../dialogs/appearance-settings/xfce-ui-settings.desktop.in.h:1
+#: ../dialogs/appearance-settings/expidus-ui-settings.desktop.in.h:1
 msgid "Appearance"
 msgstr "Uiterlijk"
 
 #: ../dialogs/appearance-settings/appearance-dialog.glade.h:12
-#: ../dialogs/appearance-settings/xfce-ui-settings.desktop.in.h:2
+#: ../dialogs/appearance-settings/expidus-ui-settings.desktop.in.h:2
 msgid "Customize the look of your desktop"
 msgstr "Pas het uiterlijk van uw werkomgeving aan"
 
@@ -619,7 +619,7 @@ msgstr "Verticaal RGB"
 msgid "Vertical BGR"
 msgstr "Verticaal BGR"
 
-#: ../dialogs/appearance-settings/xfce-ui-settings.desktop.in.h:3
+#: ../dialogs/appearance-settings/expidus-ui-settings.desktop.in.h:3
 msgid ""
 "themes;user interface;styles;icons;fonts;anti-aliasing;hinting;sub-"
 "pixel;subpixel;rendering;ClearType;DPI;RGB;BGR;menu accelerators;keyboard "
@@ -662,7 +662,7 @@ msgid "Enable color management for %s"
 msgstr "Kleurbeheer inschakelen voor %s"
 
 #: ../dialogs/color-settings/color-dialog.glade.h:1
-#: ../dialogs/color-settings/xfce4-color-settings.desktop.in.h:1
+#: ../dialogs/color-settings/expidus1-color-settings.desktop.in.h:1
 msgid "Color Profiles"
 msgstr "Kleurprofielen"
 
@@ -728,17 +728,17 @@ msgstr "Voeg een kleurprofiel toe aan uw apparaat"
 #: ../dialogs/keyboard-settings/command-dialog.c:116
 #: ../dialogs/keyboard-settings/command-dialog.c:280
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:3
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:395
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:540
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:109
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:395
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:540
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:109
 msgid "_Cancel"
 msgstr "_Afbreken"
 
 #: ../dialogs/color-settings/color-dialog.glade.h:19
 #: ../dialogs/keyboard-settings/command-dialog.c:120
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:4
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:541
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:110
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:541
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:110
 msgid "_OK"
 msgstr "_Oké"
 
@@ -856,11 +856,11 @@ msgstr "Verenigbare profielen"
 msgid "Unknown"
 msgstr "Onbekend"
 
-#: ../dialogs/color-settings/xfce4-color-settings.desktop.in.h:2
+#: ../dialogs/color-settings/expidus1-color-settings.desktop.in.h:2
 msgid "Set color profiles"
 msgstr "Kleurprofielen instellen"
 
-#: ../dialogs/color-settings/xfce4-color-settings.desktop.in.h:3
+#: ../dialogs/color-settings/expidus1-color-settings.desktop.in.h:3
 msgid "color;settings;management;display;monitors;printers;webcams;scanners;"
 msgstr "kleur;instellingen;beheer;scherm;beeldschermen;printers;webcamera's;scanners;"
 
@@ -899,8 +899,8 @@ msgid "The primary display is currently configured to show:"
 msgstr "Het primaire beeldscherm is thans ingesteld om te tonen:"
 
 #: ../dialogs/display-settings/display-dialog.glade.h:5
-msgid "Xfce Panel"
-msgstr "Xfce-werkbalk"
+msgid "Expidus Panel"
+msgstr "Expidus-werkbalk"
 
 #: ../dialogs/display-settings/display-dialog.glade.h:6
 msgid "Desktop icons"
@@ -915,12 +915,12 @@ msgid "Configure..."
 msgstr "Instellen..."
 
 #: ../dialogs/display-settings/display-dialog.glade.h:9
-#: ../dialogs/display-settings/xfce-display-settings.desktop.in.h:1
+#: ../dialogs/display-settings/expidus-display-settings.desktop.in.h:1
 msgid "Display"
 msgstr "Beeldscherm"
 
 #: ../dialogs/display-settings/display-dialog.glade.h:10
-#: ../dialogs/display-settings/xfce-display-settings.desktop.in.h:2
+#: ../dialogs/display-settings/expidus-display-settings.desktop.in.h:2
 msgid "Configure screen settings and layout"
 msgstr "Scherminstellingen en -vormgeving bewerken"
 
@@ -1158,10 +1158,10 @@ msgid "Once a display profile is deleted it cannot be restored."
 msgstr "Wanneer een schermprofiel is verwijderd, kan het niet worden hersteld."
 
 #: ../dialogs/display-settings/main.c:2147
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:134
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:382
-#: ../dialogs/mime-settings/xfce-mime-window.c:1079
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:144
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:134
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:382
+#: ../dialogs/mime-settings/expidus-mime-window.c:1079
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:144
 msgid "Cancel"
 msgstr "Afbreken"
 
@@ -1171,8 +1171,8 @@ msgstr "Verwijderen"
 
 #: ../dialogs/display-settings/main.c:2250
 #, c-format
-msgid "%d Xfce Panels"
-msgstr "%d Xfce-werkbalken"
+msgid "%d Expidus Panels"
+msgstr "%d Expidus-werkbalken"
 
 #: ../dialogs/display-settings/main.c:3281
 msgid ""
@@ -1210,8 +1210,8 @@ msgstr "Alleen %s (2)"
 
 #: ../dialogs/display-settings/main.c:4266
 #: ../dialogs/display-settings/main.c:4303
-msgid "Unable to start the Xfce Display Settings"
-msgstr "Kon de Xfce 4-Beeldscherminstellingen niet starten"
+msgid "Unable to start the Expidus Display Settings"
+msgstr "Kon de Expidus 4-Beeldscherminstellingen niet starten"
 
 #: ../dialogs/display-settings/main.c:4298
 msgid "ATI Settings"
@@ -1221,7 +1221,7 @@ msgstr "ATI-Instellingen"
 msgid "Unable to launch the proprietary driver settings"
 msgstr "Kon de instellingen van het niet-vrije stuurprogramma niet starten"
 
-#: ../dialogs/display-settings/xfce-display-settings.desktop.in.h:3
+#: ../dialogs/display-settings/expidus-display-settings.desktop.in.h:3
 msgid ""
 "display;settings;screen;resolution;refresh;rate;rotation;external;projectors;monitors;LCD;CRT;HiDPI;"
 msgstr "beeldscherm;instellingen;scherm;resolutie;verversen;snelheid;draaiing;extern;projectors;beeldschermen;LCD;CRT;HiDPI;"
@@ -1257,43 +1257,43 @@ msgid "Select command"
 msgstr "Opdracht selecteren"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:281
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:396
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:396
 msgid "_Open"
 msgstr "_Openen"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:285
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:389
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:402
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:389
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:402
 msgid "All Files"
 msgstr "Alle bestanden"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:290
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:394
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:407
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:394
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:407
 msgid "Executable Files"
 msgstr "Uitvoerbare bestanden"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:305
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:409
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:422
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:409
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:422
 msgid "Perl Scripts"
 msgstr "Perl-scripts"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:311
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:415
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:428
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:415
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:428
 msgid "Python Scripts"
 msgstr "Python-scripts"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:317
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:421
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:434
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:421
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:434
 msgid "Ruby Scripts"
 msgstr "Ruby-scripts"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:323
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:427
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:440
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:427
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:440
 msgid "Shell Scripts"
 msgstr "Shell-scripts"
 
@@ -1306,12 +1306,12 @@ msgid "Select keyboard layout and variant"
 msgstr "Kies toetsenbordindeling en -variant"
 
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:5
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.desktop.in.h:1
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.desktop.in.h:1
 msgid "Keyboard"
 msgstr "Toetsenbord"
 
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:6
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.desktop.in.h:2
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.desktop.in.h:2
 msgid "Edit keyboard settings and application shortcuts"
 msgstr "Bewerk toetsenbordinstellingen en toepassingssneltoetsen"
 
@@ -1438,57 +1438,57 @@ msgstr "Kon GTK+ niet laden."
 
 #: ../dialogs/keyboard-settings/main.c:104
 #, c-format
-msgid "Failed to connect to xfconf daemon. Reason: %s"
-msgstr "Kon geen verbinding maken met de xfconf-achtergronddienst. Reden: %s"
+msgid "Failed to connect to esconf daemon. Reason: %s"
+msgstr "Kon geen verbinding maken met de esconf-achtergronddienst. Reden: %s"
 
 #: ../dialogs/keyboard-settings/main.c:115
 msgid "Could not create the settings dialog."
 msgstr "Kon geen dialoogvenster voor instellingen maken."
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:397
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:397
 msgid "Command"
 msgstr "Opdracht"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:402
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:402
 msgid "Shortcut"
 msgstr "Sneltoets"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:478
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:478
 msgid "Layout"
 msgstr "Indeling"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:479
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:479
 msgid "Variant"
 msgstr "Variant"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1246
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1247
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1246
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1247
 msgid "Reset to Defaults"
 msgstr "Standaardwaarden herstellen"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1248
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1248
 msgid ""
 "This will reset all shortcuts to their default values. Do you really want to"
 " do this?"
 msgstr "Deze optie zal de standaardwaarden van alle sneltoetsen terugzetten. Wilt u dit echt doen?"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1250
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1250
 msgid "No"
 msgstr "Nee"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1251
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1251
 msgid "Yes"
 msgstr "Ja"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1327
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1327
 msgid "The system defaults will be restored next time you log in."
 msgstr "De volgende keer dat u zich aanmeldt zullen de standaardinstellingen worden hersteld."
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1329
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1329
 msgid "Warning"
 msgstr "Waarschuwing"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.desktop.in.h:3
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.desktop.in.h:3
 msgid "numlock;keyboard;layout;shortcuts;"
 msgstr "numlock;toetsenbord;indeling;sneltoetsen;"
 
@@ -1496,211 +1496,211 @@ msgstr "numlock;toetsenbord;indeling;sneltoetsen;"
 msgid "Could not create the mime dialog."
 msgstr "Kon het dialoogvenster voor MIME niet maken."
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:128
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:128
 msgid "Select Application"
 msgstr "Toepassing kiezen"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:136
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:383
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:136
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:383
 msgid "Open"
 msgstr "Openen"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:205
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:205
 msgid "Use a c_ustom command:"
 msgstr "Gebruik een aangepaste opdracht:"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:206
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:206
 msgid ""
 "Use a custom command for an application that is not available from the above"
 " application list."
 msgstr "Gebruik een aangepaste opdracht voor een toepassing die niet beschikbaar is in bovenstaande toepassingenlijst."
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:224
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:224
 msgid "_Browse..."
 msgstr "_Bladeren..."
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:379
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:379
 msgid "Select an Application"
 msgstr "Kies een toepassing"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:529
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:529
 msgid "None available"
 msgstr "Geen beschikbaar"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:576
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:576
 msgid "Recommended Applications"
 msgstr "Aanbevolen toepassingen"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:594
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:594
 msgid "Other Applications"
 msgstr "Andere toepassingen"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:614
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:614
 #, c-format
 msgid "Open <i>%s</i> and other files of type \"%s\" with:"
 msgstr "Open <i>%s</i> en andere bestanden van het type '%s' met:"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:650
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:650
 #, c-format
 msgid "Failed to add new application \"%s\""
 msgstr "Kon nieuwe toepassing '%s' niet toevoegen"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:145
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:152
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:145
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:152
 msgid "Press left mouse button to change the selected application."
 msgstr "Klik met de linkermuistoets om de gekozen toepassing te wijzigen."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:151
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:151
 msgid "Application Chooser Button"
 msgstr "Knop voor toepassingkeuze"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:303
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:303
 msgid "No application selected"
 msgstr "Geen toepassing gekozen"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:319
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:319
 msgid "Failed to set default Web Browser"
 msgstr "Kon de standaard-webbrowser niet instellen"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:320
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:320
 msgid "Failed to set default Mail Reader"
 msgstr "Kon het standaard-e-mailprogramma niet instellen"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:321
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:321
 msgid "Failed to set default File Manager"
 msgstr "Kon de standaard-bestandbeheerder niet instellen"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:322
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:322
 msgid "Failed to set default Terminal Emulator"
 msgstr "Kon het standaard-terminalvenster niet instellen"
 
 #. allocate the chooser
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:392
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:392
 msgid "Select application"
 msgstr "Toepassing kiezen"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:505
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:505
 msgid "Choose a custom Web Browser"
 msgstr "Kies een aangepaste webbrowser"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:506
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:506
 msgid "Choose a custom Mail Reader"
 msgstr "Kies een aangepast e-mailprogramma"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:507
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:507
 msgid "Choose a custom File Manager"
 msgstr "Kies een aangepaste bestandbeheerder"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:508
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:508
 msgid "Choose a custom Terminal Emulator"
 msgstr "Kies een aangepast terminalvenster"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:513
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:513
 msgid ""
 "Specify the application you want to use\n"
-"as default Web Browser for Xfce:"
-msgstr "Kies de toepassing die u als standaard-\nwebbrowser voor Xfce wilt gebruiken:"
+"as default Web Browser for Expidus:"
+msgstr "Kies de toepassing die u als standaard-\nwebbrowser voor Expidus wilt gebruiken:"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:514
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:514
 msgid ""
 "Specify the application you want to use\n"
-"as default Mail Reader for Xfce:"
-msgstr "Kies de toepassing die u als standaard-\ne-mailprogramma voor Xfce wilt gebruiken:"
+"as default Mail Reader for Expidus:"
+msgstr "Kies de toepassing die u als standaard-\ne-mailprogramma voor Expidus wilt gebruiken:"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:515
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:515
 msgid ""
 "Specify the application you want to use\n"
-"as default File Manager for Xfce:"
-msgstr "Kies de toepassing die u wilt gebruiken\nals standaard-bestandbeheerder voor Xfce:"
+"as default File Manager for Expidus:"
+msgstr "Kies de toepassing die u wilt gebruiken\nals standaard-bestandbeheerder voor Expidus:"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:516
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:516
 msgid ""
 "Specify the application you want to use\n"
-"as default Terminal Emulator for Xfce:"
-msgstr "Kies de toepassing die u als standaard-\nterminalvenster voor Xfce wilt gebruiken:"
+"as default Terminal Emulator for Expidus:"
+msgstr "Kies de toepassing die u als standaard-\nterminalvenster voor Expidus wilt gebruiken:"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:580
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:580
 msgid "Browse the file system to choose a custom command."
 msgstr "Het bestandssysteem verkennen om een aangepaste opdracht te kiezen."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:789
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:789
 msgid "_Other..."
 msgstr "_Overige..."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:790
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:790
 msgid "Use a custom application which is not included in the above list."
 msgstr "Gebruik een aangepaste toepassing die niet in bovenstaande lijst staat."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:113
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:113
 msgid "Choose Preferred Application"
 msgstr "Voorkeurstoepassingen kiezen"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:256
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:256
 msgid ""
 "Please choose your preferred Web\n"
 "Browser now and click OK to proceed."
 msgstr "Kies nu uw voorkeurs-webbrowser\nen klik op Oké om door te gaan."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:258
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:258
 msgid ""
 "Please choose your preferred Mail Reader\n"
 "now and click OK to proceed."
 msgstr "Kies nu uw voorkeurs-emailprogramma\nen klik op Oké om door te gaan."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:260
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:260
 msgid ""
 "Please choose your preferred File Manager\n"
 "now and click OK to proceed."
 msgstr "Kies nu uw voorkeurs-bestandbeheerder \nen klik op Oké om door te gaan."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:262
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:262
 msgid ""
 "Please choose your preferred Terminal\n"
 "Emulator now and click OK to proceed."
 msgstr "Kies nu uw voorkeurs-terminalvenster\nen klik op Oké om door te gaan."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:41
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:41
 msgid "Failed to execute default Web Browser"
 msgstr "Kon de standaard-webbrowser niet uitvoeren"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:42
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:42
 msgid "Failed to execute default Mail Reader"
 msgstr "Kon het standaard-emailprogramma niet uitvoeren"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:43
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:43
 msgid "Failed to execute default File Manager"
 msgstr "Kon de standaard-bestandbeheerder niet uitvoeren"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:44
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:44
 msgid "Failed to execute default Terminal Emulator"
 msgstr "Kon het standaard-terminalvenster niet uitvoeren"
 
 #. Enable permanently dismissing this error.
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:86
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:86
 msgid "Do _not show this message again"
 msgstr "_Toon deze boodschap niet opnieuw"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:116
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:116
 msgid "Print version information and exit"
 msgstr "Druk de versie-informatie af en sluit af"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:117
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:117
 msgid ""
 "Launch the default helper of TYPE with the optional PARAMETER, where TYPE is"
 " one of the following values."
 msgstr "Start de standaardhulp van TYPE met de optionele PARAMETER, waar TYPE één van de volgende waarden is."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:117
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:118
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:117
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:118
 msgid "TYPE [PARAMETER]"
 msgstr "TYPE [PARAMETER]"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:118
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:118
 msgid ""
 "Query the default helper of TYPE, where TYPE is one of the following values."
 msgstr "Zoek de standaardhelper van TYPE, waar TYPE één der volgende waarden is."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:148
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:148
 msgid ""
 "The following TYPEs are supported for the --launch and --query commands:\n"
 "\n"
@@ -1710,201 +1710,201 @@ msgid ""
 "  TerminalEmulator - The preferred Terminal Emulator."
 msgstr "De volgende TYPEs worden ondersteund voor de opdrachten --launch en --query:\n\n  WebBrowser       - De webverkenner van uw voorkeur.\n  MailReader       - Het e-mailprogramma van uw voorkeur.\n  FileManager      - De bestandbeheerder van uw voorkeur.\n  TerminalEmulator - Het terminalvenster van uw voorkeur."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:183
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:256
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:183
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:256
 #, c-format
 msgid "Invalid helper type \"%s\""
 msgstr "Ongeldig hulptype '%s'"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:240
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:240
 #, c-format
 msgid ""
-"%s (Xfce %s)\n"
+"%s (Expidus %s)\n"
 "\n"
 "Copyright (c) 2003-2006\n"
 "        os-cillation e.K. All rights reserved.\n"
 "\n"
-"Written by Benedikt Meurer <benny@xfce.org>.\n"
+"Written by Benedikt Meurer <benny@expidus.org>.\n"
 "\n"
 "Built with Gtk+-%d.%d.%d, running Gtk+-%d.%d.%d.\n"
 "\n"
 "Please report bugs to <%s>.\n"
-msgstr "%s (Xfce %s)\n\nAuteursrecht (c) 2003-2006\n os-cillation e.K. Alle rechten voorbehouden.\n\nGeschreven door Benedikt Meurer <benny@xfce.org>.\n\nGebouwd met Gtk+-%d.%d.%d, met gebruikmaking van Gtk+-%d.%d.%d.\n\nGelieve fouten te melden aan <%s>.\n"
+msgstr "%s (Expidus %s)\n\nAuteursrecht (c) 2003-2006\n os-cillation e.K. Alle rechten voorbehouden.\n\nGeschreven door Benedikt Meurer <benny@expidus.org>.\n\nGebouwd met Gtk+-%d.%d.%d, met gebruikmaking van Gtk+-%d.%d.%d.\n\nGelieve fouten te melden aan <%s>.\n"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:266
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:266
 #, c-format
 msgid "No helper defined for \"%s\"."
 msgstr "Geen helper bepaald voor '%s'."
 
-#: ../dialogs/mime-settings/xfce-mime-helper.c:406
+#: ../dialogs/mime-settings/expidus-mime-helper.c:406
 #, c-format
 msgid "No command specified"
 msgstr "Geen opdracht opgegeven"
 
-#: ../dialogs/mime-settings/xfce-mime-helper.c:742
-#: ../dialogs/mime-settings/xfce-mime-helper.c:781
-#: ../dialogs/mime-settings/xfce-mime-helper.c:878
-#: ../dialogs/mime-settings/xfce-mime-helper.c:917
+#: ../dialogs/mime-settings/expidus-mime-helper.c:742
+#: ../dialogs/mime-settings/expidus-mime-helper.c:781
+#: ../dialogs/mime-settings/expidus-mime-helper.c:878
+#: ../dialogs/mime-settings/expidus-mime-helper.c:917
 #, c-format
 msgid "Failed to open %s for writing"
 msgstr "Kon %s niet openen om te schrijven"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:184
-#: ../dialogs/mime-settings/xfce4-mime-settings.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:184
+#: ../dialogs/mime-settings/expidus1-mime-settings.desktop.in.h:1
 msgid "Default Applications"
 msgstr "Standaardtoepassingen"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:188
-#: ../dialogs/mime-settings/xfce4-mime-settings.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus-mime-window.c:188
+#: ../dialogs/mime-settings/expidus1-mime-settings.desktop.in.h:2
 msgid "Associate preferred applications with MIME types"
 msgstr "Koppel voorkeurstoepassingen aan bestandssoorten (MIME-typen)"
 
 #. Internet
-#: ../dialogs/mime-settings/xfce-mime-window.c:211
+#: ../dialogs/mime-settings/expidus-mime-window.c:211
 msgid "_Internet"
 msgstr "_Internet"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:224
-#: ../dialogs/mime-settings/xfce4-web-browser.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:224
+#: ../dialogs/mime-settings/expidus1-web-browser.desktop.in.h:1
 msgid "Web Browser"
 msgstr "Webbrowser"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:232
+#: ../dialogs/mime-settings/expidus-mime-window.c:232
 msgid ""
 "The default Web Browser will be used to open hyperlinks and display help "
 "contents."
 msgstr "De standaard-webverkenner zal worden gebruikt om webkoppelingen te openen en om hulpteksten te tonen."
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:255
-#: ../dialogs/mime-settings/xfce4-mail-reader.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:255
+#: ../dialogs/mime-settings/expidus1-mail-reader.desktop.in.h:1
 msgid "Mail Reader"
 msgstr "E-mailprogramma"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:263
+#: ../dialogs/mime-settings/expidus-mime-window.c:263
 msgid ""
 "The default Mail Reader will be used to compose emails when you click on "
 "email addresses."
 msgstr "Het standaard-e-mailprogramma zal worden gebruikt om e-mails op te stellen wanneer u klikt op e-mailadressen."
 
 #. Utilities
-#: ../dialogs/mime-settings/xfce-mime-window.c:282
+#: ../dialogs/mime-settings/expidus-mime-window.c:282
 msgid "_Utilities"
 msgstr "Hulpprogramma's"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:295
-#: ../dialogs/mime-settings/xfce4-file-manager.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:295
+#: ../dialogs/mime-settings/expidus1-file-manager.desktop.in.h:1
 msgid "File Manager"
 msgstr "Bestandbeheerder"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:303
+#: ../dialogs/mime-settings/expidus-mime-window.c:303
 msgid ""
 "The default File Manager will be used to browse the contents of folders."
 msgstr "De standaard-bestandbeheerder zal worden gebruikt om de inhoud van mappen te verkennen."
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:326
-#: ../dialogs/mime-settings/xfce4-terminal-emulator.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:326
+#: ../dialogs/mime-settings/expidus1-terminal-emulator.desktop.in.h:1
 msgid "Terminal Emulator"
 msgstr "Terminalvenster"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:334
+#: ../dialogs/mime-settings/expidus-mime-window.c:334
 msgid ""
 "The default Terminal Emulator will be used to run commands that require a "
 "CLI environment."
 msgstr "Het standaard-terminalvenster zal worden gebruikt om opdrachten te draaien die een terminal nodig hebben."
 
 #. Mimes
-#: ../dialogs/mime-settings/xfce-mime-window.c:353
+#: ../dialogs/mime-settings/expidus-mime-window.c:353
 msgid "_Others"
 msgstr "_Overige"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:363
+#: ../dialogs/mime-settings/expidus-mime-window.c:363
 msgid "_Filter:"
 msgstr "_Filter:"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:371
+#: ../dialogs/mime-settings/expidus-mime-window.c:371
 msgid "Clear filter"
 msgstr "Verwijder filter"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:420
+#: ../dialogs/mime-settings/expidus-mime-window.c:420
 msgid "MIME Type"
 msgstr "Bestandsoort (MIME)"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:448
+#: ../dialogs/mime-settings/expidus-mime-window.c:448
 msgid "Status"
 msgstr "Status"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:468
+#: ../dialogs/mime-settings/expidus-mime-window.c:468
 msgid "Default Application"
 msgstr "Standaardtoepassing"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:643
-#: ../dialogs/mime-settings/xfce-mime-window.c:768
+#: ../dialogs/mime-settings/expidus-mime-window.c:643
+#: ../dialogs/mime-settings/expidus-mime-window.c:768
 msgid "User Set"
 msgstr "Ingesteld door gebruiker"
 
 #. sort the names but keep Default on top
-#: ../dialogs/mime-settings/xfce-mime-window.c:645
-#: ../dialogs/mime-settings/xfce-mime-window.c:768
+#: ../dialogs/mime-settings/expidus-mime-window.c:645
+#: ../dialogs/mime-settings/expidus-mime-window.c:768
 #: ../dialogs/mouse-settings/main.c:397 ../dialogs/mouse-settings/main.c:399
 #: ../dialogs/mouse-settings/main.c:459
 msgid "Default"
 msgstr "Standaard"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:714
+#: ../dialogs/mime-settings/expidus-mime-window.c:714
 #, c-format
 msgid "%d MIME type found"
 msgid_plural "%d MIME types found"
 msgstr[0] "%d MIME-type gevonden"
 msgstr[1] "%d bestandsoorten gevonden (MIME)"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:813
+#: ../dialogs/mime-settings/expidus-mime-window.c:813
 #, c-format
 msgid "Failed to set application \"%s\" for mime type \"%s\"."
 msgstr "Kon toepassing '%s' niet instellen voor bestandsoort '%s' (MIME)."
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1070
+#: ../dialogs/mime-settings/expidus-mime-window.c:1070
 #, c-format
 msgid "Are you sure you want to reset content type \"%s\" to its default value?"
 msgstr "Weet u zeker dat u kanaal '%s' en al zijn eigenschappen wilt terugzetten op de standaardwaarden?"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1074
+#: ../dialogs/mime-settings/expidus-mime-window.c:1074
 msgid "Question"
 msgstr "Vraag"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1077
+#: ../dialogs/mime-settings/expidus-mime-window.c:1077
 msgid ""
 "This will remove your custom mime-association and restore the system-wide "
 "default."
 msgstr "Dit zal uw aangepaste bestandsoort-associatie (MIME) verwijderen en de systeembrede standaard herstellen."
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1081
-#: ../dialogs/mime-settings/xfce-mime-window.c:1152
+#: ../dialogs/mime-settings/expidus-mime-window.c:1081
+#: ../dialogs/mime-settings/expidus-mime-window.c:1152
 msgid "Reset to Default"
 msgstr "Terugzetten op standaardwaarde"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1147
+#: ../dialogs/mime-settings/expidus-mime-window.c:1147
 msgid "Choose Application..."
 msgstr "Kies toepassing..."
 
-#: ../dialogs/mime-settings/xfce4-mime-settings.desktop.in.h:3
+#: ../dialogs/mime-settings/expidus1-mime-settings.desktop.in.h:3
 msgid ""
 "file;type;extension;association;open with;web browser;mail reader;file "
 "manager;terminal emulator;"
 msgstr "bestand;type;soort;koppeling;openen met;webverkenner;e-mailprogramma;bestandbeheerder;terminalvenster;terminal;"
 
-#: ../dialogs/mime-settings/xfce4-file-manager.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus1-file-manager.desktop.in.h:2
 msgid "Browse the file system"
 msgstr "Verken het bestandssysteem"
 
-#: ../dialogs/mime-settings/xfce4-mail-reader.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus1-mail-reader.desktop.in.h:2
 msgid "Read your email"
 msgstr "Lees uw email"
 
-#: ../dialogs/mime-settings/xfce4-terminal-emulator.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus1-terminal-emulator.desktop.in.h:2
 msgid "Use the command line"
 msgstr "Gebruik de opdrachtregel"
 
-#: ../dialogs/mime-settings/xfce4-web-browser.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus1-web-browser.desktop.in.h:2
 msgid "Browse the web"
 msgstr "Verken het web"
 
@@ -2108,9 +2108,9 @@ msgstr "Vimprobable2"
 msgid "W3M Text Browser"
 msgstr "W3M tekstbrowser"
 
-#: ../dialogs/mime-settings/helpers/xfce4-terminal.desktop.in.in.h:1
-msgid "Xfce Terminal"
-msgstr "Xfce Terminal"
+#: ../dialogs/mime-settings/helpers/expidus1-terminal.desktop.in.in.h:1
+msgid "Expidus Terminal"
+msgstr "Expidus Terminal"
 
 #: ../dialogs/mime-settings/helpers/xfe.desktop.in.in.h:1
 msgid "Xfe File Manager"
@@ -2187,12 +2187,12 @@ msgid "Counterclockwise"
 msgstr "Tegen de klok in"
 
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:11
-#: ../dialogs/mouse-settings/xfce-mouse-settings.desktop.in.h:1
+#: ../dialogs/mouse-settings/expidus-mouse-settings.desktop.in.h:1
 msgid "Mouse and Touchpad"
 msgstr "Muis en aanraakveld"
 
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:12
-#: ../dialogs/mouse-settings/xfce-mouse-settings.desktop.in.h:2
+#: ../dialogs/mouse-settings/expidus-mouse-settings.desktop.in.h:2
 msgid "Configure pointer device behavior and appearance"
 msgstr "Gedrag en weergave van muispijlapparaat instellen"
 
@@ -2364,195 +2364,195 @@ msgstr "Voorbeeldweergave"
 msgid "_Theme"
 msgstr "_Thema"
 
-#: ../dialogs/mouse-settings/xfce-mouse-settings.desktop.in.h:3
+#: ../dialogs/mouse-settings/expidus-mouse-settings.desktop.in.h:3
 msgid ""
 "settings;buttons;scroll;direction;pointer;speed;double click;theme;wheel;"
 msgstr "instellingen;knoppen;schuiven;richting;aanwijzer;snelheid;dubbelklikken;thema;wiel;"
 
-#: ../xfce4-settings-editor/main.c:163
-#: ../xfce4-settings-editor/xfce4-settings-editor.desktop.in.h:1
+#: ../expidus1-settings-editor/main.c:163
+#: ../expidus1-settings-editor/expidus1-settings-editor.desktop.in.h:1
 msgid "Settings Editor"
-msgstr "Instellingenbewerker voor Xfconf"
+msgstr "Instellingenbewerker voor Esconf"
 
-#: ../xfce4-settings-editor/main.c:170
-msgid "Customize settings stored by Xfconf"
-msgstr "Bewerk door Xfconf opgeslagen instellingen"
+#: ../expidus1-settings-editor/main.c:170
+msgid "Customize settings stored by Esconf"
+msgstr "Bewerk door Esconf opgeslagen instellingen"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:253
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:253
 msgid "Channel"
 msgstr "Kanaal"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:287
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:287
 msgid "Property"
 msgstr "Eigenschap"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:294
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:294
 msgid "Type"
 msgstr "Type"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:301
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:301
 msgid "Locked"
 msgstr "Vergrendeld"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:308
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:308
 msgid "Value"
 msgstr "Waarde"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:328
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:328
 msgid "New property"
 msgstr "Nieuwe eigenschap"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:341
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:341
 msgid "Edit selected property"
 msgstr "Gekozen eigenschap bewerken"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:354
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:354
 msgid "Reset selected property"
 msgstr "Gekozen eigenschap terugzetten op standaardwaarden"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:461
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:552
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:671
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:89
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:461
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:552
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:671
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:89
 msgid "Empty"
 msgstr "Leeg"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:464
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:464
 msgid "Array"
 msgstr "Reeks"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:469
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:90
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:469
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:90
 msgid "String"
 msgstr "Tekenreeks"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:477
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:477
 msgid "Integer"
 msgstr "Geheel getal"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:480
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:91
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:480
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:91
 msgid "Boolean"
 msgstr "Booleaanse waarde"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:483
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:93
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:483
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:93
 msgid "Double"
 msgstr "Double"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:817
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:817
 msgid "_Reset Channel"
 msgstr "Kanaal terug_zetten op standaardwaarden"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:818
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:818
 msgid "Resetting a channel will permanently remove those custom settings."
 msgstr "Het terugzetten van een kanaal op de standaardwaarden, zal deze aangepaste instellingen permanent verwijderen."
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:819
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:819
 #, c-format
 msgid "Are you sure you want to reset channel \"%s\" and all its properties?"
 msgstr "Weet u zeker dat u kanaal '%s' en al zijn eigenschappen wilt terugzetten op de standaardwaarden?"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:894
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:894
 msgid "reset"
 msgstr "terugzetten op standaardwaarden"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:951
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:951
 #, c-format
 msgid "Monitor %s"
 msgstr "Bewaak %s"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:959
-msgid "Watch an Xfconf channel for property changes"
-msgstr "Bewaak een Xfconf-kanaal op eigenschapwijzigingen"
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:959
+msgid "Watch an Esconf channel for property changes"
+msgstr "Bewaak een Esconf-kanaal op eigenschapwijzigingen"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:961
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:961
 msgid "Clear"
 msgstr "Wissen"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:962
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:962
 msgid "Close"
 msgstr "Sluiten"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:995
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:995
 #, c-format
 msgid "start monitoring channel \"%s\""
 msgstr "Begin met bewaken van kanaal '%s'"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1038
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1377
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1038
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1377
 msgid "_Reset"
 msgstr "Terug_zetten op standaardwaarden"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1044
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1044
 msgid "_Monitor"
 msgstr "Be_waken"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1054
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1054
 msgid "Refresh"
 msgstr "Verversen"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1378
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1378
 msgid "Resetting a property will permanently remove those custom settings."
 msgstr "Het terugzetten van een eigenschap op de standaardwaarden, zal deze aangepaste instellingen permanent verwijderen."
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1379
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1379
 #, c-format
 msgid "Are you sure you want to reset property \"%s\"?"
 msgstr "Weet u zeker dat u eigenschap '%s' terug wilt zetten op de standaardwaarden?"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:92
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:92
 msgid "Int"
 msgstr "Int"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:94
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:94
 msgid "Unsigned Int"
 msgstr "Unsigned Int"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:95
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:95
 msgid "Int64"
 msgstr "Int64"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:96
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:96
 msgid "Unsigned Int64"
 msgstr "Unsigned Int64"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:141
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:141
 msgid "New Property"
 msgstr "Nieuwe eigenschap"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:145
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:145
 msgid "Save"
 msgstr "Opslaan"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:160
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:160
 msgid "_Property:"
 msgstr "Eigenschap:"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:174
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:174
 msgid "_Type:"
 msgstr "_Type:"
 
 #. strings
 #. integers
 #. bool
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:203
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:213
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:224
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:203
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:213
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:224
 msgid "_Value:"
 msgstr "_Waarde:"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:381
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:381
 #, c-format
 msgid "Property names must start with a '/' character"
 msgstr "Namen van eigenschappen moeten beginnen met het teken '/'"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:392
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:392
 #, c-format
 msgid "The root element ('/') is not a valid property name"
 msgstr "Het root-element ('/') is geen geldige naam voor een eigenschap"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:409
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:409
 #, c-format
 msgid ""
 "Property names can only include the ASCII characters A-Z, a-z, 0-9, '_', "
@@ -2560,125 +2560,125 @@ msgid ""
 "separator"
 msgstr "Eigenschapnamen kunnen slechts de ASCII-tekens A-Z, a-z, 0-9, '_', '-', ':', '.', ',', '[', ']', '{', '}', '<' en '>' bevatten, alsook '/' als een scheidingsteken"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:423
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:423
 #, c-format
 msgid "Property names cannot have two or more consecutive '/' characters"
 msgstr "Namen van eigenschappen mogen geen opeenvolgende '/'-tekens bevatten"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:437
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:437
 #, c-format
 msgid "Property names cannot end with a '/' character"
 msgstr "Namen van eigenschappen mogen niet met een '/' eindigen"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:650
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:650
 msgid "Edit Property"
 msgstr "Eigenschap bewerken"
 
-#: ../xfce4-settings-editor/xfce4-settings-editor.desktop.in.h:2
-msgid "Graphical settings editor for Xfconf"
-msgstr "Grafische instellingenbewerker voor Xfconf"
+#: ../expidus1-settings-editor/expidus1-settings-editor.desktop.in.h:2
+msgid "Graphical settings editor for Esconf"
+msgstr "Grafische instellingenbewerker voor Esconf"
 
-#: ../xfce4-settings-editor/xfce4-settings-editor.desktop.in.h:3
+#: ../expidus1-settings-editor/expidus1-settings-editor.desktop.in.h:3
 msgid "registry;regedit;configuration file;"
 msgstr "register;regedit;instellingenbestand;"
 
-#: ../xfce4-settings-manager/main.c:44
+#: ../expidus1-settings-manager/main.c:44
 msgid "Settings dialog to show"
 msgstr "Dialoogvenster om weer te geven"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:221
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:221
 msgid "All _Settings"
 msgstr "_Alle instellingen"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:419
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:419
 msgid "Settings"
 msgstr "Instellingen"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:421
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:421
 msgid "Customize your desktop"
 msgstr "Pas uw werkomgeving aan"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:937
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:948
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:937
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:948
 #, c-format
 msgid "Unable to start \"%s\""
 msgstr "Kan '%s' niet starten"
 
-#: ../xfce4-settings-manager/xfce-settings-manager.desktop.in.h:1
+#: ../expidus1-settings-manager/expidus-settings-manager.desktop.in.h:1
 msgid "Settings Manager"
 msgstr "Instellingen- en systeembeheerder"
 
-#: ../xfce4-settings-manager/xfce-settings-manager.desktop.in.h:2
-msgid "Graphical Settings Manager for Xfce"
-msgstr "Grafische instellingenbeheerder voor Xfce"
+#: ../expidus1-settings-manager/expidus-settings-manager.desktop.in.h:2
+msgid "Graphical Settings Manager for Expidus"
+msgstr "Grafische instellingenbeheerder voor Expidus"
 
-#: ../xfce4-settings-manager/xfce-settings-manager.desktop.in.h:3
+#: ../expidus1-settings-manager/expidus-settings-manager.desktop.in.h:3
 msgid "control;panel;center;system;settings;personalize;hardware;"
 msgstr "beheer;balk;paneel;centrum;systeem;instellingen;personaliseren;apparatuur;"
 
-#: ../xfsettingsd/accessibility.c:412
+#: ../essettingsd/accessibility.c:412
 msgid "Sticky keys are enabled"
 msgstr "Plaktoetsen zijn ingeschakeld"
 
-#: ../xfsettingsd/accessibility.c:414
+#: ../essettingsd/accessibility.c:414
 msgid "Sticky keys are disabled"
 msgstr "Plaktoetsen zijn uitgeschakeld"
 
-#: ../xfsettingsd/accessibility.c:416
+#: ../essettingsd/accessibility.c:416
 msgid "Sticky keys"
 msgstr "Plaktoetsen"
 
-#: ../xfsettingsd/accessibility.c:421
+#: ../essettingsd/accessibility.c:421
 msgid "Slow keys are enabled"
 msgstr "Trage toetsen zijn ingeschakeld"
 
-#: ../xfsettingsd/accessibility.c:423
+#: ../essettingsd/accessibility.c:423
 msgid "Slow keys are disabled"
 msgstr "Trage toetsen zijn uitgeschakeld"
 
-#: ../xfsettingsd/accessibility.c:425
+#: ../essettingsd/accessibility.c:425
 msgid "Slow keys"
 msgstr "Trage toetsen"
 
-#: ../xfsettingsd/accessibility.c:430
+#: ../essettingsd/accessibility.c:430
 msgid "Bounce keys are enabled"
 msgstr "Kaatstoetsen zijn ingeschakeld"
 
-#: ../xfsettingsd/accessibility.c:432
+#: ../essettingsd/accessibility.c:432
 msgid "Bounce keys are disabled"
 msgstr "Kaatstoetsen zijn uitgeschakeld"
 
-#: ../xfsettingsd/accessibility.c:434
+#: ../essettingsd/accessibility.c:434
 msgid "Bounce keys"
 msgstr "Kaatstoetsen"
 
-#: ../xfsettingsd/keyboard-shortcuts.c:242
+#: ../essettingsd/keyboard-shortcuts.c:242
 #, c-format
 msgid "Failed to launch shortcut \"%s\""
 msgstr "Kon sneltoets '%s' niet starten"
 
-#: ../xfsettingsd/main.c:103
+#: ../essettingsd/main.c:103
 msgid "Do not fork to the background"
 msgstr "Niet naar de achtergrond vorken"
 
-#: ../xfsettingsd/main.c:104
+#: ../essettingsd/main.c:104
 msgid "Do not wait for a window manager on startup"
 msgstr "Wacht niet op een vensterbeheerder bij opstarten"
 
-#: ../xfsettingsd/main.c:105
+#: ../essettingsd/main.c:105
 msgid "Replace running xsettings daemon (if any)"
 msgstr "Draaiende xsettings-achtergronddienst vervangen (indien van toepassing)"
 
-#. value in xfconf isn't a string, so make a default one
-#: ../xfsettingsd/workspaces.c:333 ../xfsettingsd/workspaces.c:390
+#. value in esconf isn't a string, so make a default one
+#: ../essettingsd/workspaces.c:333 ../essettingsd/workspaces.c:390
 #, c-format
 msgid "Workspace %d"
 msgstr "Werkblad %d"
 
-#: ../xfsettingsd/xfsettingsd.desktop.in.h:1
-msgid "Xfce Settings Daemon"
-msgstr "Achtergronddienst voor Xfce-instellingen"
+#: ../essettingsd/essettingsd.desktop.in.h:1
+msgid "Expidus Settings Daemon"
+msgstr "Achtergronddienst voor Expidus-instellingen"
 
-#: ../xfsettingsd/xfsettingsd.desktop.in.h:2
-msgid "The Xfce Settings Daemon"
-msgstr "De achtergronddienst voor Xfce-Instellingen"
+#: ../essettingsd/essettingsd.desktop.in.h:2
+msgid "The Expidus Settings Daemon"
+msgstr "De achtergronddienst voor Expidus-Instellingen"

@@ -2,10 +2,10 @@
 [Desktop Entry]
 Version=1.0
 Icon=google-chrome
-Type=X-XFCE-Helper
+Type=X-EXPIDUS-Helper
 _Name=Google Chrome
 StartupNotify=true
-X-XFCE-Binaries=google-chrome;google-chrome-stable;
-X-XFCE-Category=WebBrowser
-X-XFCE-Commands=%B;
-X-XFCE-CommandsWithParameter=%B "%s";
+X-EXPIDUS-Binaries=google-chrome;google-chrome-stable;
+X-EXPIDUS-Category=WebBrowser
+X-EXPIDUS-Commands=%B;
+X-EXPIDUS-CommandsWithParameter=%B "%s";

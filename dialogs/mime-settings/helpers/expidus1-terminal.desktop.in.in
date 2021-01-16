@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Icon=utilities-terminal
+Type=X-EXPIDUS-Helper
+_Name=Expidus Terminal
+StartupNotify=true
+X-EXPIDUS-Binaries=expidus1-terminal;Terminal;xterminal;
+X-EXPIDUS-Category=TerminalEmulator
+X-EXPIDUS-Commands=%B;
+X-EXPIDUS-CommandsWithParameter=%B -x %s;

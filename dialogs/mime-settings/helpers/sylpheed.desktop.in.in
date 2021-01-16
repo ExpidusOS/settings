@@ -1,10 +1,10 @@
 [Desktop Entry]
 Version=1.0
 Icon=sylpheed
-Type=X-XFCE-Helper
+Type=X-EXPIDUS-Helper
 _Name=Sylpheed
 StartupNotify=true
-X-XFCE-Binaries=sylpheed;
-X-XFCE-Category=MailReader
-X-XFCE-Commands=%B;
-X-XFCE-CommandsWithParameter=@HELPERDIR@/xfce4-compose-mail sylpheed %B "mailto:%s";
+X-EXPIDUS-Binaries=sylpheed;
+X-EXPIDUS-Category=MailReader
+X-EXPIDUS-Commands=%B;
+X-EXPIDUS-CommandsWithParameter=@HELPERDIR@/expidus1-compose-mail sylpheed %B "mailto:%s";

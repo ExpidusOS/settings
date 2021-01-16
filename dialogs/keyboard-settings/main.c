@@ -1,6 +1,6 @@
 /* vi:set sw=2 sts=2 ts=2 et ai: */
 /*-
- * Copyright (c) 2008 Jannis Pohlmann <jannis@xfce.org>.
+ * Copyright (c) 2008 Jannis Pohlmann <jannis@expidus.org>.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -27,10 +27,10 @@
 
 #include <gdk/gdkx.h>
 
-#include <libxfce4ui/libxfce4ui.h>
-#include <xfconf/xfconf.h>
+#include <libexpidus1ui/libexpidus1ui.h>
+#include <esconf/esconf.h>
 
-#include "xfce-keyboard-settings.h"
+#include "expidus-keyboard-settings.h"
 
 
 
@@ -49,8 +49,8 @@ keyboard_settings_dialog_response (GtkWidget *dialog,
                                    gint       response_id)
 {
     if (response_id == GTK_RESPONSE_HELP)
-        xfce_dialog_show_help_with_version (GTK_WINDOW (dialog), "xfce4-settings", "keyboard",
-                                            NULL, XFCE4_SETTINGS_VERSION_SHORT);
+        expidus_dialog_show_help_with_version (GTK_WINDOW (dialog), "expidus1-settings", "keyboard",
+                                            NULL, EXPIDUS1_SETTINGS_VERSION_SHORT);
     else
         gtk_main_quit ();
 }
@@ -61,13 +61,13 @@ int
 main (int    argc,
       char **argv)
 {
-  XfceKeyboardSettings *settings;
+  ExpidusKeyboardSettings *settings;
   GtkWidget            *dialog;
   GtkWidget            *plug;
   GError               *error = NULL;
 
   /* Set up translation domain */
-  xfce_textdomain (GETTEXT_PACKAGE, LOCALEDIR, "UTF-8");
+  expidus_textdomain (GETTEXT_PACKAGE, LOCALEDIR, "UTF-8");
 
   /* Initialize GTK+ and parse command line options */
   if (G_UNLIKELY (!gtk_init_with_args (&argc, &argv, NULL, entries, PACKAGE, &error)))
@@ -89,31 +89,31 @@ main (int    argc,
   /* Print version info and quit whe the user entered --version or -v */
   if (G_UNLIKELY (opt_version))
     {
-      g_print ("%s %s (Xfce %s)\n\n", G_LOG_DOMAIN, PACKAGE_VERSION, xfce_version_string ());
+      g_print ("%s %s (Expidus %s)\n\n", G_LOG_DOMAIN, PACKAGE_VERSION, expidus_version_string ());
       g_print ("%s\n", "Copyright (c) 2008-2019");
-      g_print ("\t%s\n\n", _("The Xfce development team. All rights reserved."));
+      g_print ("\t%s\n\n", _("The Expidus development team. All rights reserved."));
       g_print (_("Please report bugs to <%s>."), PACKAGE_BUGREPORT);
       g_print ("\n");
 
       return EXIT_SUCCESS;
     }
 
-  /* Initialize xfconf */
-  if (G_UNLIKELY (!xfconf_init (&error)))
+  /* Initialize esconf */
+  if (G_UNLIKELY (!esconf_init (&error)))
     {
-      g_error (_("Failed to connect to xfconf daemon. Reason: %s"), error->message);
+      g_error (_("Failed to connect to esconf daemon. Reason: %s"), error->message);
       g_error_free (error);
 
       return EXIT_FAILURE;
     }
 
   /* Create the settings object */
-  settings = xfce_keyboard_settings_new ();
+  settings = expidus_keyboard_settings_new ();
 
   if (G_UNLIKELY (settings == NULL))
     {
       g_error (_("Could not create the settings dialog."));
-      xfconf_shutdown ();
+      esconf_shutdown ();
       return EXIT_FAILURE;
     }
 
@@ -122,7 +122,7 @@ main (int    argc,
   if (G_UNLIKELY (opt_socket_id == 0))
     {
       /* Create and run the settings dialog */
-      dialog = xfce_keyboard_settings_create_dialog (settings);
+      dialog = expidus_keyboard_settings_create_dialog (settings);
       gtk_window_set_type_hint (GTK_WINDOW (dialog), GDK_WINDOW_TYPE_HINT_NORMAL);
 
       g_signal_connect (dialog, "response",
@@ -137,7 +137,7 @@ main (int    argc,
   else
     {
       /* Embedd the settings dialog into the given socket ID */
-      plug = xfce_keyboard_settings_create_plug (settings, opt_socket_id);
+      plug = expidus_keyboard_settings_create_plug (settings, opt_socket_id);
       g_signal_connect (plug, "delete-event", G_CALLBACK (gtk_main_quit), NULL);
 
       /* Stop startup notification */
@@ -152,7 +152,7 @@ main (int    argc,
 
   g_object_unref (settings);
 
-  xfconf_shutdown ();
+  esconf_shutdown ();
 
   return EXIT_SUCCESS;
 }

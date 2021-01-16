@@ -1,10 +1,10 @@
 [Desktop Entry]
 Version=1.0
 Icon=folder
-Type=X-XFCE-Helper
+Type=X-EXPIDUS-Helper
 _Name=Rodent File Manager
 StartupNotify=true
-X-XFCE-Binaries=rodent-forked;
-X-XFCE-Category=FileManager
-X-XFCE-Commands=%B;
-X-XFCE-CommandsWithParameter=%B "%s";
+X-EXPIDUS-Binaries=rodent-forked;
+X-EXPIDUS-Category=FileManager
+X-EXPIDUS-Commands=%B;
+X-EXPIDUS-CommandsWithParameter=%B "%s";

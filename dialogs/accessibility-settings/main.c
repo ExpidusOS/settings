@@ -1,6 +1,6 @@
 /*
- *  Copyright (c) 2008 Stephan Arts <stephan@xfce.org>
- *                     Jannis Pohlmann <jannis@xfce.org>
+ *  Copyright (c) 2008 Stephan Arts <stephan@expidus.org>
+ *                     Jannis Pohlmann <jannis@expidus.org>
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -31,9 +31,9 @@
 
 #include <gdk/gdkx.h>
 
-#include <libxfce4ui/libxfce4ui.h>
-#include <libxfce4util/libxfce4util.h>
-#include <xfconf/xfconf.h>
+#include <libexpidus1ui/libexpidus1ui.h>
+#include <libexpidus1util/libexpidus1util.h>
+#include <esconf/esconf.h>
 
 #include "accessibility-dialog_ui.h"
 
@@ -50,9 +50,9 @@ static GOptionEntry entries[] =
 
 
 
-/* global xfconf channel */
-static XfconfChannel *accessibility_channel = NULL;
-static XfconfChannel *session_channel = NULL;
+/* global esconf channel */
+static EsconfChannel *accessibility_channel = NULL;
+static EsconfChannel *session_channel = NULL;
 
 
 
@@ -83,7 +83,7 @@ accessibility_settings_at (GtkToggleButton *button,
 
   if (gtk_toggle_button_get_active (button))
     {
-      atspi = xfce_resource_match (XFCE_RESOURCE_CONFIG, "autostart/at-spi-*.desktop", TRUE);
+      atspi = expidus_resource_match (EXPIDUS_RESOURCE_CONFIG, "autostart/at-spi-*.desktop", TRUE);
       atkobj = gtk_widget_get_accessible (GTK_WIDGET (button));
 
       if (atspi == NULL || g_strv_length (atspi) == 0)
@@ -104,7 +104,7 @@ accessibility_settings_dialog_configure_widgets (GtkBuilder *builder)
 
     /* assistive technologies */
     object = gtk_builder_get_object (builder, "start-at");
-    xfconf_g_property_bind (session_channel, "/general/StartAssistiveTechnologies", G_TYPE_BOOLEAN, object, "active");
+    esconf_g_property_bind (session_channel, "/general/StartAssistiveTechnologies", G_TYPE_BOOLEAN, object, "active");
     g_signal_connect (object, "toggled", G_CALLBACK (accessibility_settings_at), builder);
     accessibility_settings_at (GTK_TOGGLE_BUTTON (object), builder);
 
@@ -112,56 +112,56 @@ accessibility_settings_dialog_configure_widgets (GtkBuilder *builder)
     object = gtk_builder_get_object (builder, "sticky-keys-enabled");
     box = gtk_builder_get_object (builder, "sticky-keys-box");
     g_signal_connect (object, "toggled", G_CALLBACK (accessibility_settings_sensitivity), box);
-    xfconf_g_property_bind (accessibility_channel, "/StickyKeys", G_TYPE_BOOLEAN, object, "active");
+    esconf_g_property_bind (accessibility_channel, "/StickyKeys", G_TYPE_BOOLEAN, object, "active");
 
     object = gtk_builder_get_object (builder, "sticky-keys-latch-to-lock");
-    xfconf_g_property_bind (accessibility_channel, "/StickyKeys/LatchToLock", G_TYPE_BOOLEAN, object, "active");
+    esconf_g_property_bind (accessibility_channel, "/StickyKeys/LatchToLock", G_TYPE_BOOLEAN, object, "active");
 
     object = gtk_builder_get_object (builder, "sticky-keys-two-keys-disable");
-    xfconf_g_property_bind (accessibility_channel, "/StickyKeys/TwoKeysDisable", G_TYPE_BOOLEAN, object, "active");
+    esconf_g_property_bind (accessibility_channel, "/StickyKeys/TwoKeysDisable", G_TYPE_BOOLEAN, object, "active");
 
     /* Slow keys */
     object = gtk_builder_get_object (builder, "slow-keys-enabled");
     box = gtk_builder_get_object (builder, "slow-keys-box");
     g_signal_connect (object, "toggled", G_CALLBACK (accessibility_settings_sensitivity), box);
-    xfconf_g_property_bind (accessibility_channel, "/SlowKeys", G_TYPE_BOOLEAN, object, "active");
+    esconf_g_property_bind (accessibility_channel, "/SlowKeys", G_TYPE_BOOLEAN, object, "active");
 
     object = gtk_builder_get_object (builder, "slow-keys-delay");
-    xfconf_g_property_bind (accessibility_channel, "/SlowKeys/Delay", G_TYPE_INT, object, "value");
+    esconf_g_property_bind (accessibility_channel, "/SlowKeys/Delay", G_TYPE_INT, object, "value");
 
     /* Bounce keys */
     object = gtk_builder_get_object (builder, "bounce-keys-enabled");
     box = gtk_builder_get_object (builder, "bounce-keys-box");
     g_signal_connect (object, "toggled", G_CALLBACK (accessibility_settings_sensitivity), box);
-    xfconf_g_property_bind (accessibility_channel, "/BounceKeys", G_TYPE_BOOLEAN, object, "active");
+    esconf_g_property_bind (accessibility_channel, "/BounceKeys", G_TYPE_BOOLEAN, object, "active");
 
     object = gtk_builder_get_object (builder, "bounce-keys-delay");
-    xfconf_g_property_bind (accessibility_channel, "/BounceKeys/Delay", G_TYPE_INT, object, "value");
+    esconf_g_property_bind (accessibility_channel, "/BounceKeys/Delay", G_TYPE_INT, object, "value");
 
     /* Mouse keys */
     object = gtk_builder_get_object (builder, "mouse-emulation-enabled");
     box = gtk_builder_get_object (builder, "mouse-emulation-grid");
     g_signal_connect (object, "toggled", G_CALLBACK (accessibility_settings_sensitivity), box);
-    xfconf_g_property_bind (accessibility_channel, "/MouseKeys", G_TYPE_BOOLEAN, object, "active");
-    gtk_widget_set_sensitive (GTK_WIDGET(box), xfconf_channel_get_bool(accessibility_channel, "/MouseKeys", TRUE));
+    esconf_g_property_bind (accessibility_channel, "/MouseKeys", G_TYPE_BOOLEAN, object, "active");
+    gtk_widget_set_sensitive (GTK_WIDGET(box), esconf_channel_get_bool(accessibility_channel, "/MouseKeys", TRUE));
 
     object = gtk_builder_get_object (builder, "mouse-emulation-delay");
-    xfconf_g_property_bind (accessibility_channel, "/MouseKeys/Delay", G_TYPE_INT, object, "value");
+    esconf_g_property_bind (accessibility_channel, "/MouseKeys/Delay", G_TYPE_INT, object, "value");
 
     object = gtk_builder_get_object (builder, "mouse-emulation-interval");
-    xfconf_g_property_bind (accessibility_channel, "/MouseKeys/Interval", G_TYPE_INT, object, "value");
+    esconf_g_property_bind (accessibility_channel, "/MouseKeys/Interval", G_TYPE_INT, object, "value");
 
     object = gtk_builder_get_object (builder, "mouse-emulation-time-to-max");
-    xfconf_g_property_bind (accessibility_channel, "/MouseKeys/TimeToMax", G_TYPE_INT, object, "value");
+    esconf_g_property_bind (accessibility_channel, "/MouseKeys/TimeToMax", G_TYPE_INT, object, "value");
 
     object = gtk_builder_get_object (builder, "mouse-emulation-max-speed");
-    xfconf_g_property_bind (accessibility_channel, "/MouseKeys/MaxSpeed", G_TYPE_INT, object, "value");
+    esconf_g_property_bind (accessibility_channel, "/MouseKeys/MaxSpeed", G_TYPE_INT, object, "value");
 
     object = gtk_builder_get_object (builder, "mouse-emulation-curve");
-    xfconf_g_property_bind (accessibility_channel, "/MouseKeys/Curve", G_TYPE_INT, object, "value");
+    esconf_g_property_bind (accessibility_channel, "/MouseKeys/Curve", G_TYPE_INT, object, "value");
 
     object = gtk_builder_get_object (builder, "find-cursor");
-    xfconf_g_property_bind (accessibility_channel, "/FindCursor", G_TYPE_BOOLEAN, object, "active");
+    esconf_g_property_bind (accessibility_channel, "/FindCursor", G_TYPE_BOOLEAN, object, "active");
 }
 
 
@@ -171,8 +171,8 @@ accessibility_settings_dialog_response (GtkWidget *dialog,
                                         gint       response_id)
 {
     if (response_id == GTK_RESPONSE_HELP)
-        xfce_dialog_show_help_with_version (GTK_WINDOW (dialog), "xfce4-settings", "accessibility",
-                                            NULL, XFCE4_SETTINGS_VERSION_SHORT);
+        expidus_dialog_show_help_with_version (GTK_WINDOW (dialog), "expidus1-settings", "accessibility",
+                                            NULL, EXPIDUS1_SETTINGS_VERSION_SHORT);
     else
         gtk_main_quit ();
 }
@@ -188,7 +188,7 @@ main (gint argc, gchar **argv)
     GError     *error = NULL;
 
     /* setup translation domain */
-    xfce_textdomain (GETTEXT_PACKAGE, LOCALEDIR, "UTF-8");
+    expidus_textdomain (GETTEXT_PACKAGE, LOCALEDIR, "UTF-8");
 
     /* initialize Gtk+ */
     if(!gtk_init_with_args (&argc, &argv, NULL, entries, PACKAGE, &error))
@@ -214,31 +214,31 @@ main (gint argc, gchar **argv)
     /* check if we should print version information */
     if (G_UNLIKELY (opt_version))
     {
-        g_print ("%s %s (Xfce %s)\n\n", G_LOG_DOMAIN, PACKAGE_VERSION, xfce_version_string ());
+        g_print ("%s %s (Expidus %s)\n\n", G_LOG_DOMAIN, PACKAGE_VERSION, expidus_version_string ());
         g_print ("%s\n", "Copyright (c) 2008-2019");
-        g_print ("\t%s\n\n", _("The Xfce development team. All rights reserved."));
+        g_print ("\t%s\n\n", _("The Expidus development team. All rights reserved."));
         g_print (_("Please report bugs to <%s>."), PACKAGE_BUGREPORT);
         g_print ("\n");
 
         return EXIT_SUCCESS;
     }
 
-    /* initialize xfconf */
-    if (!xfconf_init (&error))
+    /* initialize esconf */
+    if (!esconf_init (&error))
     {
         /* print error and exit */
-        g_error ("Failed to connect to xfconf daemon: %s.", error->message);
+        g_error ("Failed to connect to esconf daemon: %s.", error->message);
         g_error_free (error);
 
         return EXIT_FAILURE;
     }
 
     /* open the channels */
-    accessibility_channel = xfconf_channel_new ("accessibility");
-    session_channel = xfconf_channel_new ("xfce4-session");
+    accessibility_channel = esconf_channel_new ("accessibility");
+    session_channel = esconf_channel_new ("expidus1-session");
 
-    /* hook to make sure the libxfce4ui library is linked */
-    if (xfce_titled_dialog_get_type () == 0)
+    /* hook to make sure the libexpidus1ui library is linked */
+    if (expidus_titled_dialog_get_type () == 0)
         return EXIT_FAILURE;
 
     /* load the Gtk user-interface file */
@@ -276,7 +276,7 @@ main (gint argc, gchar **argv)
 
             /* Get plug child widget */
             plug_child = gtk_builder_get_object (builder, "plug-child");
-            xfce_widget_reparent (GTK_WIDGET (plug_child), plug);
+            expidus_widget_reparent (GTK_WIDGET (plug_child), plug);
             gtk_widget_show (GTK_WIDGET (plug_child));
 
             /* To prevent the settings dialog to be saved in the session */
@@ -299,8 +299,8 @@ main (gint argc, gchar **argv)
     g_object_unref (G_OBJECT (accessibility_channel));
     g_object_unref (G_OBJECT (session_channel));
 
-    /* shutdown xfconf */
-    xfconf_shutdown();
+    /* shutdown esconf */
+    esconf_shutdown();
 
     return EXIT_SUCCESS;
 }

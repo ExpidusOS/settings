@@ -1,10 +1,10 @@
 [Desktop Entry]
 Version=1.0
 Icon=web-browser
-Type=X-XFCE-Helper
+Type=X-EXPIDUS-Helper
 _Name=Epiphany Web Browser
 StartupNotify=true
-X-XFCE-Binaries=epiphany;
-X-XFCE-Category=WebBrowser
-X-XFCE-Commands=%B;
-X-XFCE-CommandsWithParameter=%B "%s";
+X-EXPIDUS-Binaries=epiphany;
+X-EXPIDUS-Category=WebBrowser
+X-EXPIDUS-Commands=%B;
+X-EXPIDUS-CommandsWithParameter=%B "%s";

@@ -3,9 +3,9 @@ ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 SUBDIRS = \
 	common \
 	dialogs \
-	xfce4-settings-manager \
-	xfce4-settings-editor \
-	xfsettingsd \
+	expidus1-settings-manager \
+	expidus1-settings-editor \
+	essettingsd \
 	po \
 	icons
 

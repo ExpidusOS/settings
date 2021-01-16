@@ -9,12 +9,12 @@
 # Seong-ho Cho <darkcircle.0426@gmail.com>, 2011-2020
 msgid ""
 msgstr ""
-"Project-Id-Version: Xfce4-settings\n"
+"Project-Id-Version: Expidus1-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-19 12:47+0200\n"
 "PO-Revision-Date: 2020-08-19 10:47+0000\n"
-"Last-Translator: Xfce Bot <transifex@xfce.org>\n"
-"Language-Team: Korean (http://www.transifex.com/xfce/xfce4-settings/language/ko/)\n"
+"Last-Translator: Expidus Bot <transifex@expidus.org>\n"
+"Language-Team: Korean (http://www.transifex.com/expidus/expidus1-settings/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -29,39 +29,39 @@ msgctxt "Monitor vendor"
 msgid "Unknown"
 msgstr "알 수 없음"
 
-#: ../common/xfce-randr.c:296 ../dialogs/display-settings/main.c:4265
+#: ../common/expidus-randr.c:296 ../dialogs/display-settings/main.c:4265
 #, c-format
 msgid "Unable to query the version of the RandR extension being used"
 msgstr "사용할 RandR 확장의 버전을 요청할 수 없습니다"
 
 #. 1.2 is required
-#: ../common/xfce-randr.c:304
+#: ../common/expidus-randr.c:304
 #, c-format
 msgid ""
 "This system is using RandR %d.%d. For the display settings to work version "
 "1.2 is required at least"
 msgstr "이 시스템은 RandR %d.%d을(를) 사용하고 있습니다. 디스플레이 설정을 동작하려면 적어도 1.2 이상의 버전이 필요합니다"
 
-#: ../common/xfce-randr.c:594
+#: ../common/expidus-randr.c:594
 msgid "Laptop"
 msgstr "랩톱"
 
 #. TRANSLATORS: an externally connected display, where %s is either the
 #. * model, vendor or ID, e.g. 'LP2480zx Monitor'
-#: ../common/xfce-randr.c:607 ../dialogs/color-settings/color-device.c:65
+#: ../common/expidus-randr.c:607 ../dialogs/color-settings/color-device.c:65
 msgid "Monitor"
 msgstr "모니터"
 
-#: ../common/xfce-randr.c:610
+#: ../common/expidus-randr.c:610
 msgid "Television"
 msgstr "텔레비전"
 
-#: ../common/xfce-randr.c:614
+#: ../common/expidus-randr.c:614
 msgid "Digital display"
 msgstr "디지털 디스플레이"
 
 #: ../dialogs/accessibility-settings/accessibility-dialog.glade.h:1
-#: ../dialogs/accessibility-settings/xfce4-accessibility-settings.desktop.in.h:1
+#: ../dialogs/accessibility-settings/expidus1-accessibility-settings.desktop.in.h:1
 msgid "Accessibility"
 msgstr "접근성"
 
@@ -77,10 +77,10 @@ msgstr "키보드와 마우스 접근성 설정"
 #: ../dialogs/display-settings/profile-changed-dialog.glade.h:2
 #: ../dialogs/display-settings/main.c:4305
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:7
-#: ../dialogs/mime-settings/xfce-mime-window.c:190
+#: ../dialogs/mime-settings/expidus-mime-window.c:190
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:14
-#: ../xfce4-settings-editor/main.c:166
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:228
+#: ../expidus1-settings-editor/main.c:166
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:228
 msgid "_Close"
 msgstr "닫기(_C)"
 
@@ -89,10 +89,10 @@ msgstr "닫기(_C)"
 #: ../dialogs/color-settings/color-dialog.glade.h:4
 #: ../dialogs/display-settings/display-dialog.glade.h:11
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:8
-#: ../dialogs/mime-settings/xfce-mime-window.c:193
+#: ../dialogs/mime-settings/expidus-mime-window.c:193
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:13
-#: ../xfce4-settings-editor/main.c:165
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:217
+#: ../expidus1-settings-editor/main.c:165
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:217
 msgid "_Help"
 msgstr "도움말(_H)"
 
@@ -279,9 +279,9 @@ msgstr "마우스 에뮬레이션"
 
 #: ../dialogs/accessibility-settings/accessibility-dialog.glade.h:45
 msgid ""
-"Bind a keyboard shortcut to xfce4-find-cursor to get visual feedback of the "
+"Bind a keyboard shortcut to expidus1-find-cursor to get visual feedback of the "
 "mouse pointer's current location."
-msgstr "마우스 포인터 현재 위치를 시각 요소로 확인하려면 xfce4-find-cursor에 키보드 단축 키를 할당하십시오."
+msgstr "마우스 포인터 현재 위치를 시각 요소로 확인하려면 expidus1-find-cursor에 키보드 단축 키를 할당하십시오."
 
 #: ../dialogs/accessibility-settings/accessibility-dialog.glade.h:46
 msgid "Show location of pointer on keypress"
@@ -299,7 +299,7 @@ msgstr "마우스(_M)"
 #: ../dialogs/appearance-settings/main.c:106
 #: ../dialogs/color-settings/main.c:48 ../dialogs/display-settings/main.c:139
 #: ../dialogs/keyboard-settings/main.c:40 ../dialogs/mime-settings/main.c:43
-#: ../dialogs/mouse-settings/main.c:86 ../xfce4-settings-editor/main.c:49
+#: ../dialogs/mouse-settings/main.c:86 ../expidus1-settings-editor/main.c:49
 msgid "Settings manager socket"
 msgstr "설정 관리자 소켓"
 
@@ -307,7 +307,7 @@ msgstr "설정 관리자 소켓"
 #: ../dialogs/appearance-settings/main.c:106
 #: ../dialogs/color-settings/main.c:48 ../dialogs/display-settings/main.c:139
 #: ../dialogs/keyboard-settings/main.c:40 ../dialogs/mime-settings/main.c:43
-#: ../dialogs/mouse-settings/main.c:86 ../xfce4-settings-editor/main.c:49
+#: ../dialogs/mouse-settings/main.c:86 ../expidus1-settings-editor/main.c:49
 msgid "SOCKET ID"
 msgstr "소켓 ID"
 
@@ -315,8 +315,8 @@ msgstr "소켓 ID"
 #: ../dialogs/appearance-settings/main.c:107
 #: ../dialogs/color-settings/main.c:49 ../dialogs/display-settings/main.c:140
 #: ../dialogs/keyboard-settings/main.c:41 ../dialogs/mime-settings/main.c:44
-#: ../dialogs/mouse-settings/main.c:87 ../xfce4-settings-editor/main.c:50
-#: ../xfce4-settings-manager/main.c:43 ../xfsettingsd/main.c:102
+#: ../dialogs/mouse-settings/main.c:87 ../expidus1-settings-editor/main.c:50
+#: ../expidus1-settings-manager/main.c:43 ../essettingsd/main.c:102
 msgid "Version information"
 msgstr "버전 정보"
 
@@ -325,10 +325,10 @@ msgstr "버전 정보"
 #: ../dialogs/color-settings/main.c:1390
 #: ../dialogs/display-settings/main.c:4233
 #: ../dialogs/keyboard-settings/main.c:78 ../dialogs/mime-settings/main.c:78
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:158
-#: ../dialogs/mouse-settings/main.c:1886 ../xfce4-settings-editor/main.c:120
-#: ../xfce4-settings-manager/main.c:64 ../xfsettingsd/main.c:242
-#: ../xfsettingsd/main.c:280
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:158
+#: ../dialogs/mouse-settings/main.c:1886 ../expidus1-settings-editor/main.c:120
+#: ../expidus1-settings-manager/main.c:64 ../essettingsd/main.c:242
+#: ../essettingsd/main.c:280
 #, c-format
 msgid "Type '%s --help' for usage."
 msgstr "사용 방법을 보려면 '%s --help'를 입력하십시오."
@@ -338,27 +338,27 @@ msgstr "사용 방법을 보려면 '%s --help'를 입력하십시오."
 #: ../dialogs/color-settings/main.c:1407
 #: ../dialogs/display-settings/main.c:4252
 #: ../dialogs/keyboard-settings/main.c:94 ../dialogs/mime-settings/main.c:97
-#: ../dialogs/mouse-settings/main.c:1905 ../xfce4-settings-editor/main.c:139
-#: ../xfce4-settings-manager/main.c:80 ../xfsettingsd/main.c:258
-msgid "The Xfce development team. All rights reserved."
-msgstr "Xfce 개발 팀. All rights reserved."
+#: ../dialogs/mouse-settings/main.c:1905 ../expidus1-settings-editor/main.c:139
+#: ../expidus1-settings-manager/main.c:80 ../essettingsd/main.c:258
+msgid "The Expidus development team. All rights reserved."
+msgstr "Expidus 개발 팀. All rights reserved."
 
 #: ../dialogs/accessibility-settings/main.c:220
 #: ../dialogs/appearance-settings/main.c:1190
 #: ../dialogs/color-settings/main.c:1408
 #: ../dialogs/display-settings/main.c:4253
 #: ../dialogs/keyboard-settings/main.c:95 ../dialogs/mime-settings/main.c:98
-#: ../dialogs/mouse-settings/main.c:1906 ../xfce4-settings-editor/main.c:140
-#: ../xfce4-settings-manager/main.c:81 ../xfsettingsd/main.c:259
+#: ../dialogs/mouse-settings/main.c:1906 ../expidus1-settings-editor/main.c:140
+#: ../expidus1-settings-manager/main.c:81 ../essettingsd/main.c:259
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "<%s>(으)로 버그를 알려주십시오."
 
-#: ../dialogs/accessibility-settings/xfce4-accessibility-settings.desktop.in.h:2
+#: ../dialogs/accessibility-settings/expidus1-accessibility-settings.desktop.in.h:2
 msgid "Improve keyboard and mouse accessibility"
 msgstr "키보드와 마우스의 접근성을 개선합니다"
 
-#: ../dialogs/accessibility-settings/xfce4-accessibility-settings.desktop.in.h:3
+#: ../dialogs/accessibility-settings/expidus1-accessibility-settings.desktop.in.h:3
 msgid ""
 "assistive;technologies;keys;sticky;bounce;emulation;screen "
 "readers;magnifiers;a11y;i18n;l10n;AT-SPI;ATK;impairment;"
@@ -409,12 +409,12 @@ msgid "2x"
 msgstr "2배"
 
 #: ../dialogs/appearance-settings/appearance-dialog.glade.h:11
-#: ../dialogs/appearance-settings/xfce-ui-settings.desktop.in.h:1
+#: ../dialogs/appearance-settings/expidus-ui-settings.desktop.in.h:1
 msgid "Appearance"
 msgstr "모양새"
 
 #: ../dialogs/appearance-settings/appearance-dialog.glade.h:12
-#: ../dialogs/appearance-settings/xfce-ui-settings.desktop.in.h:2
+#: ../dialogs/appearance-settings/expidus-ui-settings.desktop.in.h:2
 msgid "Customize the look of your desktop"
 msgstr "데스크톱 모양 사용자 정의"
 
@@ -619,7 +619,7 @@ msgstr "수직 RGB"
 msgid "Vertical BGR"
 msgstr "수직 BGR"
 
-#: ../dialogs/appearance-settings/xfce-ui-settings.desktop.in.h:3
+#: ../dialogs/appearance-settings/expidus-ui-settings.desktop.in.h:3
 msgid ""
 "themes;user interface;styles;icons;fonts;anti-aliasing;hinting;sub-"
 "pixel;subpixel;rendering;ClearType;DPI;RGB;BGR;menu accelerators;keyboard "
@@ -662,7 +662,7 @@ msgid "Enable color management for %s"
 msgstr "%s 색상 관리자 활성"
 
 #: ../dialogs/color-settings/color-dialog.glade.h:1
-#: ../dialogs/color-settings/xfce4-color-settings.desktop.in.h:1
+#: ../dialogs/color-settings/expidus1-color-settings.desktop.in.h:1
 msgid "Color Profiles"
 msgstr "색상 프로파일"
 
@@ -728,17 +728,17 @@ msgstr "장치에 색상 프로파일 추가"
 #: ../dialogs/keyboard-settings/command-dialog.c:116
 #: ../dialogs/keyboard-settings/command-dialog.c:280
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:3
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:395
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:540
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:109
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:395
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:540
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:109
 msgid "_Cancel"
 msgstr "취소(_C)"
 
 #: ../dialogs/color-settings/color-dialog.glade.h:19
 #: ../dialogs/keyboard-settings/command-dialog.c:120
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:4
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:541
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:110
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:541
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:110
 msgid "_OK"
 msgstr "확인(_O)"
 
@@ -856,11 +856,11 @@ msgstr "호환 프로파일"
 msgid "Unknown"
 msgstr "모름"
 
-#: ../dialogs/color-settings/xfce4-color-settings.desktop.in.h:2
+#: ../dialogs/color-settings/expidus1-color-settings.desktop.in.h:2
 msgid "Set color profiles"
 msgstr "색상 프로파일 설정"
 
-#: ../dialogs/color-settings/xfce4-color-settings.desktop.in.h:3
+#: ../dialogs/color-settings/expidus1-color-settings.desktop.in.h:3
 msgid "color;settings;management;display;monitors;printers;webcams;scanners;"
 msgstr "color;색상;settings;설정;management;관리;display;디스플레이;화면;monitors;모니터;printers;프린터;webcams;웹캠;scanners;스캐너;"
 
@@ -899,8 +899,8 @@ msgid "The primary display is currently configured to show:"
 msgstr "기본 모니터 보기로 설정되어 있습니다:"
 
 #: ../dialogs/display-settings/display-dialog.glade.h:5
-msgid "Xfce Panel"
-msgstr "Xfce 패널"
+msgid "Expidus Panel"
+msgstr "Expidus 패널"
 
 #: ../dialogs/display-settings/display-dialog.glade.h:6
 msgid "Desktop icons"
@@ -915,12 +915,12 @@ msgid "Configure..."
 msgstr "설정..."
 
 #: ../dialogs/display-settings/display-dialog.glade.h:9
-#: ../dialogs/display-settings/xfce-display-settings.desktop.in.h:1
+#: ../dialogs/display-settings/expidus-display-settings.desktop.in.h:1
 msgid "Display"
 msgstr "디스플레이"
 
 #: ../dialogs/display-settings/display-dialog.glade.h:10
-#: ../dialogs/display-settings/xfce-display-settings.desktop.in.h:2
+#: ../dialogs/display-settings/expidus-display-settings.desktop.in.h:2
 msgid "Configure screen settings and layout"
 msgstr "화면 설정과 배치 설정"
 
@@ -1158,10 +1158,10 @@ msgid "Once a display profile is deleted it cannot be restored."
 msgstr "디스플레이 프로파일은 한 번 삭제되면 복원할 수 없습니다."
 
 #: ../dialogs/display-settings/main.c:2147
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:134
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:382
-#: ../dialogs/mime-settings/xfce-mime-window.c:1079
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:144
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:134
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:382
+#: ../dialogs/mime-settings/expidus-mime-window.c:1079
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:144
 msgid "Cancel"
 msgstr "취소"
 
@@ -1171,8 +1171,8 @@ msgstr "삭제 "
 
 #: ../dialogs/display-settings/main.c:2250
 #, c-format
-msgid "%d Xfce Panels"
-msgstr "%d개의 Xfce 패널"
+msgid "%d Expidus Panels"
+msgstr "%d개의 Expidus 패널"
 
 #: ../dialogs/display-settings/main.c:3281
 msgid ""
@@ -1210,8 +1210,8 @@ msgstr "%s만 (2)"
 
 #: ../dialogs/display-settings/main.c:4266
 #: ../dialogs/display-settings/main.c:4303
-msgid "Unable to start the Xfce Display Settings"
-msgstr "Xfce 디스플레이 설정을 시작할 수 없습니다"
+msgid "Unable to start the Expidus Display Settings"
+msgstr "Expidus 디스플레이 설정을 시작할 수 없습니다"
 
 #: ../dialogs/display-settings/main.c:4298
 msgid "ATI Settings"
@@ -1221,7 +1221,7 @@ msgstr "ATI 설정"
 msgid "Unable to launch the proprietary driver settings"
 msgstr "상업용 드라이버 설정을 실행할 수 없습니다"
 
-#: ../dialogs/display-settings/xfce-display-settings.desktop.in.h:3
+#: ../dialogs/display-settings/expidus-display-settings.desktop.in.h:3
 msgid ""
 "display;settings;screen;resolution;refresh;rate;rotation;external;projectors;monitors;LCD;CRT;HiDPI;"
 msgstr "display;디스플레이;화면;settings;설정;screen;스크린;resolution;해상도;refresh;재생;rate;율;rotation;회전;external;외부;projectors;프로젝터;monitors;모니터;LCD;CRT;HiDPI;"
@@ -1257,43 +1257,43 @@ msgid "Select command"
 msgstr "명령 선택"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:281
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:396
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:396
 msgid "_Open"
 msgstr "열기(_O)"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:285
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:389
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:402
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:389
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:402
 msgid "All Files"
 msgstr "모든 파일"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:290
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:394
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:407
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:394
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:407
 msgid "Executable Files"
 msgstr "실행 가능한 파일"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:305
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:409
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:422
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:409
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:422
 msgid "Perl Scripts"
 msgstr "펄 스크립트"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:311
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:415
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:428
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:415
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:428
 msgid "Python Scripts"
 msgstr "파이선 스크립트"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:317
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:421
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:434
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:421
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:434
 msgid "Ruby Scripts"
 msgstr "루비 스크립트"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:323
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:427
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:440
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:427
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:440
 msgid "Shell Scripts"
 msgstr "쉘 스크립트"
 
@@ -1306,12 +1306,12 @@ msgid "Select keyboard layout and variant"
 msgstr "키보드 배치 및 변형 선택"
 
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:5
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.desktop.in.h:1
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.desktop.in.h:1
 msgid "Keyboard"
 msgstr "키보드"
 
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:6
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.desktop.in.h:2
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.desktop.in.h:2
 msgid "Edit keyboard settings and application shortcuts"
 msgstr "키보드 설정과 프로그램 바로 가기를 편집합니다"
 
@@ -1438,57 +1438,57 @@ msgstr "GTK+를 초기화 할 수 없습니다."
 
 #: ../dialogs/keyboard-settings/main.c:104
 #, c-format
-msgid "Failed to connect to xfconf daemon. Reason: %s"
-msgstr "xfconf 데몬에 연결하는데 실패했습니다. 이유는 다음과 같습니다: %s"
+msgid "Failed to connect to esconf daemon. Reason: %s"
+msgstr "esconf 데몬에 연결하는데 실패했습니다. 이유는 다음과 같습니다: %s"
 
 #: ../dialogs/keyboard-settings/main.c:115
 msgid "Could not create the settings dialog."
 msgstr "설정 대화 상자를 만들 수 없습니다."
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:397
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:397
 msgid "Command"
 msgstr "명령"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:402
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:402
 msgid "Shortcut"
 msgstr "바로 가기"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:478
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:478
 msgid "Layout"
 msgstr "배치"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:479
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:479
 msgid "Variant"
 msgstr "변형"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1246
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1247
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1246
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1247
 msgid "Reset to Defaults"
 msgstr "기본으로 초기화"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1248
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1248
 msgid ""
 "This will reset all shortcuts to their default values. Do you really want to"
 " do this?"
 msgstr "이 동작은 모든 바로 가기를 기본값으로 초기화 합니다. 이 동작을 정말로 행하시렵니까?"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1250
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1250
 msgid "No"
 msgstr "아니요"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1251
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1251
 msgid "Yes"
 msgstr "예"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1327
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1327
 msgid "The system defaults will be restored next time you log in."
 msgstr "다음에 로그인할 때 시스템 기본값으로 복원합니다."
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1329
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1329
 msgid "Warning"
 msgstr "경고"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.desktop.in.h:3
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.desktop.in.h:3
 msgid "numlock;keyboard;layout;shortcuts;"
 msgstr "numlock;keyboard;키보드;layout;배치;shortcuts;단축키;바로가기키;바로가기 키;"
 
@@ -1496,211 +1496,211 @@ msgstr "numlock;keyboard;키보드;layout;배치;shortcuts;단축키;바로가�
 msgid "Could not create the mime dialog."
 msgstr "MIME 대화상자를 만들 수 없습니다."
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:128
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:128
 msgid "Select Application"
 msgstr "프로그램 선택"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:136
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:383
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:136
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:383
 msgid "Open"
 msgstr "열기"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:205
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:205
 msgid "Use a c_ustom command:"
 msgstr "사용자 정의 명령을 사용합니다(_U):"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:206
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:206
 msgid ""
 "Use a custom command for an application that is not available from the above"
 " application list."
 msgstr "프로그램 목록에 없는 프로그램에 대해 사용자정의 명령을 사용합니다."
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:224
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:224
 msgid "_Browse..."
 msgstr "찾아보기(_B)..."
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:379
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:379
 msgid "Select an Application"
 msgstr "프로그램 선택"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:529
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:529
 msgid "None available"
 msgstr "존재하지 않음"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:576
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:576
 msgid "Recommended Applications"
 msgstr "추천 프로그램"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:594
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:594
 msgid "Other Applications"
 msgstr "다른 프로그램"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:614
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:614
 #, c-format
 msgid "Open <i>%s</i> and other files of type \"%s\" with:"
 msgstr "<i>%s</i>와(과) \"%s\" 형식의 파일을 여는 프로그램:"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:650
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:650
 #, c-format
 msgid "Failed to add new application \"%s\""
 msgstr "새로운 \"%s\" 프로그램을 추가하는데 실패했습니다"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:145
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:152
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:145
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:152
 msgid "Press left mouse button to change the selected application."
 msgstr "선택한 프로그램을 바꾸려면 왼쪽 마우스 단추를 누릅니다."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:151
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:151
 msgid "Application Chooser Button"
 msgstr "프로그램 선택 단추"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:303
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:303
 msgid "No application selected"
 msgstr "프로그램을 선택하지 않았습니다"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:319
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:319
 msgid "Failed to set default Web Browser"
 msgstr "기본 웹 브라우저 설정에 실패했습니다"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:320
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:320
 msgid "Failed to set default Mail Reader"
 msgstr "기본 메일 보기 프로그램 설정에 실패했습니다"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:321
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:321
 msgid "Failed to set default File Manager"
 msgstr "기본 파일 관리자 설정에 실패했습니다"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:322
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:322
 msgid "Failed to set default Terminal Emulator"
 msgstr "기본 터미널 에뮬레이터 설정에 실패했습니다"
 
 #. allocate the chooser
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:392
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:392
 msgid "Select application"
 msgstr "프로그램 선택"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:505
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:505
 msgid "Choose a custom Web Browser"
 msgstr "사용자 정의 웹 브라우저 선택"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:506
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:506
 msgid "Choose a custom Mail Reader"
 msgstr "사용자 정의 메일 리더 선택"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:507
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:507
 msgid "Choose a custom File Manager"
 msgstr "사용자 정의 파일 관리자 선택"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:508
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:508
 msgid "Choose a custom Terminal Emulator"
 msgstr "사용자 정의 터미널 에뮬레이터 선택"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:513
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:513
 msgid ""
 "Specify the application you want to use\n"
-"as default Web Browser for Xfce:"
-msgstr "Xfce 기본 웹 브라우저로 사용할 프로그램을\n지정합니다:"
+"as default Web Browser for Expidus:"
+msgstr "Expidus 기본 웹 브라우저로 사용할 프로그램을\n지정합니다:"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:514
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:514
 msgid ""
 "Specify the application you want to use\n"
-"as default Mail Reader for Xfce:"
-msgstr "Xfce 기본 메일 리더로 사용할 프로그램을\n지정합니다:"
+"as default Mail Reader for Expidus:"
+msgstr "Expidus 기본 메일 리더로 사용할 프로그램을\n지정합니다:"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:515
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:515
 msgid ""
 "Specify the application you want to use\n"
-"as default File Manager for Xfce:"
-msgstr "Xfce 기본 파일 관리자로 사용할 프로그램을\n지정합니다:"
+"as default File Manager for Expidus:"
+msgstr "Expidus 기본 파일 관리자로 사용할 프로그램을\n지정합니다:"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:516
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:516
 msgid ""
 "Specify the application you want to use\n"
-"as default Terminal Emulator for Xfce:"
-msgstr "Xfce 기본 터미널 에뮬레이터로 사용할\n프로그램을 지정합니다:"
+"as default Terminal Emulator for Expidus:"
+msgstr "Expidus 기본 터미널 에뮬레이터로 사용할\n프로그램을 지정합니다:"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:580
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:580
 msgid "Browse the file system to choose a custom command."
 msgstr "사용자 정의 명령을 선택하기 위해 파일 시스템을 탐색합니다."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:789
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:789
 msgid "_Other..."
 msgstr "기타(_O)..."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:790
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:790
 msgid "Use a custom application which is not included in the above list."
 msgstr "위 목록에 포함하지 않은 사용자 정의 프로그램을 사용합니다."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:113
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:113
 msgid "Choose Preferred Application"
 msgstr "기본 프로그램 선택"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:256
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:256
 msgid ""
 "Please choose your preferred Web\n"
 "Browser now and click OK to proceed."
 msgstr "기본 웹 브라우저를 선택하여 주시고\n실행을 위해 OK를 눌러주시기 바랍니다."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:258
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:258
 msgid ""
 "Please choose your preferred Mail Reader\n"
 "now and click OK to proceed."
 msgstr "기본 메일 리더를 선택하여 주시고\n실행을 위해 OK를 눌러주시기 바랍니다."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:260
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:260
 msgid ""
 "Please choose your preferred File Manager\n"
 "now and click OK to proceed."
 msgstr "기본 파일 매니저를 선택하여 주시고\n실행을 위해 OK를 눌러주시기 바랍니다."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:262
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:262
 msgid ""
 "Please choose your preferred Terminal\n"
 "Emulator now and click OK to proceed."
 msgstr "기본 터미널 에뮬레이터를 선택하여 주시고\n실행을 위해 OK를 눌러주시기 바랍니다."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:41
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:41
 msgid "Failed to execute default Web Browser"
 msgstr "기본 웹 브라우저 실행에 실패했습니다"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:42
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:42
 msgid "Failed to execute default Mail Reader"
 msgstr "기본 메일 보기 프로그램 실행에 실패했습니다"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:43
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:43
 msgid "Failed to execute default File Manager"
 msgstr "기본 파일 관리자 실행에 실패했습니다"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:44
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:44
 msgid "Failed to execute default Terminal Emulator"
 msgstr "기본 터미널 에뮬레이터 실행에 실패했습니다"
 
 #. Enable permanently dismissing this error.
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:86
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:86
 msgid "Do _not show this message again"
 msgstr "이 메시지를 다시 표시하지 않음(_N)"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:116
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:116
 msgid "Print version information and exit"
 msgstr "버전 정보"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:117
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:117
 msgid ""
 "Launch the default helper of TYPE with the optional PARAMETER, where TYPE is"
 " one of the following values."
 msgstr "선택적 <매개변수>로 <형식>의 기본 도우미를 실행하며, <형식>의 자리에는 다음 값 중 하나가 위치합니다."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:117
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:118
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:117
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:118
 msgid "TYPE [PARAMETER]"
 msgstr "<형식> [<매개변수>]"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:118
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:118
 msgid ""
 "Query the default helper of TYPE, where TYPE is one of the following values."
 msgstr "다음 값 중 하나로 지정할 수 있는 <형식>의 기본 도우미를 요청합니다."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:148
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:148
 msgid ""
 "The following TYPEs are supported for the --launch and --query commands:\n"
 "\n"
@@ -1710,200 +1710,200 @@ msgid ""
 "  TerminalEmulator - The preferred Terminal Emulator."
 msgstr "다음 <형식>은 --launch와 --query 명령을 지원합니다:\n\n  WebBrowser       - 기본 웹 브라우저.\n  MailReader       - 기본 메일 보기.\n  FileManager      - 기본 파일 관리자.\n  TerminalEmulator - 기본 터미널 에뮬레이터."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:183
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:256
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:183
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:256
 #, c-format
 msgid "Invalid helper type \"%s\""
 msgstr "\"%s\" 도우미 형식이 잘못되었습니다"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:240
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:240
 #, c-format
 msgid ""
-"%s (Xfce %s)\n"
+"%s (Expidus %s)\n"
 "\n"
 "Copyright (c) 2003-2006\n"
 "        os-cillation e.K. All rights reserved.\n"
 "\n"
-"Written by Benedikt Meurer <benny@xfce.org>.\n"
+"Written by Benedikt Meurer <benny@expidus.org>.\n"
 "\n"
 "Built with Gtk+-%d.%d.%d, running Gtk+-%d.%d.%d.\n"
 "\n"
 "Please report bugs to <%s>.\n"
-msgstr "%s (Xfce %s)\n\nCopyright (c) 2003-2006\nos-cillation e.K. All rights reserved.\n\nBenedikt Meurer가 작성함 <benny@xfce.org>.\n\nGtk+-%d.%d.%d(으)로 빌드했고, Gtk+-%d.%d.%d에서 실행중입니다.\n\n<%s>(으)로 버그를 알려주십시오.\n"
+msgstr "%s (Expidus %s)\n\nCopyright (c) 2003-2006\nos-cillation e.K. All rights reserved.\n\nBenedikt Meurer가 작성함 <benny@expidus.org>.\n\nGtk+-%d.%d.%d(으)로 빌드했고, Gtk+-%d.%d.%d에서 실행중입니다.\n\n<%s>(으)로 버그를 알려주십시오.\n"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:266
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:266
 #, c-format
 msgid "No helper defined for \"%s\"."
 msgstr "\"%s\"에 해당하는 도움말이 없습니다."
 
-#: ../dialogs/mime-settings/xfce-mime-helper.c:406
+#: ../dialogs/mime-settings/expidus-mime-helper.c:406
 #, c-format
 msgid "No command specified"
 msgstr "정의된 명령이 없습니다"
 
-#: ../dialogs/mime-settings/xfce-mime-helper.c:742
-#: ../dialogs/mime-settings/xfce-mime-helper.c:781
-#: ../dialogs/mime-settings/xfce-mime-helper.c:878
-#: ../dialogs/mime-settings/xfce-mime-helper.c:917
+#: ../dialogs/mime-settings/expidus-mime-helper.c:742
+#: ../dialogs/mime-settings/expidus-mime-helper.c:781
+#: ../dialogs/mime-settings/expidus-mime-helper.c:878
+#: ../dialogs/mime-settings/expidus-mime-helper.c:917
 #, c-format
 msgid "Failed to open %s for writing"
 msgstr "%s을(를) 기록하려면 열지 못했습니다."
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:184
-#: ../dialogs/mime-settings/xfce4-mime-settings.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:184
+#: ../dialogs/mime-settings/expidus1-mime-settings.desktop.in.h:1
 msgid "Default Applications"
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:188
-#: ../dialogs/mime-settings/xfce4-mime-settings.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus-mime-window.c:188
+#: ../dialogs/mime-settings/expidus1-mime-settings.desktop.in.h:2
 msgid "Associate preferred applications with MIME types"
 msgstr ""
 
 #. Internet
-#: ../dialogs/mime-settings/xfce-mime-window.c:211
+#: ../dialogs/mime-settings/expidus-mime-window.c:211
 msgid "_Internet"
 msgstr "인터넷(_I)"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:224
-#: ../dialogs/mime-settings/xfce4-web-browser.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:224
+#: ../dialogs/mime-settings/expidus1-web-browser.desktop.in.h:1
 msgid "Web Browser"
 msgstr "웹 브라우저"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:232
+#: ../dialogs/mime-settings/expidus-mime-window.c:232
 msgid ""
 "The default Web Browser will be used to open hyperlinks and display help "
 "contents."
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:255
-#: ../dialogs/mime-settings/xfce4-mail-reader.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:255
+#: ../dialogs/mime-settings/expidus1-mail-reader.desktop.in.h:1
 msgid "Mail Reader"
 msgstr "메일 리더"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:263
+#: ../dialogs/mime-settings/expidus-mime-window.c:263
 msgid ""
 "The default Mail Reader will be used to compose emails when you click on "
 "email addresses."
 msgstr ""
 
 #. Utilities
-#: ../dialogs/mime-settings/xfce-mime-window.c:282
+#: ../dialogs/mime-settings/expidus-mime-window.c:282
 msgid "_Utilities"
 msgstr "유틸리티(_U)"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:295
-#: ../dialogs/mime-settings/xfce4-file-manager.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:295
+#: ../dialogs/mime-settings/expidus1-file-manager.desktop.in.h:1
 msgid "File Manager"
 msgstr "파일 관리자"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:303
+#: ../dialogs/mime-settings/expidus-mime-window.c:303
 msgid ""
 "The default File Manager will be used to browse the contents of folders."
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:326
-#: ../dialogs/mime-settings/xfce4-terminal-emulator.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:326
+#: ../dialogs/mime-settings/expidus1-terminal-emulator.desktop.in.h:1
 msgid "Terminal Emulator"
 msgstr "터미널 에뮬레이터"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:334
+#: ../dialogs/mime-settings/expidus-mime-window.c:334
 msgid ""
 "The default Terminal Emulator will be used to run commands that require a "
 "CLI environment."
 msgstr ""
 
 #. Mimes
-#: ../dialogs/mime-settings/xfce-mime-window.c:353
+#: ../dialogs/mime-settings/expidus-mime-window.c:353
 msgid "_Others"
 msgstr "기타(_O)"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:363
+#: ../dialogs/mime-settings/expidus-mime-window.c:363
 msgid "_Filter:"
 msgstr "필터(_F):"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:371
+#: ../dialogs/mime-settings/expidus-mime-window.c:371
 msgid "Clear filter"
 msgstr "필터 지우기"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:420
+#: ../dialogs/mime-settings/expidus-mime-window.c:420
 msgid "MIME Type"
 msgstr "MIME 형식"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:448
+#: ../dialogs/mime-settings/expidus-mime-window.c:448
 msgid "Status"
 msgstr "상태"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:468
+#: ../dialogs/mime-settings/expidus-mime-window.c:468
 msgid "Default Application"
 msgstr "기본 프로그램"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:643
-#: ../dialogs/mime-settings/xfce-mime-window.c:768
+#: ../dialogs/mime-settings/expidus-mime-window.c:643
+#: ../dialogs/mime-settings/expidus-mime-window.c:768
 msgid "User Set"
 msgstr "사용자 셋"
 
 #. sort the names but keep Default on top
-#: ../dialogs/mime-settings/xfce-mime-window.c:645
-#: ../dialogs/mime-settings/xfce-mime-window.c:768
+#: ../dialogs/mime-settings/expidus-mime-window.c:645
+#: ../dialogs/mime-settings/expidus-mime-window.c:768
 #: ../dialogs/mouse-settings/main.c:397 ../dialogs/mouse-settings/main.c:399
 #: ../dialogs/mouse-settings/main.c:459
 msgid "Default"
 msgstr "기본"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:714
+#: ../dialogs/mime-settings/expidus-mime-window.c:714
 #, c-format
 msgid "%d MIME type found"
 msgid_plural "%d MIME types found"
 msgstr[0] "MIME 형식 %d개를 찾았습니다\t"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:813
+#: ../dialogs/mime-settings/expidus-mime-window.c:813
 #, c-format
 msgid "Failed to set application \"%s\" for mime type \"%s\"."
 msgstr "\"%s\"프로그램을 \"%s\" MIME 형식에 대해 설정하는데 실패했습니다."
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1070
+#: ../dialogs/mime-settings/expidus-mime-window.c:1070
 #, c-format
 msgid "Are you sure you want to reset content type \"%s\" to its default value?"
 msgstr "\"%s\" 내용 형식을 기본값으로 초기화 하시렵니까?"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1074
+#: ../dialogs/mime-settings/expidus-mime-window.c:1074
 msgid "Question"
 msgstr "질문"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1077
+#: ../dialogs/mime-settings/expidus-mime-window.c:1077
 msgid ""
 "This will remove your custom mime-association and restore the system-wide "
 "default."
 msgstr "사용자정의 MIME 연결을 제거할 것이며 시스템 기본 설정으로 복구합니다."
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1081
-#: ../dialogs/mime-settings/xfce-mime-window.c:1152
+#: ../dialogs/mime-settings/expidus-mime-window.c:1081
+#: ../dialogs/mime-settings/expidus-mime-window.c:1152
 msgid "Reset to Default"
 msgstr "기본값으로 초기화"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1147
+#: ../dialogs/mime-settings/expidus-mime-window.c:1147
 msgid "Choose Application..."
 msgstr "프로그램을 선택하십시오..."
 
-#: ../dialogs/mime-settings/xfce4-mime-settings.desktop.in.h:3
+#: ../dialogs/mime-settings/expidus1-mime-settings.desktop.in.h:3
 msgid ""
 "file;type;extension;association;open with;web browser;mail reader;file "
 "manager;terminal emulator;"
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce4-file-manager.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus1-file-manager.desktop.in.h:2
 msgid "Browse the file system"
 msgstr "파일 시스템 탐색"
 
-#: ../dialogs/mime-settings/xfce4-mail-reader.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus1-mail-reader.desktop.in.h:2
 msgid "Read your email"
 msgstr "이메일 읽기"
 
-#: ../dialogs/mime-settings/xfce4-terminal-emulator.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus1-terminal-emulator.desktop.in.h:2
 msgid "Use the command line"
 msgstr "명령줄 사용"
 
-#: ../dialogs/mime-settings/xfce4-web-browser.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus1-web-browser.desktop.in.h:2
 msgid "Browse the web"
 msgstr "웹 탐색"
 
@@ -2107,9 +2107,9 @@ msgstr "Vimprobable2"
 msgid "W3M Text Browser"
 msgstr "W3M 텍스트 브라우저"
 
-#: ../dialogs/mime-settings/helpers/xfce4-terminal.desktop.in.in.h:1
-msgid "Xfce Terminal"
-msgstr "Xfce 터미널"
+#: ../dialogs/mime-settings/helpers/expidus1-terminal.desktop.in.in.h:1
+msgid "Expidus Terminal"
+msgstr "Expidus 터미널"
 
 #: ../dialogs/mime-settings/helpers/xfe.desktop.in.in.h:1
 msgid "Xfe File Manager"
@@ -2186,12 +2186,12 @@ msgid "Counterclockwise"
 msgstr "시계 반대방향"
 
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:11
-#: ../dialogs/mouse-settings/xfce-mouse-settings.desktop.in.h:1
+#: ../dialogs/mouse-settings/expidus-mouse-settings.desktop.in.h:1
 msgid "Mouse and Touchpad"
 msgstr "마우스와 터치패드"
 
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:12
-#: ../dialogs/mouse-settings/xfce-mouse-settings.desktop.in.h:2
+#: ../dialogs/mouse-settings/expidus-mouse-settings.desktop.in.h:2
 msgid "Configure pointer device behavior and appearance"
 msgstr "포인터 장치 동작과 표시 설정"
 
@@ -2363,195 +2363,195 @@ msgstr "미리보기"
 msgid "_Theme"
 msgstr "테마(_T)"
 
-#: ../dialogs/mouse-settings/xfce-mouse-settings.desktop.in.h:3
+#: ../dialogs/mouse-settings/expidus-mouse-settings.desktop.in.h:3
 msgid ""
 "settings;buttons;scroll;direction;pointer;speed;double click;theme;wheel;"
 msgstr "settings;설정;buttons;버튼;보턴;단추;scroll;스크롤;direction;방향;pointer;포인터;speed;속도;double click;더블클릭;더블 클릭;두번누르기;두번 누르기;두 번 누르기;theme;테마;wheel;휠;"
 
-#: ../xfce4-settings-editor/main.c:163
-#: ../xfce4-settings-editor/xfce4-settings-editor.desktop.in.h:1
+#: ../expidus1-settings-editor/main.c:163
+#: ../expidus1-settings-editor/expidus1-settings-editor.desktop.in.h:1
 msgid "Settings Editor"
 msgstr "설정 편집기"
 
-#: ../xfce4-settings-editor/main.c:170
-msgid "Customize settings stored by Xfconf"
-msgstr "Xfconf가 저장하는 설정을 사용자 정의합니다"
+#: ../expidus1-settings-editor/main.c:170
+msgid "Customize settings stored by Esconf"
+msgstr "Esconf가 저장하는 설정을 사용자 정의합니다"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:253
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:253
 msgid "Channel"
 msgstr "채널"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:287
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:287
 msgid "Property"
 msgstr "속성"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:294
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:294
 msgid "Type"
 msgstr "형식"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:301
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:301
 msgid "Locked"
 msgstr "잠김"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:308
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:308
 msgid "Value"
 msgstr "값"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:328
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:328
 msgid "New property"
 msgstr "새 속성"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:341
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:341
 msgid "Edit selected property"
 msgstr "선택한 속성 편집"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:354
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:354
 msgid "Reset selected property"
 msgstr "선택한 속성 초기화"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:461
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:552
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:671
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:89
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:461
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:552
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:671
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:89
 msgid "Empty"
 msgstr "비어 있음"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:464
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:464
 msgid "Array"
 msgstr "배열"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:469
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:90
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:469
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:90
 msgid "String"
 msgstr "문자열"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:477
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:477
 msgid "Integer"
 msgstr "정수"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:480
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:91
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:480
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:91
 msgid "Boolean"
 msgstr "부울린"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:483
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:93
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:483
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:93
 msgid "Double"
 msgstr "배정도 실수"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:817
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:817
 msgid "_Reset Channel"
 msgstr "채널 초기화(_R)"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:818
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:818
 msgid "Resetting a channel will permanently remove those custom settings."
 msgstr "채널을 초기화 하면 사용자 설정 내용을 완전히 제거합니다."
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:819
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:819
 #, c-format
 msgid "Are you sure you want to reset channel \"%s\" and all its properties?"
 msgstr "\"%s\" 채널과 이 채널의 기본 설정을 초기화 하시렵니까?"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:894
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:894
 msgid "reset"
 msgstr "초기화"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:951
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:951
 #, c-format
 msgid "Monitor %s"
 msgstr "모니터 %s"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:959
-msgid "Watch an Xfconf channel for property changes"
-msgstr "프로퍼티 바꾸기에 대해 Xfconf 채널 감시하기"
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:959
+msgid "Watch an Esconf channel for property changes"
+msgstr "프로퍼티 바꾸기에 대해 Esconf 채널 감시하기"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:961
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:961
 msgid "Clear"
 msgstr "지우기"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:962
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:962
 msgid "Close"
 msgstr "닫기"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:995
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:995
 #, c-format
 msgid "start monitoring channel \"%s\""
 msgstr "\"%s\" 채널 감시 시작"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1038
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1377
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1038
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1377
 msgid "_Reset"
 msgstr "초기화(_R)"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1044
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1044
 msgid "_Monitor"
 msgstr "모니터(_M)"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1054
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1054
 msgid "Refresh"
 msgstr "새로 고침"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1378
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1378
 msgid "Resetting a property will permanently remove those custom settings."
 msgstr "속성을 초기화하면 사용자 정의 설정을 완전히 제거합니다."
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1379
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1379
 #, c-format
 msgid "Are you sure you want to reset property \"%s\"?"
 msgstr "\"%s\" 속성을 정말로 초기화하시렵니까?"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:92
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:92
 msgid "Int"
 msgstr "정수"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:94
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:94
 msgid "Unsigned Int"
 msgstr "비부호 정수"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:95
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:95
 msgid "Int64"
 msgstr "64비트 정수"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:96
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:96
 msgid "Unsigned Int64"
 msgstr "비부호 64비트 정수"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:141
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:141
 msgid "New Property"
 msgstr "새 속성"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:145
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:145
 msgid "Save"
 msgstr "저장"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:160
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:160
 msgid "_Property:"
 msgstr "속성(_P):"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:174
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:174
 msgid "_Type:"
 msgstr "형식(_T):"
 
 #. strings
 #. integers
 #. bool
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:203
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:213
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:224
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:203
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:213
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:224
 msgid "_Value:"
 msgstr "값(_V):"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:381
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:381
 #, c-format
 msgid "Property names must start with a '/' character"
 msgstr "속성 이름은 반드시 '/' 문자로 시작해야 합니다"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:392
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:392
 #, c-format
 msgid "The root element ('/') is not a valid property name"
 msgstr "최상위 요소 ('/')는 유효한 속성 이름이 아닙니다"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:409
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:409
 #, c-format
 msgid ""
 "Property names can only include the ASCII characters A-Z, a-z, 0-9, '_', "
@@ -2559,125 +2559,125 @@ msgid ""
 "separator"
 msgstr "속성이름은 A-Z, a-z, 0-9, '_', '-', ':', '.', ',', '[', ']', '{', '}', '<', '>' 만 포함할 수 있으며 '/' 문자는 구분 기호로 포함할 수 있습니다"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:423
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:423
 #, c-format
 msgid "Property names cannot have two or more consecutive '/' characters"
 msgstr "속성 이름은 둘 이상의 연속된 '/' 문자를 가질 수 없습니다"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:437
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:437
 #, c-format
 msgid "Property names cannot end with a '/' character"
 msgstr "속성 이름은 '/' 문자로 끝날 수 없습니다"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:650
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:650
 msgid "Edit Property"
 msgstr "속성 편집"
 
-#: ../xfce4-settings-editor/xfce4-settings-editor.desktop.in.h:2
-msgid "Graphical settings editor for Xfconf"
-msgstr "Xfconf 그래픽 설정 편집기"
+#: ../expidus1-settings-editor/expidus1-settings-editor.desktop.in.h:2
+msgid "Graphical settings editor for Esconf"
+msgstr "Esconf 그래픽 설정 편집기"
 
-#: ../xfce4-settings-editor/xfce4-settings-editor.desktop.in.h:3
+#: ../expidus1-settings-editor/expidus1-settings-editor.desktop.in.h:3
 msgid "registry;regedit;configuration file;"
 msgstr "registry;레지스트리;regedit;configuration file;설정파일;설정 파일;"
 
-#: ../xfce4-settings-manager/main.c:44
+#: ../expidus1-settings-manager/main.c:44
 msgid "Settings dialog to show"
 msgstr "표시할 대화 상자 설정"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:221
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:221
 msgid "All _Settings"
 msgstr "전체 설정(_S)"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:419
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:419
 msgid "Settings"
 msgstr "설정"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:421
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:421
 msgid "Customize your desktop"
 msgstr "데스크톱 사용자 정의"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:937
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:948
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:937
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:948
 #, c-format
 msgid "Unable to start \"%s\""
 msgstr "\"%s\"을(를) 시작할 수 없습니다"
 
-#: ../xfce4-settings-manager/xfce-settings-manager.desktop.in.h:1
+#: ../expidus1-settings-manager/expidus-settings-manager.desktop.in.h:1
 msgid "Settings Manager"
 msgstr "설정 관리자"
 
-#: ../xfce4-settings-manager/xfce-settings-manager.desktop.in.h:2
-msgid "Graphical Settings Manager for Xfce"
-msgstr "Xfce용 그래픽 설정 관리자"
+#: ../expidus1-settings-manager/expidus-settings-manager.desktop.in.h:2
+msgid "Graphical Settings Manager for Expidus"
+msgstr "Expidus용 그래픽 설정 관리자"
 
-#: ../xfce4-settings-manager/xfce-settings-manager.desktop.in.h:3
+#: ../expidus1-settings-manager/expidus-settings-manager.desktop.in.h:3
 msgid "control;panel;center;system;settings;personalize;hardware;"
 msgstr "control;설정;panel;패널;창;center;가운데;센터;system;시스템;settings;personalize;개인화;개인설정;개인 설정;hardware;하드웨어;"
 
-#: ../xfsettingsd/accessibility.c:412
+#: ../essettingsd/accessibility.c:412
 msgid "Sticky keys are enabled"
 msgstr "끈적이 키를 활성화했습니다"
 
-#: ../xfsettingsd/accessibility.c:414
+#: ../essettingsd/accessibility.c:414
 msgid "Sticky keys are disabled"
 msgstr "끈적이 키를 비활성화했습니다"
 
-#: ../xfsettingsd/accessibility.c:416
+#: ../essettingsd/accessibility.c:416
 msgid "Sticky keys"
 msgstr "끈적이 키"
 
-#: ../xfsettingsd/accessibility.c:421
+#: ../essettingsd/accessibility.c:421
 msgid "Slow keys are enabled"
 msgstr "느린 키를 활성화했습니다"
 
-#: ../xfsettingsd/accessibility.c:423
+#: ../essettingsd/accessibility.c:423
 msgid "Slow keys are disabled"
 msgstr "느린 키를 비활성화했습니다"
 
-#: ../xfsettingsd/accessibility.c:425
+#: ../essettingsd/accessibility.c:425
 msgid "Slow keys"
 msgstr "느린 키"
 
-#: ../xfsettingsd/accessibility.c:430
+#: ../essettingsd/accessibility.c:430
 msgid "Bounce keys are enabled"
 msgstr "탄력 키를 활성화했습니다"
 
-#: ../xfsettingsd/accessibility.c:432
+#: ../essettingsd/accessibility.c:432
 msgid "Bounce keys are disabled"
 msgstr "탄력 키를 비활성화했습니다"
 
-#: ../xfsettingsd/accessibility.c:434
+#: ../essettingsd/accessibility.c:434
 msgid "Bounce keys"
 msgstr "탄력 키"
 
-#: ../xfsettingsd/keyboard-shortcuts.c:242
+#: ../essettingsd/keyboard-shortcuts.c:242
 #, c-format
 msgid "Failed to launch shortcut \"%s\""
 msgstr "\"%s\" 바로 가기를 실행할 수 없습니다"
 
-#: ../xfsettingsd/main.c:103
+#: ../essettingsd/main.c:103
 msgid "Do not fork to the background"
 msgstr "백그라운드에서 실행하지 않습니다"
 
-#: ../xfsettingsd/main.c:104
+#: ../essettingsd/main.c:104
 msgid "Do not wait for a window manager on startup"
 msgstr "시동시 창 관리자를 기다리지 않습니다"
 
-#: ../xfsettingsd/main.c:105
+#: ../essettingsd/main.c:105
 msgid "Replace running xsettings daemon (if any)"
 msgstr "(실행 중일 때) 실행 중인 xsettings 데몬으로 바꾸기"
 
-#. value in xfconf isn't a string, so make a default one
-#: ../xfsettingsd/workspaces.c:333 ../xfsettingsd/workspaces.c:390
+#. value in esconf isn't a string, so make a default one
+#: ../essettingsd/workspaces.c:333 ../essettingsd/workspaces.c:390
 #, c-format
 msgid "Workspace %d"
 msgstr "작업공간 %d"
 
-#: ../xfsettingsd/xfsettingsd.desktop.in.h:1
-msgid "Xfce Settings Daemon"
-msgstr "Xfce 설정 데몬"
+#: ../essettingsd/essettingsd.desktop.in.h:1
+msgid "Expidus Settings Daemon"
+msgstr "Expidus 설정 데몬"
 
-#: ../xfsettingsd/xfsettingsd.desktop.in.h:2
-msgid "The Xfce Settings Daemon"
-msgstr "Xfce 설정 데몬"
+#: ../essettingsd/essettingsd.desktop.in.h:2
+msgid "The Expidus Settings Daemon"
+msgstr "Expidus 설정 데몬"

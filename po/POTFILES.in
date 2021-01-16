@@ -1,46 +1,46 @@
 common/display-name.c
-common/xfce-randr.c
+common/expidus-randr.c
 
 dialogs/accessibility-settings/accessibility-dialog.glade
 dialogs/accessibility-settings/main.c
-dialogs/accessibility-settings/xfce4-accessibility-settings.desktop.in
+dialogs/accessibility-settings/expidus1-accessibility-settings.desktop.in
 
 dialogs/appearance-settings/appearance-dialog.glade
 dialogs/appearance-settings/main.c
-dialogs/appearance-settings/xfce-ui-settings.desktop.in
+dialogs/appearance-settings/expidus-ui-settings.desktop.in
 
 dialogs/color-settings/color-device.c
 dialogs/color-settings/color-dialog.glade
 dialogs/color-settings/color-profile.c
 dialogs/color-settings/main.c
-dialogs/color-settings/xfce4-color-settings.desktop.in
+dialogs/color-settings/expidus1-color-settings.desktop.in
 
 dialogs/display-settings/confirmation-dialog.glade
 dialogs/display-settings/display-dialog.glade
 dialogs/display-settings/minimal-display-dialog.glade
 dialogs/display-settings/profile-changed-dialog.glade
 dialogs/display-settings/main.c
-dialogs/display-settings/xfce-display-settings.desktop.in
+dialogs/display-settings/expidus-display-settings.desktop.in
 
 dialogs/keyboard-settings/command-dialog.c
 dialogs/keyboard-settings/keyboard-dialog.glade
 dialogs/keyboard-settings/main.c
-dialogs/keyboard-settings/xfce-keyboard-settings.c
-dialogs/keyboard-settings/xfce-keyboard-settings.desktop.in
+dialogs/keyboard-settings/expidus-keyboard-settings.c
+dialogs/keyboard-settings/expidus-keyboard-settings.desktop.in
 
 dialogs/mime-settings/main.c
-dialogs/mime-settings/xfce-mime-chooser.c
-dialogs/mime-settings/xfce-mime-helper-chooser.c
-dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c
-dialogs/mime-settings/xfce-mime-helper-main.c
-dialogs/mime-settings/xfce-mime-helper.c
-dialogs/mime-settings/xfce-mime-window.c
-dialogs/mime-settings/xfce4-mime-settings.desktop.in
+dialogs/mime-settings/expidus-mime-chooser.c
+dialogs/mime-settings/expidus-mime-helper-chooser.c
+dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c
+dialogs/mime-settings/expidus-mime-helper-main.c
+dialogs/mime-settings/expidus-mime-helper.c
+dialogs/mime-settings/expidus-mime-window.c
+dialogs/mime-settings/expidus1-mime-settings.desktop.in
 
-dialogs/mime-settings/xfce4-file-manager.desktop.in
-dialogs/mime-settings/xfce4-mail-reader.desktop.in
-dialogs/mime-settings/xfce4-terminal-emulator.desktop.in
-dialogs/mime-settings/xfce4-web-browser.desktop.in
+dialogs/mime-settings/expidus1-file-manager.desktop.in
+dialogs/mime-settings/expidus1-mail-reader.desktop.in
+dialogs/mime-settings/expidus1-terminal-emulator.desktop.in
+dialogs/mime-settings/expidus1-web-browser.desktop.in
 
 dialogs/mime-settings/helpers/aterm.desktop.in.in
 dialogs/mime-settings/helpers/balsa.desktop.in.in
@@ -92,28 +92,28 @@ dialogs/mime-settings/helpers/thunderbird.desktop.in.in
 dialogs/mime-settings/helpers/urxvt.desktop.in.in
 dialogs/mime-settings/helpers/vimprobable2.desktop.in.in
 dialogs/mime-settings/helpers/w3m.desktop.in.in
-dialogs/mime-settings/helpers/xfce4-terminal.desktop.in.in
+dialogs/mime-settings/helpers/expidus1-terminal.desktop.in.in
 dialogs/mime-settings/helpers/xfe.desktop.in.in
 dialogs/mime-settings/helpers/xterm.desktop.in.in
 
 dialogs/mouse-settings/main.c
 dialogs/mouse-settings/mouse-dialog.glade
-dialogs/mouse-settings/xfce-mouse-settings.desktop.in
+dialogs/mouse-settings/expidus-mouse-settings.desktop.in
 
-xfce4-settings-editor/main.c
-xfce4-settings-editor/xfce-settings-cell-renderer.c
-xfce4-settings-editor/xfce-settings-editor-box.c
-xfce4-settings-editor/xfce-settings-prop-dialog.c
-xfce4-settings-editor/xfce4-settings-editor.desktop.in
+expidus1-settings-editor/main.c
+expidus1-settings-editor/expidus-settings-cell-renderer.c
+expidus1-settings-editor/expidus-settings-editor-box.c
+expidus1-settings-editor/expidus-settings-prop-dialog.c
+expidus1-settings-editor/expidus1-settings-editor.desktop.in
 
-xfce4-settings-manager/main.c
-xfce4-settings-manager/xfce-settings-manager-dialog.c
-xfce4-settings-manager/xfce-settings-manager.desktop.in
+expidus1-settings-manager/main.c
+expidus1-settings-manager/expidus-settings-manager-dialog.c
+expidus1-settings-manager/expidus-settings-manager.desktop.in
 
-xfsettingsd/accessibility.c
-xfsettingsd/keyboard-layout.c
-xfsettingsd/keyboard-shortcuts.c
-xfsettingsd/main.c
-xfsettingsd/workspaces.c
-xfsettingsd/xsettings.c
-xfsettingsd/xfsettingsd.desktop.in
+essettingsd/accessibility.c
+essettingsd/keyboard-layout.c
+essettingsd/keyboard-shortcuts.c
+essettingsd/main.c
+essettingsd/workspaces.c
+essettingsd/xsettings.c
+essettingsd/essettingsd.desktop.in

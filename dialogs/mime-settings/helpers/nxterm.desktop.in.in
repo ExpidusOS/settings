@@ -1,10 +1,10 @@
 [Desktop Entry]
 Version=1.0
 Icon=nxterm
-Type=X-XFCE-Helper
+Type=X-EXPIDUS-Helper
 _Name=NXterm
 StartupNotify=false
-X-XFCE-Binaries=nxterm;
-X-XFCE-Category=TerminalEmulator
-X-XFCE-Commands=%B;
-X-XFCE-CommandsWithParameter=%B -e %s;
+X-EXPIDUS-Binaries=nxterm;
+X-EXPIDUS-Category=TerminalEmulator
+X-EXPIDUS-Commands=%B;
+X-EXPIDUS-CommandsWithParameter=%B -e %s;

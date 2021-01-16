@@ -2,7 +2,7 @@
 <!-- Generated with glade 3.22.1 -->
 <interface>
   <requires lib="gtk+" version="3.20"/>
-  <requires lib="libxfce4ui-2" version="4.13"/>
+  <requires lib="libexpidus1ui-2" version="4.13"/>
   <object class="GtkListStore" id="devices"/>
   <object class="GtkImage" id="image1">
     <property name="visible">True</property>
@@ -41,13 +41,13 @@
     <property name="can_focus">False</property>
     <property name="icon_name">window-close-symbolic</property>
   </object>
-  <object class="XfceTitledDialog" id="dialog">
+  <object class="ExpidusTitledDialog" id="dialog">
     <property name="can_focus">False</property>
     <property name="title" translatable="yes">Color Profiles</property>
     <property name="window_position">center-on-parent</property>
     <property name="default_width">700</property>
     <property name="default_height">400</property>
-    <property name="icon_name">org.xfce.settings.color</property>
+    <property name="icon_name">com.expidus.settings.color</property>
     <property name="type_hint">dialog</property>
     <child internal-child="vbox">
       <object class="GtkBox" id="dialog-vbox1">
@@ -506,13 +506,13 @@
       <column type="gchararray"/>
     </columns>
   </object>
-  <object class="XfceTitledDialog" id="dialog-assign">
+  <object class="ExpidusTitledDialog" id="dialog-assign">
     <property name="can_focus">False</property>
     <property name="title" translatable="yes">Add Profile to Device</property>
     <property name="modal">True</property>
     <property name="default_width">350</property>
     <property name="default_height">500</property>
-    <property name="icon_name">xfce4-color-settings</property>
+    <property name="icon_name">expidus1-color-settings</property>
     <property name="type_hint">dialog</property>
     <property name="transient_for">dialog</property>
     <child internal-child="vbox">

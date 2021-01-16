@@ -7,12 +7,12 @@
 # ప్రవీణ్ ఇళ్ళ <mail2ipn@gmail.com>, 2011
 msgid ""
 msgstr ""
-"Project-Id-Version: Xfce4-settings\n"
+"Project-Id-Version: Expidus1-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-26 00:30+0100\n"
 "PO-Revision-Date: 2014-04-12 12:45+0000\n"
 "Last-Translator: ప్రవీణ్ ఇళ్ళ <mail2ipn@gmail.com>\n"
-"Language-Team: Telugu (http://www.transifex.com/projects/p/xfce/language/te/)\n"
+"Language-Team: Telugu (http://www.transifex.com/projects/p/expidus/language/te/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../dialogs/accessibility-settings/accessibility-dialog.glade.h:1
-#: ../dialogs/accessibility-settings/xfce4-accessibility-settings.desktop.in.h:1
+#: ../dialogs/accessibility-settings/expidus1-accessibility-settings.desktop.in.h:1
 msgid "Accessibility"
 msgstr "ప్రాపనీయత"
 
@@ -223,8 +223,8 @@ msgstr "సాకెట్ ఐడి"
 #: ../dialogs/appearance-settings/main.c:96
 #: ../dialogs/display-settings/main.c:138
 #: ../dialogs/keyboard-settings/main.c:40 ../dialogs/mime-settings/main.c:40
-#: ../dialogs/mouse-settings/main.c:80 ../xfce4-settings-editor/main.c:43
-#: ../xfsettingsd/main.c:77 ../xfce4-settings-manager/main.c:40
+#: ../dialogs/mouse-settings/main.c:80 ../expidus1-settings-editor/main.c:43
+#: ../essettingsd/main.c:77 ../expidus1-settings-manager/main.c:40
 msgid "Version information"
 msgstr "రూపాంతర సమాచారం"
 
@@ -232,8 +232,8 @@ msgstr "రూపాంతర సమాచారం"
 #: ../dialogs/appearance-settings/main.c:1006
 #: ../dialogs/display-settings/main.c:1994
 #: ../dialogs/keyboard-settings/main.c:76 ../dialogs/mime-settings/main.c:62
-#: ../dialogs/mouse-settings/main.c:1611 ../xfce4-settings-editor/main.c:63
-#: ../xfsettingsd/main.c:187 ../xfce4-settings-manager/main.c:61
+#: ../dialogs/mouse-settings/main.c:1611 ../expidus1-settings-editor/main.c:63
+#: ../essettingsd/main.c:187 ../expidus1-settings-manager/main.c:61
 #, c-format
 msgid "Type '%s --help' for usage."
 msgstr "వినియోగం కోసం '%s --help' టంకించండి."
@@ -242,32 +242,32 @@ msgstr "వినియోగం కోసం '%s --help' టంకించం�
 #: ../dialogs/appearance-settings/main.c:1025
 #: ../dialogs/display-settings/main.c:2013
 #: ../dialogs/keyboard-settings/main.c:92 ../dialogs/mime-settings/main.c:81
-#: ../dialogs/mouse-settings/main.c:1630 ../xfce4-settings-editor/main.c:82
-#: ../xfsettingsd/main.c:203 ../xfce4-settings-manager/main.c:77
-msgid "The Xfce development team. All rights reserved."
-msgstr "Xfce అభివృద్ధి బృందం. అన్ని హక్కులు చెందినవి."
+#: ../dialogs/mouse-settings/main.c:1630 ../expidus1-settings-editor/main.c:82
+#: ../essettingsd/main.c:203 ../expidus1-settings-manager/main.c:77
+msgid "The Expidus development team. All rights reserved."
+msgstr "Expidus అభివృద్ధి బృందం. అన్ని హక్కులు చెందినవి."
 
 #: ../dialogs/accessibility-settings/main.c:212
 #: ../dialogs/appearance-settings/main.c:1026
 #: ../dialogs/display-settings/main.c:2014
 #: ../dialogs/keyboard-settings/main.c:93 ../dialogs/mime-settings/main.c:82
-#: ../dialogs/mouse-settings/main.c:1631 ../xfce4-settings-editor/main.c:83
-#: ../xfsettingsd/main.c:204 ../xfce4-settings-manager/main.c:78
+#: ../dialogs/mouse-settings/main.c:1631 ../expidus1-settings-editor/main.c:83
+#: ../essettingsd/main.c:204 ../expidus1-settings-manager/main.c:78
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr ""
 
-#: ../dialogs/accessibility-settings/xfce4-accessibility-settings.desktop.in.h:2
+#: ../dialogs/accessibility-settings/expidus1-accessibility-settings.desktop.in.h:2
 msgid "Improve keyboard and mouse accessibility"
 msgstr ""
 
 #: ../dialogs/appearance-settings/appearance-dialog.glade.h:1
-#: ../dialogs/appearance-settings/xfce-ui-settings.desktop.in.h:1
+#: ../dialogs/appearance-settings/expidus-ui-settings.desktop.in.h:1
 msgid "Appearance"
 msgstr "రూపురేఖలు"
 
 #: ../dialogs/appearance-settings/appearance-dialog.glade.h:2
-#: ../dialogs/appearance-settings/xfce-ui-settings.desktop.in.h:2
+#: ../dialogs/appearance-settings/expidus-ui-settings.desktop.in.h:2
 msgid "Customize the look of your desktop"
 msgstr ""
 
@@ -516,12 +516,12 @@ msgid ""
 msgstr ""
 
 #: ../dialogs/display-settings/display-dialog.glade.h:1
-#: ../dialogs/display-settings/xfce-display-settings.desktop.in.h:1
+#: ../dialogs/display-settings/expidus-display-settings.desktop.in.h:1
 msgid "Display"
 msgstr "ప్రదర్శన"
 
 #: ../dialogs/display-settings/display-dialog.glade.h:2
-#: ../dialogs/display-settings/xfce-display-settings.desktop.in.h:2
+#: ../dialogs/display-settings/expidus-display-settings.desktop.in.h:2
 msgid "Configure screen settings and layout"
 msgstr "తెర అమరికలను మరియు రూపురేఖలను స్వరూపించు"
 
@@ -668,14 +668,14 @@ msgid "Selected output not disabled"
 msgstr ""
 
 #: ../dialogs/display-settings/main.c:2026
-#: ../dialogs/display-settings/xfce-randr.c:350
+#: ../dialogs/display-settings/expidus-randr.c:350
 #, c-format
 msgid "Unable to query the version of the RandR extension being used"
 msgstr ""
 
 #: ../dialogs/display-settings/main.c:2027
 #: ../dialogs/display-settings/main.c:2063
-msgid "Unable to start the Xfce Display Settings"
+msgid "Unable to start the Expidus Display Settings"
 msgstr ""
 
 #: ../dialogs/display-settings/main.c:2058
@@ -687,26 +687,26 @@ msgid "Unable to launch the proprietary driver settings"
 msgstr ""
 
 #. 1.2 is required
-#: ../dialogs/display-settings/xfce-randr.c:358
+#: ../dialogs/display-settings/expidus-randr.c:358
 #, c-format
 msgid ""
 "This system is using RandR %d.%d. For the display settings to work version "
 "1.2 is required at least"
 msgstr ""
 
-#: ../dialogs/display-settings/xfce-randr.c:626
+#: ../dialogs/display-settings/expidus-randr.c:626
 msgid "Laptop"
 msgstr "లాప్‌టాప్"
 
-#: ../dialogs/display-settings/xfce-randr.c:647
+#: ../dialogs/display-settings/expidus-randr.c:647
 msgid "Monitor"
 msgstr "మానిటర్"
 
-#: ../dialogs/display-settings/xfce-randr.c:650
+#: ../dialogs/display-settings/expidus-randr.c:650
 msgid "Television"
 msgstr "టెలివిజన్"
 
-#: ../dialogs/display-settings/xfce-randr.c:654
+#: ../dialogs/display-settings/expidus-randr.c:654
 msgid "Digital display"
 msgstr "డిజిటల్ ప్రదర్శన"
 
@@ -749,32 +749,32 @@ msgid "Select command"
 msgstr "ఆదేశాన్ని ఎంచుకొను"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:271
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:386
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:386
 msgid "All Files"
 msgstr "అన్ని దస్త్రాలు"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:276
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:391
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:391
 msgid "Executable Files"
 msgstr "ఎక్జిక్యూటబుల్ ఫైళ్లు"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:291
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:406
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:406
 msgid "Perl Scripts"
 msgstr "పెర్ల్ స్క్రిప్టులు"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:297
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:412
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:412
 msgid "Python Scripts"
 msgstr "పైథాన్ స్క్రిప్టులు"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:303
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:418
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:418
 msgid "Ruby Scripts"
 msgstr "రుబి స్క్రిప్టులు"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:309
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:424
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:424
 msgid "Shell Scripts"
 msgstr "షెల్ స్క్రిప్టులు"
 
@@ -787,12 +787,12 @@ msgid "Select keyboard layout and variant"
 msgstr "కీబోర్డు నమూనా మరియు రూపాంతరం ఎంచుకోండి"
 
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:3
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.desktop.in.h:1
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.desktop.in.h:1
 msgid "Keyboard"
 msgstr "కీబోర్డు"
 
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:4
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.desktop.in.h:2
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.desktop.in.h:2
 msgid "Edit keyboard settings and application shortcuts"
 msgstr ""
 
@@ -919,173 +919,173 @@ msgstr ""
 
 #: ../dialogs/keyboard-settings/main.c:102
 #, c-format
-msgid "Failed to connect to xfconf daemon. Reason: %s"
+msgid "Failed to connect to esconf daemon. Reason: %s"
 msgstr ""
 
 #: ../dialogs/keyboard-settings/main.c:113
 msgid "Could not create the settings dialog."
 msgstr ""
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:397
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:397
 msgid "Command"
 msgstr "ఆదేశం"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:402
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:402
 msgid "Shortcut"
 msgstr "అడ్డదారి"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:478
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:478
 msgid "Layout"
 msgstr "నమూనా"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:479
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:479
 msgid "Variant"
 msgstr ""
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1002
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1106
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1002
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1106
 msgid "Shortcut command may not be empty."
 msgstr ""
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1272
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1273
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1272
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1273
 msgid "Reset to Defaults"
 msgstr "అప్రమేయమునకు తిరిగిఅమర్చు"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1274
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1274
 msgid ""
 "This will reset all shortcuts to their default values. Do you really want to"
 " do this?"
 msgstr ""
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1353
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1353
 msgid "The system defaults will be restored next time you log in."
 msgstr ""
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1355
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1355
 msgid "Warning"
 msgstr "హెచ్చరిక"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:128
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:128
 msgid "Select Application"
 msgstr "అనువర్తనాన్ని ఎంచుకోండి"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:204
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:204
 msgid "Use a c_ustom command:"
 msgstr "ఒక అనురూపిత ఆదేశాన్ని వాడుము"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:205
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:205
 msgid ""
 "Use a custom command for an application that is not available from the above"
 " application list."
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:223
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:223
 msgid "_Browse..."
 msgstr "విహరించండి...(_B)"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:376
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:376
 msgid "Select an Application"
 msgstr "ఒక అనువర్తనాన్ని ఎంచుకోండి"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:526
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:526
 msgid "None available"
 msgstr "ఏవీ అందుబాటులో లేవు"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:573
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:573
 msgid "Recommended Applications"
 msgstr "సిఫారసుచేయబడిన అనువర్తనాలు"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:591
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:591
 msgid "Other Applications"
 msgstr "ఇతర అనువర్తనాలు"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:611
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:611
 #, c-format
 msgid "Open <i>%s</i> and other files of type \"%s\" with:"
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:647
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:647
 #, c-format
 msgid "Failed to add new application \"%s\""
 msgstr "కొత్త అనువర్తనము \"%s\" ను జతచేయుటలో విఫలమైంది"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:174
-#: ../dialogs/mime-settings/xfce4-mime-settings.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:174
+#: ../dialogs/mime-settings/expidus1-mime-settings.desktop.in.h:1
 msgid "MIME Type Editor"
 msgstr "MIME రకపు కూర్పకము"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:178
-#: ../dialogs/mime-settings/xfce4-mime-settings.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus-mime-window.c:178
+#: ../dialogs/mime-settings/expidus1-mime-settings.desktop.in.h:2
 msgid "Associate applications with MIME types"
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:203
+#: ../dialogs/mime-settings/expidus-mime-window.c:203
 msgid "_Filter:"
 msgstr "వడబోతకం (_F):"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:211
+#: ../dialogs/mime-settings/expidus-mime-window.c:211
 msgid "Clear filter"
 msgstr "వడబోతను శుభ్రపరుచు"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:257
+#: ../dialogs/mime-settings/expidus-mime-window.c:257
 msgid "MIME Type"
 msgstr "MIME రకం"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:287
+#: ../dialogs/mime-settings/expidus-mime-window.c:287
 msgid "Status"
 msgstr "స్థితి"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:308
+#: ../dialogs/mime-settings/expidus-mime-window.c:308
 msgid "Default Application"
 msgstr "అప్రమేయ అనువర్తనము"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:479
-#: ../dialogs/mime-settings/xfce-mime-window.c:604
+#: ../dialogs/mime-settings/expidus-mime-window.c:479
+#: ../dialogs/mime-settings/expidus-mime-window.c:604
 msgid "User Set"
 msgstr "వాడుకరి అమర్పు"
 
 #. sort the names but keep Default on top
-#: ../dialogs/mime-settings/xfce-mime-window.c:481
-#: ../dialogs/mime-settings/xfce-mime-window.c:604
+#: ../dialogs/mime-settings/expidus-mime-window.c:481
+#: ../dialogs/mime-settings/expidus-mime-window.c:604
 #: ../dialogs/mouse-settings/main.c:366 ../dialogs/mouse-settings/main.c:368
 #: ../dialogs/mouse-settings/main.c:428
 msgid "Default"
 msgstr "అప్రమేయం"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:550
+#: ../dialogs/mime-settings/expidus-mime-window.c:550
 #, c-format
 msgid "%d MIME type found"
 msgid_plural "%d MIME types found"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:649
+#: ../dialogs/mime-settings/expidus-mime-window.c:649
 #, c-format
 msgid "Failed to set application \"%s\" for mime type \"%s\"."
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:906
+#: ../dialogs/mime-settings/expidus-mime-window.c:906
 #, c-format
 msgid "Are you sure you want to reset content type \"%s\" to its default value?"
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:910
+#: ../dialogs/mime-settings/expidus-mime-window.c:910
 msgid "Question"
 msgstr "ప్రశ్న"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:913
+#: ../dialogs/mime-settings/expidus-mime-window.c:913
 msgid ""
 "This will remove your custom mime-association and restore the system-wide "
 "default."
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:917
-#: ../dialogs/mime-settings/xfce-mime-window.c:988
+#: ../dialogs/mime-settings/expidus-mime-window.c:917
+#: ../dialogs/mime-settings/expidus-mime-window.c:988
 msgid "Reset to Default"
 msgstr "అప్రమేయానికి తిరిగమర్చు"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:983
+#: ../dialogs/mime-settings/expidus-mime-window.c:983
 msgid "Choose Application..."
 msgstr "అనువర్తనాన్ని ఎన్నుకోండి..."
 
@@ -1148,12 +1148,12 @@ msgid "Counterclockwise"
 msgstr "అపసవ్యదిశ"
 
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:9
-#: ../dialogs/mouse-settings/xfce-mouse-settings.desktop.in.h:1
+#: ../dialogs/mouse-settings/expidus-mouse-settings.desktop.in.h:1
 msgid "Mouse and Touchpad"
 msgstr "మౌస్ మరియు టచ్‌ప్యాడ్"
 
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:10
-#: ../dialogs/mouse-settings/xfce-mouse-settings.desktop.in.h:2
+#: ../dialogs/mouse-settings/expidus-mouse-settings.desktop.in.h:2
 msgid "Configure pointer device behavior and appearance"
 msgstr ""
 
@@ -1337,283 +1337,283 @@ msgstr ""
 msgid "Mouse (relative)"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:184
-#: ../xfce4-settings-editor/xfce4-settings-editor.desktop.in.h:1
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:184
+#: ../expidus1-settings-editor/expidus1-settings-editor.desktop.in.h:1
 msgid "Settings Editor"
 msgstr "అమరికల కూర్పరి"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:185
-msgid "Customize settings stored by Xfconf"
-msgstr "Xfconf చే భద్రపరుచబడిన అమరికలను అనురూపించు"
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:185
+msgid "Customize settings stored by Esconf"
+msgstr "Esconf చే భద్రపరుచబడిన అమరికలను అనురూపించు"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:230
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:230
 msgid "Channel"
 msgstr "ఛానల్"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:264
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:264
 msgid "Property"
 msgstr "లక్షణం"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:271
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:271
 msgid "Type"
 msgstr "రకం"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:278
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:278
 msgid "Locked"
 msgstr "తాళంవేయబడింది"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:285
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:285
 msgid "Value"
 msgstr "విలువ"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:302
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:302
 msgid "New property"
 msgstr "కొత్త లక్షణం"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:313
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:313
 msgid "Edit selected property"
 msgstr "ఎంపికచేసిన లక్షణాన్ని సవరించు"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:321
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:1026
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:1369
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:321
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:1026
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:1369
 msgid "_Reset"
 msgstr "తిరిగి అమర్చు (_R)"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:324
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:324
 msgid "Reset selected property"
 msgstr "ఎంపికచేసిన లక్షణాన్ని తిరిగి అమర్చు"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:448
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:539
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:658
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:90
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:448
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:539
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:658
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:90
 msgid "Empty"
 msgstr "ఖాళీ"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:451
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:451
 msgid "Array"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:456
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:91
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:456
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:91
 msgid "String"
 msgstr "పదబందం"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:464
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:464
 msgid "Integer"
 msgstr "పూర్ణాంకం"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:467
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:92
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:467
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:92
 msgid "Boolean"
 msgstr "బూలియన్"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:470
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:94
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:470
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:94
 msgid "Double"
 msgstr "రెండు"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:804
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:804
 msgid "_Reset Channel"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:805
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:805
 msgid "Resetting a channel will permanently remove those custom settings."
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:806
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:806
 #, c-format
 msgid "Are you sure you want to reset channel \"%s\" and all its properties?"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:881
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:881
 msgid "reset"
 msgstr "తిరిగి అమర్చు"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:938
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:938
 #, c-format
 msgid "Monitor %s"
 msgstr "మానిటర్ %s"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:946
-msgid "Watch an Xfconf channel for property changes"
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:946
+msgid "Watch an Esconf channel for property changes"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:982
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:982
 #, c-format
 msgid "start monitoring channel \"%s\""
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:1036
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:1036
 msgid "_Monitor"
 msgstr "మానిటర్ (_M)"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:1370
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:1370
 msgid "Resetting a property will permanently remove those custom settings."
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:1371
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:1371
 #, c-format
 msgid "Are you sure you want to reset property \"%s\"?"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:93
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:93
 msgid "Int"
 msgstr "Int"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:95
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:95
 msgid "Unsigned Int"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:96
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:96
 msgid "Int64"
 msgstr "Int64"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:97
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:97
 msgid "Unsigned Int64"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:141
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:141
 msgid "New Property"
 msgstr "కొత్త లక్షణం"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:158
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:158
 msgid "_Property:"
 msgstr "లక్షణం (_P):"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:173
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:173
 msgid "_Type:"
 msgstr "రకం (_T):"
 
 #. strings
 #. integers
 #. bool
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:204
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:215
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:227
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:204
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:215
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:227
 msgid "_Value:"
 msgstr "విలువ (_V):"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:385
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:385
 #, c-format
 msgid "Property names must start with a '/' character"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:396
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:396
 #, c-format
 msgid "The root element ('/') is not a valid property name"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:412
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:412
 #, c-format
 msgid ""
 "Property names can only include the ASCII characters A-Z, a-z, 0-9, '_', "
 "'-', '<' and '>', as well as '/' as a separator"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:425
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:425
 #, c-format
 msgid "Property names cannot have two or more consecutive '/' characters"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:439
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:439
 #, c-format
 msgid "Property names cannot end with a '/' character"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:652
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:652
 msgid "Edit Property"
 msgstr "లక్షణాన్ని సవరించు"
 
-#: ../xfce4-settings-editor/xfce4-settings-editor.desktop.in.h:2
-msgid "Graphical settings editor for Xfconf"
-msgstr "Xfconf కొరకు గ్రాఫికల్ అమరికల కూర్పకం"
+#: ../expidus1-settings-editor/expidus1-settings-editor.desktop.in.h:2
+msgid "Graphical settings editor for Esconf"
+msgstr "Esconf కొరకు గ్రాఫికల్ అమరికల కూర్పకం"
 
-#: ../xfsettingsd/accessibility.c:412
+#: ../essettingsd/accessibility.c:412
 msgid "Sticky keys are enabled"
 msgstr ""
 
-#: ../xfsettingsd/accessibility.c:414
+#: ../essettingsd/accessibility.c:414
 msgid "Sticky keys are disabled"
 msgstr ""
 
-#: ../xfsettingsd/accessibility.c:416
+#: ../essettingsd/accessibility.c:416
 msgid "Sticky keys"
 msgstr "అంటివుండే మీటలు"
 
-#: ../xfsettingsd/accessibility.c:421
+#: ../essettingsd/accessibility.c:421
 msgid "Slow keys are enabled"
 msgstr ""
 
-#: ../xfsettingsd/accessibility.c:423
+#: ../essettingsd/accessibility.c:423
 msgid "Slow keys are disabled"
 msgstr ""
 
-#: ../xfsettingsd/accessibility.c:425
+#: ../essettingsd/accessibility.c:425
 msgid "Slow keys"
 msgstr "నెమ్మది మీటలు"
 
-#: ../xfsettingsd/accessibility.c:430
+#: ../essettingsd/accessibility.c:430
 msgid "Bounce keys are enabled"
 msgstr ""
 
-#: ../xfsettingsd/accessibility.c:432
+#: ../essettingsd/accessibility.c:432
 msgid "Bounce keys are disabled"
 msgstr ""
 
-#: ../xfsettingsd/accessibility.c:434
+#: ../essettingsd/accessibility.c:434
 msgid "Bounce keys"
 msgstr "బౌన్స్ మీటలు"
 
-#: ../xfsettingsd/keyboard-shortcuts.c:244
+#: ../essettingsd/keyboard-shortcuts.c:244
 #, c-format
 msgid "Failed to launch shortcut \"%s\""
 msgstr ""
 
-#: ../xfsettingsd/main.c:78
+#: ../essettingsd/main.c:78
 msgid "Do not fork to the background"
 msgstr ""
 
-#: ../xfsettingsd/main.c:79
+#: ../essettingsd/main.c:79
 msgid "Replace running xsettings daemon (if any)"
 msgstr ""
 
-#: ../xfsettingsd/workspaces.c:385
+#: ../essettingsd/workspaces.c:385
 #, c-format
 msgid "Workspace %d"
 msgstr "కార్యక్షేత్రం %d"
 
-#: ../xfsettingsd/xfsettingsd.desktop.in.h:1
-msgid "The Xfce Settings Daemon"
-msgstr "Xfce అమరికల డెమోన్"
+#: ../essettingsd/essettingsd.desktop.in.h:1
+msgid "The Expidus Settings Daemon"
+msgstr "Expidus అమరికల డెమోన్"
 
-#: ../xfce4-settings-manager/main.c:41
+#: ../expidus1-settings-manager/main.c:41
 msgid "Settings dialog to show"
 msgstr "చూపించవలసిన అమరికల సంవాదం"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:192
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:192
 msgid "All _Settings"
 msgstr "అన్ని అమరికలు (_S)"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:386
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:386
 msgid "Settings"
 msgstr "అమరికలు"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:388
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:388
 msgid "Customize your desktop"
 msgstr "మీ డెస్క్‌టాపును అనురూపించుకోండి"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:878
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:889
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:878
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:889
 #, c-format
 msgid "Unable to start \"%s\""
 msgstr "\"%s\" ప్రారంభించలేకపోతుంది"
 
-#: ../xfce4-settings-manager/xfce-settings-manager.desktop.in.h:1
+#: ../expidus1-settings-manager/expidus-settings-manager.desktop.in.h:1
 msgid "Settings Manager"
 msgstr "అమరికల నిర్వాహకం"
 
-#: ../xfce4-settings-manager/xfce-settings-manager.desktop.in.h:2
-msgid "Graphical Settings Manager for Xfce 4"
-msgstr "Xfce 4 కొరకు రేఖాచిత్ర అమరికల నిర్వాహకం"
+#: ../expidus1-settings-manager/expidus-settings-manager.desktop.in.h:2
+msgid "Graphical Settings Manager for Expidus 4"
+msgstr "Expidus 4 కొరకు రేఖాచిత్ర అమరికల నిర్వాహకం"

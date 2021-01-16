@@ -6,12 +6,12 @@
 # Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2009,2014-2020
 msgid ""
 msgstr ""
-"Project-Id-Version: Xfce4-settings\n"
+"Project-Id-Version: Expidus1-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-19 12:47+0200\n"
 "PO-Revision-Date: 2020-08-31 04:10+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
-"Language-Team: Kazakh (http://www.transifex.com/xfce/xfce4-settings/language/kk/)\n"
+"Language-Team: Kazakh (http://www.transifex.com/expidus/expidus1-settings/language/kk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,39 +26,39 @@ msgctxt "Monitor vendor"
 msgid "Unknown"
 msgstr "Белгісіз"
 
-#: ../common/xfce-randr.c:296 ../dialogs/display-settings/main.c:4265
+#: ../common/expidus-randr.c:296 ../dialogs/display-settings/main.c:4265
 #, c-format
 msgid "Unable to query the version of the RandR extension being used"
 msgstr "Қолданулы тұрған RandR кеңейтуінің нұсқасын анықтау мүмкін емес"
 
 #. 1.2 is required
-#: ../common/xfce-randr.c:304
+#: ../common/expidus-randr.c:304
 #, c-format
 msgid ""
 "This system is using RandR %d.%d. For the display settings to work version "
 "1.2 is required at least"
 msgstr "Жүйеңіздегі RandR нұсқасы %d.%d. Дисплей баптауларының жұмысы үшін кем дегенде 1.2 нұсқасы керек"
 
-#: ../common/xfce-randr.c:594
+#: ../common/expidus-randr.c:594
 msgid "Laptop"
 msgstr "Ноутбук"
 
 #. TRANSLATORS: an externally connected display, where %s is either the
 #. * model, vendor or ID, e.g. 'LP2480zx Monitor'
-#: ../common/xfce-randr.c:607 ../dialogs/color-settings/color-device.c:65
+#: ../common/expidus-randr.c:607 ../dialogs/color-settings/color-device.c:65
 msgid "Monitor"
 msgstr "Монитор"
 
-#: ../common/xfce-randr.c:610
+#: ../common/expidus-randr.c:610
 msgid "Television"
 msgstr "Теледидар"
 
-#: ../common/xfce-randr.c:614
+#: ../common/expidus-randr.c:614
 msgid "Digital display"
 msgstr "Цифрлық дисплей"
 
 #: ../dialogs/accessibility-settings/accessibility-dialog.glade.h:1
-#: ../dialogs/accessibility-settings/xfce4-accessibility-settings.desktop.in.h:1
+#: ../dialogs/accessibility-settings/expidus1-accessibility-settings.desktop.in.h:1
 msgid "Accessibility"
 msgstr "Қолжетерлілік"
 
@@ -74,10 +74,10 @@ msgstr "Пернетақта мен тышқан қолжетерлілігін 
 #: ../dialogs/display-settings/profile-changed-dialog.glade.h:2
 #: ../dialogs/display-settings/main.c:4305
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:7
-#: ../dialogs/mime-settings/xfce-mime-window.c:190
+#: ../dialogs/mime-settings/expidus-mime-window.c:190
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:14
-#: ../xfce4-settings-editor/main.c:166
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:228
+#: ../expidus1-settings-editor/main.c:166
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:228
 msgid "_Close"
 msgstr "_Жабу"
 
@@ -86,10 +86,10 @@ msgstr "_Жабу"
 #: ../dialogs/color-settings/color-dialog.glade.h:4
 #: ../dialogs/display-settings/display-dialog.glade.h:11
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:8
-#: ../dialogs/mime-settings/xfce-mime-window.c:193
+#: ../dialogs/mime-settings/expidus-mime-window.c:193
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:13
-#: ../xfce4-settings-editor/main.c:165
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:217
+#: ../expidus1-settings-editor/main.c:165
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:217
 msgid "_Help"
 msgstr "Кө_мек"
 
@@ -276,9 +276,9 @@ msgstr "Тышқанды эмуляциялау"
 
 #: ../dialogs/accessibility-settings/accessibility-dialog.glade.h:45
 msgid ""
-"Bind a keyboard shortcut to xfce4-find-cursor to get visual feedback of the "
+"Bind a keyboard shortcut to expidus1-find-cursor to get visual feedback of the "
 "mouse pointer's current location."
-msgstr "Тышқан курсорының ағымдағы орнын көрсету үшін xfce4-find-cursor командасына пернетақта жарлығын байланыстыру."
+msgstr "Тышқан курсорының ағымдағы орнын көрсету үшін expidus1-find-cursor командасына пернетақта жарлығын байланыстыру."
 
 #: ../dialogs/accessibility-settings/accessibility-dialog.glade.h:46
 msgid "Show location of pointer on keypress"
@@ -296,7 +296,7 @@ msgstr "Ты_шқан"
 #: ../dialogs/appearance-settings/main.c:106
 #: ../dialogs/color-settings/main.c:48 ../dialogs/display-settings/main.c:139
 #: ../dialogs/keyboard-settings/main.c:40 ../dialogs/mime-settings/main.c:43
-#: ../dialogs/mouse-settings/main.c:86 ../xfce4-settings-editor/main.c:49
+#: ../dialogs/mouse-settings/main.c:86 ../expidus1-settings-editor/main.c:49
 msgid "Settings manager socket"
 msgstr "Баптаулар басқарушысының сокеті"
 
@@ -304,7 +304,7 @@ msgstr "Баптаулар басқарушысының сокеті"
 #: ../dialogs/appearance-settings/main.c:106
 #: ../dialogs/color-settings/main.c:48 ../dialogs/display-settings/main.c:139
 #: ../dialogs/keyboard-settings/main.c:40 ../dialogs/mime-settings/main.c:43
-#: ../dialogs/mouse-settings/main.c:86 ../xfce4-settings-editor/main.c:49
+#: ../dialogs/mouse-settings/main.c:86 ../expidus1-settings-editor/main.c:49
 msgid "SOCKET ID"
 msgstr "SOCKET ID"
 
@@ -312,8 +312,8 @@ msgstr "SOCKET ID"
 #: ../dialogs/appearance-settings/main.c:107
 #: ../dialogs/color-settings/main.c:49 ../dialogs/display-settings/main.c:140
 #: ../dialogs/keyboard-settings/main.c:41 ../dialogs/mime-settings/main.c:44
-#: ../dialogs/mouse-settings/main.c:87 ../xfce4-settings-editor/main.c:50
-#: ../xfce4-settings-manager/main.c:43 ../xfsettingsd/main.c:102
+#: ../dialogs/mouse-settings/main.c:87 ../expidus1-settings-editor/main.c:50
+#: ../expidus1-settings-manager/main.c:43 ../essettingsd/main.c:102
 msgid "Version information"
 msgstr "Нұсқа ақпараты"
 
@@ -322,10 +322,10 @@ msgstr "Нұсқа ақпараты"
 #: ../dialogs/color-settings/main.c:1390
 #: ../dialogs/display-settings/main.c:4233
 #: ../dialogs/keyboard-settings/main.c:78 ../dialogs/mime-settings/main.c:78
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:158
-#: ../dialogs/mouse-settings/main.c:1886 ../xfce4-settings-editor/main.c:120
-#: ../xfce4-settings-manager/main.c:64 ../xfsettingsd/main.c:242
-#: ../xfsettingsd/main.c:280
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:158
+#: ../dialogs/mouse-settings/main.c:1886 ../expidus1-settings-editor/main.c:120
+#: ../expidus1-settings-manager/main.c:64 ../essettingsd/main.c:242
+#: ../essettingsd/main.c:280
 #, c-format
 msgid "Type '%s --help' for usage."
 msgstr "Көмек үшін '%s --help' енгізіңіз."
@@ -335,27 +335,27 @@ msgstr "Көмек үшін '%s --help' енгізіңіз."
 #: ../dialogs/color-settings/main.c:1407
 #: ../dialogs/display-settings/main.c:4252
 #: ../dialogs/keyboard-settings/main.c:94 ../dialogs/mime-settings/main.c:97
-#: ../dialogs/mouse-settings/main.c:1905 ../xfce4-settings-editor/main.c:139
-#: ../xfce4-settings-manager/main.c:80 ../xfsettingsd/main.c:258
-msgid "The Xfce development team. All rights reserved."
-msgstr "Xfce өндіру тобы. Барлық құқықтары қорғалған."
+#: ../dialogs/mouse-settings/main.c:1905 ../expidus1-settings-editor/main.c:139
+#: ../expidus1-settings-manager/main.c:80 ../essettingsd/main.c:258
+msgid "The Expidus development team. All rights reserved."
+msgstr "Expidus өндіру тобы. Барлық құқықтары қорғалған."
 
 #: ../dialogs/accessibility-settings/main.c:220
 #: ../dialogs/appearance-settings/main.c:1190
 #: ../dialogs/color-settings/main.c:1408
 #: ../dialogs/display-settings/main.c:4253
 #: ../dialogs/keyboard-settings/main.c:95 ../dialogs/mime-settings/main.c:98
-#: ../dialogs/mouse-settings/main.c:1906 ../xfce4-settings-editor/main.c:140
-#: ../xfce4-settings-manager/main.c:81 ../xfsettingsd/main.c:259
+#: ../dialogs/mouse-settings/main.c:1906 ../expidus1-settings-editor/main.c:140
+#: ../expidus1-settings-manager/main.c:81 ../essettingsd/main.c:259
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Ақаулықтар жөнінде хабарласыңыз: <%s>."
 
-#: ../dialogs/accessibility-settings/xfce4-accessibility-settings.desktop.in.h:2
+#: ../dialogs/accessibility-settings/expidus1-accessibility-settings.desktop.in.h:2
 msgid "Improve keyboard and mouse accessibility"
 msgstr "Пернетақта мен тышқан қолжетерлілігін жақсарту"
 
-#: ../dialogs/accessibility-settings/xfce4-accessibility-settings.desktop.in.h:3
+#: ../dialogs/accessibility-settings/expidus1-accessibility-settings.desktop.in.h:3
 msgid ""
 "assistive;technologies;keys;sticky;bounce;emulation;screen "
 "readers;magnifiers;a11y;i18n;l10n;AT-SPI;ATK;impairment;"
@@ -406,12 +406,12 @@ msgid "2x"
 msgstr "2x"
 
 #: ../dialogs/appearance-settings/appearance-dialog.glade.h:11
-#: ../dialogs/appearance-settings/xfce-ui-settings.desktop.in.h:1
+#: ../dialogs/appearance-settings/expidus-ui-settings.desktop.in.h:1
 msgid "Appearance"
 msgstr "Сыртқы түрі"
 
 #: ../dialogs/appearance-settings/appearance-dialog.glade.h:12
-#: ../dialogs/appearance-settings/xfce-ui-settings.desktop.in.h:2
+#: ../dialogs/appearance-settings/expidus-ui-settings.desktop.in.h:2
 msgid "Customize the look of your desktop"
 msgstr "Жұмыс үстеліңіздің сыртқы түрін баптаңыз"
 
@@ -616,7 +616,7 @@ msgstr "Вертикалды RGB"
 msgid "Vertical BGR"
 msgstr "Вертикалды BGR"
 
-#: ../dialogs/appearance-settings/xfce-ui-settings.desktop.in.h:3
+#: ../dialogs/appearance-settings/expidus-ui-settings.desktop.in.h:3
 msgid ""
 "themes;user interface;styles;icons;fonts;anti-aliasing;hinting;sub-"
 "pixel;subpixel;rendering;ClearType;DPI;RGB;BGR;menu accelerators;keyboard "
@@ -659,7 +659,7 @@ msgid "Enable color management for %s"
 msgstr "%s үшін түсті басқаруды іске қосу"
 
 #: ../dialogs/color-settings/color-dialog.glade.h:1
-#: ../dialogs/color-settings/xfce4-color-settings.desktop.in.h:1
+#: ../dialogs/color-settings/expidus1-color-settings.desktop.in.h:1
 msgid "Color Profiles"
 msgstr "Түстер профильдері"
 
@@ -725,17 +725,17 @@ msgstr "Құрылғыңызға түстер профилін қосу"
 #: ../dialogs/keyboard-settings/command-dialog.c:116
 #: ../dialogs/keyboard-settings/command-dialog.c:280
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:3
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:395
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:540
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:109
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:395
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:540
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:109
 msgid "_Cancel"
 msgstr "Ба_с тарту"
 
 #: ../dialogs/color-settings/color-dialog.glade.h:19
 #: ../dialogs/keyboard-settings/command-dialog.c:120
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:4
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:541
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:110
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:541
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:110
 msgid "_OK"
 msgstr "_ОК"
 
@@ -853,11 +853,11 @@ msgstr "Үйлесімді профильдер"
 msgid "Unknown"
 msgstr "Белгісіз"
 
-#: ../dialogs/color-settings/xfce4-color-settings.desktop.in.h:2
+#: ../dialogs/color-settings/expidus1-color-settings.desktop.in.h:2
 msgid "Set color profiles"
 msgstr "Түстер профильдерін орнату"
 
-#: ../dialogs/color-settings/xfce4-color-settings.desktop.in.h:3
+#: ../dialogs/color-settings/expidus1-color-settings.desktop.in.h:3
 msgid "color;settings;management;display;monitors;printers;webcams;scanners;"
 msgstr "түстер;бапталар;басқару;экран;мониторлар;принтерлер;веб-камералар;сканерлер;"
 
@@ -896,8 +896,8 @@ msgid "The primary display is currently configured to show:"
 msgstr "Біріншілік экран ағымдағы уақытта келесіні көрсетуді бапталған:"
 
 #: ../dialogs/display-settings/display-dialog.glade.h:5
-msgid "Xfce Panel"
-msgstr "Xfce панелі"
+msgid "Expidus Panel"
+msgstr "Expidus панелі"
 
 #: ../dialogs/display-settings/display-dialog.glade.h:6
 msgid "Desktop icons"
@@ -912,12 +912,12 @@ msgid "Configure..."
 msgstr "Баптау..."
 
 #: ../dialogs/display-settings/display-dialog.glade.h:9
-#: ../dialogs/display-settings/xfce-display-settings.desktop.in.h:1
+#: ../dialogs/display-settings/expidus-display-settings.desktop.in.h:1
 msgid "Display"
 msgstr "Дисплей"
 
 #: ../dialogs/display-settings/display-dialog.glade.h:10
-#: ../dialogs/display-settings/xfce-display-settings.desktop.in.h:2
+#: ../dialogs/display-settings/expidus-display-settings.desktop.in.h:2
 msgid "Configure screen settings and layout"
 msgstr "Экран баптауларын мен жаймасын баптау"
 
@@ -1155,10 +1155,10 @@ msgid "Once a display profile is deleted it cannot be restored."
 msgstr "Экран профилін өшіргеннен кейін, оны қалпына келтіруге болмайды."
 
 #: ../dialogs/display-settings/main.c:2147
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:134
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:382
-#: ../dialogs/mime-settings/xfce-mime-window.c:1079
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:144
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:134
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:382
+#: ../dialogs/mime-settings/expidus-mime-window.c:1079
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:144
 msgid "Cancel"
 msgstr "Бас тарту"
 
@@ -1168,8 +1168,8 @@ msgstr "Өшіру"
 
 #: ../dialogs/display-settings/main.c:2250
 #, c-format
-msgid "%d Xfce Panels"
-msgstr "%d Xfce панелі"
+msgid "%d Expidus Panels"
+msgstr "%d Expidus панелі"
 
 #: ../dialogs/display-settings/main.c:3281
 msgid ""
@@ -1207,8 +1207,8 @@ msgstr "Тек %s (2)"
 
 #: ../dialogs/display-settings/main.c:4266
 #: ../dialogs/display-settings/main.c:4303
-msgid "Unable to start the Xfce Display Settings"
-msgstr "Xfce экран баптауларын жөнелту мүмкін емес"
+msgid "Unable to start the Expidus Display Settings"
+msgstr "Expidus экран баптауларын жөнелту мүмкін емес"
 
 #: ../dialogs/display-settings/main.c:4298
 msgid "ATI Settings"
@@ -1218,7 +1218,7 @@ msgstr "ATI баптаулары"
 msgid "Unable to launch the proprietary driver settings"
 msgstr "Проприетарлы драйвер баптауларын жөнелту мүмкін емес"
 
-#: ../dialogs/display-settings/xfce-display-settings.desktop.in.h:3
+#: ../dialogs/display-settings/expidus-display-settings.desktop.in.h:3
 msgid ""
 "display;settings;screen;resolution;refresh;rate;rotation;external;projectors;monitors;LCD;CRT;HiDPI;"
 msgstr "дисплей;баптаулар;экран;ажыратымдылық;жаңарту;жиілік;бұру;сыртқы;проекторлар;мониторлар;LCD;CRT;HiDPI;"
@@ -1254,43 +1254,43 @@ msgid "Select command"
 msgstr "Команданы таңдаңыз"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:281
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:396
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:396
 msgid "_Open"
 msgstr "_Ашу"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:285
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:389
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:402
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:389
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:402
 msgid "All Files"
 msgstr "Барлық файлдар"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:290
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:394
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:407
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:394
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:407
 msgid "Executable Files"
 msgstr "Орындалатын файлдар"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:305
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:409
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:422
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:409
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:422
 msgid "Perl Scripts"
 msgstr "Perl скриптері"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:311
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:415
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:428
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:415
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:428
 msgid "Python Scripts"
 msgstr "Python скриптері"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:317
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:421
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:434
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:421
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:434
 msgid "Ruby Scripts"
 msgstr "Ruby скриптері"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:323
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:427
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:440
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:427
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:440
 msgid "Shell Scripts"
 msgstr "Қоршам скриптері"
 
@@ -1303,12 +1303,12 @@ msgid "Select keyboard layout and variant"
 msgstr "Пернетақта жаймасы мен нұсқасын таңдау"
 
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:5
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.desktop.in.h:1
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.desktop.in.h:1
 msgid "Keyboard"
 msgstr "Пернетақта"
 
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:6
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.desktop.in.h:2
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.desktop.in.h:2
 msgid "Edit keyboard settings and application shortcuts"
 msgstr "Пернетақта баптауларын мен қолданбалар жарлықтарын түзету"
 
@@ -1435,57 +1435,57 @@ msgstr "GTK+ іске қосу мүмкін емес."
 
 #: ../dialogs/keyboard-settings/main.c:104
 #, c-format
-msgid "Failed to connect to xfconf daemon. Reason: %s"
-msgstr "Xfconf қызметімен байланыс орнату мүмкін емес. Себебі: %s"
+msgid "Failed to connect to esconf daemon. Reason: %s"
+msgstr "Esconf қызметімен байланыс орнату мүмкін емес. Себебі: %s"
 
 #: ../dialogs/keyboard-settings/main.c:115
 msgid "Could not create the settings dialog."
 msgstr "Баптаулар сұхбат терезесін жасау мүмкін емес."
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:397
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:397
 msgid "Command"
 msgstr "Команда"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:402
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:402
 msgid "Shortcut"
 msgstr "Жарлық"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:478
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:478
 msgid "Layout"
 msgstr "Жайма"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:479
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:479
 msgid "Variant"
 msgstr "Нұсқа"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1246
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1247
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1246
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1247
 msgid "Reset to Defaults"
 msgstr "Бастапқы түріне келтіру"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1248
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1248
 msgid ""
 "This will reset all shortcuts to their default values. Do you really want to"
 " do this?"
 msgstr "Бұл әрекет барлық жарлықтарды бастапқы түріне келтіреді. Осыны шынымен қалайсыз ба?"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1250
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1250
 msgid "No"
 msgstr "Жоқ"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1251
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1251
 msgid "Yes"
 msgstr "Иә"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1327
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1327
 msgid "The system defaults will be restored next time you log in."
 msgstr "Жүйенің бастапқы баптаулары сіз келесі рет жүйеге кіргенде іске қосылады."
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1329
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1329
 msgid "Warning"
 msgstr "Ескерту"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.desktop.in.h:3
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.desktop.in.h:3
 msgid "numlock;keyboard;layout;shortcuts;"
 msgstr "numlock;пернетақта;жайма;жарлықтар;"
 
@@ -1493,211 +1493,211 @@ msgstr "numlock;пернетақта;жайма;жарлықтар;"
 msgid "Could not create the mime dialog."
 msgstr "mime сұхбатын жасау мүмкін емес."
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:128
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:128
 msgid "Select Application"
 msgstr "Қолданбаны таңдаңыз"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:136
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:383
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:136
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:383
 msgid "Open"
 msgstr "Ашу"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:205
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:205
 msgid "Use a c_ustom command:"
 msgstr "Өз ко_мандаңызды қолдану:"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:206
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:206
 msgid ""
 "Use a custom command for an application that is not available from the above"
 " application list."
 msgstr "Жоғарыдағы тізімде жоқ қолданбаны таңдау үшін өз командаңызды көрсетіңіз."
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:224
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:224
 msgid "_Browse..."
 msgstr "_Шолу..."
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:379
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:379
 msgid "Select an Application"
 msgstr "Қолданбаны таңдаңыз"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:529
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:529
 msgid "None available"
 msgstr "Қолжетерлік жоқ"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:576
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:576
 msgid "Recommended Applications"
 msgstr "Ұсынылатын қолданбалар"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:594
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:594
 msgid "Other Applications"
 msgstr "Басқа қолданбалар"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:614
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:614
 #, c-format
 msgid "Open <i>%s</i> and other files of type \"%s\" with:"
 msgstr "<i>%s</i> және \"%s\" түріндегі файлдарды көмегімен ашу:"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:650
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:650
 #, c-format
 msgid "Failed to add new application \"%s\""
 msgstr "Жаңа \"%s\" қолданбасын қосу сәтсіз"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:145
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:152
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:145
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:152
 msgid "Press left mouse button to change the selected application."
 msgstr "Ерекшеленген қолданбаны өзгерту үшін тышқанның сол жақпен шертіңіз."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:151
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:151
 msgid "Application Chooser Button"
 msgstr "Қолданбаларды таңдау батырмасы"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:303
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:303
 msgid "No application selected"
 msgstr "Қолданба таңдалмады"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:319
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:319
 msgid "Failed to set default Web Browser"
 msgstr "Негізгі веб браузерді орнату сәтсіз аяқталды"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:320
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:320
 msgid "Failed to set default Mail Reader"
 msgstr "Негізгі пошта қолданбасын орнату сәтсіз аяқталды"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:321
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:321
 msgid "Failed to set default File Manager"
 msgstr "Негізгі файлдар басқарушысын орнату сәтсіз аяқталды"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:322
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:322
 msgid "Failed to set default Terminal Emulator"
 msgstr "Негізгі терминал эмуляторын орнату сәтсіз аяқталды"
 
 #. allocate the chooser
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:392
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:392
 msgid "Select application"
 msgstr "Қолданбаны таңдаңыз"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:505
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:505
 msgid "Choose a custom Web Browser"
 msgstr "Таңдауыңызша веб браузерді көрсету"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:506
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:506
 msgid "Choose a custom Mail Reader"
 msgstr "Таңдауыңызша пошта қолданбасын көрсету"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:507
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:507
 msgid "Choose a custom File Manager"
 msgstr "Таңдауыңызша файлдар басқарушысын көрсету"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:508
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:508
 msgid "Choose a custom Terminal Emulator"
 msgstr "Таңдауыңызша терминал эмуляторын көрсету"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:513
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:513
 msgid ""
 "Specify the application you want to use\n"
-"as default Web Browser for Xfce:"
-msgstr "Xfce үшін негізгі веб браузер ретінде қолданғыңыз\nкелетін қолданбаны көрсетіңіз:"
+"as default Web Browser for Expidus:"
+msgstr "Expidus үшін негізгі веб браузер ретінде қолданғыңыз\nкелетін қолданбаны көрсетіңіз:"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:514
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:514
 msgid ""
 "Specify the application you want to use\n"
-"as default Mail Reader for Xfce:"
-msgstr "Xfce үшін негізгі пошта қолданбасы ретінде қолданғыңыз\nкелетін қолданбаны көрсетіңіз:"
+"as default Mail Reader for Expidus:"
+msgstr "Expidus үшін негізгі пошта қолданбасы ретінде қолданғыңыз\nкелетін қолданбаны көрсетіңіз:"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:515
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:515
 msgid ""
 "Specify the application you want to use\n"
-"as default File Manager for Xfce:"
-msgstr "Xfce үшін негізгі файлдар басқарушысы ретінде қолданғыңыз\nкелетін қолданбаны көрсетіңіз:"
+"as default File Manager for Expidus:"
+msgstr "Expidus үшін негізгі файлдар басқарушысы ретінде қолданғыңыз\nкелетін қолданбаны көрсетіңіз:"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:516
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:516
 msgid ""
 "Specify the application you want to use\n"
-"as default Terminal Emulator for Xfce:"
-msgstr "Xfce үшін негізгі терминал эмуляторы ретінде қолданғыңыз\nкелетін қолданбаны көрсетіңіз:"
+"as default Terminal Emulator for Expidus:"
+msgstr "Expidus үшін негізгі терминал эмуляторы ретінде қолданғыңыз\nкелетін қолданбаны көрсетіңіз:"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:580
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:580
 msgid "Browse the file system to choose a custom command."
 msgstr "Таңдауыңызша команда орнату үшін файлдық жүйені шолу."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:789
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:789
 msgid "_Other..."
 msgstr "_Басқа..."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:790
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:790
 msgid "Use a custom application which is not included in the above list."
 msgstr "Жоғарыдағы тізімде жоқ басқа қолданбаны қолдану."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:113
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:113
 msgid "Choose Preferred Application"
 msgstr "Таңдамалы қолданбаны көрсетіңіз"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:256
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:256
 msgid ""
 "Please choose your preferred Web\n"
 "Browser now and click OK to proceed."
 msgstr "Таңдамалы веб браузеріңізді көрсетіп,\nОК батырмасын басыңыз."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:258
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:258
 msgid ""
 "Please choose your preferred Mail Reader\n"
 "now and click OK to proceed."
 msgstr "Таңдамалы пошта қолданбаңызды көрсетіп,\nОК батырмасын басыңыз."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:260
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:260
 msgid ""
 "Please choose your preferred File Manager\n"
 "now and click OK to proceed."
 msgstr "Таңдамалы файлдар басқарушысын көрсетіп,\nОК батырмасын басыңыз."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:262
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:262
 msgid ""
 "Please choose your preferred Terminal\n"
 "Emulator now and click OK to proceed."
 msgstr "Таңдамалы терминал эмуляторыңызды көрсетіп,\nОК батырмасын басыңыз."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:41
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:41
 msgid "Failed to execute default Web Browser"
 msgstr "Негізгі веб браузерді жөнелту сәтсіз аяқталды"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:42
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:42
 msgid "Failed to execute default Mail Reader"
 msgstr "Негізгі пошта қолданбасын жөнелту сәтсіз аяқталды"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:43
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:43
 msgid "Failed to execute default File Manager"
 msgstr "Негізгі файлдар басқарушысын жөнелту сәтсіз аяқталды"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:44
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:44
 msgid "Failed to execute default Terminal Emulator"
 msgstr "Негізгі терминал эмуляторын жөнелту сәтсіз аяқталды"
 
 #. Enable permanently dismissing this error.
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:86
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:86
 msgid "Do _not show this message again"
 msgstr "Бұл хабарламаны ке_лесіде көрсетпеу"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:116
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:116
 msgid "Print version information and exit"
 msgstr "Нұсқа ақпаратын шығару мен шығу"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:117
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:117
 msgid ""
 "Launch the default helper of TYPE with the optional PARAMETER, where TYPE is"
 " one of the following values."
 msgstr "ТҮР үшін негізгі көмекшіні жөнелту, міндетті емес ПАРАМЕТРмен, бұл жердегі ТҮР - төмендегі мәндердің біреуі."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:117
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:118
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:117
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:118
 msgid "TYPE [PARAMETER]"
 msgstr "ТҮРІ [ПАРАМЕТР]"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:118
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:118
 msgid ""
 "Query the default helper of TYPE, where TYPE is one of the following values."
 msgstr "ТҮРІ түріндегі негізгі көмекшісін сұрау, бұл жерде ТҮРІ - келесі мәндердің біреуі."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:148
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:148
 msgid ""
 "The following TYPEs are supported for the --launch and --query commands:\n"
 "\n"
@@ -1707,201 +1707,201 @@ msgid ""
 "  TerminalEmulator - The preferred Terminal Emulator."
 msgstr "Келесі ТҮРлерге ғана --launch және --query командаларында қолдау бар:\n\n  WebBrowser       - Таңдамалы веб браузер.\n  MailReader       - Таңдамалы пошта қолданбасы.\n  FileManager      - Таңдамалы файлдар басқарушысы.\n  TerminalEmulator - Таңдамалы терминал эмуляторы."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:183
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:256
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:183
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:256
 #, c-format
 msgid "Invalid helper type \"%s\""
 msgstr "Қате көмекші түрі \"%s\""
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:240
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:240
 #, c-format
 msgid ""
-"%s (Xfce %s)\n"
+"%s (Expidus %s)\n"
 "\n"
 "Copyright (c) 2003-2006\n"
 "        os-cillation e.K. All rights reserved.\n"
 "\n"
-"Written by Benedikt Meurer <benny@xfce.org>.\n"
+"Written by Benedikt Meurer <benny@expidus.org>.\n"
 "\n"
 "Built with Gtk+-%d.%d.%d, running Gtk+-%d.%d.%d.\n"
 "\n"
 "Please report bugs to <%s>.\n"
-msgstr "%s (Xfce %s)\n\nCopyright (c) 2003-2006\n        os-cillation e.K. Барлық құқықтары қорғалған.\n\nBenedikt Meurer <benny@xfce.org> жазған.\n\nGtk+-%d.%d.%d жиналып, Gtk+-%d.%d.%d көмегімен қосылған.\n\nАқаулықтар жөнінде хабарласыңыз: <%s>.\n"
+msgstr "%s (Expidus %s)\n\nCopyright (c) 2003-2006\n        os-cillation e.K. Барлық құқықтары қорғалған.\n\nBenedikt Meurer <benny@expidus.org> жазған.\n\nGtk+-%d.%d.%d жиналып, Gtk+-%d.%d.%d көмегімен қосылған.\n\nАқаулықтар жөнінде хабарласыңыз: <%s>.\n"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:266
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:266
 #, c-format
 msgid "No helper defined for \"%s\"."
 msgstr "\"%s\" үшін көмекші қолжетерсіз."
 
-#: ../dialogs/mime-settings/xfce-mime-helper.c:406
+#: ../dialogs/mime-settings/expidus-mime-helper.c:406
 #, c-format
 msgid "No command specified"
 msgstr "Команда көрсетілмеген"
 
-#: ../dialogs/mime-settings/xfce-mime-helper.c:742
-#: ../dialogs/mime-settings/xfce-mime-helper.c:781
-#: ../dialogs/mime-settings/xfce-mime-helper.c:878
-#: ../dialogs/mime-settings/xfce-mime-helper.c:917
+#: ../dialogs/mime-settings/expidus-mime-helper.c:742
+#: ../dialogs/mime-settings/expidus-mime-helper.c:781
+#: ../dialogs/mime-settings/expidus-mime-helper.c:878
+#: ../dialogs/mime-settings/expidus-mime-helper.c:917
 #, c-format
 msgid "Failed to open %s for writing"
 msgstr "Жазу үшін %s ашу сәтсіз аяқталды"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:184
-#: ../dialogs/mime-settings/xfce4-mime-settings.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:184
+#: ../dialogs/mime-settings/expidus1-mime-settings.desktop.in.h:1
 msgid "Default Applications"
 msgstr "Бастапқы қолданбалар"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:188
-#: ../dialogs/mime-settings/xfce4-mime-settings.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus-mime-window.c:188
+#: ../dialogs/mime-settings/expidus1-mime-settings.desktop.in.h:2
 msgid "Associate preferred applications with MIME types"
 msgstr "Таңдамалы қолданбаларды MIME түрлерімен сәйкестендіру"
 
 #. Internet
-#: ../dialogs/mime-settings/xfce-mime-window.c:211
+#: ../dialogs/mime-settings/expidus-mime-window.c:211
 msgid "_Internet"
 msgstr "_Интернет"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:224
-#: ../dialogs/mime-settings/xfce4-web-browser.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:224
+#: ../dialogs/mime-settings/expidus1-web-browser.desktop.in.h:1
 msgid "Web Browser"
 msgstr "Веб браузері"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:232
+#: ../dialogs/mime-settings/expidus-mime-window.c:232
 msgid ""
 "The default Web Browser will be used to open hyperlinks and display help "
 "contents."
 msgstr "Бастапқы веб браузер гиперсілтемелерді ашу және көмекті көрсету үшін қолданылатын болады."
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:255
-#: ../dialogs/mime-settings/xfce4-mail-reader.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:255
+#: ../dialogs/mime-settings/expidus1-mail-reader.desktop.in.h:1
 msgid "Mail Reader"
 msgstr "Пошта қолданбасы"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:263
+#: ../dialogs/mime-settings/expidus-mime-window.c:263
 msgid ""
 "The default Mail Reader will be used to compose emails when you click on "
 "email addresses."
 msgstr "Бастапқы пошта қолданбасы эл. пошта адрестері шертілген кезде хаттарды құрастыру үшін қолданылатын болады."
 
 #. Utilities
-#: ../dialogs/mime-settings/xfce-mime-window.c:282
+#: ../dialogs/mime-settings/expidus-mime-window.c:282
 msgid "_Utilities"
 msgstr "_Утилиталар"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:295
-#: ../dialogs/mime-settings/xfce4-file-manager.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:295
+#: ../dialogs/mime-settings/expidus1-file-manager.desktop.in.h:1
 msgid "File Manager"
 msgstr "Файлдар басқарушысы"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:303
+#: ../dialogs/mime-settings/expidus-mime-window.c:303
 msgid ""
 "The default File Manager will be used to browse the contents of folders."
 msgstr "Бастапқы файлдар басқарушысы бумалар құрамасын шолу үшін қолданылатын болады."
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:326
-#: ../dialogs/mime-settings/xfce4-terminal-emulator.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:326
+#: ../dialogs/mime-settings/expidus1-terminal-emulator.desktop.in.h:1
 msgid "Terminal Emulator"
 msgstr "Терминал эмуляторы"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:334
+#: ../dialogs/mime-settings/expidus-mime-window.c:334
 msgid ""
 "The default Terminal Emulator will be used to run commands that require a "
 "CLI environment."
 msgstr "Бастапқы терминал эмуляторы командалық жол ортасын талап ететін командаларды жөнелту үшін қолданылатын болады."
 
 #. Mimes
-#: ../dialogs/mime-settings/xfce-mime-window.c:353
+#: ../dialogs/mime-settings/expidus-mime-window.c:353
 msgid "_Others"
 msgstr "_Басқалар"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:363
+#: ../dialogs/mime-settings/expidus-mime-window.c:363
 msgid "_Filter:"
 msgstr "Сүз_гі:"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:371
+#: ../dialogs/mime-settings/expidus-mime-window.c:371
 msgid "Clear filter"
 msgstr "Сүзгіні тазарту"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:420
+#: ../dialogs/mime-settings/expidus-mime-window.c:420
 msgid "MIME Type"
 msgstr "MIME түрі"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:448
+#: ../dialogs/mime-settings/expidus-mime-window.c:448
 msgid "Status"
 msgstr "Қалып-күйі"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:468
+#: ../dialogs/mime-settings/expidus-mime-window.c:468
 msgid "Default Application"
 msgstr "Бастапқы қолданба"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:643
-#: ../dialogs/mime-settings/xfce-mime-window.c:768
+#: ../dialogs/mime-settings/expidus-mime-window.c:643
+#: ../dialogs/mime-settings/expidus-mime-window.c:768
 msgid "User Set"
 msgstr "Пайдаланушы орнатқан"
 
 #. sort the names but keep Default on top
-#: ../dialogs/mime-settings/xfce-mime-window.c:645
-#: ../dialogs/mime-settings/xfce-mime-window.c:768
+#: ../dialogs/mime-settings/expidus-mime-window.c:645
+#: ../dialogs/mime-settings/expidus-mime-window.c:768
 #: ../dialogs/mouse-settings/main.c:397 ../dialogs/mouse-settings/main.c:399
 #: ../dialogs/mouse-settings/main.c:459
 msgid "Default"
 msgstr "Бастапқы"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:714
+#: ../dialogs/mime-settings/expidus-mime-window.c:714
 #, c-format
 msgid "%d MIME type found"
 msgid_plural "%d MIME types found"
 msgstr[0] "%d MIME түрі табылды"
 msgstr[1] "%d MIME түрі табылды"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:813
+#: ../dialogs/mime-settings/expidus-mime-window.c:813
 #, c-format
 msgid "Failed to set application \"%s\" for mime type \"%s\"."
 msgstr "\"%s\" қолданбасын \"%s\" mime түрі үшін орнату сәтсіз аяқталды."
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1070
+#: ../dialogs/mime-settings/expidus-mime-window.c:1070
 #, c-format
 msgid "Are you sure you want to reset content type \"%s\" to its default value?"
 msgstr "\"%s\" құрама түрін оның бастапқы түріне тастауды шынымен қалайсыз ба?"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1074
+#: ../dialogs/mime-settings/expidus-mime-window.c:1074
 msgid "Question"
 msgstr "Сұрақ"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1077
+#: ../dialogs/mime-settings/expidus-mime-window.c:1077
 msgid ""
 "This will remove your custom mime-association and restore the system-wide "
 "default."
 msgstr "Бұл әрекет сіз орнатқан сәйкестікті өшіреді және оны бастапқы мәніне орнатады."
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1081
-#: ../dialogs/mime-settings/xfce-mime-window.c:1152
+#: ../dialogs/mime-settings/expidus-mime-window.c:1081
+#: ../dialogs/mime-settings/expidus-mime-window.c:1152
 msgid "Reset to Default"
 msgstr "Бастапқы түріне тастау"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1147
+#: ../dialogs/mime-settings/expidus-mime-window.c:1147
 msgid "Choose Application..."
 msgstr "Қолданбаны таңдаңыз..."
 
-#: ../dialogs/mime-settings/xfce4-mime-settings.desktop.in.h:3
+#: ../dialogs/mime-settings/expidus1-mime-settings.desktop.in.h:3
 msgid ""
 "file;type;extension;association;open with;web browser;mail reader;file "
 "manager;terminal emulator;"
 msgstr "file;type;extension;association;open with;web browser;mail reader;file manager;terminal emulator;файл;түрі;кеңейту;сәйкестілік;көмегімен ашу;веб браузері;пошта қолданбасы;файлдар басқарушысы;терминал эмуляторы;"
 
-#: ../dialogs/mime-settings/xfce4-file-manager.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus1-file-manager.desktop.in.h:2
 msgid "Browse the file system"
 msgstr "Файлдық жүйені шолу"
 
-#: ../dialogs/mime-settings/xfce4-mail-reader.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus1-mail-reader.desktop.in.h:2
 msgid "Read your email"
 msgstr "Поштаңызды оқу"
 
-#: ../dialogs/mime-settings/xfce4-terminal-emulator.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus1-terminal-emulator.desktop.in.h:2
 msgid "Use the command line"
 msgstr "Командалық жолды қолдану"
 
-#: ../dialogs/mime-settings/xfce4-web-browser.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus1-web-browser.desktop.in.h:2
 msgid "Browse the web"
 msgstr "Интернетті шолу"
 
@@ -2105,9 +2105,9 @@ msgstr "Vimprobable2"
 msgid "W3M Text Browser"
 msgstr "W3M мәтіндік браузері"
 
-#: ../dialogs/mime-settings/helpers/xfce4-terminal.desktop.in.in.h:1
-msgid "Xfce Terminal"
-msgstr "Xfce Terminal"
+#: ../dialogs/mime-settings/helpers/expidus1-terminal.desktop.in.in.h:1
+msgid "Expidus Terminal"
+msgstr "Expidus Terminal"
 
 #: ../dialogs/mime-settings/helpers/xfe.desktop.in.in.h:1
 msgid "Xfe File Manager"
@@ -2184,12 +2184,12 @@ msgid "Counterclockwise"
 msgstr "Сағат тілі бағытына қарсы"
 
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:11
-#: ../dialogs/mouse-settings/xfce-mouse-settings.desktop.in.h:1
+#: ../dialogs/mouse-settings/expidus-mouse-settings.desktop.in.h:1
 msgid "Mouse and Touchpad"
 msgstr "Тышқан мен тачпад"
 
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:12
-#: ../dialogs/mouse-settings/xfce-mouse-settings.desktop.in.h:2
+#: ../dialogs/mouse-settings/expidus-mouse-settings.desktop.in.h:2
 msgid "Configure pointer device behavior and appearance"
 msgstr "Көрсету құрылғысының мінез-құлығын мен сыртқы түрін баптау"
 
@@ -2361,195 +2361,195 @@ msgstr "Алдын-ала қарау"
 msgid "_Theme"
 msgstr "_Тақырыбы"
 
-#: ../dialogs/mouse-settings/xfce-mouse-settings.desktop.in.h:3
+#: ../dialogs/mouse-settings/expidus-mouse-settings.desktop.in.h:3
 msgid ""
 "settings;buttons;scroll;direction;pointer;speed;double click;theme;wheel;"
 msgstr "баптаулар;батырмалар;айналдыру;бағыт;курсор;жылдамдық;қос шерту;тема;дөңгелек;"
 
-#: ../xfce4-settings-editor/main.c:163
-#: ../xfce4-settings-editor/xfce4-settings-editor.desktop.in.h:1
+#: ../expidus1-settings-editor/main.c:163
+#: ../expidus1-settings-editor/expidus1-settings-editor.desktop.in.h:1
 msgid "Settings Editor"
 msgstr "Баптаулар түзетуші"
 
-#: ../xfce4-settings-editor/main.c:170
-msgid "Customize settings stored by Xfconf"
-msgstr "Xfconf сақтап тұрған баптауларды түзету"
+#: ../expidus1-settings-editor/main.c:170
+msgid "Customize settings stored by Esconf"
+msgstr "Esconf сақтап тұрған баптауларды түзету"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:253
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:253
 msgid "Channel"
 msgstr "Арна"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:287
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:287
 msgid "Property"
 msgstr "Қасиеті"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:294
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:294
 msgid "Type"
 msgstr "Түрі"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:301
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:301
 msgid "Locked"
 msgstr "Бұғатталған"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:308
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:308
 msgid "Value"
 msgstr "Мәні"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:328
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:328
 msgid "New property"
 msgstr "Жаңа қасиет"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:341
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:341
 msgid "Edit selected property"
 msgstr "Таңдалған қасиетті түзету"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:354
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:354
 msgid "Reset selected property"
 msgstr "Таңдалған қасиетті тастау"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:461
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:552
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:671
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:89
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:461
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:552
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:671
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:89
 msgid "Empty"
 msgstr "Бос"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:464
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:464
 msgid "Array"
 msgstr "Массив"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:469
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:90
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:469
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:90
 msgid "String"
 msgstr "String"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:477
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:477
 msgid "Integer"
 msgstr "Бүтін"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:480
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:91
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:480
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:91
 msgid "Boolean"
 msgstr "Boolean"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:483
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:93
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:483
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:93
 msgid "Double"
 msgstr "Double"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:817
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:817
 msgid "_Reset Channel"
 msgstr "Арна_ны тастау"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:818
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:818
 msgid "Resetting a channel will permanently remove those custom settings."
 msgstr "Каналды тастау бұл баптаулардың жоғалуына әкеп соғады."
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:819
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:819
 #, c-format
 msgid "Are you sure you want to reset channel \"%s\" and all its properties?"
 msgstr "\"%s\" каналын мен оның қасиеттерін тастауды шынымен қалайсыз ба?"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:894
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:894
 msgid "reset"
 msgstr "тастау"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:951
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:951
 #, c-format
 msgid "Monitor %s"
 msgstr "%s бақылау"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:959
-msgid "Watch an Xfconf channel for property changes"
-msgstr "Xfconf арнасын өзгерістерге бақылау"
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:959
+msgid "Watch an Esconf channel for property changes"
+msgstr "Esconf арнасын өзгерістерге бақылау"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:961
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:961
 msgid "Clear"
 msgstr "Тазарту"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:962
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:962
 msgid "Close"
 msgstr "Жабу"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:995
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:995
 #, c-format
 msgid "start monitoring channel \"%s\""
 msgstr "\"%s\" арнасын бақылауды бастау"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1038
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1377
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1038
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1377
 msgid "_Reset"
 msgstr "_Тастау"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1044
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1044
 msgid "_Monitor"
 msgstr "Бақ_ылау"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1054
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1054
 msgid "Refresh"
 msgstr "Жаңарту"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1378
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1378
 msgid "Resetting a property will permanently remove those custom settings."
 msgstr "Қасиетті тастау бұл баптаулардың жоғалуына әкеп соғады."
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1379
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1379
 #, c-format
 msgid "Are you sure you want to reset property \"%s\"?"
 msgstr "\"%s\" қасиетін тастауды шынымен қалайсыз ба?"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:92
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:92
 msgid "Int"
 msgstr "Int"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:94
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:94
 msgid "Unsigned Int"
 msgstr "Unsigned Int"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:95
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:95
 msgid "Int64"
 msgstr "Int64"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:96
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:96
 msgid "Unsigned Int64"
 msgstr "Unsigned Int64"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:141
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:141
 msgid "New Property"
 msgstr "Жаңа қасиет"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:145
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:145
 msgid "Save"
 msgstr "Сақтау"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:160
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:160
 msgid "_Property:"
 msgstr "Қас_иет:"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:174
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:174
 msgid "_Type:"
 msgstr "_Түрі:"
 
 #. strings
 #. integers
 #. bool
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:203
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:213
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:224
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:203
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:213
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:224
 msgid "_Value:"
 msgstr "Мә_ні:"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:381
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:381
 #, c-format
 msgid "Property names must start with a '/' character"
 msgstr "Қасиеттердің атаулары '/' таңбасынан басталуы керек"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:392
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:392
 #, c-format
 msgid "The root element ('/') is not a valid property name"
 msgstr "Түбірлік ('/') элементі дұрыс қасиет аты емес"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:409
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:409
 #, c-format
 msgid ""
 "Property names can only include the ASCII characters A-Z, a-z, 0-9, '_', "
@@ -2557,125 +2557,125 @@ msgid ""
 "separator"
 msgstr "Қасиеттің атында тек ASCII-дің таңбалары A-Z, a-z, 0-9, '_', '-', ':', '.', ',', '[', ']', '{', '}', '<' және '>', оған қоса ажыратқыш ретінде '/' таңбасы болуы мүмкін"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:423
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:423
 #, c-format
 msgid "Property names cannot have two or more consecutive '/' characters"
 msgstr "Қасиет аттарында қатар тұрған екі немесе одан да көп '/' таңбалары болмауы керек"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:437
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:437
 #, c-format
 msgid "Property names cannot end with a '/' character"
 msgstr "Қасиеттің аты '/' таңбасымен аяқталмауы тиіс"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:650
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:650
 msgid "Edit Property"
 msgstr "Қасиетті түзету"
 
-#: ../xfce4-settings-editor/xfce4-settings-editor.desktop.in.h:2
-msgid "Graphical settings editor for Xfconf"
-msgstr "Xfconf үшін баптауларды графикалық түзетуші"
+#: ../expidus1-settings-editor/expidus1-settings-editor.desktop.in.h:2
+msgid "Graphical settings editor for Esconf"
+msgstr "Esconf үшін баптауларды графикалық түзетуші"
 
-#: ../xfce4-settings-editor/xfce4-settings-editor.desktop.in.h:3
+#: ../expidus1-settings-editor/expidus1-settings-editor.desktop.in.h:3
 msgid "registry;regedit;configuration file;"
 msgstr "реестр;regedit;баптаулар файлы;"
 
-#: ../xfce4-settings-manager/main.c:44
+#: ../expidus1-settings-manager/main.c:44
 msgid "Settings dialog to show"
 msgstr "Көрсетілетін баптаулар сұхбаты"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:221
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:221
 msgid "All _Settings"
 msgstr "Бар_лық баптаулар"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:419
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:419
 msgid "Settings"
 msgstr "Баптаулар"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:421
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:421
 msgid "Customize your desktop"
 msgstr "Жұмыс үстеліңізді баптаңыз"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:937
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:948
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:937
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:948
 #, c-format
 msgid "Unable to start \"%s\""
 msgstr "\"%s\" іске қосу мүмкін емес"
 
-#: ../xfce4-settings-manager/xfce-settings-manager.desktop.in.h:1
+#: ../expidus1-settings-manager/expidus-settings-manager.desktop.in.h:1
 msgid "Settings Manager"
 msgstr "Баптаулар басқарушысы"
 
-#: ../xfce4-settings-manager/xfce-settings-manager.desktop.in.h:2
-msgid "Graphical Settings Manager for Xfce"
-msgstr "Xfce үшін баптауларды графикалық түзету сайманы"
+#: ../expidus1-settings-manager/expidus-settings-manager.desktop.in.h:2
+msgid "Graphical Settings Manager for Expidus"
+msgstr "Expidus үшін баптауларды графикалық түзету сайманы"
 
-#: ../xfce4-settings-manager/xfce-settings-manager.desktop.in.h:3
+#: ../expidus1-settings-manager/expidus-settings-manager.desktop.in.h:3
 msgid "control;panel;center;system;settings;personalize;hardware;"
 msgstr "басқару;панель;орталық;жүйе;баптаулар;жекелендіру;құрылғылар;"
 
-#: ../xfsettingsd/accessibility.c:412
+#: ../essettingsd/accessibility.c:412
 msgid "Sticky keys are enabled"
 msgstr "Жабысқақ пернелер қосулы тұр"
 
-#: ../xfsettingsd/accessibility.c:414
+#: ../essettingsd/accessibility.c:414
 msgid "Sticky keys are disabled"
 msgstr "Жабысқақ пернелер сөндірулі тұр"
 
-#: ../xfsettingsd/accessibility.c:416
+#: ../essettingsd/accessibility.c:416
 msgid "Sticky keys"
 msgstr "Жабысқақ пернелер"
 
-#: ../xfsettingsd/accessibility.c:421
+#: ../essettingsd/accessibility.c:421
 msgid "Slow keys are enabled"
 msgstr "Баяу пернелер қосулы тұр"
 
-#: ../xfsettingsd/accessibility.c:423
+#: ../essettingsd/accessibility.c:423
 msgid "Slow keys are disabled"
 msgstr "Баяу пернелер сөндірулі тұр"
 
-#: ../xfsettingsd/accessibility.c:425
+#: ../essettingsd/accessibility.c:425
 msgid "Slow keys"
 msgstr "Баяу пернелер"
 
-#: ../xfsettingsd/accessibility.c:430
+#: ../essettingsd/accessibility.c:430
 msgid "Bounce keys are enabled"
 msgstr "Қайталанатын пернелер қосулы тұр"
 
-#: ../xfsettingsd/accessibility.c:432
+#: ../essettingsd/accessibility.c:432
 msgid "Bounce keys are disabled"
 msgstr "Қайталанатын пернелер сөндірулі тұр"
 
-#: ../xfsettingsd/accessibility.c:434
+#: ../essettingsd/accessibility.c:434
 msgid "Bounce keys"
 msgstr "Қайталанатын пернелер"
 
-#: ../xfsettingsd/keyboard-shortcuts.c:242
+#: ../essettingsd/keyboard-shortcuts.c:242
 #, c-format
 msgid "Failed to launch shortcut \"%s\""
 msgstr "\"%s\" жарлығын жөнелту сәтсіз"
 
-#: ../xfsettingsd/main.c:103
+#: ../essettingsd/main.c:103
 msgid "Do not fork to the background"
 msgstr "Фон режиміне өтпеу"
 
-#: ../xfsettingsd/main.c:104
+#: ../essettingsd/main.c:104
 msgid "Do not wait for a window manager on startup"
 msgstr "Іске қосылғанда, терезелер басқарушысын күтпеу"
 
-#: ../xfsettingsd/main.c:105
+#: ../essettingsd/main.c:105
 msgid "Replace running xsettings daemon (if any)"
 msgstr "Қосулы тұрған xsettings қызметін алмастыру (бар болса)"
 
-#. value in xfconf isn't a string, so make a default one
-#: ../xfsettingsd/workspaces.c:333 ../xfsettingsd/workspaces.c:390
+#. value in esconf isn't a string, so make a default one
+#: ../essettingsd/workspaces.c:333 ../essettingsd/workspaces.c:390
 #, c-format
 msgid "Workspace %d"
 msgstr "Жұмыс орны %d"
 
-#: ../xfsettingsd/xfsettingsd.desktop.in.h:1
-msgid "Xfce Settings Daemon"
-msgstr "Xfce баптаулар қызметі"
+#: ../essettingsd/essettingsd.desktop.in.h:1
+msgid "Expidus Settings Daemon"
+msgstr "Expidus баптаулар қызметі"
 
-#: ../xfsettingsd/xfsettingsd.desktop.in.h:2
-msgid "The Xfce Settings Daemon"
-msgstr "Xfce баптаулар қызметі"
+#: ../essettingsd/essettingsd.desktop.in.h:2
+msgid "The Expidus Settings Daemon"
+msgstr "Expidus баптаулар қызметі"

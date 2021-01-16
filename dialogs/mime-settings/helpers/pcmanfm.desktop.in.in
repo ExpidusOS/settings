@@ -2,10 +2,10 @@
 [Desktop Entry]
 Version=1.0
 Icon=pcmanfm
-Type=X-XFCE-Helper
+Type=X-EXPIDUS-Helper
 _Name=PCMan File Manager
 StartupNotify=true
-X-XFCE-Binaries=pcmanfm;
-X-XFCE-Category=FileManager
-X-XFCE-Commands=%B;
-X-XFCE-CommandsWithParameter=%B "%s";
+X-EXPIDUS-Binaries=pcmanfm;
+X-EXPIDUS-Category=FileManager
+X-EXPIDUS-Commands=%B;
+X-EXPIDUS-CommandsWithParameter=%B "%s";

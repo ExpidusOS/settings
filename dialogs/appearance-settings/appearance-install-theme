@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Copyright (C) 2011 Nick Schermer <nick@xfce.org>
+# Copyright (C) 2011 Nick Schermer <nick@expidus.org>
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -27,7 +27,7 @@
 # the following themes types are supported:
 # - Gtk-2
 # - Gtk-3
-# - Xfwm
+# - Eswm
 # - Icons
 
 dndfilename="$1"
@@ -147,8 +147,8 @@ if test "$retval" -eq 0; then
     # install gtk-3.0 themes
     detectthemes "gtk-3.0/gtk.css"
 
-    # install xfwm4 themes
-    detectthemes "xfwm4/themerc"
+    # install eswm1 themes
+    detectthemes "eswm1/themerc"
 
     # install icon themes
     suffix="index.theme"

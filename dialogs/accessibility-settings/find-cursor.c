@@ -1,5 +1,5 @@
 /*
- *  Copyright (c) 2019 Simon Steinbeiß <simon@xfce.org>
+ *  Copyright (c) 2019 Simon Steinbeiß <simon@expidus.org>
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -30,7 +30,7 @@
 #include <gdk/gdkx.h>
 #include <math.h>
 
-#include <xfconf/xfconf.h>
+#include <esconf/esconf.h>
 
 /* size of the window and circles */
 #define CIRCLE_SIZE 500
@@ -185,7 +185,7 @@ find_cursor_window_draw (GtkWidget      *widget,
 gint
 main (gint argc, gchar **argv)
 {
-    XfconfChannel *accessibility_channel = NULL;
+    EsconfChannel *accessibility_channel = NULL;
     GError        *error = NULL;
     GtkWidget     *window;
     GdkDisplay    *display;
@@ -195,20 +195,20 @@ main (gint argc, gchar **argv)
     gint           x,y;
     gboolean       composited;
 
-    /* initialize xfconf */
-    if (!xfconf_init (&error)) {
+    /* initialize esconf */
+    if (!esconf_init (&error)) {
         /* print error and exit */
-        g_error ("Failed to connect to xfconf daemon: %s.", error->message);
+        g_error ("Failed to connect to esconf daemon: %s.", error->message);
         g_error_free (error);
 
         return EXIT_FAILURE;
     }
 
     /* open the channels */
-    accessibility_channel = xfconf_channel_new ("accessibility");
+    accessibility_channel = esconf_channel_new ("accessibility");
 
     /* don't do anything if the /FindCursor setting is not enabled */
-    if (!xfconf_channel_get_bool (accessibility_channel, "/FindCursor", TRUE))
+    if (!esconf_channel_get_bool (accessibility_channel, "/FindCursor", TRUE))
         return 0;
 
     gtk_init (&argc, &argv);
@@ -265,7 +265,7 @@ main (gint argc, gchar **argv)
 
     gtk_main ();
 
-    xfconf_shutdown ();
+    esconf_shutdown ();
 
     return 0;
 }

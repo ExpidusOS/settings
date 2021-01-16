@@ -3,22 +3,22 @@ AM_CPPFLAGS = \
 	-DDATADIR=\"$(datadir)\" \
 	-DSRCDIR=\"$(top_srcdir)\" \
 	-DLOCALEDIR=\"$(localedir)\" \
-	-DHELPERDIR=\"$(HELPER_PATH_PREFIX)/xfce4/settings\" \
-	-DG_LOG_DOMAIN=\"xfce4-appearance-settings\" \
+	-DHELPERDIR=\"$(HELPER_PATH_PREFIX)/expidus1/settings\" \
+	-DG_LOG_DOMAIN=\"expidus1-appearance-settings\" \
 	$(PLATFORM_CPPFLAGS)
 
 bin_PROGRAMS = \
-	xfce4-appearance-settings
+	expidus1-appearance-settings
 
-xfce4_appearance_settings_SOURCES = \
+expidus1_appearance_settings_SOURCES = \
 	main.c \
 	images.h \
 	appearance-dialog_ui.h
 
-xfce4_appearance_settings_CFLAGS = \
+expidus1_appearance_settings_CFLAGS = \
 	$(GTK_CFLAGS) \
-	$(LIBXFCE4UI_CFLAGS) \
-	$(XFCONF_CFLAGS) \
+	$(LIBEXPIDUS1UI_CFLAGS) \
+	$(ESCONF_CFLAGS) \
 	$(PLATFORM_CFLAGS) \
     -DGTK_DISABLE_SINGLE_INCLUDES \
     -DGDK_DISABLE_DEPRECATED \
@@ -27,17 +27,17 @@ xfce4_appearance_settings_CFLAGS = \
     -DGDK_PIXBUF_DISABLE_DEPRECATED \
     -DG_DISABLE_DEPRECATED
 
-xfce4_appearance_settings_LDFLAGS = \
+expidus1_appearance_settings_LDFLAGS = \
 	-no-undefined \
 	$(PLATFORM_LDFLAGS)
 
-xfce4_appearance_settings_LDADD = \
+expidus1_appearance_settings_LDADD = \
 	$(GTK_LIBS) \
-	$(LIBXFCE4UI_LIBS) \
-	$(XFCONF_LIBS)
+	$(LIBEXPIDUS1UI_LIBS) \
+	$(ESCONF_LIBS)
 
-xfce4_appearance_scriptsdir = $(HELPER_PATH_PREFIX)/xfce4/settings
-xfce4_appearance_scripts_SCRIPTS = appearance-install-theme
+expidus1_appearance_scriptsdir = $(HELPER_PATH_PREFIX)/expidus1/settings
+expidus1_appearance_scripts_SCRIPTS = appearance-install-theme
 
 if MAINTAINER_MODE
 
@@ -50,7 +50,7 @@ appearance-dialog_ui.h: appearance-dialog.glade
 endif
 
 desktopdir = $(datadir)/applications
-desktop_in_files = xfce-ui-settings.desktop.in
+desktop_in_files = expidus-ui-settings.desktop.in
 desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
 
 @INTLTOOL_DESKTOP_RULE@

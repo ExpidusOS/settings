@@ -169,7 +169,7 @@ static const struct Vendor vendors[] =
     //{ "ALS", "Texas Advanced optoelectronics Solutions, Inc" },
     { "ALT", "Altra" },
     { "ALV", "AlphaView LCD" },
-    { "ALX", "ALEXON Co.,Ltd." },
+    { "ALX", "ALENDON Co.,Ltd." },
     { "AMA", "Asia Microelectronic Development Inc" },
     { "AMB", "Ambient Technologies, Inc." },
     { "AMC", "Attachmate Corporation" },

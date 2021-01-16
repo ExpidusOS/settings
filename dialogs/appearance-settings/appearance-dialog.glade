@@ -2,7 +2,7 @@
 <!-- Generated with glade 3.22.1 -->
 <interface>
   <requires lib="gtk+" version="3.20"/>
-  <requires lib="libxfce4ui-2" version="4.13"/>
+  <requires lib="libexpidus1ui-2" version="4.13"/>
   <object class="GtkFileFilter" id="filefilter1">
     <patterns>
       <pattern>*.tar</pattern>
@@ -102,13 +102,13 @@
       <column type="gchararray"/>
     </columns>
   </object>
-  <object class="XfceTitledDialog" id="dialog">
+  <object class="ExpidusTitledDialog" id="dialog">
     <property name="can_focus">False</property>
     <property name="title" translatable="yes">Appearance</property>
     <property name="window_position">center-on-parent</property>
     <property name="default_width">400</property>
     <property name="default_height">540</property>
-    <property name="icon_name">org.xfce.settings.appearance</property>
+    <property name="icon_name">com.expidus.settings.appearance</property>
     <property name="type_hint">dialog</property>
     <child internal-child="vbox">
       <object class="GtkBox" id="dialog-vbox1">

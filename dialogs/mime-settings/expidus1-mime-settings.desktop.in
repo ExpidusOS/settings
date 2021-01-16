@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+_Name=Default Applications
+_Comment=Associate preferred applications with MIME types
+_Keywords=file;type;extension;association;open with;web browser;mail reader;file manager;terminal emulator;
+Exec=expidus1-mime-settings
+Icon=com.expidus.settings.default-applications
+Terminal=false
+Type=Application
+Categories=EXPIDUS;GTK;Settings;DesktopSettings;X-EXPIDUS-SettingsDialog;X-EXPIDUS-SystemSettings;
+StartupNotify=true
+OnlyShowIn=EXPIDUS;
+X-ExpidusPluggable=true

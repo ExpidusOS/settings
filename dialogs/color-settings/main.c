@@ -1,5 +1,5 @@
 /*
- *  Copyright (c) 2019 Simon Steinbeiß <simon@xfce.org>
+ *  Copyright (c) 2019 Simon Steinbeiß <simon@expidus.org>
  *                     Florian Schüller <florian.schueller@gmail.com>
  *
  *  This program is free software; you can redistribute it and/or modify
@@ -32,8 +32,8 @@
 
 #include <gdk/gdkx.h>
 
-#include <libxfce4ui/libxfce4ui.h>
-#include <libxfce4util/libxfce4util.h>
+#include <libexpidus1ui/libexpidus1ui.h>
+#include <libexpidus1util/libexpidus1util.h>
 
 #include "color-device.h"
 #include "color-profile.h"
@@ -936,8 +936,8 @@ color_settings_dialog_response (GtkWidget *dialog,
                                 ColorSettings *settings)
 {
     if (response_id == GTK_RESPONSE_HELP)
-        xfce_dialog_show_help_with_version (GTK_WINDOW (dialog), "xfce4-settings", "color",
-                                            NULL, XFCE4_SETTINGS_VERSION_SHORT);
+        expidus_dialog_show_help_with_version (GTK_WINDOW (dialog), "expidus1-settings", "color",
+                                            NULL, EXPIDUS1_SETTINGS_VERSION_SHORT);
     else
         color_settings_dialog_destroy (settings);
 }
@@ -1379,7 +1379,7 @@ main (gint argc, gchar **argv)
     ColorSettings *settings;
 
     /* setup translation domain */
-    xfce_textdomain (GETTEXT_PACKAGE, LOCALEDIR, "UTF-8");
+    expidus_textdomain (GETTEXT_PACKAGE, LOCALEDIR, "UTF-8");
 
     /* initialize Gtk+ */
     if (!gtk_init_with_args (&argc, &argv, NULL, entries, PACKAGE, &error)) {
@@ -1401,17 +1401,17 @@ main (gint argc, gchar **argv)
 
     /* check if we should print version information */
     if (G_UNLIKELY (opt_version)) {
-        g_print ("%s %s (Xfce %s)\n\n", G_LOG_DOMAIN, PACKAGE_VERSION, xfce_version_string ());
+        g_print ("%s %s (Expidus %s)\n\n", G_LOG_DOMAIN, PACKAGE_VERSION, expidus_version_string ());
         g_print ("%s\n", "Copyright (c) 2008-2019");
-        g_print ("\t%s\n\n", _("The Xfce development team. All rights reserved."));
+        g_print ("\t%s\n\n", _("The Expidus development team. All rights reserved."));
         g_print (_("Please report bugs to <%s>."), PACKAGE_BUGREPORT);
         g_print ("\n");
 
         return EXIT_SUCCESS;
     }
 
-    /* hook to make sure the libxfce4ui library is linked */
-    if (xfce_titled_dialog_get_type () == 0)
+    /* hook to make sure the libexpidus1ui library is linked */
+    if (expidus_titled_dialog_get_type () == 0)
         return EXIT_FAILURE;
 
     /* load the Gtk user-interface file */
@@ -1446,7 +1446,7 @@ main (gint argc, gchar **argv)
 
             /* Get plug child widget */
             settings->plug_child = gtk_builder_get_object (builder, "plug-child");
-            xfce_widget_reparent (GTK_WIDGET (settings->plug_child), plug);
+            expidus_widget_reparent (GTK_WIDGET (settings->plug_child), plug);
             gtk_widget_show (GTK_WIDGET (settings->plug_child));
 
             /* To prevent the settings dialog to be saved in the session */

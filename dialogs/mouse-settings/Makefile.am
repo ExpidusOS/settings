@@ -3,23 +3,23 @@ AM_CPPFLAGS = \
 	-DDATADIR=\"$(datadir)\" \
 	-DSRCDIR=\"$(top_srcdir)\" \
 	-DLOCALEDIR=\"$(localedir)\" \
-	-DG_LOG_DOMAIN=\"xfce4-mouse-settings\" \
+	-DG_LOG_DOMAIN=\"expidus1-mouse-settings\" \
 	$(PLATFORM_CPPFLAGS)
 
 bin_PROGRAMS = \
-	xfce4-mouse-settings
+	expidus1-mouse-settings
 
-xfce4_mouse_settings_SOURCES = \
+expidus1_mouse_settings_SOURCES = \
 	main.c \
 	mouse-dialog_ui.h
 
-xfce4_mouse_settings_CFLAGS = \
+expidus1_mouse_settings_CFLAGS = \
 	$(GTK_CFLAGS) \
-	$(LIBXFCE4UTIL_CFLAGS) \
-	$(LIBXFCE4UI_CFLAGS) \
-	$(XFCONF_CFLAGS) \
+	$(LIBEXPIDUS1UTIL_CFLAGS) \
+	$(LIBEXPIDUS1UI_CFLAGS) \
+	$(ESCONF_CFLAGS) \
 	$(XI_CFLAGS) \
-	$(XFCONF_CFLAGS) \
+	$(ESCONF_CFLAGS) \
 	$(LIBX11_CFLAGS) \
 	$(LIBINPUT_CFLAGS) \
 	$(PLATFORM_CFLAGS) \
@@ -30,25 +30,25 @@ xfce4_mouse_settings_CFLAGS = \
     -DGDK_PIXBUF_DISABLE_DEPRECATED \
     -DG_DISABLE_DEPRECATED
 
-xfce4_mouse_settings_LDFLAGS = \
+expidus1_mouse_settings_LDFLAGS = \
 	-no-undefined \
 	$(PLATFORM_LDFLAGS)
 
-xfce4_mouse_settings_LDADD = \
+expidus1_mouse_settings_LDADD = \
 	$(GTK_LIBS) \
-	$(LIBXFCE4UTIL_LIBS) \
-	$(LIBXFCE4UI_LIBS) \
-	$(XFCONF_LIBS) \
+	$(LIBEXPIDUS1UTIL_LIBS) \
+	$(LIBEXPIDUS1UI_LIBS) \
+	$(ESCONF_LIBS) \
 	$(XI_LIBS) \
 	$(LIBX11_LIBS) \
 	$(LIBINPUT_LIBS) \
 	-lm
 
 if HAVE_XCURSOR
-xfce4_mouse_settings_CFLAGS += \
+expidus1_mouse_settings_CFLAGS += \
 	$(XCURSOR_CFLAGS)
 
-xfce4_mouse_settings_LDADD += \
+expidus1_mouse_settings_LDADD += \
 	$(XCURSOR_LIBS)
 endif
 
@@ -63,7 +63,7 @@ mouse-dialog_ui.h: mouse-dialog.glade
 endif
 
 desktopdir = $(datadir)/applications
-desktop_in_files = xfce-mouse-settings.desktop.in
+desktop_in_files = expidus-mouse-settings.desktop.in
 desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
 
 @INTLTOOL_DESKTOP_RULE@

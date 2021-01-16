@@ -1,8 +1,8 @@
 
-defaultsdir = $(sysconfdir)/xdg/xfce4
+defaultsdir = $(sysconfdir)/xdg/expidus1
 defaults_DATA = helpers.rc
 
-desktopdir = $(datadir)/xfce4/helpers
+desktopdir = $(datadir)/expidus1/helpers
 desktop_in_in_files =							\
 	aterm.desktop.in.in							\
 	balsa.desktop.in.in							\
@@ -54,7 +54,7 @@ desktop_in_in_files =							\
 	urxvt.desktop.in.in							\
 	vimprobable2.desktop.in.in					\
 	w3m.desktop.in.in							\
-	xfce4-terminal.desktop.in.in				\
+	expidus1-terminal.desktop.in.in				\
 	xfe.desktop.in.in							\
 	xterm.desktop.in.in
 
@@ -62,12 +62,12 @@ desktop_in_in_files =							\
 desktop_in_files = $(desktop_in_in_files:.desktop.in.in=.desktop.in)
 desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
 %.desktop.in: %.desktop.in.in
-	sed -e 's,\@HELPERDIR\@,$(HELPER_PATH_PREFIX)/xfce4,g' < $< > $@
+	sed -e 's,\@HELPERDIR\@,$(HELPER_PATH_PREFIX)/expidus1,g' < $< > $@
 @INTLTOOL_DESKTOP_RULE@
 
-xfce4_composedir = $(HELPER_PATH_PREFIX)/xfce4
-xfce4_compose_SCRIPTS =						\
-	xfce4-compose-mail
+expidus1_composedir = $(HELPER_PATH_PREFIX)/expidus1
+expidus1_compose_SCRIPTS =						\
+	expidus1-compose-mail
 
 DISTCLEANFILES =							\
 	$(desktop_in_files)						\
@@ -76,6 +76,6 @@ DISTCLEANFILES =							\
 EXTRA_DIST =								\
 	$(defaults_DATA)						\
 	$(desktop_in_in_files)					\
-	xfce4-compose-mail
+	expidus1-compose-mail
 
 # vi:set ts=8 sw=8 noet ai nocindent syntax=automake:

@@ -1,10 +1,10 @@
 [Desktop Entry]
 Version=1.0
 Icon=system-file-manager
-Type=X-XFCE-Helper
+Type=X-EXPIDUS-Helper
 _Name=Caja File Manager
 StartupNotify=true
-X-XFCE-Binaries=caja;
-X-XFCE-Category=FileManager
-X-XFCE-Commands=%B;
-X-XFCE-CommandsWithParameter=%B --no-desktop --browser "%s";
+X-EXPIDUS-Binaries=caja;
+X-EXPIDUS-Category=FileManager
+X-EXPIDUS-Commands=%B;
+X-EXPIDUS-CommandsWithParameter=%B --no-desktop --browser "%s";

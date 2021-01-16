@@ -1,5 +1,5 @@
 /*
- *  Copyright (c) 2019 Simon Steinbeiß <simon@xfce.org>
+ *  Copyright (c) 2019 Simon Steinbeiß <simon@expidus.org>
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -40,12 +40,12 @@ get_size (gchar **i) {
 }
 
 gboolean
-display_settings_profile_name_exists (XfconfChannel *channel, const gchar *new_profile_name)
+display_settings_profile_name_exists (EsconfChannel *channel, const gchar *new_profile_name)
 {
     GHashTable *properties;
     GList *channel_contents, *current;
 
-    properties = xfconf_channel_get_properties (channel, NULL);
+    properties = esconf_channel_get_properties (channel, NULL);
     channel_contents = g_hash_table_get_keys (properties);
 
     /* get all profiles */
@@ -62,7 +62,7 @@ display_settings_profile_name_exists (XfconfChannel *channel, const gchar *new_p
             continue;
         }
 
-        old_profile_name = xfconf_channel_get_string (channel, current->data, NULL);
+        old_profile_name = esconf_channel_get_string (channel, current->data, NULL);
         if (g_strcmp0 (new_profile_name, old_profile_name) == 0)
         {
             g_free (old_profile_name);
@@ -78,7 +78,7 @@ display_settings_profile_name_exists (XfconfChannel *channel, const gchar *new_p
 }
 
 GList*
-display_settings_get_profiles (gchar **display_infos, XfconfChannel *channel)
+display_settings_get_profiles (gchar **display_infos, EsconfChannel *channel)
 {
     GHashTable *properties;
     GList      *channel_contents;
@@ -87,7 +87,7 @@ display_settings_get_profiles (gchar **display_infos, XfconfChannel *channel)
     guint       m;
     guint       noutput;
 
-    properties = xfconf_channel_get_properties (channel, NULL);
+    properties = esconf_channel_get_properties (channel, NULL);
     channel_contents = g_hash_table_get_keys (properties);
     noutput = g_strv_length (display_infos);
 
@@ -104,8 +104,8 @@ display_settings_get_profiles (gchar **display_infos, XfconfChannel *channel)
         gchar         **current_elements = g_strsplit (current->data, "/", -1);
         gchar          *profile_name;
 
-        /* Only process the profiles and skip all other xfconf properties */
-        /* If xfconf ever supports just getting the first-level children of a property
+        /* Only process the profiles and skip all other esconf properties */
+        /* If esconf ever supports just getting the first-level children of a property
            we could replace this */
         if (get_size (current_elements) != 2)
         {
@@ -119,7 +119,7 @@ display_settings_get_profiles (gchar **display_infos, XfconfChannel *channel)
 
         /* Walk through the profile and check if every EDID referenced there is also currently available */
         property_profile = g_strdup_printf ("/%s", profile_name);
-        props = xfconf_channel_get_properties (channel, property_profile);
+        props = esconf_channel_get_properties (channel, property_profile);
         g_hash_table_iter_init (&iter, props);
 
         while (g_hash_table_iter_next (&iter, &key, &value))
@@ -132,7 +132,7 @@ display_settings_get_profiles (gchar **display_infos, XfconfChannel *channel)
                 monitors++;
 
                 property = g_strdup_printf ("%s/EDID", (gchar*)key);
-                current_edid = xfconf_channel_get_string (channel, property, NULL);
+                current_edid = esconf_channel_get_string (channel, property, NULL);
 
                 if (current_edid) {
 

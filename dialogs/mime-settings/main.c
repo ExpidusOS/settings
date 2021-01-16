@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012 Nick Schermer <nick@xfce.org>
+ * Copyright (C) 2012 Nick Schermer <nick@expidus.org>
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -29,10 +29,10 @@
 
 #include <gdk/gdkx.h>
 
-#include <libxfce4util/libxfce4util.h>
-#include <xfconf/xfconf.h>
+#include <libexpidus1util/libexpidus1util.h>
+#include <esconf/esconf.h>
 
-#include "xfce-mime-window.h"
+#include "expidus-mime-window.h"
 
 
 
@@ -60,13 +60,13 @@ gint
 main (gint argc, gchar **argv)
 {
 
-    XfceMimeWindow *window;
+    ExpidusMimeWindow *window;
     GtkWidget      *dialog;
     GtkWidget      *plug;
     GError         *error = NULL;
 
     /* setup translation domain */
-    xfce_textdomain (GETTEXT_PACKAGE, LOCALEDIR, "UTF-8");
+    expidus_textdomain (GETTEXT_PACKAGE, LOCALEDIR, "UTF-8");
 
     /* initialize Gtk+ */
     if (!gtk_init_with_args (&argc, &argv, NULL, entries, PACKAGE, &error))
@@ -92,28 +92,28 @@ main (gint argc, gchar **argv)
     /* check if we should print version information */
     if (G_UNLIKELY (opt_version))
     {
-        g_print ("%s %s (Xfce %s)\n\n", G_LOG_DOMAIN, PACKAGE_VERSION, xfce_version_string ());
+        g_print ("%s %s (Expidus %s)\n\n", G_LOG_DOMAIN, PACKAGE_VERSION, expidus_version_string ());
         g_print ("%s\n", "Copyright (c) 2008-2019");
-        g_print ("\t%s\n\n", _("The Xfce development team. All rights reserved."));
+        g_print ("\t%s\n\n", _("The Expidus development team. All rights reserved."));
         g_print (_("Please report bugs to <%s>."), PACKAGE_BUGREPORT);
         g_print ("\n");
 
         return EXIT_SUCCESS;
     }
 
-    if (!xfconf_init (&error))
+    if (!esconf_init (&error))
     {
-        g_critical ("Failed to initialize xfconf: %s", error->message);
+        g_critical ("Failed to initialize esconf: %s", error->message);
         g_error_free (error);
     }
 
     /* Create the window object */
-    window = xfce_mime_window_new ();
+    window = expidus_mime_window_new ();
 
     if (G_UNLIKELY (window == NULL))
         {
         g_error (_("Could not create the mime dialog."));
-        xfconf_shutdown ();
+        esconf_shutdown ();
         return EXIT_FAILURE;
         }
 
@@ -122,7 +122,7 @@ main (gint argc, gchar **argv)
     if (G_UNLIKELY (opt_socket_id == 0))
         {
         /* Create and run the settings dialog */
-        dialog = xfce_mime_window_create_dialog (window);
+        dialog = expidus_mime_window_create_dialog (window);
 
         g_signal_connect (dialog, "response",
           G_CALLBACK (mime_window_dialog_response), NULL);
@@ -136,7 +136,7 @@ main (gint argc, gchar **argv)
     else
         {
         /* Embedd the settings dialog into the given socket ID */
-        plug = xfce_mime_window_create_plug (window, opt_socket_id);
+        plug = expidus_mime_window_create_plug (window, opt_socket_id);
         g_signal_connect (plug, "delete-event", G_CALLBACK (gtk_main_quit), NULL);
 
         /* Stop startup notification */
@@ -149,7 +149,7 @@ main (gint argc, gchar **argv)
         gtk_main ();
         }
 
-    xfconf_shutdown ();
+    esconf_shutdown ();
 
     return EXIT_SUCCESS;
 }

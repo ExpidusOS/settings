@@ -1,10 +1,10 @@
 [Desktop Entry]
 Version=1.0
 Icon=mozilla
-Type=X-XFCE-Helper
+Type=X-EXPIDUS-Helper
 _Name=Mozilla Mail
 StartupNotify=false
-X-XFCE-Binaries=mozilla;mozilla-gtk2;mozilla-gtk;
-X-XFCE-Category=MailReader
-X-XFCE-Commands=%B -mail;
-X-XFCE-CommandsWithParameter=@HELPERDIR@/xfce4-compose-mail mozilla-remote %B "mailto:%s";@HELPERDIR@/xfce4-compose-mail mozilla %B "mailto:%s";
+X-EXPIDUS-Binaries=mozilla;mozilla-gtk2;mozilla-gtk;
+X-EXPIDUS-Category=MailReader
+X-EXPIDUS-Commands=%B -mail;
+X-EXPIDUS-CommandsWithParameter=@HELPERDIR@/expidus1-compose-mail mozilla-remote %B "mailto:%s";@HELPERDIR@/expidus1-compose-mail mozilla %B "mailto:%s";

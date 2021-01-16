@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+_Name=Display
+_Comment=Configure screen settings and layout
+_Keywords=display;settings;screen;resolution;refresh;rate;rotation;external;projectors;monitors;LCD;CRT;HiDPI;
+Exec=expidus1-display-settings
+Icon=com.expidus.settings.display
+Terminal=false
+Type=Application
+Categories=EXPIDUS;GTK;Settings;DesktopSettings;X-EXPIDUS-SettingsDialog;X-EXPIDUS-HardwareSettings;
+StartupNotify=true
+OnlyShowIn=EXPIDUS;
+X-ExpidusPluggable=true
+X-ExpidusHelpPage=display

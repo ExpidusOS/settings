@@ -5,7 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: xfce4-settings\n"
+"Project-Id-Version: expidus1-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-11-20 17:53+0100\n"
 "PO-Revision-Date: 2009-05-14 02:29+0500\n"
@@ -21,7 +21,7 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: ../dialogs/accessibility-settings/accessibility-dialog.glade.h:1
-#: ../dialogs/accessibility-settings/xfce4-accessibility-settings.desktop.in.h:1
+#: ../dialogs/accessibility-settings/expidus1-accessibility-settings.desktop.in.h:1
 msgid "Accessibility"
 msgstr "قابلیت رسائی"
 
@@ -248,8 +248,8 @@ msgstr "ساکٹ آئی ڈی"
 #: ../dialogs/appearance-settings/main.c:95
 #: ../dialogs/display-settings/main.c:137
 #: ../dialogs/keyboard-settings/main.c:40 ../dialogs/mime-settings/main.c:40
-#: ../dialogs/mouse-settings/main.c:80 ../xfce4-settings-editor/main.c:43
-#: ../xfsettingsd/main.c:77 ../xfce4-settings-manager/main.c:39
+#: ../dialogs/mouse-settings/main.c:80 ../expidus1-settings-editor/main.c:43
+#: ../essettingsd/main.c:77 ../expidus1-settings-manager/main.c:39
 msgid "Version information"
 msgstr "ورژن معلومات"
 
@@ -257,8 +257,8 @@ msgstr "ورژن معلومات"
 #: ../dialogs/appearance-settings/main.c:966
 #: ../dialogs/display-settings/main.c:1926
 #: ../dialogs/keyboard-settings/main.c:76 ../dialogs/mime-settings/main.c:62
-#: ../dialogs/mouse-settings/main.c:1597 ../xfce4-settings-editor/main.c:63
-#: ../xfsettingsd/main.c:187 ../xfce4-settings-manager/main.c:60
+#: ../dialogs/mouse-settings/main.c:1597 ../expidus1-settings-editor/main.c:63
+#: ../essettingsd/main.c:187 ../expidus1-settings-manager/main.c:60
 #, c-format
 msgid "Type '%s --help' for usage."
 msgstr "ہدایات کے لیے '%s --help' لکھیں"
@@ -267,32 +267,32 @@ msgstr "ہدایات کے لیے '%s --help' لکھیں"
 #: ../dialogs/appearance-settings/main.c:985
 #: ../dialogs/display-settings/main.c:1945
 #: ../dialogs/keyboard-settings/main.c:92 ../dialogs/mime-settings/main.c:81
-#: ../dialogs/mouse-settings/main.c:1616 ../xfce4-settings-editor/main.c:82
-#: ../xfsettingsd/main.c:203 ../xfce4-settings-manager/main.c:76
-msgid "The Xfce development team. All rights reserved."
+#: ../dialogs/mouse-settings/main.c:1616 ../expidus1-settings-editor/main.c:82
+#: ../essettingsd/main.c:203 ../expidus1-settings-manager/main.c:76
+msgid "The Expidus development team. All rights reserved."
 msgstr "ایکسفس ترقی ٹیم. تمام حقوق محفوظ ہیں."
 
 #: ../dialogs/accessibility-settings/main.c:212
 #: ../dialogs/appearance-settings/main.c:986
 #: ../dialogs/display-settings/main.c:1946
 #: ../dialogs/keyboard-settings/main.c:93 ../dialogs/mime-settings/main.c:82
-#: ../dialogs/mouse-settings/main.c:1617 ../xfce4-settings-editor/main.c:83
-#: ../xfsettingsd/main.c:204 ../xfce4-settings-manager/main.c:77
+#: ../dialogs/mouse-settings/main.c:1617 ../expidus1-settings-editor/main.c:83
+#: ../essettingsd/main.c:204 ../expidus1-settings-manager/main.c:77
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "براہ مہربانی غلطیوں کی رپورٹ <%s> پر کریں."
 
-#: ../dialogs/accessibility-settings/xfce4-accessibility-settings.desktop.in.h:2
+#: ../dialogs/accessibility-settings/expidus1-accessibility-settings.desktop.in.h:2
 msgid "Improve keyboard and mouse accessibility"
 msgstr "کیبورڈ اور ماؤس کی قابلیت رسائی بہتر کریں"
 
 #: ../dialogs/appearance-settings/appearance-dialog.glade.h:1
-#: ../dialogs/appearance-settings/xfce-ui-settings.desktop.in.h:1
+#: ../dialogs/appearance-settings/expidus-ui-settings.desktop.in.h:1
 msgid "Appearance"
 msgstr "مظہر"
 
 #: ../dialogs/appearance-settings/appearance-dialog.glade.h:2
-#: ../dialogs/appearance-settings/xfce-ui-settings.desktop.in.h:2
+#: ../dialogs/appearance-settings/expidus-ui-settings.desktop.in.h:2
 msgid "Customize the look of your desktop"
 msgstr "اپنے ڈیسک ٹاپ کا حلیہ مرتب کریں"
 
@@ -560,12 +560,12 @@ msgid ""
 msgstr ""
 
 #: ../dialogs/display-settings/display-dialog.glade.h:1
-#: ../dialogs/display-settings/xfce-display-settings.desktop.in.h:1
+#: ../dialogs/display-settings/expidus-display-settings.desktop.in.h:1
 msgid "Display"
 msgstr "ڈسپلے"
 
 #: ../dialogs/display-settings/display-dialog.glade.h:2
-#: ../dialogs/display-settings/xfce-display-settings.desktop.in.h:2
+#: ../dialogs/display-settings/expidus-display-settings.desktop.in.h:2
 msgid "Configure screen settings and layout"
 msgstr "سکرین کی ترتیبات اور خاکہ مرتب کریں"
 
@@ -723,7 +723,7 @@ msgid "Selected output not disabled"
 msgstr ""
 
 #: ../dialogs/display-settings/main.c:1958
-#: ../dialogs/display-settings/xfce-randr.c:350
+#: ../dialogs/display-settings/expidus-randr.c:350
 #, c-format
 msgid "Unable to query the version of the RandR extension being used"
 msgstr "استعمال ہو رہے رینڈر ایکسٹینشن کا ورژن پہچان میں نہیں آرہا"
@@ -731,7 +731,7 @@ msgstr "استعمال ہو رہے رینڈر ایکسٹینشن کا ورژن �
 #: ../dialogs/display-settings/main.c:1959
 #: ../dialogs/display-settings/main.c:1995
 #, fuzzy
-msgid "Unable to start the Xfce Display Settings"
+msgid "Unable to start the Expidus Display Settings"
 msgstr "تبدیلیاں لاگو کریں اور نئی ڈسپلے ترتیبات کا تجربہ کریں"
 
 #: ../dialogs/display-settings/main.c:1990
@@ -744,7 +744,7 @@ msgid "Unable to launch the proprietary driver settings"
 msgstr ""
 
 #. 1.2 is required
-#: ../dialogs/display-settings/xfce-randr.c:358
+#: ../dialogs/display-settings/expidus-randr.c:358
 #, fuzzy, c-format
 msgid ""
 "This system is using RandR %d.%d. For the display settings to work version "
@@ -753,19 +753,19 @@ msgstr ""
 "یہ سسٹم RandR %d %d استعمال کررہا ہے۔ ڈسپلے ترتیبات کو کام کرنے کے لئے کم از "
 "کم اس کا نسخہ 1.1 درکار ہے"
 
-#: ../dialogs/display-settings/xfce-randr.c:626
+#: ../dialogs/display-settings/expidus-randr.c:626
 msgid "Laptop"
 msgstr "لیپ ٹاپ"
 
-#: ../dialogs/display-settings/xfce-randr.c:647
+#: ../dialogs/display-settings/expidus-randr.c:647
 msgid "Monitor"
 msgstr "مانیٹر"
 
-#: ../dialogs/display-settings/xfce-randr.c:650
+#: ../dialogs/display-settings/expidus-randr.c:650
 msgid "Television"
 msgstr "ٹیلی ویژن"
 
-#: ../dialogs/display-settings/xfce-randr.c:654
+#: ../dialogs/display-settings/expidus-randr.c:654
 msgid "Digital display"
 msgstr "رقمی ڈسپلے"
 
@@ -803,32 +803,32 @@ msgid "Select command"
 msgstr "کمانڈ منتخب کریں"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:235
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:386
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:386
 msgid "All Files"
 msgstr "تمام فائلیں"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:240
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:391
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:391
 msgid "Executable Files"
 msgstr "اطلاقی فائلیں"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:255
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:406
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:406
 msgid "Perl Scripts"
 msgstr "پرل سکرپٹ"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:261
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:412
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:412
 msgid "Python Scripts"
 msgstr "پائتھن سکرپٹ"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:267
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:418
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:418
 msgid "Ruby Scripts"
 msgstr "روبی سکرپٹ"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:273
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:424
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:424
 msgid "Shell Scripts"
 msgstr "شیل سکرپٹ"
 
@@ -841,12 +841,12 @@ msgid "Select keyboard layout and variant"
 msgstr "کیبورڈ خاکہ اور متغیر منتخب کریں"
 
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:3
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.desktop.in.h:1
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.desktop.in.h:1
 msgid "Keyboard"
 msgstr "کیبورڈ"
 
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:4
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.desktop.in.h:2
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.desktop.in.h:2
 msgid "Edit keyboard settings and application shortcuts"
 msgstr "کیبورڈ کی ترتیبات اور اطلاقیوں کے شارٹ کٹس مدون کریں"
 
@@ -992,39 +992,39 @@ msgstr "GTK+ نہیں چلایا جاسکا."
 
 #: ../dialogs/keyboard-settings/main.c:102
 #, c-format
-msgid "Failed to connect to xfconf daemon. Reason: %s"
+msgid "Failed to connect to esconf daemon. Reason: %s"
 msgstr "xconf daemon سے منسلک ہونے میں ناکامی۔ وجہ: %s"
 
 #: ../dialogs/keyboard-settings/main.c:113
 msgid "Could not create the settings dialog."
 msgstr "ترتیبات ڈائیلاگ نہیں بنایا جاسکتا."
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:396
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:396
 msgid "Command"
 msgstr "کمانڈ"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:401
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:401
 msgid "Shortcut"
 msgstr "شارٹ کٹ"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:473
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:473
 msgid "Layout"
 msgstr "خاکہ"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:474
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:474
 msgid "Variant"
 msgstr "ویریئنٹ"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:957
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:957
 msgid "Shortcut command may not be empty."
 msgstr "شارٹ کٹ کمانڈ خالی نہیں ہونی چاہیے."
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1067
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1068
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1067
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1068
 msgid "Reset to Defaults"
 msgstr "طے شدہ پر بحال کریں"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1069
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1069
 msgid ""
 "This will reset all shortcuts to their default values. Do you really want to "
 "do this?"
@@ -1032,143 +1032,143 @@ msgstr ""
 "ایسا کرنے سے تمام شارٹ کٹ اپنی طے شدہ حالت پر واپس بدل جائیں گے۔ کیا آپ "
 "واقعی ایسا کرنا چاہتے ہیں؟ "
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1148
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1148
 msgid "The system defaults will be restored next time you log in."
 msgstr "اگلی مرتبہ آپ کے لاگ ان ہونے پر سسٹم طے شدگان بحال کردئیے جائیں گے۔ "
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1150
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1150
 msgid "Warning"
 msgstr "انتباہ"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:128
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:128
 #, fuzzy
 msgid "Select Application"
 msgstr "کمانڈ منتخب کریں"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:204
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:204
 #, fuzzy
 msgid "Use a c_ustom command:"
 msgstr "کمانڈ منتخب کریں"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:205
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:205
 msgid ""
 "Use a custom command for an application that is not available from the above "
 "application list."
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:223
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:223
 msgid "_Browse..."
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:376
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:376
 #, fuzzy
 msgid "Select an Application"
 msgstr "طے شدہ فونٹ منتخب کریں"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:526
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:526
 msgid "None available"
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:573
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:573
 msgid "Recommended Applications"
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:591
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:591
 #, fuzzy
 msgid "Other Applications"
 msgstr "ا_طلاقیہ شارٹ کٹس"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:611
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:611
 #, c-format
 msgid "Open <i>%s</i> and other files of type \"%s\" with:"
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:647
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:647
 #, fuzzy, c-format
 msgid "Failed to add new application \"%s\""
 msgstr "\"%s\" چلایا نہیں جاسکا"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:174
-#: ../dialogs/mime-settings/xfce4-mime-settings.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:174
+#: ../dialogs/mime-settings/expidus1-mime-settings.desktop.in.h:1
 msgid "MIME Type Editor"
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:178
-#: ../dialogs/mime-settings/xfce4-mime-settings.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus-mime-window.c:178
+#: ../dialogs/mime-settings/expidus1-mime-settings.desktop.in.h:2
 msgid "Associate applications with MIME types"
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:203
+#: ../dialogs/mime-settings/expidus-mime-window.c:203
 msgid "_Filter:"
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:211
+#: ../dialogs/mime-settings/expidus-mime-window.c:211
 msgid "Clear filter"
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:257
+#: ../dialogs/mime-settings/expidus-mime-window.c:257
 #, fuzzy
 msgid "MIME Type"
 msgstr "نوعیت"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:287
+#: ../dialogs/mime-settings/expidus-mime-window.c:287
 msgid "Status"
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:308
+#: ../dialogs/mime-settings/expidus-mime-window.c:308
 #, fuzzy
 msgid "Default Application"
 msgstr "<b>طے شدہ _فونٹ</b>"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:479
-#: ../dialogs/mime-settings/xfce-mime-window.c:604
+#: ../dialogs/mime-settings/expidus-mime-window.c:479
+#: ../dialogs/mime-settings/expidus-mime-window.c:604
 msgid "User Set"
 msgstr ""
 
 #. sort the names but keep Default on top
-#: ../dialogs/mime-settings/xfce-mime-window.c:481
-#: ../dialogs/mime-settings/xfce-mime-window.c:604
+#: ../dialogs/mime-settings/expidus-mime-window.c:481
+#: ../dialogs/mime-settings/expidus-mime-window.c:604
 #: ../dialogs/mouse-settings/main.c:354 ../dialogs/mouse-settings/main.c:356
 #: ../dialogs/mouse-settings/main.c:416
 msgid "Default"
 msgstr "طے شدہ"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:550
+#: ../dialogs/mime-settings/expidus-mime-window.c:550
 #, c-format
 msgid "%d MIME type found"
 msgid_plural "%d MIME types found"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:649
+#: ../dialogs/mime-settings/expidus-mime-window.c:649
 #, c-format
 msgid "Failed to set application \"%s\" for mime type \"%s\"."
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:906
+#: ../dialogs/mime-settings/expidus-mime-window.c:906
 #, fuzzy, c-format
 msgid ""
 "Are you sure you want to reset content type \"%s\" to its default value?"
 msgstr "کیا آپ واقعی خصوصیت \"<b>%s</b>\" صاف کرنا چاہتے ہیں؟"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:910
+#: ../dialogs/mime-settings/expidus-mime-window.c:910
 #, fuzzy
 msgid "Question"
 msgstr "ریزیلوش_ن:"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:913
+#: ../dialogs/mime-settings/expidus-mime-window.c:913
 msgid ""
 "This will remove your custom mime-association and restore the system-wide "
 "default."
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:917
-#: ../dialogs/mime-settings/xfce-mime-window.c:988
+#: ../dialogs/mime-settings/expidus-mime-window.c:917
+#: ../dialogs/mime-settings/expidus-mime-window.c:988
 #, fuzzy
 msgid "Reset to Default"
 msgstr "طے شدہ پر بحال کریں"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:983
+#: ../dialogs/mime-settings/expidus-mime-window.c:983
 msgid "Choose Application..."
 msgstr ""
 
@@ -1210,12 +1210,12 @@ msgid "Circular scrolling"
 msgstr ""
 
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:5
-#: ../dialogs/mouse-settings/xfce-mouse-settings.desktop.in.h:1
+#: ../dialogs/mouse-settings/expidus-mouse-settings.desktop.in.h:1
 msgid "Mouse and Touchpad"
 msgstr ""
 
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:6
-#: ../dialogs/mouse-settings/xfce-mouse-settings.desktop.in.h:2
+#: ../dialogs/mouse-settings/expidus-mouse-settings.desktop.in.h:2
 msgid "Configure pointer device behavior and appearance"
 msgstr "پؤائینٹر ڈیوائس کا سلوک اور مظہر متعین کریں"
 
@@ -1440,160 +1440,160 @@ msgstr ""
 msgid "Counterclockwise"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:184
-#: ../xfce4-settings-editor/xfce4-settings-editor.desktop.in.h:1
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:184
+#: ../expidus1-settings-editor/expidus1-settings-editor.desktop.in.h:1
 msgid "Settings Editor"
 msgstr "ترتیبات ایڈیٹر"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:185
-msgid "Customize settings stored by Xfconf"
-msgstr "Xfconf کی طرف سے محفوظ کردہ ترتیبات مدون کریں"
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:185
+msgid "Customize settings stored by Esconf"
+msgstr "Esconf کی طرف سے محفوظ کردہ ترتیبات مدون کریں"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:230
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:230
 msgid "Channel"
 msgstr "چینل"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:264
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:264
 msgid "Property"
 msgstr "خصوصیت"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:271
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:271
 msgid "Type"
 msgstr "نوعیت"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:278
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:278
 msgid "Locked"
 msgstr "مقفل"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:285
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:285
 msgid "Value"
 msgstr "قدر"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:302
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:302
 msgid "New property"
 msgstr "نئی خصوصیت"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:313
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:313
 #, fuzzy
 msgid "Edit selected property"
 msgstr "خصوصیت مدون کریں"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:321
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:1026
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:1369
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:321
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:1026
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:1369
 msgid "_Reset"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:324
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:324
 #, fuzzy
 msgid "Reset selected property"
 msgstr "خصوصیت صاف/حذف کریں"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:448
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:539
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:658
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:90
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:448
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:539
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:658
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:90
 msgid "Empty"
 msgstr "خالی"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:451
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:451
 msgid "Array"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:456
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:91
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:456
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:91
 #, fuzzy
 msgid "String"
 msgstr "ترتیبات"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:464
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:464
 msgid "Integer"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:467
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:92
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:467
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:92
 msgid "Boolean"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:470
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:94
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:470
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:94
 #, fuzzy
 msgid "Double"
 msgstr "<b>ڈبل کلک</b>"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:804
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:804
 #, fuzzy
 msgid "_Reset Channel"
 msgstr "چینل"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:805
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:805
 msgid "Resetting a channel will permanently remove those custom settings."
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:806
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:806
 #, fuzzy, c-format
 msgid "Are you sure you want to reset channel \"%s\" and all its properties?"
 msgstr "کیا آپ واقعی خصوصیت \"<b>%s</b>\" صاف کرنا چاہتے ہیں؟"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:881
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:881
 msgid "reset"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:938
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:938
 #, fuzzy, c-format
 msgid "Monitor %s"
 msgstr "مانیٹر"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:946
-msgid "Watch an Xfconf channel for property changes"
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:946
+msgid "Watch an Esconf channel for property changes"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:982
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:982
 #, c-format
 msgid "start monitoring channel \"%s\""
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:1036
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:1036
 #, fuzzy
 msgid "_Monitor"
 msgstr "مانیٹر"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:1370
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:1370
 msgid "Resetting a property will permanently remove those custom settings."
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-editor-dialog.c:1371
+#: ../expidus1-settings-editor/expidus-settings-editor-dialog.c:1371
 #, fuzzy, c-format
 msgid "Are you sure you want to reset property \"%s\"?"
 msgstr "کیا آپ واقعی خصوصیت \"<b>%s</b>\" صاف کرنا چاہتے ہیں؟"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:93
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:93
 msgid "Int"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:95
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:95
 msgid "Unsigned Int"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:96
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:96
 msgid "Int64"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:97
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:97
 msgid "Unsigned Int64"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:141
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:141
 #, fuzzy
 msgid "New Property"
 msgstr "نئی خصوصیت"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:158
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:158
 #, fuzzy
 msgid "_Property:"
 msgstr "خصوصیت"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:173
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:173
 #, fuzzy
 msgid "_Type:"
 msgstr "نوعیت:"
@@ -1601,137 +1601,137 @@ msgstr "نوعیت:"
 #. strings
 #. integers
 #. bool
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:204
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:215
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:227
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:204
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:215
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:227
 #, fuzzy
 msgid "_Value:"
 msgstr "قدر:"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:385
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:385
 #, c-format
 msgid "Property names must start with a '/' character"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:396
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:396
 #, c-format
 msgid "The root element ('/') is not a valid property name"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:412
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:412
 #, c-format
 msgid ""
 "Property names can only include the ASCII characters A-Z, a-z, 0-9, '_', "
 "'-', '<' and '>', as well as '/' as a separator"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:425
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:425
 #, c-format
 msgid "Property names cannot have two or more consecutive '/' characters"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:439
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:439
 #, c-format
 msgid "Property names cannot end with a '/' character"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:652
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:652
 msgid "Edit Property"
 msgstr "خصوصیات مدون کریں"
 
-#: ../xfce4-settings-editor/xfce4-settings-editor.desktop.in.h:2
-msgid "Graphical settings editor for Xfconf"
-msgstr "تصویری ترتیبات مدون کار برائے Xfconf"
+#: ../expidus1-settings-editor/expidus1-settings-editor.desktop.in.h:2
+msgid "Graphical settings editor for Esconf"
+msgstr "تصویری ترتیبات مدون کار برائے Esconf"
 
-#: ../xfsettingsd/accessibility.c:412
+#: ../essettingsd/accessibility.c:412
 msgid "Sticky keys are enabled"
 msgstr "چسپاں بٹن فعال ہیں"
 
-#: ../xfsettingsd/accessibility.c:414
+#: ../essettingsd/accessibility.c:414
 msgid "Sticky keys are disabled"
 msgstr "چسپاں بٹن معطل ہیں"
 
-#: ../xfsettingsd/accessibility.c:416
+#: ../essettingsd/accessibility.c:416
 msgid "Sticky keys"
 msgstr "چسپاں بٹن"
 
-#: ../xfsettingsd/accessibility.c:421
+#: ../essettingsd/accessibility.c:421
 msgid "Slow keys are enabled"
 msgstr "آہستہ بٹن فعال ہیں"
 
-#: ../xfsettingsd/accessibility.c:423
+#: ../essettingsd/accessibility.c:423
 msgid "Slow keys are disabled"
 msgstr "آہستہ بٹن معطل ہیں"
 
-#: ../xfsettingsd/accessibility.c:425
+#: ../essettingsd/accessibility.c:425
 msgid "Slow keys"
 msgstr "آہستہ بٹن"
 
-#: ../xfsettingsd/accessibility.c:430
+#: ../essettingsd/accessibility.c:430
 msgid "Bounce keys are enabled"
 msgstr "باؤنس بٹن فعال ہیں"
 
-#: ../xfsettingsd/accessibility.c:432
+#: ../essettingsd/accessibility.c:432
 msgid "Bounce keys are disabled"
 msgstr "باؤنس بٹن معطل ہیں"
 
-#: ../xfsettingsd/accessibility.c:434
+#: ../essettingsd/accessibility.c:434
 msgid "Bounce keys"
 msgstr "باؤنس بٹن"
 
-#: ../xfsettingsd/keyboard-shortcuts.c:244
+#: ../essettingsd/keyboard-shortcuts.c:244
 #, fuzzy, c-format
 msgid "Failed to launch shortcut \"%s\""
 msgstr "\"%s\" چلایا نہیں جاسکا"
 
-#: ../xfsettingsd/main.c:78
+#: ../essettingsd/main.c:78
 #, fuzzy
 msgid "Do not fork to the background"
 msgstr "ڈی بگ موڈ میں چلائیں (پس منظر پر فورک مت کریں)"
 
-#: ../xfsettingsd/main.c:79
+#: ../essettingsd/main.c:79
 msgid "Replace running xsettings daemon (if any)"
 msgstr "چلتا ہوا xsettings ڈیمن تبدیل کریں (اگر ہو تو)"
 
-#: ../xfsettingsd/workspaces.c:385
+#: ../essettingsd/workspaces.c:385
 #, c-format
 msgid "Workspace %d"
 msgstr "مقام کار %d"
 
-#: ../xfsettingsd/xfsettingsd.desktop.in.h:1
+#: ../essettingsd/essettingsd.desktop.in.h:1
 #, fuzzy
-msgid "The Xfce Settings Daemon"
+msgid "The Expidus Settings Daemon"
 msgstr "ایکسفس ترتیبات منیجر"
 
-#: ../xfce4-settings-manager/main.c:40
+#: ../expidus1-settings-manager/main.c:40
 msgid "Settings dialog to show"
 msgstr "دکھانے کے لیے ڈائیلاگ کی ترتیبات"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:186
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:186
 #, fuzzy
 msgid "All _Settings"
 msgstr "_ترتیبات"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:366
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:366
 msgid "Settings"
 msgstr "ترتیبات"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:368
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:368
 msgid "Customize your desktop"
 msgstr "اپنا ڈیسک ٹاپ مرتب کریں"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:858
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:869
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:858
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:869
 #, c-format
 msgid "Unable to start \"%s\""
 msgstr "\"%s\" چلایا نہیں جاسکا"
 
-#: ../xfce4-settings-manager/xfce-settings-manager.desktop.in.h:1
+#: ../expidus1-settings-manager/expidus-settings-manager.desktop.in.h:1
 msgid "Settings Manager"
 msgstr "ترتیبات منیجر"
 
-#: ../xfce4-settings-manager/xfce-settings-manager.desktop.in.h:2
-msgid "Graphical Settings Manager for Xfce 4"
+#: ../expidus1-settings-manager/expidus-settings-manager.desktop.in.h:2
+msgid "Graphical Settings Manager for Expidus 4"
 msgstr "تصویری ترتیبات منیجر برائے ایکسفس 4"
 
 #~ msgid "_Settings"
@@ -1767,8 +1767,8 @@ msgstr "تصویری ترتیبات منیجر برائے ایکسفس 4"
 #~ msgid "Name:"
 #~ msgstr "نام:"
 
-#~ msgid "Xfconf channels"
-#~ msgstr "Xfconf چینل"
+#~ msgid "Esconf channels"
+#~ msgstr "Esconf چینل"
 
 #~ msgid "_Overview"
 #~ msgstr "_عمومی منظر"
@@ -1790,7 +1790,7 @@ msgstr "تصویری ترتیبات منیجر برائے ایکسفس 4"
 #~ msgid "Active"
 #~ msgstr "فعال"
 
-#~ msgid "Xfce 4 Settings Manager"
+#~ msgid "Expidus 4 Settings Manager"
 #~ msgstr "ایکسفس 4 ترتیبات منیجر"
 
 #, fuzzy

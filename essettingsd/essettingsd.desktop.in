@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+_Name=Expidus Settings Daemon
+_Comment=The Expidus Settings Daemon
+Exec=essettingsd
+Icon=com.expidus.settings.manager
+Terminal=false
+Type=Application
+StartupNotify=false
+OnlyShowIn=EXPIDUS;

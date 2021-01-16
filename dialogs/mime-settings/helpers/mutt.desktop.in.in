@@ -1,10 +1,10 @@
 [Desktop Entry]
 Version=1.0
 Icon=mutt
-Type=X-XFCE-Helper
+Type=X-EXPIDUS-Helper
 _Name=Mutt
 StartupNotify=false
-X-XFCE-Binaries=mutt;
-X-XFCE-Category=MailReader
-X-XFCE-Commands=exo-open --launch TerminalEmulator %B;
-X-XFCE-CommandsWithParameter=exo-open --launch TerminalEmulator @HELPERDIR@/xfce4-compose-mail mutt %B "mailto:%s";
+X-EXPIDUS-Binaries=mutt;
+X-EXPIDUS-Category=MailReader
+X-EXPIDUS-Commands=endo-open --launch TerminalEmulator %B;
+X-EXPIDUS-CommandsWithParameter=endo-open --launch TerminalEmulator @HELPERDIR@/expidus1-compose-mail mutt %B "mailto:%s";

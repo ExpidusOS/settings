@@ -1,10 +1,10 @@
 [Desktop Entry]
 Version=1.0
 Icon=encompass
-Type=X-XFCE-Helper
+Type=X-EXPIDUS-Helper
 _Name=Encompass
 StartupNotify=true
-X-XFCE-Binaries=encompass;
-X-XFCE-Category=WebBrowser
-X-XFCE-Commands=%B;
-X-XFCE-CommandsWithParameter=%B "%s";
+X-EXPIDUS-Binaries=encompass;
+X-EXPIDUS-Category=WebBrowser
+X-EXPIDUS-Commands=%B;
+X-EXPIDUS-CommandsWithParameter=%B "%s";

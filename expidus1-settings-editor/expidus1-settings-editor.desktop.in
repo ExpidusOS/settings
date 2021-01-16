@@ -1,0 +1,12 @@
+[Desktop Entry]
+_Name=Settings Editor
+_Comment=Graphical settings editor for Esconf
+_Keywords=registry;regedit;configuration file;
+Exec=expidus1-settings-editor
+Icon=com.expidus.settings.editor
+Terminal=false
+Type=Application
+Categories=EXPIDUS;GTK;Settings;DesktopSettings;X-EXPIDUS-SettingsDialog;
+OnlyShowIn=EXPIDUS;
+X-ExpidusSettingsManagerHidden=true
+X-ExpidusPluggable=true

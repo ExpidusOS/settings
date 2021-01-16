@@ -1,0 +1,92 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+ "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+
+<Menu>
+  <Name>Settings</Name>
+
+  <DefaultAppDirs/>
+  <DefaultDirectoryDirs/>
+  <DefaultMergeDirs/>
+
+   <Layout>
+     <Menuname>Personal</Menuname>
+     <Menuname>Hardware</Menuname>
+     <Menuname>System</Menuname>
+     <Menuname>Other</Menuname>
+     <Merge type="all" />
+   </Layout>
+
+  <Include>
+    <And>
+      <Category>Settings</Category>
+      <Not>
+        <Or>
+          <Category>X-EXPIDUS-PersonalSettings</Category>
+          <Category>X-EXPIDUS-HardwareSettings</Category>
+          <Category>X-EXPIDUS-SystemSettings</Category>
+        </Or>
+      </Not>
+    </And>
+  </Include>
+
+  <Exclude>
+    <Filename>expidus-settings-manager.desktop</Filename>
+  </Exclude>
+
+  <Menu>
+    <Name>Personal</Name>
+    <Directory>expidus-personal.directory</Directory>
+    <Include>
+      <And>
+        <Category>Settings</Category>
+        <Category>X-EXPIDUS-SettingsDialog</Category>
+        <Category>X-EXPIDUS-PersonalSettings</Category>
+      </And>
+      <Filename>xscreensaver-properties.desktop</Filename>
+    </Include>
+  </Menu>
+
+  <Menu>
+    <Name>Hardware</Name>
+    <Directory>expidus-hardware.directory</Directory>
+    <Include>
+      <And>
+        <Category>Settings</Category>
+        <Category>X-EXPIDUS-SettingsDialog</Category>
+        <Category>X-EXPIDUS-HardwareSettings</Category>
+      </And>
+    </Include>
+  </Menu>
+
+  <Menu>
+    <Name>System</Name>
+    <Directory>expidus-system.directory</Directory>
+    <Include>
+      <And>
+        <Category>Settings</Category>
+        <Category>X-EXPIDUS-SettingsDialog</Category>
+        <Category>X-EXPIDUS-SystemSettings</Category>
+      </And>
+    </Include>
+  </Menu>
+
+  <Menu>
+    <Name>Other</Name>
+    <Directory>expidus-other.directory</Directory>
+    <Include>
+      <And>
+        <Category>Settings</Category>
+        <Category>X-EXPIDUS-SettingsDialog</Category>
+        <Not>
+          <Or>
+            <Category>X-EXPIDUS-PersonalSettings</Category>
+            <Category>X-EXPIDUS-SystemSettings</Category>
+            <Category>X-EXPIDUS-HardwareSettings</Category>
+            <Filename>expidus-settings-manager.desktop</Filename>
+          </Or>
+        </Not>
+      </And>
+    </Include>
+  </Menu>
+
+</Menu>

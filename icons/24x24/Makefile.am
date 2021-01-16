@@ -1,19 +1,19 @@
 
 iconsdir = $(datadir)/icons/hicolor/24x24/apps
 icons_DATA = \
-	org.xfce.filemanager.png	\
-	org.xfce.mailreader.png	\
-	org.xfce.terminalemulator.png	\
-	org.xfce.webbrowser.png	\
-	org.xfce.settings.accessibility.png		\
-	org.xfce.settings.appearance.png		\
-	org.xfce.settings.color.png		\
-	org.xfce.settings.display.png		\
-	org.xfce.settings.editor.png		\
-	org.xfce.settings.keyboard.png		\
-	org.xfce.settings.manager.png		\
-	org.xfce.settings.mouse.png		\
-	org.xfce.settings.default-applications.png
+	com.expidus.filemanager.png	\
+	com.expidus.mailreader.png	\
+	com.expidus.terminalemulator.png	\
+	com.expidus.webbrowser.png	\
+	com.expidus.settings.accessibility.png		\
+	com.expidus.settings.appearance.png		\
+	com.expidus.settings.color.png		\
+	com.expidus.settings.display.png		\
+	com.expidus.settings.editor.png		\
+	com.expidus.settings.keyboard.png		\
+	com.expidus.settings.manager.png		\
+	com.expidus.settings.mouse.png		\
+	com.expidus.settings.default-applications.png
 
 EXTRA_DIST = \
 	$(icons_DATA)

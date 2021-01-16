@@ -1,6 +1,6 @@
 /*
- *  Copyright (c) 2008 Stephan Arts <stephan@xfce.org>
- *  Copyright (c) 2008 Jannis Pohlmann <jannis@xfce.org>
+ *  Copyright (c) 2008 Stephan Arts <stephan@expidus.org>
+ *  Copyright (c) 2008 Jannis Pohlmann <jannis@expidus.org>
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -42,9 +42,9 @@
 
 #include <gio/gio.h>
 
-#include <libxfce4ui/libxfce4ui.h>
-#include <libxfce4util/libxfce4util.h>
-#include <xfconf/xfconf.h>
+#include <libexpidus1ui/libexpidus1ui.h>
+#include <libexpidus1util/libexpidus1util.h>
+#include <esconf/esconf.h>
 
 #include "appearance-dialog_ui.h"
 #include "images.h"
@@ -108,8 +108,8 @@ static GOptionEntry option_entries[] =
     { NULL }
 };
 
-/* Global xfconf channel */
-static XfconfChannel *xsettings_channel;
+/* Global esconf channel */
+static EsconfChannel *xsettings_channel;
 
 typedef struct
 {
@@ -196,7 +196,7 @@ cb_theme_tree_selection_changed (GtkTreeSelection *selection,
         gtk_tree_model_get (model, &iter, COLUMN_THEME_NAME, &name, -1);
 
         /* Store the new theme */
-        xfconf_channel_set_string (xsettings_channel, property, name);
+        esconf_channel_set_string (xsettings_channel, property, name);
 
         /* Cleanup */
         g_free (name);
@@ -226,7 +226,7 @@ cb_window_scaling_factor_combo_changed (GtkComboBox *combo)
     active = CLAMP (gtk_combo_box_get_active (combo) + 1, 1, 2);
 
     /* Save setting */
-    xfconf_channel_set_int (xsettings_channel, "/Gdk/WindowScalingFactor", active);
+    esconf_channel_set_int (xsettings_channel, "/Gdk/WindowScalingFactor", active);
 }
 
 static void
@@ -241,7 +241,7 @@ cb_antialias_check_button_toggled (GtkToggleButton *toggle)
     active = gtk_toggle_button_get_active (toggle) ? 1 : 0;
 
     /* Save setting */
-    xfconf_channel_set_int (xsettings_channel, "/Xft/Antialias", active);
+    esconf_channel_set_int (xsettings_channel, "/Xft/Antialias", active);
 }
 
 static void
@@ -253,10 +253,10 @@ cb_hinting_style_combo_changed (GtkComboBox *combo)
     active = CLAMP (gtk_combo_box_get_active (combo), 0, (gint) G_N_ELEMENTS (xft_hint_styles_array)-1);
 
     /* Save setting */
-    xfconf_channel_set_string (xsettings_channel, "/Xft/HintStyle", xft_hint_styles_array[active]);
+    esconf_channel_set_string (xsettings_channel, "/Xft/HintStyle", xft_hint_styles_array[active]);
 
     /* Also update /Xft/Hinting to match */
-    xfconf_channel_set_int (xsettings_channel, "/Xft/Hinting", active > 0 ? 1 : 0);
+    esconf_channel_set_int (xsettings_channel, "/Xft/Hinting", active > 0 ? 1 : 0);
 }
 
 static void
@@ -268,7 +268,7 @@ cb_rgba_style_combo_changed (GtkComboBox *combo)
     active = CLAMP (gtk_combo_box_get_active (combo), 0, (gint) G_N_ELEMENTS (xft_rgba_array)-1);
 
     /* Save setting */
-    xfconf_channel_set_string (xsettings_channel, "/Xft/RGBA", xft_rgba_array[active]);
+    esconf_channel_set_string (xsettings_channel, "/Xft/RGBA", xft_rgba_array[active]);
 }
 
 static void
@@ -280,14 +280,14 @@ cb_custom_dpi_check_button_toggled (GtkToggleButton *custom_dpi_toggle,
     if (gtk_toggle_button_get_active (custom_dpi_toggle))
     {
         /* Custom DPI is activated, so restore the last custom DPI we know about */
-        dpi = xfconf_channel_get_int (xsettings_channel, "/Xfce/LastCustomDPI", -1);
+        dpi = esconf_channel_get_int (xsettings_channel, "/Expidus/LastCustomDPI", -1);
 
         /* Unfortunately, we don't have a valid custom DPI value to use, so compute it */
         if (dpi <= 0)
             dpi = compute_xsettings_dpi (GTK_WIDGET (custom_dpi_toggle));
 
         /* Apply the computed custom DPI value */
-        xfconf_channel_set_int (xsettings_channel, "/Xft/DPI", dpi);
+        esconf_channel_set_int (xsettings_channel, "/Xft/DPI", dpi);
 
         gtk_widget_set_sensitive (GTK_WIDGET (custom_dpi_spin), TRUE);
     }
@@ -295,10 +295,10 @@ cb_custom_dpi_check_button_toggled (GtkToggleButton *custom_dpi_toggle,
     {
         /* Custom DPI is deactivated, so remember the current value as the last custom DPI */
         dpi = gtk_spin_button_get_value_as_int (custom_dpi_spin);
-        xfconf_channel_set_int (xsettings_channel, "/Xfce/LastCustomDPI", dpi);
+        esconf_channel_set_int (xsettings_channel, "/Expidus/LastCustomDPI", dpi);
 
-        /* Tell xfsettingsd to compute the value itself */
-        xfconf_channel_set_int (xsettings_channel, "/Xft/DPI", -1);
+        /* Tell essettingsd to compute the value itself */
+        esconf_channel_set_int (xsettings_channel, "/Xft/DPI", -1);
 
         /* Make the spin button insensitive */
         gtk_widget_set_sensitive (GTK_WIDGET (custom_dpi_spin), FALSE);
@@ -314,11 +314,11 @@ cb_custom_dpi_spin_button_changed (GtkSpinButton   *custom_dpi_spin,
     if (gtk_widget_is_sensitive (GTK_WIDGET(custom_dpi_spin)) && gtk_toggle_button_get_active (custom_dpi_toggle))
     {
         /* Custom DPI is turned on and the spin button has changed, so remember the value */
-        xfconf_channel_set_int (xsettings_channel, "/Xfce/LastCustomDPI", dpi);
+        esconf_channel_set_int (xsettings_channel, "/Expidus/LastCustomDPI", dpi);
     }
 
-    /* Tell xfsettingsd to apply the custom DPI value */
-    xfconf_channel_set_int (xsettings_channel, "/Xft/DPI", dpi);
+    /* Tell essettingsd to apply the custom DPI value */
+    esconf_channel_set_int (xsettings_channel, "/Xft/DPI", dpi);
 }
 
 #ifdef ENABLE_SOUND_SETTINGS
@@ -342,7 +342,7 @@ appearance_settings_load_icon_themes (gpointer user_data)
     GDir         *dir;
     GtkTreePath  *tree_path;
     GtkTreeIter   iter;
-    XfceRc       *index_file;
+    ExpidusRc       *index_file;
     const gchar  *file;
     gchar       **icon_theme_dirs;
     gchar        *index_filename;
@@ -370,12 +370,12 @@ appearance_settings_load_icon_themes (gpointer user_data)
     tree_view = pd->tree_view;
 
     /* Determine current theme */
-    active_theme_name = xfconf_channel_get_string (xsettings_channel, "/Net/IconThemeName", "Rodent");
+    active_theme_name = esconf_channel_get_string (xsettings_channel, "/Net/IconThemeName", "Rodent");
 
     /* Determine directories to look in for icon themes */
-    xfce_resource_push_path (XFCE_RESOURCE_ICONS, DATADIR G_DIR_SEPARATOR_S "icons");
-    icon_theme_dirs = xfce_resource_dirs (XFCE_RESOURCE_ICONS);
-    xfce_resource_pop_path (XFCE_RESOURCE_ICONS);
+    expidus_resource_push_path (EXPIDUS_RESOURCE_ICONS, DATADIR G_DIR_SEPARATOR_S "icons");
+    icon_theme_dirs = expidus_resource_dirs (EXPIDUS_RESOURCE_ICONS);
+    expidus_resource_pop_path (EXPIDUS_RESOURCE_ICONS);
 
     /* Iterate over all base directories */
     for (i = 0; icon_theme_dirs[i] != NULL; ++i)
@@ -394,17 +394,17 @@ appearance_settings_load_icon_themes (gpointer user_data)
             index_filename = g_build_filename (icon_theme_dirs[i], file, "index.theme", NULL);
 
             /* Try to open the theme index file */
-            index_file = xfce_rc_simple_open (index_filename, TRUE);
+            index_file = expidus_rc_simple_open (index_filename, TRUE);
 
             if (index_file != NULL
                 && g_slist_find_custom (check_list, file, (GCompareFunc) g_utf8_collate) == NULL)
             {
                 /* Set the icon theme group */
-                xfce_rc_set_group (index_file, "Icon Theme");
+                expidus_rc_set_group (index_file, "Icon Theme");
 
                 /* Check if the icon theme is valid and visible to the user */
-                if (G_LIKELY (xfce_rc_has_entry (index_file, "Directories")
-                              && !xfce_rc_read_bool_entry (index_file, "Hidden", FALSE)))
+                if (G_LIKELY (expidus_rc_has_entry (index_file, "Directories")
+                              && !expidus_rc_read_bool_entry (index_file, "Hidden", FALSE)))
                 {
                     /* Insert the theme in the check list */
                     check_list = g_slist_prepend (check_list, g_strdup (file));
@@ -431,8 +431,8 @@ appearance_settings_load_icon_themes (gpointer user_data)
                     }
 
                     /* Get translated icon theme name and comment */
-                    theme_name = xfce_rc_read_entry (index_file, "Name", file);
-                    theme_comment = xfce_rc_read_entry (index_file, "Comment", NULL);
+                    theme_name = expidus_rc_read_entry (index_file, "Name", file);
+                    theme_comment = expidus_rc_read_entry (index_file, "Comment", NULL);
 
                     /* Escape the theme's name and comment, since they are markup, not text */
                     name_escaped = g_markup_escape_text (theme_name, -1);
@@ -480,7 +480,7 @@ appearance_settings_load_icon_themes (gpointer user_data)
 
             /* Close theme index file */
             if (G_LIKELY (index_file))
-                xfce_rc_close (index_file);
+                expidus_rc_close (index_file);
 
             /* Free theme index filename */
             g_free (index_filename);
@@ -515,7 +515,7 @@ appearance_settings_load_ui_themes (gpointer user_data)
     GDir         *dir;
     GtkTreePath  *tree_path;
     GtkTreeIter   iter;
-    XfceRc       *index_file;
+    ExpidusRc       *index_file;
     const gchar  *file;
     gchar       **ui_theme_dirs;
     gchar        *index_filename;
@@ -532,12 +532,12 @@ appearance_settings_load_ui_themes (gpointer user_data)
     tree_view = pd->tree_view;
 
     /* Determine current theme */
-    active_theme_name = xfconf_channel_get_string (xsettings_channel, "/Net/ThemeName", "Default");
+    active_theme_name = esconf_channel_get_string (xsettings_channel, "/Net/ThemeName", "Default");
 
     /* Determine directories to look in for ui themes */
-    xfce_resource_push_path (XFCE_RESOURCE_THEMES, DATADIR G_DIR_SEPARATOR_S "themes");
-    ui_theme_dirs = xfce_resource_dirs (XFCE_RESOURCE_THEMES);
-    xfce_resource_pop_path (XFCE_RESOURCE_THEMES);
+    expidus_resource_push_path (EXPIDUS_RESOURCE_THEMES, DATADIR G_DIR_SEPARATOR_S "themes");
+    ui_theme_dirs = expidus_resource_dirs (EXPIDUS_RESOURCE_THEMES);
+    expidus_resource_pop_path (EXPIDUS_RESOURCE_THEMES);
 
     /* Iterate over all base directories */
     for (i = 0; ui_theme_dirs[i] != NULL; ++i)
@@ -567,13 +567,13 @@ appearance_settings_load_ui_themes (gpointer user_data)
                 index_filename = g_build_filename (ui_theme_dirs[i], file, "index.theme", NULL);
 
                 /* Try to open the theme index file */
-                index_file = xfce_rc_simple_open (index_filename, TRUE);
+                index_file = expidus_rc_simple_open (index_filename, TRUE);
 
                 if (G_LIKELY (index_file != NULL))
                 {
                     /* Get translated ui theme name and comment */
-                    theme_name = xfce_rc_read_entry (index_file, "Name", file);
-                    theme_comment = xfce_rc_read_entry (index_file, "Comment", NULL);
+                    theme_name = expidus_rc_read_entry (index_file, "Name", file);
+                    theme_comment = expidus_rc_read_entry (index_file, "Comment", NULL);
 
                     /* Escape the comment because tooltips are markup, not text */
                     comment_escaped = theme_comment ? g_markup_escape_text (theme_comment, -1) : NULL;
@@ -594,7 +594,7 @@ appearance_settings_load_ui_themes (gpointer user_data)
 
                 /* Cleanup */
                 if (G_LIKELY (index_file != NULL))
-                    xfce_rc_close (index_file);
+                    expidus_rc_close (index_file);
                 g_free (comment_escaped);
 
                 /* Check if this is the active theme, if so, select it */
@@ -636,7 +636,7 @@ appearance_settings_load_ui_themes (gpointer user_data)
 }
 
 static void
-appearance_settings_dialog_channel_property_changed (XfconfChannel *channel,
+appearance_settings_dialog_channel_property_changed (EsconfChannel *channel,
                                                      const gchar   *property_name,
                                                      const GValue  *value,
                                                      GtkBuilder    *builder)
@@ -653,7 +653,7 @@ appearance_settings_dialog_channel_property_changed (XfconfChannel *channel,
 
     if (strcmp (property_name, "/Xft/RGBA") == 0)
     {
-        str = xfconf_channel_get_string (xsettings_channel, property_name, xft_rgba_array[0]);
+        str = esconf_channel_get_string (xsettings_channel, property_name, xft_rgba_array[0]);
         for (i = 0; i < G_N_ELEMENTS (xft_rgba_array); i++)
         {
             if (strcmp (str, xft_rgba_array[i]) == 0)
@@ -667,13 +667,13 @@ appearance_settings_dialog_channel_property_changed (XfconfChannel *channel,
     }
     else if (strcmp (property_name, "/Gdk/WindowScalingFactor") == 0)
     {
-        i = xfconf_channel_get_int (xsettings_channel, property_name, 1);
+        i = esconf_channel_get_int (xsettings_channel, property_name, 1);
         object = gtk_builder_get_object (builder, "gdk_window_scaling_factor_combo_box");
         gtk_combo_box_set_active (GTK_COMBO_BOX (object), i - 1);
     }
     else if (strcmp (property_name, "/Xft/HintStyle") == 0)
     {
-        str = xfconf_channel_get_string (xsettings_channel, property_name, xft_hint_styles_array[0]);
+        str = esconf_channel_get_string (xsettings_channel, property_name, xft_hint_styles_array[0]);
         for (i = 0; i < G_N_ELEMENTS (xft_hint_styles_array); i++)
         {
             if (strcmp (str, xft_hint_styles_array[i]) == 0)
@@ -688,7 +688,7 @@ appearance_settings_dialog_channel_property_changed (XfconfChannel *channel,
     else if (strcmp (property_name, "/Xft/Antialias") == 0)
     {
         object = gtk_builder_get_object (builder, "xft_antialias_check_button");
-        antialias = xfconf_channel_get_int (xsettings_channel, property_name, -1);
+        antialias = esconf_channel_get_int (xsettings_channel, property_name, -1);
         switch (antialias)
         {
             case 1:
@@ -707,8 +707,8 @@ appearance_settings_dialog_channel_property_changed (XfconfChannel *channel,
     else if (strcmp (property_name, "/Xft/DPI") == 0)
     {
         /* The DPI has changed, so get its value and the last known custom value */
-        dpi = xfconf_channel_get_int (xsettings_channel, property_name, FALLBACK_DPI);
-        custom_dpi = xfconf_channel_get_int (xsettings_channel, "/Xfce/LastCustomDPI", -1);
+        dpi = esconf_channel_get_int (xsettings_channel, property_name, FALLBACK_DPI);
+        custom_dpi = esconf_channel_get_int (xsettings_channel, "/Expidus/LastCustomDPI", -1);
 
         /* Activate the check button if we're using a custom DPI */
         object = gtk_builder_get_object (builder, "xft_custom_dpi_check_button");
@@ -747,7 +747,7 @@ appearance_settings_dialog_channel_property_changed (XfconfChannel *channel,
 
             gtk_tree_model_get (model, &iter, COLUMN_THEME_NAME, &selected_name, -1);
 
-            new_name = xfconf_channel_get_string (channel, property_name, NULL);
+            new_name = esconf_channel_get_string (channel, property_name, NULL);
 
             g_free (selected_name);
             g_free (new_name);
@@ -757,7 +757,7 @@ appearance_settings_dialog_channel_property_changed (XfconfChannel *channel,
         gsettings = g_settings_new (gsettings_category_gnome_interface);
         if (gsettings)
         {
-            g_settings_set_string (gsettings, "gtk-theme", xfconf_channel_get_string (channel, property_name, NULL));
+            g_settings_set_string (gsettings, "gtk-theme", esconf_channel_get_string (channel, property_name, NULL));
         }
     }
     else if (strcmp (property_name, "/Net/IconThemeName") == 0)
@@ -779,7 +779,7 @@ appearance_settings_dialog_channel_property_changed (XfconfChannel *channel,
 
             gtk_tree_model_get (model, &iter, COLUMN_THEME_NAME, &selected_name, -1);
 
-            new_name = xfconf_channel_get_string (channel, property_name, NULL);
+            new_name = esconf_channel_get_string (channel, property_name, NULL);
 
             reload = (strcmp (new_name, selected_name) != 0);
 
@@ -805,7 +805,7 @@ appearance_settings_dialog_channel_property_changed (XfconfChannel *channel,
         gsettings = g_settings_new (gsettings_category_gnome_interface);
         if (gsettings)
         {
-            g_settings_set_string (gsettings, "icon-theme", xfconf_channel_get_string (channel, property_name, NULL));
+            g_settings_set_string (gsettings, "icon-theme", esconf_channel_get_string (channel, property_name, NULL));
         }
     }
     else if (strcmp (property_name, "/Gtk/FontName") == 0)
@@ -814,7 +814,7 @@ appearance_settings_dialog_channel_property_changed (XfconfChannel *channel,
         gsettings = g_settings_new (gsettings_category_gnome_interface);
         if (gsettings)
         {
-            g_settings_set_string (gsettings, "font-name", xfconf_channel_get_string (channel, property_name, NULL));
+            g_settings_set_string (gsettings, "font-name", esconf_channel_get_string (channel, property_name, NULL));
         }
     }
     else if (strcmp (property_name, "/Gtk/MonospaceFontName") == 0)
@@ -823,7 +823,7 @@ appearance_settings_dialog_channel_property_changed (XfconfChannel *channel,
         gsettings = g_settings_new (gsettings_category_gnome_interface);
         if (gsettings)
         {
-            g_settings_set_string (gsettings, "monospace-font-name", xfconf_channel_get_string (channel, property_name, NULL));
+            g_settings_set_string (gsettings, "monospace-font-name", esconf_channel_get_string (channel, property_name, NULL));
         }
     }
 }
@@ -918,7 +918,7 @@ install_theme (GtkWidget *widget, gchar **uris, GtkBuilder *builder)
 
         if (error != NULL)
         {
-            xfce_dialog_show_error (GTK_WINDOW (toplevel), error, _("Failed to install theme"));
+            expidus_dialog_show_error (GTK_WINDOW (toplevel), error, _("Failed to install theme"));
             g_clear_error (&error);
         }
         else
@@ -1141,27 +1141,27 @@ appearance_settings_dialog_configure_widgets (GtkBuilder *builder)
 
     /* Enable editable menu accelerators */
     object = gtk_builder_get_object (builder, "gtk_caneditaccels_check_button");
-    xfconf_g_property_bind (xsettings_channel, "/Gtk/CanChangeAccels", G_TYPE_BOOLEAN,
+    esconf_g_property_bind (xsettings_channel, "/Gtk/CanChangeAccels", G_TYPE_BOOLEAN,
                             G_OBJECT (object), "active");
 
     /* Show menu images */
     object = gtk_builder_get_object (builder, "gtk_menu_images_check_button");
-    xfconf_g_property_bind (xsettings_channel, "/Gtk/MenuImages", G_TYPE_BOOLEAN,
+    esconf_g_property_bind (xsettings_channel, "/Gtk/MenuImages", G_TYPE_BOOLEAN,
                             G_OBJECT (object), "active");
 
     /* Show button images */
     object = gtk_builder_get_object (builder, "gtk_button_images_check_button");
-    xfconf_g_property_bind (xsettings_channel, "/Gtk/ButtonImages", G_TYPE_BOOLEAN,
+    esconf_g_property_bind (xsettings_channel, "/Gtk/ButtonImages", G_TYPE_BOOLEAN,
                             G_OBJECT (object), "active");
 
     /* Font name */
     object = gtk_builder_get_object (builder, "gtk_fontname_button");
-    xfconf_g_property_bind (xsettings_channel,  "/Gtk/FontName", G_TYPE_STRING,
+    esconf_g_property_bind (xsettings_channel,  "/Gtk/FontName", G_TYPE_STRING,
                             G_OBJECT (object), "font-name");
 
     /* Monospace font name */
     object = gtk_builder_get_object (builder, "gtk_monospace_fontname_button");
-    xfconf_g_property_bind (xsettings_channel,  "/Gtk/MonospaceFontName", G_TYPE_STRING,
+    esconf_g_property_bind (xsettings_channel,  "/Gtk/MonospaceFontName", G_TYPE_STRING,
                             G_OBJECT (object), "font-name");
 
     /* Hinting style */
@@ -1198,9 +1198,9 @@ appearance_settings_dialog_configure_widgets (GtkBuilder *builder)
     g_signal_connect (G_OBJECT (object), "toggled",
                       G_CALLBACK (cb_enable_event_sounds_check_button_toggled), object2);
 
-    xfconf_g_property_bind (xsettings_channel, "/Net/EnableEventSounds", G_TYPE_BOOLEAN,
+    esconf_g_property_bind (xsettings_channel, "/Net/EnableEventSounds", G_TYPE_BOOLEAN,
                             G_OBJECT (object), "active");
-    xfconf_g_property_bind (xsettings_channel, "/Net/EnableInputFeedbackSounds", G_TYPE_BOOLEAN,
+    esconf_g_property_bind (xsettings_channel, "/Net/EnableInputFeedbackSounds", G_TYPE_BOOLEAN,
                             G_OBJECT (object2), "active");
 
     gtk_widget_set_sensitive (GTK_WIDGET (object2), gtk_toggle_button_get_active (GTK_TOGGLE_BUTTON (object)));
@@ -1212,8 +1212,8 @@ appearance_settings_dialog_response (GtkWidget *dialog,
                                      gint       response_id)
 {
     if (response_id == GTK_RESPONSE_HELP)
-        xfce_dialog_show_help_with_version (GTK_WINDOW (dialog), "xfce4-settings", "appearance",
-                                            NULL, XFCE4_SETTINGS_VERSION_SHORT);
+        expidus_dialog_show_help_with_version (GTK_WINDOW (dialog), "expidus1-settings", "appearance",
+                                            NULL, EXPIDUS1_SETTINGS_VERSION_SHORT);
     else
         gtk_main_quit ();
 }
@@ -1227,7 +1227,7 @@ main (gint argc, gchar **argv)
     GError     *error = NULL;
 
     /* setup translation domain */
-    xfce_textdomain (GETTEXT_PACKAGE, LOCALEDIR, "UTF-8");
+    expidus_textdomain (GETTEXT_PACKAGE, LOCALEDIR, "UTF-8");
 
     /* initialize Gtk+ */
     if (!gtk_init_with_args (&argc, &argv, NULL, option_entries, GETTEXT_PACKAGE, &error))
@@ -1253,31 +1253,31 @@ main (gint argc, gchar **argv)
     /* print version information */
     if (G_UNLIKELY (opt_version))
     {
-        g_print ("%s %s (Xfce %s)\n\n", G_LOG_DOMAIN, PACKAGE_VERSION, xfce_version_string ());
+        g_print ("%s %s (Expidus %s)\n\n", G_LOG_DOMAIN, PACKAGE_VERSION, expidus_version_string ());
         g_print ("%s\n", "Copyright (c) 2008-2019");
-        g_print ("\t%s\n\n", _("The Xfce development team. All rights reserved."));
+        g_print ("\t%s\n\n", _("The Expidus development team. All rights reserved."));
         g_print (_("Please report bugs to <%s>."), PACKAGE_BUGREPORT);
         g_print ("\n");
 
         return EXIT_SUCCESS;
     }
 
-    /* initialize xfconf */
-    if (!xfconf_init (&error))
+    /* initialize esconf */
+    if (!esconf_init (&error))
     {
         /* print error and exit */
-        g_error ("Failed to connect to xfconf daemon: %s.", error->message);
+        g_error ("Failed to connect to esconf daemon: %s.", error->message);
         g_error_free (error);
 
         return EXIT_FAILURE;
     }
 
     /* open the xsettings channel */
-    xsettings_channel = xfconf_channel_new ("xsettings");
+    xsettings_channel = esconf_channel_new ("xsettings");
     if (G_LIKELY (xsettings_channel))
     {
-        /* hook to make sure the libxfce4ui library is linked */
-        if (xfce_titled_dialog_get_type () == 0)
+        /* hook to make sure the libexpidus1ui library is linked */
+        if (expidus_titled_dialog_get_type () == 0)
             return EXIT_FAILURE;
 
         /* load the gtk user interface file*/
@@ -1318,7 +1318,7 @@ main (gint argc, gchar **argv)
 
                 /* Get plug child widget */
                 plug_child = gtk_builder_get_object (builder, "plug-child");
-                xfce_widget_reparent (GTK_WIDGET (plug_child), plug);
+                expidus_widget_reparent (GTK_WIDGET (plug_child), plug);
                 gtk_widget_show (GTK_WIDGET (plug_child));
 
                 /* To prevent the settings dialog to be saved in the session */
@@ -1341,8 +1341,8 @@ main (gint argc, gchar **argv)
         g_object_unref (G_OBJECT (xsettings_channel));
     }
 
-    /* shutdown xfconf */
-    xfconf_shutdown ();
+    /* shutdown esconf */
+    esconf_shutdown ();
 
     return EXIT_SUCCESS;
 }

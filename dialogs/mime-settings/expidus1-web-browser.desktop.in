@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=endo-open --launch WebBrowser %u
+Icon=com.expidus.webbrowser
+StartupNotify=true
+Terminal=false
+Categories=Network;X-EXPIDUS;X-Expidus-Toplevel;
+OnlyShowIn=EXPIDUS;
+X-EXPIDUS-MimeType=x-scheme-handler/http;x-scheme-handler/https;
+X-AppStream-Ignore=True
+_Name=Web Browser
+_Comment=Browse the web

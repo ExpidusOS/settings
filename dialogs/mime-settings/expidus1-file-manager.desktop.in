@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=endo-open --launch FileManager %u
+Icon=com.expidus.filemanager
+StartupNotify=true
+Terminal=false
+Categories=Utility;X-EXPIDUS;X-Expidus-Toplevel;
+OnlyShowIn=EXPIDUS;
+X-EXPIDUS-MimeType=inode/directory;x-scheme-handler/trash;
+X-AppStream-Ignore=True
+_Name=File Manager
+_Comment=Browse the file system

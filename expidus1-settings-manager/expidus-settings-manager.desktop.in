@@ -1,0 +1,11 @@
+[Desktop Entry]
+_Name=Settings Manager
+_Comment=Graphical Settings Manager for Expidus
+_Keywords=control;panel;center;system;settings;personalize;hardware;
+Exec=expidus1-settings-manager
+Icon=com.expidus.settings.manager
+Terminal=false
+Type=Application
+Categories=X-EXPIDUS;Settings;DesktopSettings;
+OnlyShowIn=EXPIDUS;
+X-ExpidusSettingsManagerHidden=true

@@ -1,10 +1,10 @@
 [Desktop Entry]
 Version=1.0
 Icon=thunderbird
-Type=X-XFCE-Helper
+Type=X-EXPIDUS-Helper
 _Name=Mozilla Thunderbird
 StartupNotify=false
-X-XFCE-Binaries=thunderbird;thunderbird-gtk2;thunderbird-gtk;mozilla-thunderbird;
-X-XFCE-Category=MailReader
-X-XFCE-Commands=%B;
-X-XFCE-CommandsWithParameter=@HELPERDIR@/xfce4-compose-mail mozilla-remote %B "mailto:%s";@HELPERDIR@/xfce4-compose-mail mozilla %B "mailto:%s";
+X-EXPIDUS-Binaries=thunderbird;thunderbird-gtk2;thunderbird-gtk;mozilla-thunderbird;
+X-EXPIDUS-Category=MailReader
+X-EXPIDUS-Commands=%B;
+X-EXPIDUS-CommandsWithParameter=@HELPERDIR@/expidus1-compose-mail mozilla-remote %B "mailto:%s";@HELPERDIR@/expidus1-compose-mail mozilla %B "mailto:%s";

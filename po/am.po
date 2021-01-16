@@ -6,12 +6,12 @@
 # samson <sambelet@yahoo.com>, 2016,2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Xfce4-settings\n"
+"Project-Id-Version: Expidus1-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-04 06:31+0200\n"
 "PO-Revision-Date: 2018-09-14 00:26+0000\n"
-"Last-Translator: Xfce Bot <transifex@xfce.org>\n"
-"Language-Team: Amharic (http://www.transifex.com/xfce/xfce4-settings/language/am/)\n"
+"Last-Translator: Expidus Bot <transifex@expidus.org>\n"
+"Language-Team: Amharic (http://www.transifex.com/expidus/expidus1-settings/language/am/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../dialogs/accessibility-settings/accessibility-dialog.glade.h:1
-#: ../dialogs/accessibility-settings/xfce4-accessibility-settings.desktop.in.h:1
+#: ../dialogs/accessibility-settings/expidus1-accessibility-settings.desktop.in.h:1
 msgid "Accessibility"
 msgstr "መድረሻ"
 
@@ -210,7 +210,7 @@ msgstr ""
 
 #: ../dialogs/accessibility-settings/accessibility-dialog.glade.h:43
 msgid ""
-"Bind a keyboard shortcut to xfce4-find-cursor to get visual feedback of the "
+"Bind a keyboard shortcut to expidus1-find-cursor to get visual feedback of the "
 "mouse pointer's current location."
 msgstr ""
 
@@ -230,7 +230,7 @@ msgstr "_አይጥ"
 #: ../dialogs/appearance-settings/main.c:109
 #: ../dialogs/display-settings/main.c:121
 #: ../dialogs/keyboard-settings/main.c:40 ../dialogs/mime-settings/main.c:43
-#: ../dialogs/mouse-settings/main.c:84 ../xfce4-settings-editor/main.c:49
+#: ../dialogs/mouse-settings/main.c:84 ../expidus1-settings-editor/main.c:49
 msgid "Settings manager socket"
 msgstr "የ ማሰናጃዎች አስተዳዳሪ ሶኬት"
 
@@ -238,7 +238,7 @@ msgstr "የ ማሰናጃዎች አስተዳዳሪ ሶኬት"
 #: ../dialogs/appearance-settings/main.c:109
 #: ../dialogs/display-settings/main.c:121
 #: ../dialogs/keyboard-settings/main.c:40 ../dialogs/mime-settings/main.c:43
-#: ../dialogs/mouse-settings/main.c:84 ../xfce4-settings-editor/main.c:49
+#: ../dialogs/mouse-settings/main.c:84 ../expidus1-settings-editor/main.c:49
 msgid "SOCKET ID"
 msgstr "ሶኬት ID"
 
@@ -246,8 +246,8 @@ msgstr "ሶኬት ID"
 #: ../dialogs/appearance-settings/main.c:110
 #: ../dialogs/display-settings/main.c:122
 #: ../dialogs/keyboard-settings/main.c:41 ../dialogs/mime-settings/main.c:44
-#: ../dialogs/mouse-settings/main.c:85 ../xfce4-settings-editor/main.c:50
-#: ../xfsettingsd/main.c:101 ../xfce4-settings-manager/main.c:43
+#: ../dialogs/mouse-settings/main.c:85 ../expidus1-settings-editor/main.c:50
+#: ../essettingsd/main.c:101 ../expidus1-settings-manager/main.c:43
 msgid "Version information"
 msgstr "የ እትም መረጃ"
 
@@ -255,9 +255,9 @@ msgstr "የ እትም መረጃ"
 #: ../dialogs/appearance-settings/main.c:1166
 #: ../dialogs/display-settings/main.c:3115
 #: ../dialogs/keyboard-settings/main.c:78 ../dialogs/mime-settings/main.c:78
-#: ../dialogs/mouse-settings/main.c:1872 ../xfce4-settings-editor/main.c:120
-#: ../xfsettingsd/main.c:237 ../xfsettingsd/main.c:275
-#: ../xfce4-settings-manager/main.c:64
+#: ../dialogs/mouse-settings/main.c:1872 ../expidus1-settings-editor/main.c:120
+#: ../essettingsd/main.c:237 ../essettingsd/main.c:275
+#: ../expidus1-settings-manager/main.c:64
 #, c-format
 msgid "Type '%s --help' for usage."
 msgstr "ይጻፉ '%s --እርዳታ' ለ መጠቀም"
@@ -266,22 +266,22 @@ msgstr "ይጻፉ '%s --እርዳታ' ለ መጠቀም"
 #: ../dialogs/appearance-settings/main.c:1185
 #: ../dialogs/display-settings/main.c:3134
 #: ../dialogs/keyboard-settings/main.c:94 ../dialogs/mime-settings/main.c:97
-#: ../dialogs/mouse-settings/main.c:1891 ../xfce4-settings-editor/main.c:139
-#: ../xfsettingsd/main.c:253 ../xfce4-settings-manager/main.c:80
-msgid "The Xfce development team. All rights reserved."
-msgstr "The Xfce development team. All rights reserved."
+#: ../dialogs/mouse-settings/main.c:1891 ../expidus1-settings-editor/main.c:139
+#: ../essettingsd/main.c:253 ../expidus1-settings-manager/main.c:80
+msgid "The Expidus development team. All rights reserved."
+msgstr "The Expidus development team. All rights reserved."
 
 #: ../dialogs/accessibility-settings/main.c:220
 #: ../dialogs/appearance-settings/main.c:1186
 #: ../dialogs/display-settings/main.c:3135
 #: ../dialogs/keyboard-settings/main.c:95 ../dialogs/mime-settings/main.c:98
-#: ../dialogs/mouse-settings/main.c:1892 ../xfce4-settings-editor/main.c:140
-#: ../xfsettingsd/main.c:254 ../xfce4-settings-manager/main.c:81
+#: ../dialogs/mouse-settings/main.c:1892 ../expidus1-settings-editor/main.c:140
+#: ../essettingsd/main.c:254 ../expidus1-settings-manager/main.c:81
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "እባክዎን ችግሩን ያሳውቁን ለ <%s>."
 
-#: ../dialogs/accessibility-settings/xfce4-accessibility-settings.desktop.in.h:2
+#: ../dialogs/accessibility-settings/expidus1-accessibility-settings.desktop.in.h:2
 msgid "Improve keyboard and mouse accessibility"
 msgstr ""
 
@@ -328,12 +328,12 @@ msgid "2x"
 msgstr "2x"
 
 #: ../dialogs/appearance-settings/appearance-dialog.glade.h:11
-#: ../dialogs/appearance-settings/xfce-ui-settings.desktop.in.h:1
+#: ../dialogs/appearance-settings/expidus-ui-settings.desktop.in.h:1
 msgid "Appearance"
 msgstr "አቀራረብ"
 
 #: ../dialogs/appearance-settings/appearance-dialog.glade.h:12
-#: ../dialogs/appearance-settings/xfce-ui-settings.desktop.in.h:2
+#: ../dialogs/appearance-settings/expidus-ui-settings.desktop.in.h:2
 msgid "Customize the look of your desktop"
 msgstr "የ እርስዎን ዴስክቶፕ መልክ ማስተካከያ"
 
@@ -569,12 +569,12 @@ msgid ""
 msgstr ""
 
 #: ../dialogs/display-settings/display-dialog.glade.h:1
-#: ../dialogs/display-settings/xfce-display-settings.desktop.in.h:1
+#: ../dialogs/display-settings/expidus-display-settings.desktop.in.h:1
 msgid "Display"
 msgstr "ማሳያ"
 
 #: ../dialogs/display-settings/display-dialog.glade.h:2
-#: ../dialogs/display-settings/xfce-display-settings.desktop.in.h:2
+#: ../dialogs/display-settings/expidus-display-settings.desktop.in.h:2
 msgid "Configure screen settings and layout"
 msgstr ""
 
@@ -731,14 +731,14 @@ msgid "(Disabled)"
 msgstr "(ተሰናክሏል)"
 
 #: ../dialogs/display-settings/main.c:3147
-#: ../dialogs/display-settings/xfce-randr.c:282
+#: ../dialogs/display-settings/expidus-randr.c:282
 #, c-format
 msgid "Unable to query the version of the RandR extension being used"
 msgstr ""
 
 #: ../dialogs/display-settings/main.c:3148
 #: ../dialogs/display-settings/main.c:3185
-msgid "Unable to start the Xfce Display Settings"
+msgid "Unable to start the Expidus Display Settings"
 msgstr ""
 
 #: ../dialogs/display-settings/main.c:3180
@@ -746,7 +746,7 @@ msgid "ATI Settings"
 msgstr "ATI ማሰናጃዎች"
 
 #: ../dialogs/display-settings/main.c:3187
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:208
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:208
 msgid "_Close"
 msgstr "_መዝጊያ"
 
@@ -755,26 +755,26 @@ msgid "Unable to launch the proprietary driver settings"
 msgstr ""
 
 #. 1.2 is required
-#: ../dialogs/display-settings/xfce-randr.c:290
+#: ../dialogs/display-settings/expidus-randr.c:290
 #, c-format
 msgid ""
 "This system is using RandR %d.%d. For the display settings to work version "
 "1.2 is required at least"
 msgstr ""
 
-#: ../dialogs/display-settings/xfce-randr.c:554
+#: ../dialogs/display-settings/expidus-randr.c:554
 msgid "Laptop"
 msgstr "ላፕቶፕ"
 
-#: ../dialogs/display-settings/xfce-randr.c:575
+#: ../dialogs/display-settings/expidus-randr.c:575
 msgid "Monitor"
 msgstr "መቆጣጠሪያ "
 
-#: ../dialogs/display-settings/xfce-randr.c:578
+#: ../dialogs/display-settings/expidus-randr.c:578
 msgid "Television"
 msgstr "ቴሌቪዥን"
 
-#: ../dialogs/display-settings/xfce-randr.c:582
+#: ../dialogs/display-settings/expidus-randr.c:582
 msgid "Digital display"
 msgstr "ዲጂታል ማሳያ"
 
@@ -794,10 +794,10 @@ msgstr "አቋራጭ ትእዛዝ"
 #. Create cancel button
 #: ../dialogs/keyboard-settings/command-dialog.c:110
 #: ../dialogs/keyboard-settings/command-dialog.c:259
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:134
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:382
-#: ../dialogs/mime-settings/xfce-mime-window.c:908
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:144
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:134
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:382
+#: ../dialogs/mime-settings/expidus-mime-window.c:908
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:144
 msgid "Cancel"
 msgstr "መሰረዣ"
 
@@ -820,8 +820,8 @@ msgstr "ትእዛዝ:"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:184
 #: ../dialogs/keyboard-settings/command-dialog.c:260
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:136
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:383
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:136
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:383
 msgid "Open"
 msgstr "መክፈቻ"
 
@@ -838,32 +838,32 @@ msgid "Select command"
 msgstr "ትእዛዝ ይምረጡ"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:264
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:389
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:389
 msgid "All Files"
 msgstr "ሁሉንም ፋይሎች"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:269
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:394
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:394
 msgid "Executable Files"
 msgstr "ሊፈጸሙ የሚችሉ ፋይሎች"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:284
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:409
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:409
 msgid "Perl Scripts"
 msgstr "Perl Scripts"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:290
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:415
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:415
 msgid "Python Scripts"
 msgstr "Python Scripts"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:296
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:421
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:421
 msgid "Ruby Scripts"
 msgstr "Ruby Scripts"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:302
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:427
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:427
 msgid "Shell Scripts"
 msgstr "Shell Scripts"
 
@@ -876,12 +876,12 @@ msgid "Select keyboard layout and variant"
 msgstr ""
 
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:3
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.desktop.in.h:1
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.desktop.in.h:1
 msgid "Keyboard"
 msgstr "የ ፊደል ገበታ"
 
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:4
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.desktop.in.h:2
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.desktop.in.h:2
 msgid "Edit keyboard settings and application shortcuts"
 msgstr ""
 
@@ -1008,58 +1008,58 @@ msgstr "ማስጀመር አልተቻለም GTK+."
 
 #: ../dialogs/keyboard-settings/main.c:104
 #, c-format
-msgid "Failed to connect to xfconf daemon. Reason: %s"
+msgid "Failed to connect to esconf daemon. Reason: %s"
 msgstr ""
 
 #: ../dialogs/keyboard-settings/main.c:115
 msgid "Could not create the settings dialog."
 msgstr ""
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:404
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:404
 msgid "Command"
 msgstr "ትእዛዝ:"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:409
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:409
 msgid "Shortcut"
 msgstr "አቋራጭ"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:485
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:485
 msgid "Layout"
 msgstr "እቅድ"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:486
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:486
 msgid "Variant"
 msgstr ""
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1009
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1113
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1009
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1113
 msgid "Shortcut command may not be empty."
 msgstr ""
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1277
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1278
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1277
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1278
 msgid "Reset to Defaults"
 msgstr ""
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1279
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1279
 msgid ""
 "This will reset all shortcuts to their default values. Do you really want to"
 " do this?"
 msgstr ""
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1281
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1281
 msgid "No"
 msgstr "አይ"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1282
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1282
 msgid "Yes"
 msgstr "አዎ"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1358
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1358
 msgid "The system defaults will be restored next time you log in."
 msgstr ""
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1360
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1360
 msgid "Warning"
 msgstr "ማስጠንቀቂያ"
 
@@ -1067,126 +1067,126 @@ msgstr "ማስጠንቀቂያ"
 msgid "Could not create the mime dialog."
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:128
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:128
 msgid "Select Application"
 msgstr "መተግበሪያ ይምረጡ"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:205
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:205
 msgid "Use a c_ustom command:"
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:206
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:206
 msgid ""
 "Use a custom command for an application that is not available from the above"
 " application list."
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:224
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:224
 msgid "_Browse..."
 msgstr "_መቃኛ..."
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:379
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:379
 msgid "Select an Application"
 msgstr "መተግበሪያ ይምረጡ"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:529
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:529
 msgid "None available"
 msgstr "ምንም አልተገኘም"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:576
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:576
 msgid "Recommended Applications"
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:594
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:594
 msgid "Other Applications"
 msgstr "ሌላ መተግበሪያ"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:614
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:614
 #, c-format
 msgid "Open <i>%s</i> and other files of type \"%s\" with:"
 msgstr "መክፈቻ <i>%s</i> እና ሌሎች የ ፋይል አይነቶች \"%s\" በ:"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:650
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:650
 #, c-format
 msgid "Failed to add new application \"%s\""
 msgstr "አዲስ መተግበሪያ መጨመር አልተቻለም \"%s\""
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:169
-#: ../dialogs/mime-settings/xfce4-mime-settings.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:169
+#: ../dialogs/mime-settings/expidus1-mime-settings.desktop.in.h:1
 msgid "MIME Type Editor"
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:173
-#: ../dialogs/mime-settings/xfce4-mime-settings.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus-mime-window.c:173
+#: ../dialogs/mime-settings/expidus1-mime-settings.desktop.in.h:2
 msgid "Associate applications with MIME types"
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:192
+#: ../dialogs/mime-settings/expidus-mime-window.c:192
 msgid "_Filter:"
 msgstr "_ማጣሪያ: "
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:200
+#: ../dialogs/mime-settings/expidus-mime-window.c:200
 msgid "Clear filter"
 msgstr "ማጣሪያ ማጽጃ"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:249
+#: ../dialogs/mime-settings/expidus-mime-window.c:249
 msgid "MIME Type"
 msgstr "MIME አይነት"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:277
+#: ../dialogs/mime-settings/expidus-mime-window.c:277
 msgid "Status"
 msgstr "ሁኔታዎች"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:297
+#: ../dialogs/mime-settings/expidus-mime-window.c:297
 msgid "Default Application"
 msgstr "ነባር መተግበሪያ"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:472
-#: ../dialogs/mime-settings/xfce-mime-window.c:597
+#: ../dialogs/mime-settings/expidus-mime-window.c:472
+#: ../dialogs/mime-settings/expidus-mime-window.c:597
 msgid "User Set"
 msgstr "ተጠቃሚ ማሰናጃ"
 
 #. sort the names but keep Default on top
-#: ../dialogs/mime-settings/xfce-mime-window.c:474
-#: ../dialogs/mime-settings/xfce-mime-window.c:597
+#: ../dialogs/mime-settings/expidus-mime-window.c:474
+#: ../dialogs/mime-settings/expidus-mime-window.c:597
 #: ../dialogs/mouse-settings/main.c:383 ../dialogs/mouse-settings/main.c:385
 #: ../dialogs/mouse-settings/main.c:445
 msgid "Default"
 msgstr "ነባር"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:543
+#: ../dialogs/mime-settings/expidus-mime-window.c:543
 #, c-format
 msgid "%d MIME type found"
 msgid_plural "%d MIME types found"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:642
+#: ../dialogs/mime-settings/expidus-mime-window.c:642
 #, c-format
 msgid "Failed to set application \"%s\" for mime type \"%s\"."
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:899
+#: ../dialogs/mime-settings/expidus-mime-window.c:899
 #, c-format
 msgid "Are you sure you want to reset content type \"%s\" to its default value?"
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:903
+#: ../dialogs/mime-settings/expidus-mime-window.c:903
 msgid "Question"
 msgstr "ጥያቄ"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:906
+#: ../dialogs/mime-settings/expidus-mime-window.c:906
 msgid ""
 "This will remove your custom mime-association and restore the system-wide "
 "default."
 msgstr ""
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:910
-#: ../dialogs/mime-settings/xfce-mime-window.c:981
+#: ../dialogs/mime-settings/expidus-mime-window.c:910
+#: ../dialogs/mime-settings/expidus-mime-window.c:981
 msgid "Reset to Default"
 msgstr "ወደ ነባር እንደ ነበር መመለሻ"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:976
+#: ../dialogs/mime-settings/expidus-mime-window.c:976
 msgid "Choose Application..."
 msgstr "መተግበሪያ ይምረጡ..."
 
@@ -1257,12 +1257,12 @@ msgid "Counterclockwise"
 msgstr "ከ ቀኝ ወደ ግራ"
 
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:11
-#: ../dialogs/mouse-settings/xfce-mouse-settings.desktop.in.h:1
+#: ../dialogs/mouse-settings/expidus-mouse-settings.desktop.in.h:1
 msgid "Mouse and Touchpad"
 msgstr "አይጥ እና ተችፓድ"
 
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:12
-#: ../dialogs/mouse-settings/xfce-mouse-settings.desktop.in.h:2
+#: ../dialogs/mouse-settings/expidus-mouse-settings.desktop.in.h:2
 msgid "Configure pointer device behavior and appearance"
 msgstr ""
 
@@ -1434,199 +1434,199 @@ msgstr "ቅድመ እይታ "
 msgid "_Theme"
 msgstr "_ገጽታ"
 
-#: ../xfce4-settings-editor/main.c:163
-#: ../xfce4-settings-editor/xfce4-settings-editor.desktop.in.h:1
+#: ../expidus1-settings-editor/main.c:163
+#: ../expidus1-settings-editor/expidus1-settings-editor.desktop.in.h:1
 msgid "Settings Editor"
 msgstr "አራሚ ማሰናጃ"
 
-#: ../xfce4-settings-editor/main.c:170
-msgid "Customize settings stored by Xfconf"
+#: ../expidus1-settings-editor/main.c:170
+msgid "Customize settings stored by Esconf"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:252
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:252
 msgid "Channel"
 msgstr "ጣቢያ"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:286
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:286
 msgid "Property"
 msgstr "ባህሪ"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:293
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:293
 msgid "Type"
 msgstr "አይነት"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:300
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:300
 msgid "Locked"
 msgstr "ተቆልፏል"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:307
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:307
 msgid "Value"
 msgstr "ዋጋ"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:322
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:322
 msgid "New"
 msgstr "አዲስ"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:325
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:325
 msgid "New property"
 msgstr "አዲስ ባህሪ"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:333
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:333
 msgid "Edit"
 msgstr "ማረሚያ"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:336
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:336
 msgid "Edit selected property"
 msgstr "የ ተመረጠውን ባህሪ ማረሚያ"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:344
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1031
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1370
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:344
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1031
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1370
 msgid "_Reset"
 msgstr "_እንደ ነበር መመለሻ"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:347
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:347
 msgid "Reset selected property"
 msgstr "የ ተመረጠውን ባህሪ እንደ ነበር መመለሻ"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:454
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:545
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:664
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:89
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:454
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:545
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:664
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:89
 msgid "Empty"
 msgstr "ባዶ"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:457
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:457
 msgid "Array"
 msgstr "ማዘጋጃ"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:462
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:90
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:462
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:90
 msgid "String"
 msgstr "ሀረግ"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:470
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:470
 msgid "Integer"
 msgstr "ኢንቲጀር"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:473
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:91
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:473
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:91
 msgid "Boolean"
 msgstr "ቡሊያን"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:476
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:93
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:476
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:93
 msgid "Double"
 msgstr "ሁለት ጊዜ "
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:810
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:810
 msgid "_Reset Channel"
 msgstr "ጣቢያ _እንደ ነበር መመለሻ"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:811
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:811
 msgid "Resetting a channel will permanently remove those custom settings."
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:812
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:812
 #, c-format
 msgid "Are you sure you want to reset channel \"%s\" and all its properties?"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:887
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:887
 msgid "reset"
 msgstr "እንደ ነበር መመለሻ"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:944
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:944
 #, c-format
 msgid "Monitor %s"
 msgstr "መቆጣጠሪያ %s"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:952
-msgid "Watch an Xfconf channel for property changes"
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:952
+msgid "Watch an Esconf channel for property changes"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:954
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:954
 msgid "Clear"
 msgstr "ማጽጃ"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:955
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:955
 msgid "Close"
 msgstr "መዝጊያ"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:988
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:988
 #, c-format
 msgid "start monitoring channel \"%s\""
 msgstr "ጣቢያ መቆጣጠሪያ ማስጀመሪያ \"%s\""
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1037
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1037
 msgid "_Monitor"
 msgstr "_መቆጣጠሪያ"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1047
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1047
 msgid "Refresh"
 msgstr "ማነቃቂያ:"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1371
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1371
 msgid "Resetting a property will permanently remove those custom settings."
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1372
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1372
 #, c-format
 msgid "Are you sure you want to reset property \"%s\"?"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:92
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:92
 msgid "Int"
 msgstr "Int"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:94
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:94
 msgid "Unsigned Int"
 msgstr "ያልተፈረመ Int"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:95
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:95
 msgid "Int64"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:96
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:96
 msgid "Unsigned Int64"
 msgstr "ያልተፈረመ Int64"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:141
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:141
 msgid "New Property"
 msgstr "አዲስ ባህሪ"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:145
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:145
 msgid "Save"
 msgstr "ማስቀመጫ "
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:160
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:160
 msgid "_Property:"
 msgstr "_ቅድሚያ:"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:174
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:174
 msgid "_Type:"
 msgstr "_አይነት:"
 
 #. strings
 #. integers
 #. bool
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:203
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:213
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:224
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:203
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:213
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:224
 msgid "_Value:"
 msgstr "_ዋጋ:"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:381
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:381
 #, c-format
 msgid "Property names must start with a '/' character"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:392
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:392
 #, c-format
 msgid "The root element ('/') is not a valid property name"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:409
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:409
 #, c-format
 msgid ""
 "Property names can only include the ASCII characters A-Z, a-z, 0-9, '_', "
@@ -1634,113 +1634,113 @@ msgid ""
 "separator"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:423
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:423
 #, c-format
 msgid "Property names cannot have two or more consecutive '/' characters"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:437
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:437
 #, c-format
 msgid "Property names cannot end with a '/' character"
 msgstr ""
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:650
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:650
 msgid "Edit Property"
 msgstr "እቃ ማረሚያ"
 
-#: ../xfce4-settings-editor/xfce4-settings-editor.desktop.in.h:2
-msgid "Graphical settings editor for Xfconf"
+#: ../expidus1-settings-editor/expidus1-settings-editor.desktop.in.h:2
+msgid "Graphical settings editor for Esconf"
 msgstr ""
 
-#: ../xfsettingsd/accessibility.c:412
+#: ../essettingsd/accessibility.c:412
 msgid "Sticky keys are enabled"
 msgstr "ተጣባቂ ቁልፍ አስችለዋል"
 
-#: ../xfsettingsd/accessibility.c:414
+#: ../essettingsd/accessibility.c:414
 msgid "Sticky keys are disabled"
 msgstr "ተጣባቂ ቁልፍ ተሰናክሏል "
 
-#: ../xfsettingsd/accessibility.c:416
+#: ../essettingsd/accessibility.c:416
 msgid "Sticky keys"
 msgstr "ተጣባቂ ቁልፎች"
 
-#: ../xfsettingsd/accessibility.c:421
+#: ../essettingsd/accessibility.c:421
 msgid "Slow keys are enabled"
 msgstr "የ ማዘግያ ቁልፍ አስችለዋል"
 
-#: ../xfsettingsd/accessibility.c:423
+#: ../essettingsd/accessibility.c:423
 msgid "Slow keys are disabled"
 msgstr "የ ማዘግያ ቁልፍ ተሰናክሏል"
 
-#: ../xfsettingsd/accessibility.c:425
+#: ../essettingsd/accessibility.c:425
 msgid "Slow keys"
 msgstr "ማዘግያ ቁልፎች"
 
-#: ../xfsettingsd/accessibility.c:430
+#: ../essettingsd/accessibility.c:430
 msgid "Bounce keys are enabled"
 msgstr "የ ማዘግያ ቁልፍ አስችለዋል"
 
-#: ../xfsettingsd/accessibility.c:432
+#: ../essettingsd/accessibility.c:432
 msgid "Bounce keys are disabled"
 msgstr "የ ማዘግያ ቁልፍ ተሰናክሏል"
 
-#: ../xfsettingsd/accessibility.c:434
+#: ../essettingsd/accessibility.c:434
 msgid "Bounce keys"
 msgstr "መዝለያ ቁልፎች"
 
-#: ../xfsettingsd/keyboard-shortcuts.c:242
+#: ../essettingsd/keyboard-shortcuts.c:242
 #, c-format
 msgid "Failed to launch shortcut \"%s\""
 msgstr "አቋራጭ ማስጀመር አልተቻለም %s"
 
-#: ../xfsettingsd/main.c:102
+#: ../essettingsd/main.c:102
 msgid "Do not fork to the background"
 msgstr ""
 
-#: ../xfsettingsd/main.c:103
+#: ../essettingsd/main.c:103
 msgid "Replace running xsettings daemon (if any)"
 msgstr ""
 
-#. value in xfconf isn't a string, so make a default one
-#: ../xfsettingsd/workspaces.c:338 ../xfsettingsd/workspaces.c:396
+#. value in esconf isn't a string, so make a default one
+#: ../essettingsd/workspaces.c:338 ../essettingsd/workspaces.c:396
 #, c-format
 msgid "Workspace %d"
 msgstr "የ ስራ ቦታ %d"
 
-#: ../xfsettingsd/xfsettingsd.desktop.in.h:1
-msgid "The Xfce Settings Daemon"
-msgstr "የ Xfce ማሰናጃ እረዳት"
+#: ../essettingsd/essettingsd.desktop.in.h:1
+msgid "The Expidus Settings Daemon"
+msgstr "የ Expidus ማሰናጃ እረዳት"
 
-#: ../xfce4-settings-manager/main.c:44
+#: ../expidus1-settings-manager/main.c:44
 msgid "Settings dialog to show"
 msgstr "ለ ማሳያ ንግግር ማሰናጃ"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:195
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:195
 msgid "All _Settings"
 msgstr "ሁሉንም _ማሰናጃዎች"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:205
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:205
 msgid "_Help"
 msgstr "_እርዳታ"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:432
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:432
 msgid "Settings"
 msgstr "ማሰናጃዎች"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:434
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:434
 msgid "Customize your desktop"
 msgstr "የ እርስዎን ዴስክቶፕ ማስተካከያ"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:939
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:950
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:939
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:950
 #, c-format
 msgid "Unable to start \"%s\""
 msgstr "ማስጀመር አልተቻለም \"%s\""
 
-#: ../xfce4-settings-manager/xfce-settings-manager.desktop.in.h:1
+#: ../expidus1-settings-manager/expidus-settings-manager.desktop.in.h:1
 msgid "Settings Manager"
 msgstr "የ ማሰናጃዎች አስተዳዳሪ"
 
-#: ../xfce4-settings-manager/xfce-settings-manager.desktop.in.h:2
-msgid "Graphical Settings Manager for Xfce 4"
-msgstr "የ ንድፍ ማሰናጃዎች አስተዳዳሪ ለ Xfce 4"
+#: ../expidus1-settings-manager/expidus-settings-manager.desktop.in.h:2
+msgid "Graphical Settings Manager for Expidus 4"
+msgstr "የ ንድፍ ማሰናጃዎች አስተዳዳሪ ለ Expidus 4"

@@ -8,12 +8,12 @@
 # Piarres Beobide <pi@beobide.net>, 2008-2010,2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Xfce4-settings\n"
+"Project-Id-Version: Expidus1-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 00:46+0100\n"
 "PO-Revision-Date: 2020-12-16 18:35+0000\n"
 "Last-Translator: beriain\n"
-"Language-Team: Basque (http://www.transifex.com/xfce/xfce4-settings/language/eu/)\n"
+"Language-Team: Basque (http://www.transifex.com/expidus/expidus1-settings/language/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -28,39 +28,39 @@ msgctxt "Monitor vendor"
 msgid "Unknown"
 msgstr "Ezezaguna"
 
-#: ../common/xfce-randr.c:296 ../dialogs/display-settings/main.c:4296
+#: ../common/expidus-randr.c:296 ../dialogs/display-settings/main.c:4296
 #, c-format
 msgid "Unable to query the version of the RandR extension being used"
 msgstr "Ezin da erabiltzen ari den RandR hedapen bertsioa galdezkatu"
 
 #. 1.2 is required
-#: ../common/xfce-randr.c:304
+#: ../common/expidus-randr.c:304
 #, c-format
 msgid ""
 "This system is using RandR %d.%d. For the display settings to work version "
 "1.2 is required at least"
 msgstr "Sistema honek RandR %d.%d erabiltzen du. Pantaila ezarpenak funtzionatzeko behintzat 1.2 bertsioa behar da"
 
-#: ../common/xfce-randr.c:594
+#: ../common/expidus-randr.c:594
 msgid "Laptop"
 msgstr "Eramangarria"
 
 #. TRANSLATORS: an externally connected display, where %s is either the
 #. * model, vendor or ID, e.g. 'LP2480zx Monitor'
-#: ../common/xfce-randr.c:607 ../dialogs/color-settings/color-device.c:65
+#: ../common/expidus-randr.c:607 ../dialogs/color-settings/color-device.c:65
 msgid "Monitor"
 msgstr "Monitorea"
 
-#: ../common/xfce-randr.c:610
+#: ../common/expidus-randr.c:610
 msgid "Television"
 msgstr "Telebista"
 
-#: ../common/xfce-randr.c:614
+#: ../common/expidus-randr.c:614
 msgid "Digital display"
 msgstr "Pantaila digitala"
 
 #: ../dialogs/accessibility-settings/accessibility-dialog.glade.h:1
-#: ../dialogs/accessibility-settings/xfce4-accessibility-settings.desktop.in.h:1
+#: ../dialogs/accessibility-settings/expidus1-accessibility-settings.desktop.in.h:1
 msgid "Accessibility"
 msgstr "Erabilerraztasuna"
 
@@ -76,10 +76,10 @@ msgstr "Konfiguratu teklatu eta sagu erabilerraztasuna"
 #: ../dialogs/display-settings/profile-changed-dialog.glade.h:2
 #: ../dialogs/display-settings/main.c:4336
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:7
-#: ../dialogs/mime-settings/xfce-mime-window.c:193
+#: ../dialogs/mime-settings/expidus-mime-window.c:193
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:14
-#: ../xfce4-settings-editor/main.c:166
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:228
+#: ../expidus1-settings-editor/main.c:166
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:228
 msgid "_Close"
 msgstr "_Itxi"
 
@@ -88,10 +88,10 @@ msgstr "_Itxi"
 #: ../dialogs/color-settings/color-dialog.glade.h:4
 #: ../dialogs/display-settings/display-dialog.glade.h:11
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:8
-#: ../dialogs/mime-settings/xfce-mime-window.c:196
+#: ../dialogs/mime-settings/expidus-mime-window.c:196
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:13
-#: ../xfce4-settings-editor/main.c:165
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:217
+#: ../expidus1-settings-editor/main.c:165
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:217
 msgid "_Help"
 msgstr "_Laguntza"
 
@@ -278,9 +278,9 @@ msgstr "Sagu emulazioa"
 
 #: ../dialogs/accessibility-settings/accessibility-dialog.glade.h:45
 msgid ""
-"Bind a keyboard shortcut to xfce4-find-cursor to get visual feedback of the "
+"Bind a keyboard shortcut to expidus1-find-cursor to get visual feedback of the "
 "mouse pointer's current location."
-msgstr "Lotu teklatu lasterbide bat xfce4-find-cursor-en, saguko erakuslearen uneko kokapenari buruzko informazio bisuala lortzeko."
+msgstr "Lotu teklatu lasterbide bat expidus1-find-cursor-en, saguko erakuslearen uneko kokapenari buruzko informazio bisuala lortzeko."
 
 #: ../dialogs/accessibility-settings/accessibility-dialog.glade.h:46
 msgid "Show location of pointer on keypress"
@@ -298,7 +298,7 @@ msgstr "_Sagua"
 #: ../dialogs/appearance-settings/main.c:106
 #: ../dialogs/color-settings/main.c:48 ../dialogs/display-settings/main.c:139
 #: ../dialogs/keyboard-settings/main.c:40 ../dialogs/mime-settings/main.c:43
-#: ../dialogs/mouse-settings/main.c:86 ../xfce4-settings-editor/main.c:49
+#: ../dialogs/mouse-settings/main.c:86 ../expidus1-settings-editor/main.c:49
 msgid "Settings manager socket"
 msgstr "Ezarpen kudeatzaile socketa"
 
@@ -306,7 +306,7 @@ msgstr "Ezarpen kudeatzaile socketa"
 #: ../dialogs/appearance-settings/main.c:106
 #: ../dialogs/color-settings/main.c:48 ../dialogs/display-settings/main.c:139
 #: ../dialogs/keyboard-settings/main.c:40 ../dialogs/mime-settings/main.c:43
-#: ../dialogs/mouse-settings/main.c:86 ../xfce4-settings-editor/main.c:49
+#: ../dialogs/mouse-settings/main.c:86 ../expidus1-settings-editor/main.c:49
 msgid "SOCKET ID"
 msgstr "SOCKET IDa"
 
@@ -314,8 +314,8 @@ msgstr "SOCKET IDa"
 #: ../dialogs/appearance-settings/main.c:107
 #: ../dialogs/color-settings/main.c:49 ../dialogs/display-settings/main.c:140
 #: ../dialogs/keyboard-settings/main.c:41 ../dialogs/mime-settings/main.c:44
-#: ../dialogs/mouse-settings/main.c:87 ../xfce4-settings-editor/main.c:50
-#: ../xfce4-settings-manager/main.c:43 ../xfsettingsd/main.c:102
+#: ../dialogs/mouse-settings/main.c:87 ../expidus1-settings-editor/main.c:50
+#: ../expidus1-settings-manager/main.c:43 ../essettingsd/main.c:102
 msgid "Version information"
 msgstr "Bertsio argibideak"
 
@@ -324,10 +324,10 @@ msgstr "Bertsio argibideak"
 #: ../dialogs/color-settings/main.c:1390
 #: ../dialogs/display-settings/main.c:4264
 #: ../dialogs/keyboard-settings/main.c:78 ../dialogs/mime-settings/main.c:78
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:158
-#: ../dialogs/mouse-settings/main.c:1886 ../xfce4-settings-editor/main.c:120
-#: ../xfce4-settings-manager/main.c:64 ../xfsettingsd/main.c:242
-#: ../xfsettingsd/main.c:280
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:158
+#: ../dialogs/mouse-settings/main.c:1886 ../expidus1-settings-editor/main.c:120
+#: ../expidus1-settings-manager/main.c:64 ../essettingsd/main.c:242
+#: ../essettingsd/main.c:280
 #, c-format
 msgid "Type '%s --help' for usage."
 msgstr "Idatzi '%s --help' erabilerarentzat."
@@ -337,27 +337,27 @@ msgstr "Idatzi '%s --help' erabilerarentzat."
 #: ../dialogs/color-settings/main.c:1407
 #: ../dialogs/display-settings/main.c:4283
 #: ../dialogs/keyboard-settings/main.c:94 ../dialogs/mime-settings/main.c:97
-#: ../dialogs/mouse-settings/main.c:1905 ../xfce4-settings-editor/main.c:139
-#: ../xfce4-settings-manager/main.c:80 ../xfsettingsd/main.c:258
-msgid "The Xfce development team. All rights reserved."
-msgstr "Xfce garapen taldea. Eskubide guztiak erreserbatuta."
+#: ../dialogs/mouse-settings/main.c:1905 ../expidus1-settings-editor/main.c:139
+#: ../expidus1-settings-manager/main.c:80 ../essettingsd/main.c:258
+msgid "The Expidus development team. All rights reserved."
+msgstr "Expidus garapen taldea. Eskubide guztiak erreserbatuta."
 
 #: ../dialogs/accessibility-settings/main.c:220
 #: ../dialogs/appearance-settings/main.c:1254
 #: ../dialogs/color-settings/main.c:1408
 #: ../dialogs/display-settings/main.c:4284
 #: ../dialogs/keyboard-settings/main.c:95 ../dialogs/mime-settings/main.c:98
-#: ../dialogs/mouse-settings/main.c:1906 ../xfce4-settings-editor/main.c:140
-#: ../xfce4-settings-manager/main.c:81 ../xfsettingsd/main.c:259
+#: ../dialogs/mouse-settings/main.c:1906 ../expidus1-settings-editor/main.c:140
+#: ../expidus1-settings-manager/main.c:81 ../essettingsd/main.c:259
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Programa-erroreen berri eman <%s>-ra."
 
-#: ../dialogs/accessibility-settings/xfce4-accessibility-settings.desktop.in.h:2
+#: ../dialogs/accessibility-settings/expidus1-accessibility-settings.desktop.in.h:2
 msgid "Improve keyboard and mouse accessibility"
 msgstr "Gaitu teklatu eta sagu erabilerraztasuna"
 
-#: ../dialogs/accessibility-settings/xfce4-accessibility-settings.desktop.in.h:3
+#: ../dialogs/accessibility-settings/expidus1-accessibility-settings.desktop.in.h:3
 msgid ""
 "assistive;technologies;keys;sticky;bounce;emulation;screen "
 "readers;magnifiers;a11y;i18n;l10n;AT-SPI;ATK;impairment;"
@@ -408,18 +408,18 @@ msgid "2x"
 msgstr "x2"
 
 #: ../dialogs/appearance-settings/appearance-dialog.glade.h:11
-#: ../dialogs/appearance-settings/xfce-ui-settings.desktop.in.h:1
+#: ../dialogs/appearance-settings/expidus-ui-settings.desktop.in.h:1
 msgid "Appearance"
 msgstr "Itxura"
 
 #: ../dialogs/appearance-settings/appearance-dialog.glade.h:12
-#: ../dialogs/appearance-settings/xfce-ui-settings.desktop.in.h:2
+#: ../dialogs/appearance-settings/expidus-ui-settings.desktop.in.h:2
 msgid "Customize the look of your desktop"
 msgstr "Pertsonalizatu zure idazmahaiaren itxura"
 
 #: ../dialogs/appearance-settings/appearance-dialog.glade.h:15
 #: ../dialogs/color-settings/color-dialog.glade.h:11
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:328
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:328
 msgid "_Add"
 msgstr "_Gehitu"
 
@@ -620,15 +620,15 @@ msgstr "%s estiloa instalatu"
 #: ../dialogs/keyboard-settings/command-dialog.c:116
 #: ../dialogs/keyboard-settings/command-dialog.c:280
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:3
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:395
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:540
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:109
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:395
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:540
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:109
 msgid "_Cancel"
 msgstr "_Utzi"
 
 #: ../dialogs/appearance-settings/main.c:978
 #: ../dialogs/keyboard-settings/command-dialog.c:281
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:396
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:396
 msgid "_Open"
 msgstr "_Ireki"
 
@@ -648,7 +648,7 @@ msgstr "RGB bertikala"
 msgid "Vertical BGR"
 msgstr "BGR bertikala"
 
-#: ../dialogs/appearance-settings/xfce-ui-settings.desktop.in.h:3
+#: ../dialogs/appearance-settings/expidus-ui-settings.desktop.in.h:3
 msgid ""
 "themes;user interface;styles;icons;fonts;anti-aliasing;hinting;sub-"
 "pixel;subpixel;rendering;ClearType;DPI;RGB;BGR;menu accelerators;keyboard "
@@ -691,7 +691,7 @@ msgid "Enable color management for %s"
 msgstr "Gaitu kolore kudeaketa %s-rentzat"
 
 #: ../dialogs/color-settings/color-dialog.glade.h:1
-#: ../dialogs/color-settings/xfce4-color-settings.desktop.in.h:1
+#: ../dialogs/color-settings/expidus1-color-settings.desktop.in.h:1
 msgid "Color Profiles"
 msgstr "Kolore profilak"
 
@@ -758,8 +758,8 @@ msgstr "Gehitu kolore profila zure gailuari"
 #: ../dialogs/color-settings/color-dialog.glade.h:21
 #: ../dialogs/keyboard-settings/command-dialog.c:120
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:4
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:541
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:110
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:541
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:110
 msgid "_OK"
 msgstr "_ADOS"
 
@@ -877,11 +877,11 @@ msgstr "Profil bateragarriak"
 msgid "Unknown"
 msgstr "Ezezaguna"
 
-#: ../dialogs/color-settings/xfce4-color-settings.desktop.in.h:2
+#: ../dialogs/color-settings/expidus1-color-settings.desktop.in.h:2
 msgid "Set color profiles"
 msgstr "Ezarri kolore profilak"
 
-#: ../dialogs/color-settings/xfce4-color-settings.desktop.in.h:3
+#: ../dialogs/color-settings/expidus1-color-settings.desktop.in.h:3
 msgid "color;settings;management;display;monitors;printers;webcams;scanners;"
 msgstr "kolorea;ezarpenak;kudeaketa;bistaratzea;monitoreak;inprimagailuak;web-kamerak;eskanerrak;"
 
@@ -920,8 +920,8 @@ msgid "The primary display is currently configured to show:"
 msgstr "Pantaila nagusia une honetan konfiguratuta dago, hauek bistaratzeko:"
 
 #: ../dialogs/display-settings/display-dialog.glade.h:5
-msgid "Xfce Panel"
-msgstr "Xfce panela"
+msgid "Expidus Panel"
+msgstr "Expidus panela"
 
 #: ../dialogs/display-settings/display-dialog.glade.h:6
 msgid "Desktop icons"
@@ -936,12 +936,12 @@ msgid "Configure..."
 msgstr "Konfiguratu..."
 
 #: ../dialogs/display-settings/display-dialog.glade.h:9
-#: ../dialogs/display-settings/xfce-display-settings.desktop.in.h:1
+#: ../dialogs/display-settings/expidus-display-settings.desktop.in.h:1
 msgid "Display"
 msgstr "Bistaratu"
 
 #: ../dialogs/display-settings/display-dialog.glade.h:10
-#: ../dialogs/display-settings/xfce-display-settings.desktop.in.h:2
+#: ../dialogs/display-settings/expidus-display-settings.desktop.in.h:2
 msgid "Configure screen settings and layout"
 msgstr "Konfiguratu pantaila ezarpen eta ingurunea"
 
@@ -1179,10 +1179,10 @@ msgid "Once a display profile is deleted it cannot be restored."
 msgstr "Bistaratze-profil bat ezabatutakoan, ezin da berreskuratu."
 
 #: ../dialogs/display-settings/main.c:2147
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:134
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:382
-#: ../dialogs/mime-settings/xfce-mime-window.c:1133
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:144
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:134
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:382
+#: ../dialogs/mime-settings/expidus-mime-window.c:1133
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:144
 msgid "Cancel"
 msgstr "Utzi"
 
@@ -1192,8 +1192,8 @@ msgstr "Ezabatu"
 
 #: ../dialogs/display-settings/main.c:2250
 #, c-format
-msgid "%d Xfce Panels"
-msgstr "%d Xfce panelak"
+msgid "%d Expidus Panels"
+msgstr "%d Expidus panelak"
 
 #: ../dialogs/display-settings/main.c:3281
 msgid ""
@@ -1231,8 +1231,8 @@ msgstr "Bakarrik %s (2)"
 
 #: ../dialogs/display-settings/main.c:4297
 #: ../dialogs/display-settings/main.c:4334
-msgid "Unable to start the Xfce Display Settings"
-msgstr "Ezin da Xfce pantaila ezarpenak ireki"
+msgid "Unable to start the Expidus Display Settings"
+msgstr "Ezin da Expidus pantaila ezarpenak ireki"
 
 #: ../dialogs/display-settings/main.c:4329
 msgid "ATI Settings"
@@ -1242,7 +1242,7 @@ msgstr "ATI Ezarpenak"
 msgid "Unable to launch the proprietary driver settings"
 msgstr "Ezin dira kontrolatzaile propietarioen ezarpenak abiarazi"
 
-#: ../dialogs/display-settings/xfce-display-settings.desktop.in.h:3
+#: ../dialogs/display-settings/expidus-display-settings.desktop.in.h:3
 msgid ""
 "display;settings;screen;resolution;refresh;rate;rotation;external;projectors;monitors;LCD;CRT;HiDPI;"
 msgstr "bistaratzea;ezarpenak;pantaila;erresoluzioa;freskatu;ratioa;errotazioa;proiektoreak;monitoreak;LCD;CRT;HiDPI;"
@@ -1278,38 +1278,38 @@ msgid "Select command"
 msgstr "Hautatu komandoa"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:285
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:389
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:402
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:389
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:402
 msgid "All Files"
 msgstr "Fitxategi denak"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:290
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:394
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:407
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:394
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:407
 msgid "Executable Files"
 msgstr "Fitxategi exekutagarriak"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:305
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:409
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:422
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:409
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:422
 msgid "Perl Scripts"
 msgstr "Perl script-ak"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:311
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:415
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:428
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:415
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:428
 msgid "Python Scripts"
 msgstr "Python script-ak"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:317
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:421
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:434
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:421
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:434
 msgid "Ruby Scripts"
 msgstr "Ruby script-ak"
 
 #: ../dialogs/keyboard-settings/command-dialog.c:323
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:427
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:440
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:427
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:440
 msgid "Shell Scripts"
 msgstr "Shell script-ak"
 
@@ -1322,12 +1322,12 @@ msgid "Select keyboard layout and variant"
 msgstr "Hautatu teklatu ingurune eta aldagaia"
 
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:5
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.desktop.in.h:1
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.desktop.in.h:1
 msgid "Keyboard"
 msgstr "Teklatua"
 
 #: ../dialogs/keyboard-settings/keyboard-dialog.glade.h:6
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.desktop.in.h:2
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.desktop.in.h:2
 msgid "Edit keyboard settings and application shortcuts"
 msgstr "Editatu teklatu ezarpenak eta aplikazio lasterbideak"
 
@@ -1448,57 +1448,57 @@ msgstr "Ezinda GTK+ abiarazi."
 
 #: ../dialogs/keyboard-settings/main.c:104
 #, c-format
-msgid "Failed to connect to xfconf daemon. Reason: %s"
-msgstr "Huts xfconf deabrura konektatzean. Arrazoia: %s"
+msgid "Failed to connect to esconf daemon. Reason: %s"
+msgstr "Huts esconf deabrura konektatzean. Arrazoia: %s"
 
 #: ../dialogs/keyboard-settings/main.c:115
 msgid "Could not create the settings dialog."
 msgstr "Ezin da ezapen elkarrizketa sortu."
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:399
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:399
 msgid "Command"
 msgstr "Komandoa"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:407
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:407
 msgid "Shortcut"
 msgstr "Lasterbidea"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:484
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:484
 msgid "Layout"
 msgstr "Diseinua"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:485
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:485
 msgid "Variant"
 msgstr "Aldagaia"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1252
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1253
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1252
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1253
 msgid "Reset to Defaults"
 msgstr "Berrezarri lehenetsian"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1254
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1254
 msgid ""
 "This will reset all shortcuts to their default values. Do you really want to"
 " do this?"
 msgstr "Honek laster-tekla guztiak bere lehenetsiriko balioetara ezarriko ditu. Benetan hau egin nahi duzula?"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1256
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1256
 msgid "No"
 msgstr "Ez"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1257
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1257
 msgid "Yes"
 msgstr "Bai"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1333
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1333
 msgid "The system defaults will be restored next time you log in."
 msgstr "Sistema lehenespenak berrezarriko dira saio hasten duzun hurrengoan."
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.c:1335
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.c:1335
 msgid "Warning"
 msgstr "Abisua"
 
-#: ../dialogs/keyboard-settings/xfce-keyboard-settings.desktop.in.h:3
+#: ../dialogs/keyboard-settings/expidus-keyboard-settings.desktop.in.h:3
 msgid "numlock;keyboard;layout;shortcuts;"
 msgstr "numlock;teklatua;bistaratzeak;lasterbideak;"
 
@@ -1506,211 +1506,211 @@ msgstr "numlock;teklatua;bistaratzeak;lasterbideak;"
 msgid "Could not create the mime dialog."
 msgstr "Ezin da mime elkarrizketa sortu."
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:128
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:128
 msgid "Select Application"
 msgstr "Hautatu aplikazioa"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:136
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:383
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:136
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:383
 msgid "Open"
 msgstr "Ireki"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:205
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:205
 msgid "Use a c_ustom command:"
 msgstr "Erabili pertsonalizat_utako komandoa"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:206
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:206
 msgid ""
 "Use a custom command for an application that is not available from the above"
 " application list."
 msgstr "Erabili pertsonalizatutako komando bat behekoz zerrendan agertzen ez de aplikazio batentzat."
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:224
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:224
 msgid "_Browse..."
 msgstr "_Arakatu..."
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:379
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:379
 msgid "Select an Application"
 msgstr "Hautatu aplikazio bat"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:529
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:529
 msgid "None available"
 msgstr "Batez erabilgarri"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:576
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:576
 msgid "Recommended Applications"
 msgstr "Gomendatutako aplikazioak"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:594
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:594
 msgid "Other Applications"
 msgstr "Beste aplikazioak"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:614
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:614
 #, c-format
 msgid "Open <i>%s</i> and other files of type \"%s\" with:"
 msgstr "Ireki <i>%s</i> eta \"%s\" motako fitxategiak honekin:"
 
-#: ../dialogs/mime-settings/xfce-mime-chooser.c:650
+#: ../dialogs/mime-settings/expidus-mime-chooser.c:650
 #, c-format
 msgid "Failed to add new application \"%s\""
 msgstr "Huts \"%s\" aplikazio berria gehitzean."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:145
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:152
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:145
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:152
 msgid "Press left mouse button to change the selected application."
 msgstr "Saguaren eskuineko botoia sakatu aplikazioa aldatzeko."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:151
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:151
 msgid "Application Chooser Button"
 msgstr "Aplikazio hautatze botoia"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:303
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:303
 msgid "No application selected"
 msgstr "Ez da aplikaziorik hautatu"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:319
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:319
 msgid "Failed to set default Web Browser"
 msgstr "Huts lehenetsiriko web nabigatzailea ezartzerakoan"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:320
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:320
 msgid "Failed to set default Mail Reader"
 msgstr "Huts lehenetsiriko posta bezeroa ezartzerakoan"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:321
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:321
 msgid "Failed to set default File Manager"
 msgstr "Huts lehenetsiriko fitxategi kudeatzailea ezartzerakoan"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:322
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:322
 msgid "Failed to set default Terminal Emulator"
 msgstr "Huts lehenetsiriko terminal emuladorea ezartzerakoan"
 
 #. allocate the chooser
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:392
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:392
 msgid "Select application"
 msgstr "Hautatu aplikazioa"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:505
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:505
 msgid "Choose a custom Web Browser"
 msgstr "Pertsonalizatutako web nabigatzaile bat aukeratu"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:506
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:506
 msgid "Choose a custom Mail Reader"
 msgstr "Pertsonalizatutako posta bezero bat aukeratu"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:507
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:507
 msgid "Choose a custom File Manager"
 msgstr "Pertsonalizatutako fitxategi kudeatzaile bat aukeratu"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:508
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:508
 msgid "Choose a custom Terminal Emulator"
 msgstr "Pertsonalizatutako terminal emuladore bat aukeratu"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:513
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:513
 msgid ""
 "Specify the application you want to use\n"
-"as default Web Browser for Xfce:"
-msgstr "Xfce-ren lehenetsiriko nabigatzaile bezala erabili\nnahi duzun aplikazioa zehaztu:"
+"as default Web Browser for Expidus:"
+msgstr "Expidus-ren lehenetsiriko nabigatzaile bezala erabili\nnahi duzun aplikazioa zehaztu:"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:514
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:514
 msgid ""
 "Specify the application you want to use\n"
-"as default Mail Reader for Xfce:"
-msgstr "Xfce-ren lehenetsiriko posta bezero bezala erabili\nnahi duzun aplikazioa zehaztu:"
+"as default Mail Reader for Expidus:"
+msgstr "Expidus-ren lehenetsiriko posta bezero bezala erabili\nnahi duzun aplikazioa zehaztu:"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:515
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:515
 msgid ""
 "Specify the application you want to use\n"
-"as default File Manager for Xfce:"
-msgstr "Xfce-ren lehenetsiriko fitxategi kudeatzaile bezala erabili\nnahi duzun aplikazioa zehaztu:"
+"as default File Manager for Expidus:"
+msgstr "Expidus-ren lehenetsiriko fitxategi kudeatzaile bezala erabili\nnahi duzun aplikazioa zehaztu:"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:516
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:516
 msgid ""
 "Specify the application you want to use\n"
-"as default Terminal Emulator for Xfce:"
-msgstr "Xfce-ren lehenetsiriko terminal emuladore bezala erabili\nnahi duzun aplikazioa zehaztu:"
+"as default Terminal Emulator for Expidus:"
+msgstr "Expidus-ren lehenetsiriko terminal emuladore bezala erabili\nnahi duzun aplikazioa zehaztu:"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:580
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:580
 msgid "Browse the file system to choose a custom command."
 msgstr "Pertsonalizatutako komando bat aukeratzeko fitxategi-sistema arakatu."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:789
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:789
 msgid "_Other..."
 msgstr "_Besteak..."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-chooser.c:790
+#: ../dialogs/mime-settings/expidus-mime-helper-chooser.c:790
 msgid "Use a custom application which is not included in the above list."
 msgstr "Beheko zerrendan ez dagoen aplikazio pertsonalizatu bat aukeratu."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:113
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:113
 msgid "Choose Preferred Application"
 msgstr "Hobetsiriko aplikazioa hautatu"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:256
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:256
 msgid ""
 "Please choose your preferred Web\n"
 "Browser now and click OK to proceed."
 msgstr "Mesedez hobetsiriko web nabigatzailea ezarri\neta Ados sakatu aurrera jarraitzeko."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:258
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:258
 msgid ""
 "Please choose your preferred Mail Reader\n"
 "now and click OK to proceed."
 msgstr "Mesedez hobetsiriko posta bezeroa ezarri\neta Ados sakatu aurrera jarraitzeko."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:260
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:260
 msgid ""
 "Please choose your preferred File Manager\n"
 "now and click OK to proceed."
 msgstr "Mesedez hobetsiriko fitxategi kudeatzailea ezarri\neta ados sakatu aurrera jarraitzeko."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:262
+#: ../dialogs/mime-settings/expidus-mime-helper-launcher-dialog.c:262
 msgid ""
 "Please choose your preferred Terminal\n"
 "Emulator now and click OK to proceed."
 msgstr "Mesedez hobetsiriko terminal emuladorea ezarri\neta Ados sakatu aurrera jarraitzeko."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:41
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:41
 msgid "Failed to execute default Web Browser"
 msgstr "Huts lehenetsiriko web nabigatzailea exekutatzean"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:42
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:42
 msgid "Failed to execute default Mail Reader"
 msgstr "Huts lehenetsiriko posta bezeroa exekutatzean"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:43
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:43
 msgid "Failed to execute default File Manager"
 msgstr "Huts lehenetsiriko fitxategi kudeatzailea exekutatzean"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:44
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:44
 msgid "Failed to execute default Terminal Emulator"
 msgstr "Huts lehenetsiriko terminal emuladorea exekutatzean"
 
 #. Enable permanently dismissing this error.
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:86
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:86
 msgid "Do _not show this message again"
 msgstr "E_z bistarazi mezu hau berriz"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:116
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:116
 msgid "Print version information and exit"
 msgstr "Bertsio argibideak inprimatu eta irten"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:117
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:117
 msgid ""
 "Launch the default helper of TYPE with the optional PARAMETER, where TYPE is"
 " one of the following values."
 msgstr "Abiarazi MOTA laguntzailea aukerako PARAMETRO honez, non MOTA hauetako balio bat izan daitekeen."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:117
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:118
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:117
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:118
 msgid "TYPE [PARAMETER]"
 msgstr "MOTA [PARAMETROA]"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:118
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:118
 msgid ""
 "Query the default helper of TYPE, where TYPE is one of the following values."
 msgstr "Kontsultatu MOTA laguntzaile lehenestia, non MOTA hurrengo balioetako bat den."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:148
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:148
 msgid ""
 "The following TYPEs are supported for the --launch and --query commands:\n"
 "\n"
@@ -1720,205 +1720,205 @@ msgid ""
 "  TerminalEmulator - The preferred Terminal Emulator."
 msgstr "Hurrengo MOTAk onartzen dira --launch eta --query komandoetarako:\n\n  WebBrowser       - Hobetsiriko web nabigatzailea.\n  MailReader       - Hobetsiriko posta bezeroa.\n  FileManager      - Hobetsiriko fitxategi kudeatzailea.\n  TerminalEmulator - Hobetsiriko terminal emuladorea."
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:183
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:256
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:183
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:256
 #, c-format
 msgid "Invalid helper type \"%s\""
 msgstr "\"%s\" laguntzaile mota baliogabea"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:240
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:240
 #, c-format
 msgid ""
-"%s (Xfce %s)\n"
+"%s (Expidus %s)\n"
 "\n"
 "Copyright (c) 2003-2006\n"
 "        os-cillation e.K. All rights reserved.\n"
 "\n"
-"Written by Benedikt Meurer <benny@xfce.org>.\n"
+"Written by Benedikt Meurer <benny@expidus.org>.\n"
 "\n"
 "Built with Gtk+-%d.%d.%d, running Gtk+-%d.%d.%d.\n"
 "\n"
 "Please report bugs to <%s>.\n"
-msgstr "%s (Xfce %s)\n\nCopyright (c) 2003-2006\n        os-cillation e.K. All rights reserved.\n\nBenedikt Meurerek <benny@xfce.org> idatzia.\n\nGtk+-%d.%d.%d erabiliaz eraikia, Gtk+-%d.%d.%d erabiliaz exekutatua.\n\nPrograma erroreen berri hemen eman: <%s>.\n"
+msgstr "%s (Expidus %s)\n\nCopyright (c) 2003-2006\n        os-cillation e.K. All rights reserved.\n\nBenedikt Meurerek <benny@expidus.org> idatzia.\n\nGtk+-%d.%d.%d erabiliaz eraikia, Gtk+-%d.%d.%d erabiliaz exekutatua.\n\nPrograma erroreen berri hemen eman: <%s>.\n"
 
-#: ../dialogs/mime-settings/xfce-mime-helper-main.c:266
+#: ../dialogs/mime-settings/expidus-mime-helper-main.c:266
 #, c-format
 msgid "No helper defined for \"%s\"."
 msgstr "Ez dago laguntzailerik definituta \"%s\"(e)rako."
 
-#: ../dialogs/mime-settings/xfce-mime-helper.c:406
+#: ../dialogs/mime-settings/expidus-mime-helper.c:406
 #, c-format
 msgid "No command specified"
 msgstr "Ez da komandoa ezarri"
 
-#: ../dialogs/mime-settings/xfce-mime-helper.c:742
-#: ../dialogs/mime-settings/xfce-mime-helper.c:781
-#: ../dialogs/mime-settings/xfce-mime-helper.c:878
-#: ../dialogs/mime-settings/xfce-mime-helper.c:917
+#: ../dialogs/mime-settings/expidus-mime-helper.c:742
+#: ../dialogs/mime-settings/expidus-mime-helper.c:781
+#: ../dialogs/mime-settings/expidus-mime-helper.c:878
+#: ../dialogs/mime-settings/expidus-mime-helper.c:917
 #, c-format
 msgid "Failed to open %s for writing"
 msgstr "Ezin da %s fitxategia idazketarako ireki"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:187
-#: ../dialogs/mime-settings/xfce4-mime-settings.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:187
+#: ../dialogs/mime-settings/expidus1-mime-settings.desktop.in.h:1
 msgid "Default Applications"
 msgstr "Lehenetsitako aplikazioak"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:191
-#: ../dialogs/mime-settings/xfce4-mime-settings.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus-mime-window.c:191
+#: ../dialogs/mime-settings/expidus1-mime-settings.desktop.in.h:2
 msgid "Associate preferred applications with MIME types"
 msgstr "Lotu hobetsitako MIME motak aplikazioekin."
 
 #. Internet
-#: ../dialogs/mime-settings/xfce-mime-window.c:214
+#: ../dialogs/mime-settings/expidus-mime-window.c:214
 msgid "_Internet"
 msgstr "_Internet"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:227
-#: ../dialogs/mime-settings/xfce4-web-browser.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:227
+#: ../dialogs/mime-settings/expidus1-web-browser.desktop.in.h:1
 msgid "Web Browser"
 msgstr "Web nabigatzailea"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:235
+#: ../dialogs/mime-settings/expidus-mime-window.c:235
 msgid ""
 "The default Web Browser will be used to open hyperlinks and display help "
 "contents."
 msgstr "Lehenetsiriko web nabigatzailea estekak ireki eta laguntza bistaratzeko erabiliko da."
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:258
-#: ../dialogs/mime-settings/xfce4-mail-reader.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:258
+#: ../dialogs/mime-settings/expidus1-mail-reader.desktop.in.h:1
 msgid "Mail Reader"
 msgstr "Posta bezeroa"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:266
+#: ../dialogs/mime-settings/expidus-mime-window.c:266
 msgid ""
 "The default Mail Reader will be used to compose emails when you click on "
 "email addresses."
 msgstr "Lehenetsiriko posta bezeroa eposta helbide batean klikatzerakoan mezu bat sortzeko erabiliko da."
 
 #. Utilities
-#: ../dialogs/mime-settings/xfce-mime-window.c:285
+#: ../dialogs/mime-settings/expidus-mime-window.c:285
 msgid "_Utilities"
 msgstr "_Lanabesak"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:298
-#: ../dialogs/mime-settings/xfce4-file-manager.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:298
+#: ../dialogs/mime-settings/expidus1-file-manager.desktop.in.h:1
 msgid "File Manager"
 msgstr "Fitxategi kudeatzailea"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:306
+#: ../dialogs/mime-settings/expidus-mime-window.c:306
 msgid ""
 "The default File Manager will be used to browse the contents of folders."
 msgstr "Lehenetsiriko fitxategi kudeatzailea karpeten edukiak arakatzeko erabiliko da."
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:329
-#: ../dialogs/mime-settings/xfce4-terminal-emulator.desktop.in.h:1
+#: ../dialogs/mime-settings/expidus-mime-window.c:329
+#: ../dialogs/mime-settings/expidus1-terminal-emulator.desktop.in.h:1
 msgid "Terminal Emulator"
 msgstr "Terminal emuladorea"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:337
+#: ../dialogs/mime-settings/expidus-mime-window.c:337
 msgid ""
 "The default Terminal Emulator will be used to run commands that require a "
 "CLI environment."
 msgstr "Lehenetsiriko terminal emuladorea CLI ingurunea behar duten komandoak abiarazteko erabiliko da."
 
 #. Mimes
-#: ../dialogs/mime-settings/xfce-mime-window.c:356
+#: ../dialogs/mime-settings/expidus-mime-window.c:356
 msgid "_Others"
 msgstr "_Besteak"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:366
+#: ../dialogs/mime-settings/expidus-mime-window.c:366
 msgid "_Filter:"
 msgstr "_Iragazkia:"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:374
+#: ../dialogs/mime-settings/expidus-mime-window.c:374
 msgid "Clear filter"
 msgstr "Garbitu iragazkia"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:404
+#: ../dialogs/mime-settings/expidus-mime-window.c:404
 msgid "Open with..."
 msgstr "Ireki honekin..."
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:451
+#: ../dialogs/mime-settings/expidus-mime-window.c:451
 msgid "MIME Type"
 msgstr "MIME mota"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:479
+#: ../dialogs/mime-settings/expidus-mime-window.c:479
 msgid "Status"
 msgstr "Egoera"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:499
+#: ../dialogs/mime-settings/expidus-mime-window.c:499
 msgid "Default Application"
 msgstr "Lehenetsitako aplikazioa"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:674
-#: ../dialogs/mime-settings/xfce-mime-window.c:816
+#: ../dialogs/mime-settings/expidus-mime-window.c:674
+#: ../dialogs/mime-settings/expidus-mime-window.c:816
 msgid "User Set"
 msgstr "Erabiltzaile ezarpenak"
 
 #. sort the names but keep Default on top
-#: ../dialogs/mime-settings/xfce-mime-window.c:676
-#: ../dialogs/mime-settings/xfce-mime-window.c:816
+#: ../dialogs/mime-settings/expidus-mime-window.c:676
+#: ../dialogs/mime-settings/expidus-mime-window.c:816
 #: ../dialogs/mouse-settings/main.c:397 ../dialogs/mouse-settings/main.c:399
 #: ../dialogs/mouse-settings/main.c:459
 msgid "Default"
 msgstr "Lehenetsia"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:762
+#: ../dialogs/mime-settings/expidus-mime-window.c:762
 #, c-format
 msgid "%d MIME type found"
 msgid_plural "%d MIME types found"
 msgstr[0] "MIME mota %d topatu da"
 msgstr[1] "%d MIME mota topatu dira"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:861
+#: ../dialogs/mime-settings/expidus-mime-window.c:861
 #, c-format
 msgid "Failed to set application \"%s\" for mime type \"%s\"."
 msgstr "Huts \"%s\" aplikazioa \"%s\" MIME motarentzat ezartzerakoan."
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1124
+#: ../dialogs/mime-settings/expidus-mime-window.c:1124
 #, c-format
 msgid "Are you sure you want to reset content type \"%s\" to its default value?"
 msgstr "Ziur zaude \"%s\" kanala eta dituen propietateak berrabiarazi nahi duzula?"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1128
+#: ../dialogs/mime-settings/expidus-mime-window.c:1128
 msgid "Question"
 msgstr "Galdera"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1131
+#: ../dialogs/mime-settings/expidus-mime-window.c:1131
 msgid ""
 "This will remove your custom mime-association and restore the system-wide "
 "default."
 msgstr "Honek zure pertsonalizatutako mime-lotura ezabatu eta sistemaren lehenespena berrezarriko du."
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1135
-#: ../dialogs/mime-settings/xfce-mime-window.c:1206
+#: ../dialogs/mime-settings/expidus-mime-window.c:1135
+#: ../dialogs/mime-settings/expidus-mime-window.c:1206
 msgid "Reset to Default"
 msgstr "Berrezarri lehenetsian"
 
-#: ../dialogs/mime-settings/xfce-mime-window.c:1201
+#: ../dialogs/mime-settings/expidus-mime-window.c:1201
 msgid "Choose Application..."
 msgstr "Hautatu aplikazioa..."
 
-#: ../dialogs/mime-settings/xfce4-mime-settings.desktop.in.h:3
+#: ../dialogs/mime-settings/expidus1-mime-settings.desktop.in.h:3
 msgid ""
 "file;type;extension;association;open with;web browser;mail reader;file "
 "manager;terminal emulator;"
 msgstr "fitxategia;mota;luzapena;lotura;ireki honekin;web nabigatzailea;posta bezeroa;fitxategi kudeatzailea;terminal emuladorea;"
 
-#: ../dialogs/mime-settings/xfce4-file-manager.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus1-file-manager.desktop.in.h:2
 msgid "Browse the file system"
 msgstr "Arakatu fitxategi-sistema"
 
-#: ../dialogs/mime-settings/xfce4-mail-reader.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus1-mail-reader.desktop.in.h:2
 msgid "Read your email"
 msgstr "Irakurri zure posta"
 
-#: ../dialogs/mime-settings/xfce4-terminal-emulator.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus1-terminal-emulator.desktop.in.h:2
 msgid "Use the command line"
 msgstr "Erabili komando lerroa"
 
-#: ../dialogs/mime-settings/xfce4-web-browser.desktop.in.h:2
+#: ../dialogs/mime-settings/expidus1-web-browser.desktop.in.h:2
 msgid "Browse the web"
 msgstr "Nabigatu web-a"
 
@@ -2122,13 +2122,13 @@ msgstr "Vimprobable2"
 msgid "W3M Text Browser"
 msgstr "W3M testu nabigatzailea"
 
-#: ../dialogs/mime-settings/helpers/xfce4-terminal.desktop.in.in.h:1
-msgid "Xfce Terminal"
-msgstr "Xfce Terminala"
+#: ../dialogs/mime-settings/helpers/expidus1-terminal.desktop.in.in.h:1
+msgid "Expidus Terminal"
+msgstr "Expidus Terminala"
 
 #: ../dialogs/mime-settings/helpers/xfe.desktop.in.in.h:1
 msgid "Xfe File Manager"
-msgstr "Xfce Fitxategi kudeatzailea"
+msgstr "Expidus Fitxategi kudeatzailea"
 
 #: ../dialogs/mime-settings/helpers/xterm.desktop.in.in.h:1
 msgid "X Terminal"
@@ -2201,12 +2201,12 @@ msgid "Counterclockwise"
 msgstr "Erlojuaren aurka"
 
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:11
-#: ../dialogs/mouse-settings/xfce-mouse-settings.desktop.in.h:1
+#: ../dialogs/mouse-settings/expidus-mouse-settings.desktop.in.h:1
 msgid "Mouse and Touchpad"
 msgstr "Sagua eta Touchpada"
 
 #: ../dialogs/mouse-settings/mouse-dialog.glade.h:12
-#: ../dialogs/mouse-settings/xfce-mouse-settings.desktop.in.h:2
+#: ../dialogs/mouse-settings/expidus-mouse-settings.desktop.in.h:2
 msgid "Configure pointer device behavior and appearance"
 msgstr "Konfiguratu markatzaile gailu ingurunea eta itxura"
 
@@ -2378,200 +2378,200 @@ msgstr "Aurrebista"
 msgid "_Theme"
 msgstr "_Gaia"
 
-#: ../dialogs/mouse-settings/xfce-mouse-settings.desktop.in.h:3
+#: ../dialogs/mouse-settings/expidus-mouse-settings.desktop.in.h:3
 msgid ""
 "settings;buttons;scroll;direction;pointer;speed;double click;theme;wheel;"
 msgstr "ezarpenak;botoiak;korritzea;morantza;markatzailea;abiadrua;klik bikoitza;gaia;gurpila;"
 
-#: ../xfce4-settings-editor/main.c:163
-#: ../xfce4-settings-editor/xfce4-settings-editor.desktop.in.h:1
+#: ../expidus1-settings-editor/main.c:163
+#: ../expidus1-settings-editor/expidus1-settings-editor.desktop.in.h:1
 msgid "Settings Editor"
 msgstr "Ezarpen editorea"
 
-#: ../xfce4-settings-editor/main.c:170
-msgid "Customize settings stored by Xfconf"
-msgstr "Xfconf-ek gordetako ezarpenak pertsonlizatu"
+#: ../expidus1-settings-editor/main.c:170
+msgid "Customize settings stored by Esconf"
+msgstr "Esconf-ek gordetako ezarpenak pertsonlizatu"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:258
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:258
 msgid "Channel"
 msgstr "Kanala"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:292
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:292
 msgid "Property"
 msgstr "Propietatea"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:299
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:299
 msgid "Type"
 msgstr "Mota"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:306
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:306
 msgid "Locked"
 msgstr "Blokeatuta"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:313
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:313
 msgid "Value"
 msgstr "Balioa"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:333
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:333
 msgid "New property"
 msgstr "Propietate berria"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:341
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:341
 msgid "_Edit"
 msgstr "_Editatu"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:346
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:346
 msgid "Edit selected property"
 msgstr "Editatu hautatutako propietatea"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:354
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1043
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1465
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:354
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1043
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1465
 msgid "_Reset"
 msgstr "Be_rrezarri"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:359
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:359
 msgid "Reset selected property"
 msgstr "Berrezarri hautatutako propietatea"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:466
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:557
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:676
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:89
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:466
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:557
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:676
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:89
 msgid "Empty"
 msgstr "Hutsik"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:469
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:469
 msgid "Array"
 msgstr "Array-a"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:474
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:90
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:474
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:90
 msgid "String"
 msgstr "Katea"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:482
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:482
 msgid "Integer"
 msgstr "Osokoa"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:485
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:91
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:485
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:91
 msgid "Boolean"
 msgstr "Boolearra"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:488
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:93
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:488
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:93
 msgid "Double"
 msgstr "Bikoitza"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:822
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:822
 msgid "_Reset Channel"
 msgstr "Be_rrezarri kanala"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:823
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:823
 msgid "Resetting a channel will permanently remove those custom settings."
 msgstr "Kanal bat berrezartzean pertsonalizazioak betirako galduko dira."
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:824
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:824
 #, c-format
 msgid "Are you sure you want to reset channel \"%s\" and all its properties?"
 msgstr "Ziur zaude \"%s\" kanala eta dituen propietateak berrabiarazi nahi duzula?"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:899
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:899
 msgid "reset"
 msgstr "berrezarri"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:956
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:956
 #, c-format
 msgid "Monitor %s"
 msgstr "%s monitorea"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:964
-msgid "Watch an Xfconf channel for property changes"
-msgstr "Ikusi Xfconf kanala propietate aldaketetarako."
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:964
+msgid "Watch an Esconf channel for property changes"
+msgstr "Ikusi Esconf kanala propietate aldaketetarako."
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:966
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:966
 msgid "Clear"
 msgstr "Garbitu"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:967
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:967
 msgid "Close"
 msgstr "Itxi"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1000
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1000
 #, c-format
 msgid "start monitoring channel \"%s\""
 msgstr "hasi \"%s\" kanala kontrolatzen"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1049
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1049
 msgid "_Monitor"
 msgstr "_Monitorea"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1059
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1059
 msgid "Refresh"
 msgstr "Freskatu"
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1466
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1466
 msgid "Resetting a property will permanently remove those custom settings."
 msgstr "Propietate bat berrezartzean betirako galtzen dira pertsonalizatutako ezarpenak."
 
-#: ../xfce4-settings-editor/xfce-settings-editor-box.c:1467
+#: ../expidus1-settings-editor/expidus-settings-editor-box.c:1467
 #, c-format
 msgid "Are you sure you want to reset property \"%s\"?"
 msgstr "Ziur zaude \"%s\" propietatea berrabiarazi nahi duzula?"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:92
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:92
 msgid "Int"
 msgstr "Int"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:94
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:94
 msgid "Unsigned Int"
 msgstr "Sinatu-gabeko int"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:95
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:95
 msgid "Int64"
 msgstr "Int64"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:96
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:96
 msgid "Unsigned Int64"
 msgstr "Sinatu-gabeko int64"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:141
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:141
 msgid "New Property"
 msgstr "Propietate berria"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:145
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:145
 msgid "Save"
 msgstr "Gorde"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:160
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:160
 msgid "_Property:"
 msgstr "_Propietatea:"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:174
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:174
 msgid "_Type:"
 msgstr "Mo_ta:"
 
 #. strings
 #. integers
 #. bool
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:203
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:213
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:224
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:203
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:213
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:224
 msgid "_Value:"
 msgstr "_Balioa:"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:381
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:381
 #, c-format
 msgid "Property names must start with a '/' character"
 msgstr "Propietate izenak '/' karaktereaz hasi behar dira"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:392
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:392
 #, c-format
 msgid "The root element ('/') is not a valid property name"
 msgstr "Erro elementua ('/') ez da propietate izen erabilgarri bat"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:409
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:409
 #, c-format
 msgid ""
 "Property names can only include the ASCII characters A-Z, a-z, 0-9, '_', "
@@ -2579,125 +2579,125 @@ msgid ""
 "separator"
 msgstr "Propietate izenek A-Z, a-z, 0-9, '_', '-', ':', '.', ',', '[', ']', '{', '}', '<' eta '>' ASCII karaktereak eta '/' bereizle gisa bakarrik eduki dezakete"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:423
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:423
 #, c-format
 msgid "Property names cannot have two or more consecutive '/' characters"
 msgstr "Propietate izenek zin dute '/' baino gehiago jarraian eduki"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:437
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:437
 #, c-format
 msgid "Property names cannot end with a '/' character"
 msgstr "Propietate izenak ezin dira '/' karaktereaz amaitu"
 
-#: ../xfce4-settings-editor/xfce-settings-prop-dialog.c:650
+#: ../expidus1-settings-editor/expidus-settings-prop-dialog.c:650
 msgid "Edit Property"
 msgstr "Editatu propietatea"
 
-#: ../xfce4-settings-editor/xfce4-settings-editor.desktop.in.h:2
-msgid "Graphical settings editor for Xfconf"
-msgstr "Xfconf-ren ezarpen editore grafikoa"
+#: ../expidus1-settings-editor/expidus1-settings-editor.desktop.in.h:2
+msgid "Graphical settings editor for Esconf"
+msgstr "Esconf-ren ezarpen editore grafikoa"
 
-#: ../xfce4-settings-editor/xfce4-settings-editor.desktop.in.h:3
+#: ../expidus1-settings-editor/expidus1-settings-editor.desktop.in.h:3
 msgid "registry;regedit;configuration file;"
 msgstr "erregistroa;regedit;konfigurazio fitxategia;"
 
-#: ../xfce4-settings-manager/main.c:44
+#: ../expidus1-settings-manager/main.c:44
 msgid "Settings dialog to show"
 msgstr "Erakutsiko den ezarpen elkarrizketa"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:221
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:221
 msgid "All _Settings"
 msgstr "Ezarpenak _guztiak"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:419
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:419
 msgid "Settings"
 msgstr "Ezarpenak"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:421
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:421
 msgid "Customize your desktop"
 msgstr "Pertsonalizatu zure mahaigaina"
 
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:937
-#: ../xfce4-settings-manager/xfce-settings-manager-dialog.c:948
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:937
+#: ../expidus1-settings-manager/expidus-settings-manager-dialog.c:948
 #, c-format
 msgid "Unable to start \"%s\""
 msgstr "Ezin da\"%s\" abiarazi"
 
-#: ../xfce4-settings-manager/xfce-settings-manager.desktop.in.h:1
+#: ../expidus1-settings-manager/expidus-settings-manager.desktop.in.h:1
 msgid "Settings Manager"
 msgstr "Ezarpen kudeatzailea"
 
-#: ../xfce4-settings-manager/xfce-settings-manager.desktop.in.h:2
-msgid "Graphical Settings Manager for Xfce"
-msgstr "Xfce ezarpen kudeatzaile grafikoa"
+#: ../expidus1-settings-manager/expidus-settings-manager.desktop.in.h:2
+msgid "Graphical Settings Manager for Expidus"
+msgstr "Expidus ezarpen kudeatzaile grafikoa"
 
-#: ../xfce4-settings-manager/xfce-settings-manager.desktop.in.h:3
+#: ../expidus1-settings-manager/expidus-settings-manager.desktop.in.h:3
 msgid "control;panel;center;system;settings;personalize;hardware;"
 msgstr "kontrola;panela;zentratua;sistema;ezarpenak;pertsonalizatu;hardware;"
 
-#: ../xfsettingsd/accessibility.c:412
+#: ../essettingsd/accessibility.c:412
 msgid "Sticky keys are enabled"
 msgstr "Tekla itsaskorrak gaiturik daude"
 
-#: ../xfsettingsd/accessibility.c:414
+#: ../essettingsd/accessibility.c:414
 msgid "Sticky keys are disabled"
 msgstr "Tekla itsaskorrak desgaiturik daude"
 
-#: ../xfsettingsd/accessibility.c:416
+#: ../essettingsd/accessibility.c:416
 msgid "Sticky keys"
 msgstr "Tekla itsaskorrak"
 
-#: ../xfsettingsd/accessibility.c:421
+#: ../essettingsd/accessibility.c:421
 msgid "Slow keys are enabled"
 msgstr "Tekla geldoak gaiturik daude"
 
-#: ../xfsettingsd/accessibility.c:423
+#: ../essettingsd/accessibility.c:423
 msgid "Slow keys are disabled"
 msgstr "Tekla geldoak desgaiturik daude"
 
-#: ../xfsettingsd/accessibility.c:425
+#: ../essettingsd/accessibility.c:425
 msgid "Slow keys"
 msgstr "Tekla geldoak"
 
-#: ../xfsettingsd/accessibility.c:430
+#: ../essettingsd/accessibility.c:430
 msgid "Bounce keys are enabled"
 msgstr "Tekla errepikapena gaiturik dago"
 
-#: ../xfsettingsd/accessibility.c:432
+#: ../essettingsd/accessibility.c:432
 msgid "Bounce keys are disabled"
 msgstr "Tekla errepikapena desgaiturik dago"
 
-#: ../xfsettingsd/accessibility.c:434
+#: ../essettingsd/accessibility.c:434
 msgid "Bounce keys"
 msgstr "Tekla errepikapena"
 
-#: ../xfsettingsd/keyboard-shortcuts.c:242
+#: ../essettingsd/keyboard-shortcuts.c:242
 #, c-format
 msgid "Failed to launch shortcut \"%s\""
 msgstr "Huts \"%s\" laster-marka abiaraztean."
 
-#: ../xfsettingsd/main.c:103
+#: ../essettingsd/main.c:103
 msgid "Fork to the background"
 msgstr "Banandu atzealdera"
 
-#: ../xfsettingsd/main.c:104
+#: ../essettingsd/main.c:104
 msgid "Do not wait for a window manager on startup"
 msgstr "Ez itxoin leiho kudeatzailerik abiaraztean"
 
-#: ../xfsettingsd/main.c:105
+#: ../essettingsd/main.c:105
 msgid "Replace running xsettings daemon (if any)"
 msgstr "Ordeztu martxan dagoen xsettings deabrua (balego)"
 
-#. value in xfconf isn't a string, so make a default one
-#: ../xfsettingsd/workspaces.c:333 ../xfsettingsd/workspaces.c:390
+#. value in esconf isn't a string, so make a default one
+#: ../essettingsd/workspaces.c:333 ../essettingsd/workspaces.c:390
 #, c-format
 msgid "Workspace %d"
 msgstr "%d idazmahaia"
 
-#: ../xfsettingsd/xfsettingsd.desktop.in.h:1
-msgid "Xfce Settings Daemon"
-msgstr "Xfce ezarpen deabrua"
+#: ../essettingsd/essettingsd.desktop.in.h:1
+msgid "Expidus Settings Daemon"
+msgstr "Expidus ezarpen deabrua"
 
-#: ../xfsettingsd/xfsettingsd.desktop.in.h:2
-msgid "The Xfce Settings Daemon"
-msgstr "Xfce ezarpen deabrua"
+#: ../essettingsd/essettingsd.desktop.in.h:2
+msgid "The Expidus Settings Daemon"
+msgstr "Expidus ezarpen deabrua"

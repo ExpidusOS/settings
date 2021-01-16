@@ -10,7 +10,7 @@ Keyboard settings
   * IMPORTANT (for the final release): Improve the libfrap code for
     shortcuts. It could be less complicated.
   * IMPORTANT (for the final release): Hard-coded default shortcuts and
-    an option to reset them to defaults (see xfwm4).
+    an option to reset them to defaults (see eswm1).
 
 
 Mouse Settings (Nick)
@@ -21,7 +21,7 @@ Mouse Settings (Nick)
 Settings Manager
 ------------------------------------------------------------------------
 
-  * Add embed support to all dialogs (not only those in xfce4-settings).
+  * Add embed support to all dialogs (not only those in expidus1-settings).
   * Figure out a way to avoid the black glitches that happen when 
     embedding dialogs into the main dialog sometimes.
   * Come up with a solution for help buttons (maybe using an additonal

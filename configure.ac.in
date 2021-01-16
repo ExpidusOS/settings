@@ -1,40 +1,40 @@
 dnl
 dnl Copyright (c) 2006 - 2019
-dnl         The Xfce development team. All rights reserved.
+dnl         The Expidus development team. All rights reserved.
 dnl
-dnl Originally written for Xfce by Benedikt Meurer <benny@xfce.org>
-dnl Modified by Stephan Arts <stephan@xfce.org>
+dnl Originally written for Expidus by Benedikt Meurer <benny@expidus.org>
+dnl Modified by Stephan Arts <stephan@expidus.org>
 dnl
 
 dnl ***************************
 dnl *** Version information ***
 dnl ***************************
-m4_define([xfce4_settings_version_major], [4])
-m4_define([xfce4_settings_version_minor], [16])
-m4_define([xfce4_settings_version_micro], [0])
-m4_define([xfce4_settings_version_nano], [])
-m4_define([xfce4_settings_version_build], [@REVISION@])
-m4_define([xfce4_settings_version_tag], [git]) # Leave empty for releases
-m4_define([xfce4_settings_version], [xfce4_settings_version_major().xfce4_settings_version_minor().xfce4_settings_version_micro()ifelse(xfce4_settings_version_nano(), [], [], [.xfce4_settings_version_nano()])ifelse(xfce4_settings_version_tag(), [git], [xfce4_settings_version_tag()-xfce4_settings_version_build()], [xfce4_settings_version_tag()])])
+m4_define([expidus1_settings_version_major], [1])
+m4_define([expidus1_settings_version_minor], [0])
+m4_define([expidus1_settings_version_micro], [0])
+m4_define([expidus1_settings_version_nano], [])
+m4_define([expidus1_settings_version_build], [@REVISION@])
+m4_define([expidus1_settings_version_tag], [git]) # Leave empty for releases
+m4_define([expidus1_settings_version], [expidus1_settings_version_major().expidus1_settings_version_minor().expidus1_settings_version_micro()ifelse(expidus1_settings_version_nano(), [], [], [.expidus1_settings_version_nano()])ifelse(expidus1_settings_version_tag(), [git], [expidus1_settings_version_tag()-expidus1_settings_version_build()], [expidus1_settings_version_tag()])])
 
-dnl define a short version string for xfce4-settings
-m4_append([xfce4_settings_version_short], ["])
-m4_append([xfce4_settings_version_short], [xfce4_settings_version_major])
-m4_append([xfce4_settings_version_short], [.])
-m4_append([xfce4_settings_version_short], [xfce4_settings_version_minor])
-m4_append([xfce4_settings_version_short], ["])
+dnl define a short version string for expidus1-settings
+m4_append([expidus1_settings_version_short], ["])
+m4_append([expidus1_settings_version_short], [expidus1_settings_version_major])
+m4_append([expidus1_settings_version_short], [.])
+m4_append([expidus1_settings_version_short], [expidus1_settings_version_minor])
+m4_append([expidus1_settings_version_short], ["])
 
 dnl *******************************************
 dnl *** Debugging support for GIT snapshots ***
 dnl *******************************************
-m4_define([xfce4_settings_debug_default], [ifelse(xfce4_settings_version_tag(), [git], [yes], [minimum])])
+m4_define([expidus1_settings_debug_default], [ifelse(expidus1_settings_version_tag(), [git], [yes], [minimum])])
 
 dnl ***************************
 dnl *** Initialize autoconf ***
 dnl ***************************
 AC_COPYRIGHT([Copyright (c) 2008-2019
-        The Xfce development team. All rights reserved.])
-AC_INIT([xfce4-settings], [xfce4_settings_version], [https://bugzilla.xfce.org/])
+        The Expidus development team. All rights reserved.])
+AC_INIT([expidus1-settings], [expidus1_settings_version], [https://bugzilla.expidus.org/])
 AC_PREREQ([2.60])
 AC_CONFIG_MACRO_DIRS([m4])
 AC_REVISION([@REVISION@])
@@ -84,20 +84,20 @@ XDT_I18N([@LINGUAS@])
 dnl ***********************************
 dnl *** Version string for the docs ***
 dnl ***********************************
-AC_DEFINE([XFCE4_SETTINGS_VERSION_SHORT], [xfce4_settings_version_short], [Short version string of xfce4-settings])
+AC_DEFINE([EXPIDUS1_SETTINGS_VERSION_SHORT], [expidus1_settings_version_short], [Short version string of expidus1-settings])
 
 dnl ***********************************
 dnl *** Check for required packages ***
 dnl ***********************************
-XDT_CHECK_PACKAGE([EXO], [exo-2], [0.11.0])
+XDT_CHECK_PACKAGE([ENDO], [endo-2], [1.0.0])
 XDT_CHECK_PACKAGE([GTK], [gtk+-3.0], [3.20.0])
 XDT_CHECK_PACKAGE([GLIB], [glib-2.0], [2.50.0])
 XDT_CHECK_PACKAGE([GIO], [gio-2.0], [2.50.0])
-XDT_CHECK_PACKAGE([GARCON], [garcon-1], [0.1.10])
-XDT_CHECK_PACKAGE([LIBXFCE4UTIL], [libxfce4util-1.0], [4.15.2])
-XDT_CHECK_PACKAGE([LIBXFCE4UI], [libxfce4ui-2], [4.15.1])
-XDT_CHECK_PACKAGE([LIBXFCE4KBD_PRIVATE], [libxfce4kbd-private-3], [4.12.0])
-XDT_CHECK_PACKAGE([XFCONF], [libxfconf-0], [4.13.0])
+XDT_CHECK_PACKAGE([MARKON], [markon-1], [1.0.0])
+XDT_CHECK_PACKAGE([LIBEXPIDUS1UTIL], [libexpidus1util-1.0], [1.0.0])
+XDT_CHECK_PACKAGE([LIBEXPIDUS1UI], [libexpidus1ui-2], [1.0.0])
+XDT_CHECK_PACKAGE([LIBEXPIDUS1KBD_PRIVATE], [libexpidus1kbd-private-3], [1.0.0])
+XDT_CHECK_PACKAGE([ESCONF], [libesconf-0], [1.0.0])
 XDT_CHECK_PACKAGE([FONTCONFIG], [fontconfig], [2.6.0])
 
 XDT_CHECK_PACKAGE([XI], [xi], [1.2.0], [],
@@ -235,7 +235,7 @@ AC_SUBST([HELPER_PATH_PREFIX])
 dnl ***********************************
 dnl *** Check for debugging support ***
 dnl ***********************************
-XDT_FEATURE_DEBUG([xfce4_settings_debug_default])
+XDT_FEATURE_DEBUG([expidus1_settings_debug_default])
 
 dnl **************************************
 dnl *** Check for linker optimizations ***
@@ -275,9 +275,9 @@ icons/32x32/Makefile
 icons/48x48/Makefile
 icons/128x128/Makefile
 icons/scalable/Makefile
-xfsettingsd/Makefile
-xfce4-settings-manager/Makefile
-xfce4-settings-editor/Makefile
+essettingsd/Makefile
+expidus1-settings-manager/Makefile
+expidus1-settings-editor/Makefile
 ])
 
 dnl ***************************
