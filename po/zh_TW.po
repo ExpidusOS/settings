@@ -2088,7 +2088,7 @@ msgstr "Claws 郵件"
 msgid "Terminator"
 msgstr "終端機"
 
-#: ../dialogs/mime-settings/helpers/thunar.desktop.in.in.h:1
+#: ../dialogs/mime-settings/helpers/lunar.desktop.in.in.h:1
 msgid "Thunar"
 msgstr "Thunar 檔案管理員"
 

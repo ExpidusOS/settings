@@ -681,7 +681,7 @@ expidus_mime_helper_database_get_default (ExpidusMimeHelperDatabase *database,
 
       /* handle migrating from Expidus 4.14 or older */
       if (helper == NULL && g_strcmp0 (id, "Thunar") == 0)
-        helper = expidus_mime_helper_database_lookup (database, category, "thunar");
+        helper = expidus_mime_helper_database_lookup (database, category, "lunar");
 
       expidus_rc_close (rc);
       g_free (key);

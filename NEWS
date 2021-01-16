@@ -68,8 +68,8 @@
 - mime-settings: Fix window icon name
 - mime-settings: Fix double free
 - mime-helpers: Fix Nautilus icon name
-- mime-helpers: Rename Thunar to thunar
-- Rename Thunar to thunar in make and potfiles
+- mime-helpers: Rename Thunar to lunar
+- Rename Thunar to lunar in make and potfiles
 - Expand desktop entry field codes
 - keyboard-settings: Support libexpidus1ui ExpidusTitledDialog new API
 - keyboard: Show shortcuts with keycap class

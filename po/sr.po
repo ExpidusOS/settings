@@ -2107,7 +2107,7 @@ msgstr "Клавсова пошта"
 msgid "Terminator"
 msgstr "Терминал"
 
-#: ../dialogs/mime-settings/helpers/thunar.desktop.in.in.h:1
+#: ../dialogs/mime-settings/helpers/lunar.desktop.in.in.h:1
 msgid "Thunar"
 msgstr "Тунар"
 

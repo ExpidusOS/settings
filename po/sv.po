@@ -2087,7 +2087,7 @@ msgstr "Claws Mail"
 msgid "Terminator"
 msgstr "Terminator"
 
-#: ../dialogs/mime-settings/helpers/thunar.desktop.in.in.h:1
+#: ../dialogs/mime-settings/helpers/lunar.desktop.in.in.h:1
 msgid "Thunar"
 msgstr "Thunar"
 

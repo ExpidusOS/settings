@@ -1,11 +1,11 @@
 
 [Desktop Entry]
 Version=1.0
-Icon=com.expidus.thunar
+Icon=com.expidus.lunar
 Type=X-EXPIDUS-Helper
 _Name=Thunar
 StartupNotify=true
-X-EXPIDUS-Binaries=thunar;
+X-EXPIDUS-Binaries=lunar;
 X-EXPIDUS-Category=FileManager
 X-EXPIDUS-Commands=%B;
 X-EXPIDUS-CommandsWithParameter=%B "%s";

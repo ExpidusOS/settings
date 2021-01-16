@@ -2105,7 +2105,7 @@ msgstr "Claws Поща"
 msgid "Terminator"
 msgstr "Терминатор"
 
-#: ../dialogs/mime-settings/helpers/thunar.desktop.in.in.h:1
+#: ../dialogs/mime-settings/helpers/lunar.desktop.in.in.h:1
 msgid "Thunar"
 msgstr "Thunar"
 

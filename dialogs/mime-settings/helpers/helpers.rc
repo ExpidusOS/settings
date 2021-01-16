@@ -7,4 +7,4 @@
 WebBrowser=firefox
 MailReader=thunderbird
 TerminalEmulator=expidus1-terminal
-FileManager=thunar
+FileManager=lunar
