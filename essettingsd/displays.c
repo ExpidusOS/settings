@@ -28,6 +28,7 @@
 #include <math.h>
 #endif
 
+#include <devident.h>
 #include <glib.h>
 #include <gdk/gdkx.h>
 #include <gtk/gtk.h>
@@ -849,14 +850,24 @@ expidus_displays_helper_load_from_esconf (ExpidusDisplaysHelper *helper,
 #ifdef HAS_RANDR_ONE_POINT_THREE
     if (helper->has_1_3)
     {
+				GError* error = NULL;
+				devident_t* devident = devident_new(&error);
+				if (devident == NULL) {
+					g_warning("Failed to identify the device: %s", error->message);
+					g_clear_error(&error);
+					exit(1);
+				}
+
         /* scaling X */
         g_snprintf (property, sizeof (property), SCALEX_PROP, scheme,
                     output->info->name);
         value = g_hash_table_lookup (saved_outputs, property);
         if (G_VALUE_HOLDS_DOUBLE (value))
             scalex = g_value_get_double (value);
-        else
-            scalex = 1.0;
+        else {
+            if (!g_strcmp0(devident->screen_name, output->info->name)) scalex = devident->screen_scale[0];
+						else scalex = 1.0;
+				}
 
         /* scaling Y */
         g_snprintf (property, sizeof (property), SCALEY_PROP, scheme,
@@ -864,12 +875,16 @@ expidus_displays_helper_load_from_esconf (ExpidusDisplaysHelper *helper,
         value = g_hash_table_lookup (saved_outputs, property);
         if (G_VALUE_HOLDS_DOUBLE (value))
             scaley = g_value_get_double (value);
-        else
-            scaley = 1.0;
+        else {
+					if (!g_strcmp0(devident->screen_name, output->info->name)) scaley = devident->screen_scale[1];
+					else scaley = 1.0;
+				}
 
         if (scalex <= 0.0 || scaley <= 0.0) {
-            scalex = 1.0;
-            scaley = 1.0;
+          if (!g_strcmp0(devident->screen_name, output->info->name)) scalex = devident->screen_scale[0];
+					else scalex = 1.0;
+					if (!g_strcmp0(devident->screen_name, output->info->name)) scaley = devident->screen_scale[1];
+					else scaley = 1.0;
         }
 
         if (crtc->scalex != scalex || crtc->scaley != scaley)
@@ -878,6 +893,7 @@ expidus_displays_helper_load_from_esconf (ExpidusDisplaysHelper *helper,
             crtc->scaley = scaley;
             crtc->changed = TRUE;
         }
+				devident_destroy(devident);
     }
 #endif
 
